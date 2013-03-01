@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+
+body, h1, div, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+body {
+    font-family: 'Fanwood Text';
+    font-size: 14px;
+}
+
+#header_wrapper {
+    width: 100%;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    background: #000000;
+    position: fixed;
+    z-index: 1;
+}
+
+#header_content {
+    width: 640px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#name {
+    font-family: 'PT Sans Narrow';
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #f07000;
+    text-shadow: -.01em 0 #f07500, 0 .01em #f07500;
+    float: right;
+}
+
+#name:not(:-moz-handler-blocked) {
+    text-shadow: -.01em 0 #f07500;
+}
+
+#nav ul {
+    padding-top: 3px;
+}
+
+#nav li {
+    font-size: 14px;
+    display: inline; 
+    list-style: none;
+    margin-right: 10px;
+}
+
+#nav a:link, #nav a:visited {
+    text-decoration: none;
+    color: #a0a0a0;
+    text-shadow: -.01em 0 #a0a0a0, 0 .01em #a0a0a0;
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+#nav:not(:-moz-handler-blocked) a:link,
+#nav:not(:-moz-handler-blocked) a:visited {
+    text-shadow: 0 -.01em #a0a0a0;
+}
+
+#cur a:link, #cur a:visited, #nav a:hover {
+    color: #ffffff;
+    text-shadow: -.01em 0 #ffffff, 0 .01em #ffffff;
+}
+
+#cur:not(:-moz-handler-blocked) a:link,
+ #cur:not(:-moz-handler-blocked) a:visited,
+ #cur:not(:-moz-handler-blocked) a:hover,
+ #nav:not(:-moz-handler-blocked) a:hover { 
+     text-shadow: -.01em 0 #ffffff;
+}
+
+#main {
+    width: 640px;
+    max-width: 95%;
+    margin: 0 auto;
+    line-height: 130%;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
