@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block style %}post.css{% endblock %}
+
+{% block nav_blog %}id="cur"{% endblock %}
+
+{% block mathjax %}
+<script type="text/javascript">    
+  MathJax.Hub.Config({extensions: ["tex2jax.js"], "HTML-CSS":{scale: 93}});
+</script>
+{% endblock %}
+
+{% block main %}
+<h1>Pulp Fiction</h1>
+<div id="info">
+  created: {{ p.created }}
+  &nbsp&nbsp/&nbsp&nbsp 
+  edited: {{ p.edited }}
+  &nbsp&nbsp/&nbsp&nbsp
+  tags: {{ p.tags }}
+</div>
+
+{{ p.content|safe }}
+{% endblock %}

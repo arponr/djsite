@@ -12,23 +12,23 @@
 
 {% block main %}
 <div class="column" id="first">
-  {% for post in posts_left %}
+  {% for p in left %}
   <div class="post">
-    <h1>{{ post.title }}</h1>
-    <span class="post_info">{{ post.created }}</span>
+    <h1>{{ p.title }}</h1>
+    <span class="post_info">{{ p.created }}</span>
     
-    {{ post.intro|safe }}
+    {{ p.intro|safe }}
   </div>
   {% endfor %}
 </div>
 
 <div class="column">
-  {% for post in posts_right %}
+  {% for p in right %}
   <div class="post">
-    <h1>{{ post.title }}</h1>
-    <span class="post_info">{{ post.created }}</span>
+    <h1>{{ p.title }}</h1>
+    <span class="post_info">{{ p.created }}</span>
     
-    {{ post.intro|safe }}
+    {{ p.intro|safe }}
   </div>
   {% endfor %}
 </div>
