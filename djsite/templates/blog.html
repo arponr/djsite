@@ -2,7 +2,7 @@
 
 {% block style %}blog.css{% endblock %}
 
-{% block nav_about %}id="cur"{% endblock %}
+{% block nav_blog %}id="cur"{% endblock %}
 
 {% block mathjax %}
 <script type="text/javascript">    
@@ -17,7 +17,7 @@
     <h1>{{ post.title }}</h1>
     <span class="post_info">{{ post.created }}</span>
     
-    {{ post.intro }}
+    {{ post.intro|safe }}
   </div>
   {% endfor %}
 </div>
@@ -28,8 +28,8 @@
     <h1>{{ post.title }}</h1>
     <span class="post_info">{{ post.created }}</span>
     
-    {{ post.intro }}
+    {{ post.intro|safe }}
   </div>
   {% endfor %}
 </div>
-{% block main %}
+{% endblock %}

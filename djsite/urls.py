@@ -1,5 +1,6 @@
 from django.conf.urls import patterns, include, url
-from views import about, resume, work
+from djsite.views import about, resume, work
+from blog.views import blog
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -9,6 +10,7 @@ urlpatterns = patterns('',
                        ('^about/$', about),
                        ('^resume/$', resume),
                        ('^work/$', work),
+                       ('^$', blog),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
