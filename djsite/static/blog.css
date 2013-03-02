@@ -1,0 +1,50 @@
+.column {
+    width: 47%;
+    float: left;
+}
+
+#first {
+    margin-right: 6%;
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+.post_info {
+    font-size: 12px;
+    color: #808080;
+    float: right;
+}
+
+.post h1 {
+    font-family: 'PT Sans Narrow';
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #e05000;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.post a:link, .post a:visited {
+    font-style: normal;
+    text-decoration: none;
+    color: #808080;
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.post a:hover {
+    color: #c0c0c0;
+}
+
+.post p {
+    clear: both;
+}
+
+.post blockquote {
+    font-style: italic;
+    margin-right: 0;
+}

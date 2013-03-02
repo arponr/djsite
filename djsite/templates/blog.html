@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block style %}blog.css{% endblock %}
+
+{% block nav_about %}id="cur"{% endblock %}
+
+{% block mathjax %}
+<script type="text/javascript">    
+  MathJax.Hub.Config({extensions: ["tex2jax.js"], "HTML-CSS":{scale: 93}});
+</script>
+{% endblock %}
+
+{% block main %}
+<div class="column" id="first">
+  {% for post in posts_left %}
+  <div class="post">
+    <h1>{{ post.title }}</h1>
+    <span class="post_info">{{ post.created }}</span>
+    
+    {{ post.intro }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="column">
+  {% for post in posts_right %}
+  <div class="post">
+    <h1>{{ post.title }}</h1>
+    <span class="post_info">{{ post.created }}</span>
+    
+    {{ post.intro }}
+  </div>
+  {% endfor %}
+</div>
+{% block main %}
