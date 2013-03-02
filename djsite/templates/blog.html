@@ -15,7 +15,7 @@
   {% for p in left %}
   <div class="post">
     <h1>{{ p.title }}</h1>
-    <span class="post_info">{{ p.created }}</span>
+    <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
     
     {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</a>
   </div>

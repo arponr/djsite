@@ -13,9 +13,9 @@
 {% block main %}
 <h1>Pulp Fiction</h1>
 <div id="info">
-  created: {{ p.created }}
+  created: {{ p.created|date:"j M Y, P" }}
   &nbsp&nbsp/&nbsp&nbsp 
-  edited: {{ p.edited }}
+  edited: {{ p.edited|date:"j M Y, P" }}
   &nbsp&nbsp/&nbsp&nbsp
   tags: {{ p.tags }}
 </div>
