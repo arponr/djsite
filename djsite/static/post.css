@@ -5,7 +5,9 @@
 }
 
 #main h1 {
-    font-size: 18px;
+    font-size: 20px;
+    text-transform: lowercase;
+    letter-spacing: 90%;
     color: #e05000;
     margin-bottom: 3px;
 }
