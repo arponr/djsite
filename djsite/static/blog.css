@@ -12,6 +12,7 @@
 .post h1 {
     font-family: 'PT Sans Narrow';
     text-transform: uppercase;
+    font-weight: normal;
     font-size: 16px;
     color: #999;
     margin-bottom: 10px;
