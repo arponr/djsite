@@ -1,18 +1,15 @@
-#main {
-    font-size: 14px;
-}
-
 #info {
     font-size: 12px;
+    text-transform: uppercase;
     color: #808080;
     line-height: 100%;
 }
 
 #main h1 {
-    font-family: 'PT Sans Narrow';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
+    letter-spaing: 1em;
     color: #e05000;
     margin-bottom: 3px;
 }
