@@ -34,7 +34,7 @@ body {
 #name {
     font-size: 18px;
     font-weight: bold;
-    letter-spacing: -0.1em;
+    text-transform: lowercase;
     color: #c0c0c0;
     float: right;
 }
