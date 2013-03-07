@@ -11,7 +11,7 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times', serif;
     font-size: 13px;
 }
 
@@ -19,7 +19,7 @@ body {
     width: 100%;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    background: #000000;
+    background: #303030;
     position: fixed;
     z-index: 1;
 }
