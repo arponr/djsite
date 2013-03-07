@@ -42,7 +42,6 @@ body {
 }
 
 #nav ul {
-    padding-top: 3px;
 }
 
 #nav li {
@@ -54,7 +53,7 @@ body {
 #nav a:link, #nav a:visited {
     text-decoration: none;
     color: #a0a0a0;
-    text-shadow: -.01em 0 #a0a0a0, 0 .01em #a0a0a0;
+
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
