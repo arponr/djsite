@@ -95,8 +95,10 @@ ROOT_URLCONF = 'djsite.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'djsite.wsgi.application'
 
+import os.path
+PROJECT_DIR = os.path.dirname(__file__)
 TEMPLATE_DIRS = (
-    '/Users/arpon/Documents/programs/djsite/djsite/templates',
+    os.path.join(PROJECT_DIR, 'templates'),
 )
 
 INSTALLED_APPS = (
