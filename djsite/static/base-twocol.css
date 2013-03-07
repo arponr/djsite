@@ -1,0 +1,11 @@
+.lcol {
+    width: 47%;
+    float: left;
+    padding-right: 3%;
+    border-right: 1px solid #c0c0c0;
+}
+
+.rcol {
+    width: 47%;
+    float: right;
+}

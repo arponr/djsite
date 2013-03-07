@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
-{% block style %}post.css{% endblock %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="/static/post.css"/>
+{% endblock %}
 
 {% block nav_blog %}id="cur"{% endblock %}
 
@@ -11,7 +13,7 @@
 {% endblock %}
 
 {% block main %}
-<h1>Pulp Fiction</h1>
+<h1>{{ p.title }}</h1>
 <div id="info">
   created: {{ p.created|date:"j M Y, P" }}
   &nbsp&nbsp/&nbsp&nbsp 

@@ -5,7 +5,7 @@ class Post(models.Model):
     intro = models.TextField()
     content = models.TextField()
     created = models.DateTimeField()
-    edited = models.DateTimeField()
+    edited = models.DateTimeField(null=True, blank=True)
     tags = models.CharField(max_length=100)
 
     def __unicode__(self):

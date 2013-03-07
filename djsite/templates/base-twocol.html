@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="/static/base-twocol.css"/>
+{% endblock %}
+
+{% block main %}
+<div class="lcol">
+  {% block left %}{% endblock %}
+</div>
+
+<div class="divider"></div>
+
+<div class="rcol">
+  {% block right %}{% endblock %}
+</div>
+{% endblock %}

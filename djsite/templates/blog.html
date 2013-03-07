@@ -1,6 +1,10 @@
-{% extends "base.html" %}
+{% extends "base-twocol.html" %}
 
-{% block style %}blog.css{% endblock %}
+{% block style %}
+{{ block.super }}
+
+<link rel="stylesheet" type="text/css" href="/static/blog.css"/>
+{% endblock %}
 
 {% block nav_blog %}id="cur"{% endblock %}
 
@@ -10,26 +14,24 @@
 </script>
 {% endblock %}
 
-{% block main %}
-<div class="column" id="first">
-  {% for p in left %}
-  <div class="post">
-    <h1>{{ p.title }}</h1>
-    <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
+{% block left %}
+{% for p in lposts %}
+<div class="post">
+  <h1>{{ p.title }}</h1>
+  <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
     
-    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</a>
-  </div>
-  {% endfor %}
+  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</p></a>
 </div>
+{% endfor %}
+{% endblock %}
 
-<div class="column">
-  {% for p in right %}
-  <div class="post">
-    <h1>{{ p.title }}</h1>
-    <span class="post_info">{{ p.created }}</span>
+{% block right %}
+{% for p in rposts %}
+<div class="post">
+  <h1>{{ p.title }}</h1>
+  <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
     
-    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</a>
-  </div>
-  {% endfor %}
+  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</p></a>
 </div>
+{% endfor %}
 {% endblock %}
