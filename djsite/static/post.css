@@ -2,11 +2,10 @@
     font-size: 10px;
     text-transform: uppercase;
     color: #808080;
-    line-height: 100%;
 }
 
 #main h1 {
-    font-family: 'PT Sans Narrow';
+    font-family: 'PT Sans';
     font-weight: normal;
     font-size: 18px;
     text-transform: uppercase;
