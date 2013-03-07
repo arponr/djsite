@@ -5,10 +5,7 @@
 }
 
 #main h1 {
-    font-family: 'PT Sans';
-    font-weight: normal;
     font-size: 18px;
-    text-transform: uppercase;
     color: #e05000;
     margin-bottom: 3px;
 }
