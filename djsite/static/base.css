@@ -33,6 +33,8 @@ body {
 
 #name {
     font-family: 'PT Sans Narrow';
+    text-transform: uppercase;
+    font-size: 16px;
     color: #fff;
     float: right;
 }
