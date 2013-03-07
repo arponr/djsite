@@ -1,12 +1,13 @@
 #info {
     font-size: 10px;
     text-transform: uppercase;
-    color: #aaa;
+    color: #888;
 }
 
 #main h1 {
     font-size: 16px;
     color: #999;
+    letter-spacing: -1px;
 }
 
 #main a:link, #main a:visited {
