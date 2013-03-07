@@ -16,8 +16,10 @@
 <h1>{{ p.title }}</h1>
 <div id="info">
   created: {{ p.created|date:"j M Y, P" }}
+  {% if p.edted %}
   &nbsp&nbsp/&nbsp&nbsp 
   edited: {{ p.edited|date:"j M Y, P" }}
+  {% endif %}
   &nbsp&nbsp/&nbsp&nbsp
   tags: {{ p.tags }}
 </div>
