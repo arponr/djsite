@@ -37,13 +37,6 @@ body {
     float: right;
 }
 
-#name:not(:-moz-handler-blocked) {
-    text-shadow: -.01em 0 #f07500;
-}
-
-#nav ul {
-}
-
 #nav li {
     display: inline; 
     list-style: none;
@@ -52,7 +45,7 @@ body {
 
 #nav a:link, #nav a:visited {
     text-decoration: none;
-    color: #bbb;
+    color: #aaa;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
