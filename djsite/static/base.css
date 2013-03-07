@@ -33,6 +33,8 @@ body {
 
 #name {
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: #ffffff;
     float: right;
 }
@@ -66,7 +68,7 @@ body {
 
 #cur a:link, #cur a:visited, #nav a:hover {
     color: #ffffff;
-    text-shadow: -.01em 0 #ffffff, 0 .01em #ffffff;
+
 }
 
 #cur:not(:-moz-handler-blocked) a:link,
