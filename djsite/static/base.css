@@ -32,10 +32,9 @@ body {
 }
 
 #name {
-    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #ffffff;
+    color: #fff;
     float: right;
 }
 
@@ -54,28 +53,15 @@ body {
 
 #nav a:link, #nav a:visited {
     text-decoration: none;
-    color: #a0a0a0;
-
+    color: #bbb;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
-#nav:not(:-moz-handler-blocked) a:link,
-#nav:not(:-moz-handler-blocked) a:visited {
-    text-shadow: 0 -.01em #a0a0a0;
-}
-
 #cur a:link, #cur a:visited, #nav a:hover {
-    color: #ffffff;
-
-}
-
-#cur:not(:-moz-handler-blocked) a:link,
- #cur:not(:-moz-handler-blocked) a:visited,
- #cur:not(:-moz-handler-blocked) a:hover,
- #nav:not(:-moz-handler-blocked) a:hover { 
-     text-shadow: -.01em 0 #ffffff;
+    color: #fff;
+    font-weight: bold;
 }
 
 #main {
