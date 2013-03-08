@@ -20,7 +20,7 @@
   <h1>{{ p.title }}</h1>
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
     
-  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">(full post)</p></a>
+  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
 </div>
 {% endfor %}
 {% endblock %}
@@ -31,7 +31,7 @@
   <h1>{{ p.title }}</h1>
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
     
-  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</p></a>
+  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
 </div>
 {% endfor %}
 {% endblock %}
