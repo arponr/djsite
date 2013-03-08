@@ -41,8 +41,7 @@ body {
 }
 
 #nav ul {
-    float: left;
-    vertical-align: center;
+    padding-top: 3px;
 }
 
 #nav li {
