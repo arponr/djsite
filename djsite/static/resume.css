@@ -5,9 +5,9 @@
 .section h1 {
     font-family: 'PT Sans Narrow';
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
-    color: #e05000;
+    color: #888;
 }
 
 .section h2 {
@@ -23,24 +23,18 @@
 
 .section a:link, .section a:visited {
     text-decoration: none;
-    color: #808080;
+    color: #888;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 .section a:hover {
-    color: #c0c0c0;
+    color: #ccc;
 }
 
 .subsection {
     margin-top: 5px;
-}
-
-.course_col {
-    font-size: 14px;
-    margin-right: 10px;
-    float: left;
 }
 
 #button-wrapper {
@@ -51,7 +45,7 @@
 .button {     
     padding: 5px 15px;
     margin-bottom: 20px;
-    background: #e5e5e5;
+    background: #eee;
     color: #000000;
     font-family: 'Courier', monospace;
     font-size: 13px;

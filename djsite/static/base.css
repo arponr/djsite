@@ -35,8 +35,14 @@ body {
     font-family: 'PT Sans Narrow';
     text-transform: lowercase;
     font-size: 17px;
+    letter-spaing: .1em;
     color: #fff;
     float: right;
+}
+
+#nav ul {
+    float: left;
+    vertical-align: center;
 }
 
 #nav li {
