@@ -11,7 +11,7 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: 'Times', serif;
+    font-family: 'Times', "Times New Roman", serif;
     font-size: 13px;
 }
 
@@ -32,9 +32,8 @@ body {
 }
 
 #name {
-    font-family: 'PT Sans Narrow';
-    text-transform: lowercase;
-    font-size: 17px;
+    text-transform: uppercase;
+    font-size: 14px;
     color: #fff;
     float: right;
 }
