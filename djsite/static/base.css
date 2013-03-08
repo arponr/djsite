@@ -36,7 +36,7 @@ body {
     text-transform: uppercase;
     color: #f80;
     float: right;
-    text-shadow: 1px 1px #555, -1px -1px #000;
+    text-shadow: 0px -1px #000;
 }
 
 #nav li {
