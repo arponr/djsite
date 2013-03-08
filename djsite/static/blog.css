@@ -12,8 +12,7 @@
 .post h1 {
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 16px;
-    color: #f70;
+    color: #e60;
     text-shadow: -1px -1px #bbb, 1px 1px #eee;
     margin-bottom: 6px;
     float: left;
