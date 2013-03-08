@@ -9,6 +9,10 @@
     float: right;
 }
 
+.post h1 {
+    float: left;
+}
+
 .post p {
     clear: both;
 }
