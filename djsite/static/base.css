@@ -35,7 +35,7 @@ body {
 #name {
     text-transform: uppercase;
     font-size: 14px;
-    color: #f50;
+    color: #e60;
     float: right;
     text-shadow: -1px -1px #111, 1px 1px #555;
 }
@@ -76,14 +76,14 @@ body {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    color: #e40;
+    color: #d50;
     text-shadow: -1px -1px #ccc, 1px 1px #eee;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #e40;
+    color: #d50;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
