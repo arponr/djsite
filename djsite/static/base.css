@@ -27,13 +27,13 @@ body {
     width: 640px;
     max-width: 95%;
     margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 #name {
     text-transform: uppercase;
-    color: #f80;
+    color: #f70;
     float: right;
     text-shadow: 0px -1px #000;
 }
