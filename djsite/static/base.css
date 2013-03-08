@@ -17,10 +17,8 @@ body {
 
 #header_wrapper {
     width: 100%;
-    padding-top: 2px;
-    padding-bottom: 6px;
     margin-bottom: 20px;
-    background: #222;
+    background: #333;
     position: fixed;
     z-index: 1;
 }
@@ -30,6 +28,7 @@ body {
     max-width: 95%;
     margin: 0 auto;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #name {
