@@ -11,18 +11,6 @@
     margin-left: 20px;
 }
 
-.section a:link, .section a:visited {
-    text-decoration: none;
-    color: #e50;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-}
-
-.section a:hover {
-    color: #000;
-}
-
 .subsection {
     margin-top: 5px;
 }

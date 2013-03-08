@@ -3,21 +3,3 @@
     text-transform: uppercase;
     color: #888;
 }
-
-#main a:link, #main a:visited {
-    font-style: normal;
-    text-decoration: none;
-    color: #e50;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-}
-
-#main a:hover {
-    color: #000;
-}
-
-#main blockquote {
-    font-style: italic;
-    margin-right: 0;
-}
