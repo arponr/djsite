@@ -22,14 +22,14 @@
 .post a:link, .post a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #888;
+    color: #e50;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 .post a:hover {
-    color: #ccc;
+    color: #000;
 }
 
 .post p {
