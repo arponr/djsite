@@ -37,7 +37,7 @@ body {
     font-size: 14px;
     color: #e60;
     float: right;
-    text-shadow: -1px -1px #111, 1px 1px #555;
+    text-shadow: -1px -1px #555, 1px 1px #111;
 }
 
 #nav li {
