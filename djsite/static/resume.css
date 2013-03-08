@@ -20,6 +20,10 @@
     text-align: center;
 }
 
+#button-wrapper a:link, #button-wrapper a:visited {
+    color: #000;
+}
+
 .button {     
     padding: 5px 15px;
     margin-bottom: 20px;
@@ -35,10 +39,6 @@
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
-}
-
-.button a:link, .button a:visited {
-    color: #000;
 }
 
 .button:hover, .button:focus {
