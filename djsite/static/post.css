@@ -5,9 +5,11 @@
 }
 
 #main h1 {
+    font-family: 'PT Sans Narrow';
+    text-transform: uppercase;
     font-size: 16px;
-    color: #999;
-    letter-spacing: -1px;
+    font-weight: normal;
+    color: #888;
 }
 
 #main a:link, #main a:visited {
