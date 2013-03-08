@@ -71,3 +71,11 @@ body {
     padding-bottom: 10px;
     position: relative;
 }
+
+#main h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    color: #e50;
+    text-shadow: -1px -1px #ccc, 1px 1px #eee;
+}
