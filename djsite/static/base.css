@@ -14,7 +14,7 @@ body {
     font-family: Times, "Times New Roman", serif;
     font-size: 13px;
     background: #eee;
-    color: #444;
+    color: #333;
 }
 
 #header_wrapper {
@@ -87,7 +87,7 @@ body {
 }
 
 #main a:hover {
-    color: #07e;
+    color: #48f;
 }
 
 #main blockquote {
