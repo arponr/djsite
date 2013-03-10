@@ -35,7 +35,7 @@ body {
 #name {
     text-transform: uppercase;
     font-size: 14px;
-    color: #f94;
+    color: #ccc;
     float: right;
 }
 
@@ -48,9 +48,9 @@ body {
 #nav a:link, #nav a:visited {
     text-decoration: none;
     color: #aaa;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
@@ -79,9 +79,9 @@ body {
     font-style: normal;
     text-decoration: none;
     color: #c40;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
 }
 
 #main a:hover {
