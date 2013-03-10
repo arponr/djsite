@@ -13,7 +13,7 @@ body, h1, div, ul, li {
 body {
     font-family: Times, "Times New Roman", serif;
     font-size: 13px;
-    background: #ddd;
+    background: #eee;
     color: #444;
 }
 
@@ -74,20 +74,20 @@ body {
     font-weight: normal;
     font-size: 14px;
     color: #000;
-    text-shadow: -1px -1px #ccc, 1px 1px #eee;
+    text-shadow: -1px -1px #ddd, 1px 1px #fff;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #084;
+    color: #048;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 #main a:hover {
-    color: #0b6;
+    color: #07e;
 }
 
 #main blockquote {
