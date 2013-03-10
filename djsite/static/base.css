@@ -87,7 +87,7 @@ body {
 }
 
 #main a:hover {
-    color: #236;
+    text-decoration: underline;
 }
 
 #main blockquote {
