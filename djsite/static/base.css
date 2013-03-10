@@ -35,7 +35,7 @@ body {
 #name {
     text-transform: uppercase;
     font-size: 14px;
-    color: #69c;
+    color: #7ac;
     float: right;
 }
 
@@ -71,21 +71,21 @@ body {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    color: #234;
+    color: #246;
     text-shadow: -1px -1px #ccc, 1px 1px #eee;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #234;
+    color: #246;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 #main a:hover {
-    color: #69c;
+    color: #7ac;
 }
 
 #main blockquote {
