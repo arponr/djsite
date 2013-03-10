@@ -35,7 +35,7 @@ body {
 #name {
     text-transform: uppercase;
     font-size: 14px;
-    color: #578;
+    color: #589;
     float: right;
 }
 
@@ -55,6 +55,7 @@ body {
 
 #cur a:link, #cur a:visited, #nav a:hover {
     color: #fff;
+    font-weight: bold;
 }
 
 #main {
@@ -71,21 +72,21 @@ body {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    color: #456;
+    color: #467;
     text-shadow: -1px -1px #ccc, 1px 1px #eee;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #456;
+    color: #467;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 #main a:hover {
-    color: #578;
+    color: #589;
 }
 
 #main blockquote {
