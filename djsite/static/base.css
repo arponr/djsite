@@ -13,14 +13,14 @@ body, h1, div, ul, li {
 body {
     font-family: Times, "Times New Roman", serif;
     font-size: 13px;
-    background: #eee;
+    background: #ddd;
     color: #333;
 }
 
 #header_wrapper {
     width: 100%;
     margin-bottom: 20px;
-    background: #333;
+    background: #222;
     position: fixed;
     z-index: 1;
 }
@@ -80,14 +80,14 @@ body {
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #048;
+    color: #05a;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 #main a:hover {
-    color: #48f;
+    color: #aaf;
 }
 
 #main blockquote {
