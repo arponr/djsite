@@ -37,7 +37,7 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     color: #ccc;
-    text-shadow: -1px -1px #111, 1px 1px #555;
+    text-shadow: -1px -1px #666, 1px 1px #000;
     float: right;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 #main a:hover {
-    color: #aaf;
+    color: #69e;
 }
 
 #main blockquote {
