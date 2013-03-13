@@ -13,8 +13,7 @@ body, h1, div, ul, li {
 body {
     font-family: Times, "Times New Roman", serif;
     font-size: 13px;
-    background: #7ecefd;
-    color: #222;
+    background: #fff6e5;
 }
 
 #header_wrapper {
@@ -36,8 +35,7 @@ body {
 #name {
     text-transform: uppercase;
     font-size: 14px;
-    color: #ccc;
-    text-shadow: -1px -1px #111, 1px 1px #555;
+    color: #ff7f6;
     float: right;
 }
 
@@ -73,21 +71,20 @@ body {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    color: #000;
-    text-shadow: -1px -1px #ccc, 1px 1px #eee;
+    color: #ff7f66;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #059;
+    color: #2185c5;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
 }
 
 #main a:hover {
-    text-decoration: underline;
+    color: #7ecefd;
 }
 
 #main blockquote {
