@@ -29,8 +29,6 @@ body {
     width: 640px;
     max-width: 95%;
     margin: 0 auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #name {
@@ -39,6 +37,11 @@ body {
     font-size: 17px;
     color: #ff7f66;
     float: right;
+}
+
+#nav ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #nav li {
