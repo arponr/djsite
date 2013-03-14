@@ -6,6 +6,7 @@
     width: 100%;
     background: #3e454c;
     padding: 3px 3px 3px 3px;
+    overflow: hidden;
 }
 
 .post_info {
