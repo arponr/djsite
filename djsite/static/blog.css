@@ -1,13 +1,12 @@
 .post {
-    border: 2px solid #3e454c;
-    padding: 0 5px 0 5px;
+    border: 1px solid #cccccc;
     position: relative;
     margin-bottom: 10px;
 }
 
 .post_head {
     background: #3e454c;
-    padding: 3px 0 3px 0;
+    padding: 3px 5px 3px 5px;
     overflow: hidden;
 }
 
@@ -16,6 +15,10 @@
     text-transform: uppercase;
     color: #ffffff;
     float: right;
+}
+
+.post_content {
+    padding: 0 5px 0 5px;
 }
 
 .post h1 {

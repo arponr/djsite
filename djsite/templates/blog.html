@@ -22,7 +22,9 @@
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
   </div>
 
+  <div class="post_content">
   {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
+  </div>
 </div>
 {% endfor %}
 {% endblock %}
@@ -35,7 +37,9 @@
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
   </div>
 
+  <div class="post_content">
   {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
+  </div>
 </div>
 {% endfor %}
 {% endblock %}
