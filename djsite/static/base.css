@@ -71,13 +71,13 @@ body {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-    color: #ff7f66;
+    color: #ff6a4e;
 }
 
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
-    color: #2185c5;
+    color: #0b7ac5;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
