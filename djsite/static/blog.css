@@ -1,5 +1,4 @@
 .post {
-    border: 1px solid #cccccc;
     position: relative;
     margin-bottom: 10px;
 }
@@ -19,6 +18,8 @@
 
 .post_content {
     padding: 0 5px 0 5px;
+    border: 1px #cccccc;
+    border-style: none solid solid solid;
 }
 
 .post h1 {
