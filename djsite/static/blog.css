@@ -5,14 +5,13 @@
 .post_head {
     width: 100%;
     background: #3e454c;
-    padding: 3px 3px 3px 3px;
     overflow: hidden;
 }
 
 .post_info {
     font-size: 10px;
     text-transform: uppercase;
-    color: #888;
+    color: #aaaaaa;
     float: right;
 }
 
