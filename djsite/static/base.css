@@ -38,11 +38,11 @@ body {
     font-size: 17px;
     color: #ff7f66;
     float: right;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 }
 
 #nav ul {
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 #nav li {
@@ -73,14 +73,6 @@ body {
     position: relative;
 }
 
-#main h1 {
-    font-family: "PT Sans Narrow";
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 16px;
-    color: #ff7f66;
-}
-
 #main a:link, #main a:visited {
     font-style: normal;
     text-decoration: none;
@@ -94,9 +86,47 @@ body {
     color: #7ecefd;
 }
 
-#main blockquote {
+.sec {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sec_head {
+    background: #3e454c;
+    padding: 3px 5px 3px 5px;
+    overflow: hidden;
+}
+
+.sec_info {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: right;
+}
+
+.sec_content {
+    padding: 5px 5px 0 5px;
+    border: 1px #cccccc;
+    border-style: none solid solid solid;
+}
+
+.sec h1 {
+    font-family: "PT Sans Narrow";
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ff7f66;
+    float: left;
+}
+
+.sec p {
+    clear: both;
+    margin: 0 0 10px 0;
+}
+
+.sec blockquote {
     font-style: italic;
-    margin-right: 0;
+    margin: 10px 0 10px 30px;
 }
 
 

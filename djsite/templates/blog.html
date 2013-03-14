@@ -16,13 +16,14 @@
 
 {% block left %}
 {% for p in lposts %}
-<div class="post">
-  <div class="post_head">
-  <h1>{{ p.title }}</h1>
-  <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
+<div class="sec">
+  <div class="sec_head">
+    <h1>{{ p.title }}</h1>
+    <span class="sec_info">{{ p.created|date:"j M Y, P" }}</span>
   </div>
-  <div class="post_content">
-  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
+
+  <div class="sec_content">
+    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
   </div>
 </div>
 {% endfor %}
@@ -30,13 +31,14 @@
 
 {% block right %}
 {% for p in rposts %}
-<div class="post">
-  <div class="post_head">
-  <h1>{{ p.title }}</h1>
-  <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
+<div class="sec">
+  <div class="sec_head">
+    <h1>{{ p.title }}</h1>
+    <span class="sec_info">{{ p.created|date:"j M Y, P" }}</span>
   </div>
-  <div class="post_content">
-  {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
+
+  <div class="sec_content">
+    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
   </div>
 </div>
 {% endfor %}
