@@ -28,7 +28,7 @@ body {
     width: 640px;
     max-width: 95%;
     margin: 0 auto;
-    padding-top: 3px;
+    padding-top: 2px;
     padding-bottom: 3px;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 #nav ul {
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 #nav li {
