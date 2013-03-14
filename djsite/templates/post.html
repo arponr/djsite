@@ -13,18 +13,23 @@
 {% endblock %}
 
 {% block main %}
-<h1>{{ p.title }}</h1>
-<div id="info">
-  created: {{ p.created|date:"j M Y, P" }}
-  {% if p.edited %}
-  &nbsp&nbsp/&nbsp&nbsp 
-  edited: {{ p.edited|date:"j M Y, P" }}
-  {% endif %}
-  &nbsp&nbsp/&nbsp&nbsp
-  tags: {{ p.tags }}
+<div class="sec">
+  <div class="sec_head">
+    <h1>{{ p.title }}</h1>
+    <div id="sec_info">
+      created: {{ p.created|date:"j M Y, P" }}
+      {% if p.edited %}
+      &nbsp&nbsp/&nbsp&nbsp 
+      edited: {{ p.edited|date:"j M Y, P" }}
+      {% endif %}
+      &nbsp&nbsp/&nbsp&nbsp
+      tags: {{ p.tags }}
+    </div>
+  </div>
+  <div class="sec_content">
+    {{ p.content|safe }}
+    
+    <p><a href="/">&larr;</a></p>
+  </div>
 </div>
-
-{{ p.content|safe }}
-
-<p><a href="/">&larr;</a></p>
 {% endblock %}
