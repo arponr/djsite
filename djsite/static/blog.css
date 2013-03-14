@@ -1,9 +1,9 @@
 .post {
     padding-bottom: 20px;
+    position: relative;
 }
 
 .post_head {
-    width: 100%;
     background: #3e454c;
     padding: 3px 5px 3px 5px;
     overflow: hidden;
