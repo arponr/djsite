@@ -17,9 +17,11 @@
 {% block left %}
 {% for p in lposts %}
 <div class="post">
+  <div clas = "post_head">
   <h1>{{ p.title }}</h1>
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
-    
+  </div>
+
   {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
 </div>
 {% endfor %}
@@ -28,9 +30,11 @@
 {% block right %}
 {% for p in rposts %}
 <div class="post">
+  <div clas = "post_head">
   <h1>{{ p.title }}</h1>
   <span class="post_info">{{ p.created|date:"j M Y, P" }}</span>
-    
+  </div>
+
   {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
 </div>
 {% endfor %}
