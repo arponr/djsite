@@ -1,12 +1,11 @@
 .post {
-    padding-bottom: 5px;
-    border: 1px solid #3e454c;
+    padding-bottom: 20px;
 }
 
 .post_head {
     width: 100%;
     background: #3e454c;
-    padding: 5px;
+    padding: 3px;
     overflow: hidden;
 }
 

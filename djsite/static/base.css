@@ -29,7 +29,7 @@ body {
     max-width: 95%;
     margin: 0 auto;
     padding-top: 3px;
-    padding-bottom: 4px;
+    padding-bottom: 3px;
 }
 
 #name {
@@ -38,6 +38,7 @@ body {
     font-size: 17px;
     color: #ff7f66;
     float: right;
+    padding-bottom: 1px;
 }
 
 #nav ul {
