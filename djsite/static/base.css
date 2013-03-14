@@ -105,7 +105,7 @@ body {
 }
 
 .sec_content {
-    padding: 5px 5px 0 5px;
+    padding: 10px 5px 0 5px;
     border: 1px #cccccc;
     border-style: none solid solid solid;
 }
@@ -135,11 +135,11 @@ body {
 }
 
 .sec li {
-    margin-left: 17px;
+    margin-left: 18px;
 }
 
 .ssec {
-    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #button-wrapper {
