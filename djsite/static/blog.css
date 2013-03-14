@@ -1,6 +1,7 @@
 .post {
-    padding-bottom: 20px;
+    border: 1px solid #3e454c;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .post_head {
