@@ -33,8 +33,9 @@ body {
 }
 
 #name {
-    text-transform: uppercase;
-    font-size: 14px;
+    font-family: "PT Sans Narrow";
+    text-transform: lowercase;
+    font-size: 17px;
     color: #ff7f66;
     float: right;
 }
@@ -68,11 +69,12 @@ body {
 }
 
 #main h1 {
-    text-transform: uppercase;
+    font-family: "PT Sans Narrow";
+    text-transform: lowercase;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 17px;
     background: #3e454c;
-    color: #e5674e;
+    color: #ff7f66;
 }
 
 #main a:link, #main a:visited {
