@@ -5,18 +5,18 @@
 .post_head {
     width: 100%;
     background: #3e454c;
+    padding: 5px;
     overflow: hidden;
 }
 
 .post_info {
     font-size: 10px;
     text-transform: uppercase;
-    color: #aaaaaa;
+    color: #ffffff;
     float: right;
 }
 
 .post h1 {
-    margin-bottom: 6px;
     float: left;
 }
 
