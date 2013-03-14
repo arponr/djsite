@@ -28,7 +28,8 @@ body {
     width: 640px;
     max-width: 95%;
     margin: 0 auto;
-    padding-bottom: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #name {
@@ -37,6 +38,10 @@ body {
     font-size: 17px;
     color: #ff7f66;
     float: right;
+}
+
+#nav ul {
+    padding-top: 2px;
 }
 
 #nav li {
