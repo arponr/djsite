@@ -21,7 +21,6 @@ body {
     width: 100%;
     margin-bottom: 10px;
     background: #dddddd;
-    text-align: center;
     position: fixed;
     z-index: 1;
 }
@@ -29,6 +28,12 @@ body {
 #header {
     font-family: "playfair display";
     display: inline-block;
+    text-align: center;
+}
+
+#robot {
+    clear: both;
+    float: left;
 }
 
 #header_content {
