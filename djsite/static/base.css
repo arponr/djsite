@@ -27,7 +27,7 @@ body {
 #header_content {
     text-align: center;
     font-family: "playfair display";
-    position: relative;
+    display: inline-block;
 }
 
 #lbracket, #rbracket {
