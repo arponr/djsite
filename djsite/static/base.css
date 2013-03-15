@@ -20,14 +20,13 @@ body {
 #header_wrapper {
     width: 100%;
     margin-bottom: 20px;
-    position: fixed;
+    position: relative;
     z-index: 1;
 }
 
 #header_content {
     text-align: center;
     font-family: "playfair display";
-    position: relative;
 }
 
 #lbracket, #rbracket {
