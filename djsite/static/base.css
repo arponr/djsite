@@ -20,12 +20,12 @@ body {
 #header_wrapper {
     width: 100%;
     margin-bottom: 20px;
+    text-align: center;
     position: fixed;
     z-index: 1;
 }
 
 #header_content {
-    text-align: center;
     font-family: "playfair display";
     display: inline-block;
 }
