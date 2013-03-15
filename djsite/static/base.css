@@ -14,7 +14,7 @@ body, h1, div, ul, li {
 body {
     font-family: georgia, serif;
     font-size: 13px;
-    background: #eeeeee;
+    background: #dddddd;
 }
 
 #header_wrapper {
@@ -34,6 +34,7 @@ body {
 #name {
     text-transform: lowercase;
     font-size: 24px;
+    font-weight: bold;
     color: #3e454c;
     padding-top: 3px;
 }
@@ -48,7 +49,7 @@ body {
     list-style: none;
     margin-right: 10px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 #nav a:link, #nav a:visited {
