@@ -31,11 +31,23 @@ body {
     font-family: "playfair display";
 }
 
+#lbracket, #rbracket {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#lbracket {
+    float: left;
+}
+
+#rbracket {
+    float: right;
+}
+
 #name {
     text-transform: lowercase;
     font-size: 24px;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 900;
     color: #000000;
     padding-top: 3px;
 }
@@ -55,7 +67,7 @@ body {
 
 #nav a:link, #nav a:visited {
     text-decoration: none;
-    color: #999999;
+    color: #888888;
     -webkit-transition-duration: 0.1s;
     -moz-transition-duration: 0.1s;
     transition-duration: 0.1s;
