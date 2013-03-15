@@ -34,7 +34,7 @@ body {
 #name {
     text-transform: lowercase;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
     color: #3e454c;
     padding-top: 3px;
 }
@@ -69,7 +69,7 @@ body {
     max-width: 95%;
     margin: 0 auto;
     line-height: 140%;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 10px;
     position: relative;
 }
