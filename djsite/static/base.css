@@ -12,7 +12,7 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: georgia, serif;
+    font-family: "hiragino mincho pro", serif;
     font-size: 12px;
     background: #dddddd;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 #header {
-    font-family: "playfair display";
+    font-family: "hiragino gothic kaku pro";
     display: inline-block;
 }
 
