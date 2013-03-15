@@ -25,9 +25,7 @@ body {
 }
 
 #header_content {
-    width: 640px;
-    max-width: 95%;
-    margin: 0 auto;
+    text-align: center;
     font-family: "playfair display";
     overflow: hidden;
 }
