@@ -50,7 +50,6 @@ body {
 #name {
     text-transform: lowercase;
     font-size: 24px;
-    font-weight: 700;
     font-style: italic;
     color: #000000;
     padding-top: 3px;
