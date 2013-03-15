@@ -27,6 +27,7 @@ body {
 
 #header_content {
     font-family: "playfair display";
+    display: inline-block;
 }
 
 #blah {
