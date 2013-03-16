@@ -114,8 +114,12 @@ body {
 
 /****************************** BLOG ***********************************/
 
+.blog_entry {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
 .blog_title {
-    clear: left;
     float: left;
     font-size: 16px;
 }
