@@ -115,6 +115,7 @@ body {
 /****************************** BLOG ***********************************/
 
 .blog_title {
+    clear: left;
     float: left;
     font-size: 16px;
 }
