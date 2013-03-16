@@ -16,6 +16,8 @@
 <div class="sec">
   <div class="sec_head">
     <h1>{{ p.title }}</h1>
+  </div>
+  <div class="sec_content">
     <div class="sec_info">
       created: {{ p.created|date:"j M Y, P" }}
       {% if p.edited %}
@@ -25,8 +27,7 @@
       <br/>
       tags: {{ p.tags }}
     </div>
-  </div>
-  <div class="sec_content">
+
     {{ p.content|safe }}
   </div>
   <p><a href="/">&larr;</a></p>
