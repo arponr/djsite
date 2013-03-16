@@ -14,13 +14,13 @@ body, h1, div, ul, li {
 body {
     font-family: "hiragino mincho pro", serif;
     font-size: 13px;
-    background: #dddddd;
+    background: #eeeeee;
 }
 
 #robot {
     position: fixed;
     height: 100%;
-    opacity: .03;
+    opacity: .05;
     z-index: -1;
     margin: auto;
     top: 0;
