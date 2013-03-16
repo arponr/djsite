@@ -17,13 +17,8 @@ body {
     background: #dddddd;
 }
 
-#header_wrapper {
-    position: absolute;
+#sidebar {
     float: left;
-}
-
-#header {
-    font-family: "playfair display";
 }
 
 #robot {
@@ -36,6 +31,7 @@ body {
 #header_content {
     float: left;
     text-align: center;
+    font-family: "playfair display";
 }
 
 #lbracket, #rbracket {
