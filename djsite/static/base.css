@@ -13,7 +13,7 @@ body, h1, div, ul, li {
 
 body {
     font-family: "hiragino kaku gothic pro", serif;
-    font-size: 12px;
+    font-size: 14px;
     background: #dddddd;
 }
 
@@ -65,7 +65,7 @@ body {
     font-size: 24px;
     color: #000000;
     letter-spacing: 5px;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 #nav ul {
@@ -110,32 +110,13 @@ body {
     margin-bottom: 20px;
 }
 
-.sec_head {
-    background: #3e454c;
-    padding: 3px 5px 3px 5px;
-    overflow: hidden;
-}
-
 .sec_info {
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #ffffff;
-    float: right;
-}
-
-.sec_content {
-    padding: 10px 5px 0 5px;
-    border: 1px #cccccc;
-    border-style: none solid solid solid;
+    font-size: 12px;
 }
 
 .sec h1 {
-    font-family: "playfair display";
-    text-transform: uppercase;
     font-weight: normal;
     font-size: 16px;
-    color: #ff7f66;
-    float: left;
 }
 
 .sec p {
