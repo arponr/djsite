@@ -32,8 +32,9 @@ body {
 }
 
 #robot {
-    width: 100px;
-    height: 178px;
+    clear: both;
+    width: 200px;
+    height: 356px;
 }
 
 #header_content {
