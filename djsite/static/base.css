@@ -33,7 +33,10 @@ body {
 
 #robot {
     position: absolute;
-    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right; auto;
     opacity: .4;
     z-index: -1;
 }
