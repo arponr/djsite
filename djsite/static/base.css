@@ -30,6 +30,7 @@ body {
 
 #header_content {
     float: left;
+    text-align: center;
     font-family: "playfair display";
 }
 
