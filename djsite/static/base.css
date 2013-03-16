@@ -32,7 +32,9 @@ body {
 }
 
 #robot {
- }
+    width: 100px;
+    height: 178px;
+}
 
 #header_content {
     float: left;
