@@ -20,8 +20,7 @@ body {
 #header_wrapper {
     width: 100%;
     margin: 0 auto;
-    background: #dddddd;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     text-align: center;
 }
@@ -102,19 +101,6 @@ body {
     padding-bottom: 10px;
     position: relative;
     z-index: 1;
-}
-
-#main a:link, #main a:visited {
-    font-style: normal;
-    text-decoration: none;
-    color: #235da8;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-}
-
-#main a:hover {
-    color: #7ecefd;
 }
 
 .sec {
