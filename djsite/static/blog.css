@@ -4,11 +4,11 @@
 }
 
 .title a:link, .title a:visited {
-    font-style: normal;
-    text-decoration: none;
+    color: #000000;
 }
 
-#main a:hover {
+.title a:hover {
+    color: #000000;
     text-decoration: underline;
 }
 
