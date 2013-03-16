@@ -3,17 +3,10 @@
     font-size: 16px;
 }
 
-.sec a:link, .sec a:visited {
-    color: #0f538c;
-    text-decoration: none;
-}
-
-.sec a:hover {
-    text-decoration: underline;
-}
 
 .info {
     float: right;
+    font-size: 12px;
 }
 
 .grey {

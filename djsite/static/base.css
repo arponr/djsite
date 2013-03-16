@@ -13,7 +13,7 @@ body, h1, div, ul, li {
 
 body {
     font-family: "hiragino kaku gothic pro", serif;
-    font-size: 14px;
+    font-size: 13px;
     background: #dddddd;
 }
 
@@ -110,6 +110,15 @@ body {
     margin-bottom: 20px;
 }
 
+.sec a:link, .sec a:visited {
+    color: #0f538c;
+    text-decoration: none;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+}
+
 .sec_info {
     font-size: 12px;
     margin-bottom: 10px;
@@ -121,7 +130,7 @@ body {
 
 .sec h1 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .sec p {
