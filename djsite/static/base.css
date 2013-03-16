@@ -127,6 +127,7 @@ body {
 
 .sec_content {
     font-family: "hiragino mincho pro";
+    clear: both;
     text-align: justify;
     border-top: 1px solid #cccccc;
     padding-top: 10px;
