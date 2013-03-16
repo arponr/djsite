@@ -3,12 +3,12 @@
     font-size: 16px;
 }
 
-.title a:link, .title a:visited {
+.sec a:link, .sec a:visited {
     color: #0f538c;
     text-decoration: none;
 }
 
-.title a:hover {
+.sec a:hover {
     text-decoration: underline;
 }
 
