@@ -17,19 +17,16 @@ body {
     background: #dddddd;
 }
 
-#header {
+#header_wrapper {
     width: 100%;
     margin: 0 auto;
-    text-align: center;
     position: fixed;
     z-height: 1;
 }
 
-#robot {
-    clear: both;
-    float: left;
-    width: 240px;
-    height: 427px;
+#header {
+    text-align: center;
+    display: inline-block;
 }
 
 #header_content {
@@ -51,11 +48,11 @@ body {
 }
 
 #name {
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
     color: #000000;
-    padding-top: 3px;
+    letter-spacing: 5px;
 }
 
 #nav ul {
