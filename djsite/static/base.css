@@ -97,7 +97,7 @@ body {
     width: 480px;
     max-width: 95%;
     margin: 0 auto;
-    line-height: 140%;
+    line-height: 150%;
     padding-top: 100px;
     padding-bottom: 10px;
     position: relative;
@@ -112,6 +112,11 @@ body {
 
 .sec_info {
     font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.sec_content {
+    font-family: "hiragino mincho pro";
 }
 
 .sec h1 {
