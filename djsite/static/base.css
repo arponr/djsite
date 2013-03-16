@@ -11,6 +11,15 @@ body, h1, div, ul, li {
   vertical-align: baseline;
 }
 
+html {
+    background: url(/static/robot.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: .03;
+}
+
 body {
     font-family: georgia, serif;
     font-size: 12px;
