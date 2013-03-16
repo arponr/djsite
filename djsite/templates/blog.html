@@ -18,7 +18,7 @@
 {% for p in posts %}
 <div class="sec">
   <span class="title"><a href="/post/{{ p.id }}">{{ p.title }}</a></span>
-  <span class="info"><span class="grey">posted</span> {{ p.created|date:"j M Y, P" }} <span class="grey">in</span> {{ p.tags }}</span>
+  <span class="info">posted {{ p.created|date:"j M Y" }} in {{ p.tags }}</span>
 </div>
 {% endfor %}
 {% endblock %}
