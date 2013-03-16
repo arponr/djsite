@@ -19,6 +19,7 @@ body {
 
 #sidebar {
     float: left;
+    position: relative;
 }
 
 #robot {
@@ -36,6 +37,14 @@ body {
 
 #lbracket, #rbracket {
     font-size: 48px;
+}
+
+#lbracket {
+    float: left;
+}
+
+#rbracket {
+    float: right;
 }
 
 #name {
