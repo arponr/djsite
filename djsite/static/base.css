@@ -32,7 +32,7 @@ body {
 #header_wrapper {
     width: 480px;
     max-width: 95%;
-    margin: 5px auto 30px auto;
+    margin: 0px auto 30px auto;
     position: static;
     z-index: 2;
     text-align: center;
