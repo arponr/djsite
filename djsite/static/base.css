@@ -19,7 +19,7 @@ body {
 
 #robot {
     position: fixed;
-    height: 85%;
+    height: 100%;
     opacity: .04;
     z-index: -1;
     margin: auto;
