@@ -31,6 +31,11 @@ body {
     margin-top: 2px;
 }
 
+#robot {
+    position: absolute;
+    opacity: .4;
+}
+
 #header_content {
     float: left;
     font-family: "playfair display";
