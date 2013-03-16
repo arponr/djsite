@@ -17,8 +17,8 @@
 {% block main %}
 {% for p in posts %}
 <div class="sec">
-  <a href="/post/{{ p.id }}"><span class="title">{{ p.title }}</span></a>
-  <span class="info">{{ p.created|date:"j M Y, P" }}</span>
+  <span class="title"><a href="/post/{{ p.id }}">{{ p.title }}</a></span>
+  <span class="info">in {{ p.tags }}, created {{ p.created|date:"j M Y, P" }}</span>
 </div>
 {% endfor %}
 {% endblock %}
