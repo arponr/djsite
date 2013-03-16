@@ -16,7 +16,19 @@ body {
     font-size: 13px;
     background: #dddddd;
 }
-
+/*
+#robot {
+    position: fixed;
+    height: 100%;
+    opacity: .03;
+    z-index: -1;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+*/
 #header_wrapper {
     width: 100%;
     margin: 0 auto;
@@ -29,18 +41,6 @@ body {
 #header {
     display: inline-block;
     margin-top: 2px;
-}
-
-#robot {
-    position: fixed;
-    height: 100%;
-    opacity: .03;
-    z-index: -1;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
 
 #header_content {
@@ -70,7 +70,6 @@ body {
 
 #nav ul {
     padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 #nav li {
@@ -104,36 +103,30 @@ body {
     z-index: 1;
 }
 
-.sec {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.sec a:link, .sec a:visited {
+#main a:link, #main a:visited {
     color: #0f538c;
     text-decoration: none;
 }
 
-.sec a:hover {
+#main a:hover {
     text-decoration: underline;
 }
 
-.sec_info {
+/****************************** BLOG ***********************************/
+
+.blog_title {
+    float: left;
+    font-size: 16px;
+}
+
+.blog_info {
     float: right;
     font-size: 12px;
-    margin-bottom: 10px;
 }
 
-.sec_content {
-    font-family: "hiragino mincho pro";
-    clear: both;
-    text-align: justify;
-    border-top: 1px solid #cccccc;
-    padding-top: 10px;
-}
+/****************************** POST **********************************/
 
-.sec h1 {
+h1.post {
     font-weight: normal;
     font-size: 16px;
     border-bottom: 1px solid #cccccc;
@@ -141,9 +134,18 @@ body {
     margin-bottom: 10px;
 }
 
-.sec p {
+.post_info {
+    float: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.post_content {
+    font-family: "hiragino mincho pro";
     clear: both;
-    margin: 0 0 10px 0;
+    text-align: justify;
+    border-top: 1px solid #cccccc;
+    padding-top: 10px;
 }
 
 .sec blockquote {
