@@ -20,6 +20,7 @@ body {
 #robot {
     position: fixed;
     height: 85%;
+    min-height: 400px;
     opacity: .04;
     z-index: -1;
     margin: auto;
@@ -120,23 +121,9 @@ h1 {
 
 /******************************** ABOUT *******************************/
 
-#about_me {
-    alt: "me";
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
-
 #about_text {
     text-align: justify;
     margin-bottom: 30px;
-}
-
-#about_text span {
-    color: #888;
 }
 
 /****************************** BLOG ***********************************/
