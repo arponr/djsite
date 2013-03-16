@@ -33,6 +33,7 @@ body {
 
 #robot {
     clear: both;
+    float: left;
     width: 200px;
     height: 356px;
 }
