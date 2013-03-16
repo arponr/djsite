@@ -120,6 +120,7 @@ body {
 }
 
 .sec_info {
+    float: right;
     font-size: 12px;
     margin-bottom: 10px;
 }
@@ -130,7 +131,7 @@ body {
 
 .sec h1 {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .sec p {
