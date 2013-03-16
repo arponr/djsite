@@ -120,7 +120,7 @@ body {
 }
 
 .sec_info {
-    float: right;
+    text-align: right;
     font-size: 12px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 10px;
@@ -129,6 +129,7 @@ body {
 
 .sec_content {
     font-family: "hiragino mincho pro";
+    text-align: justify;
 }
 
 .sec h1 {
