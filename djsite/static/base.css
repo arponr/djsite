@@ -123,12 +123,17 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
+    font-family: "hiragino kaku gothic pro";
     overflow: hidden;
     margin-bottom: 20px;
 }
 
+.blog_title {
+    float: left;
+    font-size: 16px;
+}
+
 .blog_info {
-    font-family: "hiragino kaku gothic pro";
     float: right;
     font-size: 12px;
 }
@@ -137,12 +142,12 @@ h1 {
 
 .post_info {
     float: right;
+    font-family: "hiragino kaku gothic pro";
     font-size: 12px;
     margin-bottom: 10px;
 }
 
 .post_content {
-    font-family: "hiragino mincho pro";
     clear: both;
     text-align: justify;
     border-top: 1px solid #cccccc;
@@ -153,7 +158,7 @@ h1 {
 .sec {
     font-family: "hiragino mincho pro";
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .sec h2 {
