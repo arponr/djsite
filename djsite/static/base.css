@@ -19,14 +19,14 @@ body {
 
 #sidebar {
     float: left;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 #robot {
     clear: both;
     float: left;
-    width: 250px;
-    height: 445px;
+    width: 240px;
+    height: 427px;
 }
 
 #header_content {
