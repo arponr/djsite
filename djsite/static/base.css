@@ -18,11 +18,8 @@ body {
 }
 
 #header_wrapper {
-    width: 100%;
-    margin-bottom: 10px;
-    background: #dddddd;
-    position: fixed;
-    z-index: 1;
+    position: absolute;
+    width: 250px;
 }
 
 #header {
