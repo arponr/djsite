@@ -1,6 +1,8 @@
 .title {
     float: left;
     font-size: 16px;
+    font-family: "playfair display";
+    text-transform: uppercase;
 }
 
 .title a:link, .title a:visited {
