@@ -119,15 +119,12 @@ body {
     text-decoration: underline;
 }
 
-.sec_head {
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-
 .sec_info {
     float: right;
     font-size: 12px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .sec_content {
@@ -137,6 +134,9 @@ body {
 .sec h1 {
     font-weight: normal;
     font-size: 16px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .sec p {
