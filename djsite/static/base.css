@@ -35,8 +35,10 @@ body {
     position: fixed;
     height: 100%;
     opacity: .05;
+    z-index: -1;
     display: block;
     margin: 0 auto;
+    background: url(/static/robot.jpg);
 }
 
 #header_content {
