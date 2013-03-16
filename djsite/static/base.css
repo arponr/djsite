@@ -19,7 +19,7 @@ body {
 
 #header_wrapper {
     position: absolute;
-    width: 300px;
+    float: left;
 }
 
 #header {
