@@ -113,6 +113,7 @@ body {
 }
 
 h1 {
+    font-family: "hiragino kaku gothic pro";
     font-weight: normal;
     font-size: 16px;
     border-bottom: 1px solid #cccccc;
@@ -155,6 +156,7 @@ h1 {
 /****************************** RESUME ********************************/
 
 .sec {
+    font-family: "hiragino mincho pro";
     overflow: hidden;
     margin-bottom: 20px;
 }
