@@ -19,13 +19,13 @@ body {
 
 #robot {
     position: fixed;
-    height: 100%;
-    opacity: .05;
+    height: 80%;
+    opacity: .04;
     z-index: -1;
     margin: auto;
-    top: 0;
+    top: 10%;
     right: 0;
-    bottom: 0;
+    bottom: 10%;
     left: 0;
 }
 
