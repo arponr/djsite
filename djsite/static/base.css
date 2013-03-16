@@ -1,14 +1,14 @@
 html, body {
     height: 100%;
-    line-height: 1;
+    overflow: hidden;
 }
 
 body, h1, div, ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
 }
 
 body {
