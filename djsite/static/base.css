@@ -94,11 +94,11 @@ body {
 }
 
 #main {
-    width: 640px;
+    width: 480px;
     max-width: 95%;
     margin: 0 auto;
     line-height: 140%;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 10px;
     position: relative;
     z-index: 1;
@@ -119,6 +119,7 @@ body {
 
 .sec {
     position: relative;
+    clear: both;
     margin-bottom: 20px;
 }
 

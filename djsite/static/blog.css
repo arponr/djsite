@@ -1,33 +1,10 @@
-.post {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.post_head {
-    background: #3e454c;
-    padding: 3px 5px 3px 5px;
-    overflow: hidden;
-}
-
-.post_info {
-    font-size: 10px;
-    text-transform: uppercase;
-    color: #ffffff;
-    float: right;
-}
-
-.post_content {
-    padding: 5px 5px 0 5px;
-    border: 1px #cccccc;
-    border-style: none solid solid solid;
-}
-
-.post h1 {
+h1 {
     float: left;
+    font-size: 16px;
 }
 
-.post p {
-    clear: both;
-    margin-top: 0;
-    margin-bottom: 5px;
+span {
+    float: right;
+    text-transform: uppercase;
+    font-family: "playfair display";
 }

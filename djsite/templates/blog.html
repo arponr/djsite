@@ -1,4 +1,4 @@
-{% extends "base-twocol.html" %}
+{% extends "base.html" %}
 
 {% block style %}
 {{ block.super }}
@@ -15,30 +15,10 @@
 {% endblock %}
 
 {% block left %}
-{% for p in lposts %}
+{% for p in posts %}
 <div class="sec">
-  <div class="sec_head">
     <h1>{{ p.title }}</h1>
-    <span class="sec_info">{{ p.created|date:"j M Y, P" }}</span>
-  </div>
-
-  <div class="sec_content">
-    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
-  </div>
-</div>
-{% endfor %}
-{% endblock %}
-
-{% block right %}
-{% for p in rposts %}
-<div class="sec">
-  <div class="sec_head">
-    <h1>{{ p.title }}</h1>
-    <span class="sec_info">{{ p.created|date:"j M Y, P" }}</span>
-  </div>
-
-  <div class="sec_content">
-    {{ p.intro|safe }} <a href="/post/{{ p.id }}/">&rarr;</a></p>
+    <span>{{ p.created|date:"j M Y, P" }}</span>
   </div>
 </div>
 {% endfor %}

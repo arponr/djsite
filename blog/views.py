@@ -4,11 +4,7 @@ from blog.models import Post
 
 def blog(request):
     posts = Post.objects.all()
-    pcols = [[],[]]
-    for (i, p) in enumerate(posts):
-        pcols[i % 2].append(p)
-    return render_to_response('blog.html', {'lposts': pcols[0],
-                                            'rposts': pcols[1]})
+    return render_to_response('blog.html', {'posts': posts})
 
 def post(request, num):
     try:
