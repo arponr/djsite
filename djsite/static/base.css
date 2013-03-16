@@ -34,7 +34,8 @@ body {
 #robot {
     position: fixed;
     height: 100%;
-    opacity: .05;
+    opacity: .02;
+    z-index: -1;
     margin: auto;
     top: 0;
     right: 0;
