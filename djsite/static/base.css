@@ -19,14 +19,14 @@ body {
 
 #sidebar {
     float: left;
-    position: relative;
+    margin-top: 5px;
 }
 
 #robot {
     clear: both;
     float: left;
-    width: 200px;
-    height: 356px;
+    width: 250px;
+    height: 445px;
 }
 
 #header_content {
@@ -41,7 +41,7 @@ body {
 
 #lbracket {
     float: left;
-    margin-left: -25px;
+    margin-left: -30px;
 }
 
 #rbracket {
