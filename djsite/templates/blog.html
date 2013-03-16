@@ -17,8 +17,8 @@
 {% block main %}
 {% for p in posts %}
 <div class="sec">
-    <h1>{{ p.title }}</h1>
-    <span>{{ p.created|date:"j M Y, P" }}</span>
+    <span class="title">{{ p.title }}</span>
+    <span class="info">{{ p.created|date:"j M Y, P" }}</span>
   </div>
 </div>
 {% endfor %}
