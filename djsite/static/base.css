@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
     background: #dddddd;
     position: fixed;
-    z-height: 1;
+    z-index: 1;
     text-align: center;
 }
 
