@@ -32,6 +32,7 @@ body {
 }
 
 #header_content {
+    float: left;
     font-family: "playfair display";
 }
 
