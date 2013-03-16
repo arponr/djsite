@@ -1,12 +1,10 @@
 .title {
     float: left;
     font-size: 16px;
-    font-family: "playfair display";
-    text-transform: uppercase;
 }
 
 .title a:link, .title a:visited {
-    color: #000000;
+    color: #0f538c;
     text-decoration: none;
 }
 
