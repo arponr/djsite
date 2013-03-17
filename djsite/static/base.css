@@ -21,7 +21,7 @@ body {
     position: fixed;
     height: 85%;
     min-height: 400px;
-    opacity: .04;
+    opacity: .05;
     z-index: -1;
     margin: auto;
     top: 0;
@@ -130,18 +130,27 @@ h1 {
 
 .blog_entry {
     font-family: "hiragino kaku gothic pro";
+    position: relative;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
+.blog_filler {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 1px dotted #cccccc;
+
 .blog_title {
     float: left;
     font-size: 16px;
+    padding-right: 2px;
 }
 
 .blog_info {
     float: right;
     font-size: 12px;
+    padding-left: 2px;
 }
 
 /****************************** POST **********************************/
