@@ -133,13 +133,14 @@ h1 {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
-    white-space: nowrap;
 }
 
 .blog_title {
     float: left;
     font-size: 16px;
+    max-width: 100%;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .blog_info {
