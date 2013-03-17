@@ -136,10 +136,13 @@ h1 {
 }
 
 .blog_filler {
-    width: 100%;
     position: relative;
     overflow: hidden;
-    border-bottom: 1px dotted #cccccc;
+    border-bottom: 1px dotted #000000;
+}
+
+.blog_dots {
+    width: 100%;
 }
 
 .blog_title {

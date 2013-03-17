@@ -19,7 +19,7 @@
 
 {% for p in posts %}
 <div class="blog_entry">
-  <div class="blog_filler"></div>
+  <div class="blog_filler"><span class="blog_dots">&nbsp;</span></div>
   <span class="blog_title"><a href="/post/{{ p.id }}">{{ p.title }}</a></span>
   <span class="blog_info">posted {{ p.created|date:"j M Y" }} in <a href="/{{ p.tags }}">{{ p.tags }}</a></span>
 </div>
