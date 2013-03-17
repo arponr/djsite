@@ -136,6 +136,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.blog_entry a {
+    display: block;
+}
+
 .blog_title {    
     font-size: 16px;
     overflow: hidden;
