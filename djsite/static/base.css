@@ -129,9 +129,7 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    width: 100%;
     font-family: "hiragino kaku gothic pro";
-    position: relative;
     overflow: hidden;
     margin-bottom: 20px;
 }
