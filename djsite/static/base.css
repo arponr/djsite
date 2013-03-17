@@ -138,7 +138,7 @@ h1 {
     display: block; 
     font-size: 16px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: " . . .";
     white-space: nowrap;
 }
 
