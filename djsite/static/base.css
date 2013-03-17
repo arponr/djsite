@@ -133,14 +133,10 @@ h1 {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
-    text-align: right;
-    white-space: nowrap;
 }
 
 .blog_filler {
-    position: absolute;
-    left: 0;
-    right: 0;
+    width: 100%;
     border-bottom: 1px dotted #cccccc;
     height: 70%;
 }
@@ -153,6 +149,7 @@ h1 {
 }
 
 .blog_info {
+    float: right;
     font-size: 12px;
     padding-left: 4px;
 }
