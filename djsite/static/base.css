@@ -137,10 +137,7 @@ h1 {
 }
 
 .blog_title a {
-    display: block;
-}
-
-.blog_title {    
+    display: block; 
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
