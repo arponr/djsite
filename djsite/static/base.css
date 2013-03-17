@@ -138,7 +138,7 @@ h1 {
 .blog_filler {
     width: 100%;
     position: relative;
-    overlfow: hidden;
+    overflow: hidden;
     border-bottom: 1px dotted #cccccc;
 }
 
