@@ -140,13 +140,13 @@ h1 {
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .blog_info {
     float: right;
     font-size: 12px;
     margin-left: 5px;
-    white-space: nowrap;
 }
 
 /****************************** POST **********************************/
