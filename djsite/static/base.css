@@ -135,27 +135,16 @@ h1 {
     margin-bottom: 20px;
 }
 
-.blog_filler {
-    position: relative;
-    overflow: hidden;
-    border-bottom: 1px dotted #000000;
-}
-
-.blog_dots {
-    width: 100%;
-}
-
 .blog_title {
     float: left;
     font-size: 16px;
-    margin-right: 20px;
-    padding-right: 4px;
+    text-overflow: ellipsis;
 }
 
 .blog_info {
     float: right;
     font-size: 12px;
-    padding-left: 4px;
+    margin-left: 5px;
 }
 
 /****************************** POST **********************************/
