@@ -133,6 +133,7 @@ h1 {
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
+    white-space: nowrap;
 }
 
 .blog_title {
