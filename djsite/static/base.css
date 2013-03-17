@@ -163,6 +163,11 @@ h1 {
     border-top: 1px solid #cccccc;
 }
 
+.post_content blockquote {
+    font-style: italic;
+    margin: 0 0 0 30px;
+}
+
 /****************************** RESUME ********************************/
 
 .sec {
