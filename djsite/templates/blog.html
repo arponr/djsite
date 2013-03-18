@@ -19,7 +19,7 @@
 
 {% for p in posts %}
 <div class="blog_entry">
-  <div class="blog_info">{{ p.created|date:"j M Y" }}, in <a href="/{{ p.tags }}">{{ p.tags }}</a></div>
+  <div class="blog_info">{{ p.created|date:"j M Y" }}, in <a href="/category/{{ p.tags }}">{{ p.tags }}</a></div>
   <div class="blog_title"><a href="/post/{{ p.id }}">{{ p.title }}</a></div>
 </div>
 {% endfor %}

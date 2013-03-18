@@ -1,19 +1,18 @@
 from django.http import Http404
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, get_object_or_404
 from blog.models import Post
 
 def blog(request):
-    posts = Post.objects.all()
-    return render_to_response('blog.html', {'posts': posts})
+    return render_to_response('blog.html', 
+                              {'posts': Post.objects.all()}) 
 
-def post(request, num):
-    try:
-        n = int(num)
-        if n < 1 or n > Post.objects.count():
-            raise Http404()
-    except ValueError:
-        raise Http404()
-    p = Post.objects.get(id=n)
+def category(request, sl):
+    c = get_object_or_404(Category, slug=sl)
+    return render_to_response('category.html', 
+                              {'posts': c.post_set.all()}) 
+
+def post(request, sl):
+    p = get_object_or_404(Post, slug=sl)
     return render_to_response('post.html', {'p': p})
 
 
