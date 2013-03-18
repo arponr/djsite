@@ -3,28 +3,16 @@ from django.template.defaultfilters import slugify
 from blog.models import Post, Category
 from optparse import make_option
 from datetime import datetime
-import subprocess
 
 class Command(BaseCommand):
     option_list = BaseCommand.option_list + (make_option('--update'),)
-    
-    def convert(self, text):
-        p = subprocess.Popen(['pandoc', '--from=markdown',
-                              '--mathjax', '--to=html'], 
-                             stdin=subprocess.PIPE, 
-                             stdout=subprocess.PIPE)
-        return (p.communicate(text)[0].replace('\n', '\n\n').
-                replace('---', '&mdash;').replace('--', '&ndash;'))
 
     def handle(self, *args, **options):
-        fname = args[0]
-        with open('blog/entries/' + fname + '.txt') as f:
+        with open('upload-temp') as f:
             _title = f.readline().rstrip()
             _slug = f.readline().rstrip()
             _cats = f.readline().rstrip().split(', ')
-            print 'here'
-            _content = self.convert(f.read().lstrip())
-            print 'there'
+            _content = f.read().lstrip()
             if options['update']:
                 try:
                     p = Post.objects.get(slug=_slug)
