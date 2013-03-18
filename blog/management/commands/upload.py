@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand, CommandError
 from django.template.defaultfilters import slugify
-from polls.models import Post, Category
+from blog.models import Post, Category
 from optparse import make_option
 from datetime import datetime
 
