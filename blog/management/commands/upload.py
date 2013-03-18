@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         fname = args[0]
-        with open('../../entries/' + fname + '.txt') as f:
+        with open('blog/entries/' + fname + '.txt') as f:
             _title = f.readline().rstrip()
             _slug = f.readline().rstrip()
             _cats = f.readline().rstrip().split(', ')
