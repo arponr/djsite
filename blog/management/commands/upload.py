@@ -28,7 +28,7 @@ class Command(BaseCommand):
             p.slug = _slug
             p.content = _content
             p.save()
-            for cat in cats:
+            for cat in _cats:
                 try:
                     c = Category.objects.get(name=cat)
                 except Category.DoesNotExist:
