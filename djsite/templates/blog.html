@@ -19,8 +19,12 @@
 
 {% for p in posts %}
 <div class="blog_entry">
-  <div class="blog_info">{{ p.created|date:"j M Y" }}, in <a href="/category/{{ p.tags }}">{{ p.tags }}</a></div>
-  <div class="blog_title"><a href="/post/{{ p.id }}">{{ p.title }}</a></div>
+  <div class="blog_info">{{ p.created|date:"j M Y" }}, in 
+    {% for c in {{ p.category_set.all }} %}
+    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+    {% endfor %}
+  </div>
+  <div class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></div>
 </div>
 {% endfor %}
 {% endblock %}
