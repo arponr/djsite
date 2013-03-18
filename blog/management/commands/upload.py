@@ -21,7 +21,7 @@ class Command(BaseCommand):
             _title = f.readline().rstrip()
             _slug = f.readline().rstrip()
             _cats = f.readline().rstrip().split(', ')
-            _content = convert(f.read().lstrip())
+            _content = self.convert(f.read().lstrip())
             if options['update']:
                 try:
                     p = Post.objects.get(slug=_slug)
