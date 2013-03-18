@@ -5,7 +5,7 @@ from optparse import make_option
 from datetime import datetime
 
 class Command(BaseCommand):
-    option_list = BaseCommand.option_list + (make_option('--update'))
+    option_list = BaseCommand.option_list + (make_option('--update'),)
     
     def convert(text):
         p = subprocess.Popen(['pandoc', '--from=markdown',
