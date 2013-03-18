@@ -3,6 +3,7 @@ from django.template.defaultfilters import slugify
 from blog.models import Post, Category
 from optparse import make_option
 from datetime import datetime
+import subprocess
 
 class Command(BaseCommand):
     option_list = BaseCommand.option_list + (make_option('--update'),)
