@@ -2,7 +2,7 @@ from django.db import models
 from django.core.urlresolvers import reverse
 
 class Category(models.Model):
-    name = models.CharField(unique=True)
+    name = models.CharField(max_length=100,unique=True)
     slug = models.SlugField(unique=True)
 
     def __unicode__(self):
