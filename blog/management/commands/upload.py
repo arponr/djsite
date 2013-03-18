@@ -7,7 +7,7 @@ from datetime import datetime
 class Command(BaseCommand):
     option_list = BaseCommand.option_list + (make_option('--update'),)
     
-    def convert(text):
+    def convert(self, text):
         p = subprocess.Popen(['pandoc', '--from=markdown',
                               '--mathjax', '--to=html'], 
                              stdin=subprocess.PIPE, 
