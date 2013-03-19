@@ -22,7 +22,7 @@ a:focus {
 }
 
 body {
-    font-family: "adobe garamond pro", georgia, serif;
+    font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", serif;
     font-size: 16px;
     background: #eeeeee;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 h1 {
-    font-family: "Europa", georgia;
+    font-family: "europa-1", "europa-2", georgia;
     font-weight: 300;
     font-size: 20px;
     border-bottom: 1px solid #cccccc;
@@ -135,7 +135,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "Europa", georgia;
+    font-family: "europa-1", "europa-2", georgia;
     overflow: hidden;
     margin-bottom: 10px;
     width: 48%;
@@ -159,7 +159,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "Europa", georgia;
+    font-family: "europa-1", "europa-2", georgia;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 135%;
@@ -178,7 +178,7 @@ h1 {
 
 .prev, .home, .next {
     float: left;
-    font-family: "Europa", georgia;
+    font-family: "europa-1", "europa-2", georgia;
     font-size: 13px;
     padding: 5px 0 5px 0;
 }
