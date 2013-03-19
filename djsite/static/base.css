@@ -117,7 +117,7 @@ body {
 h1 {
     font-family: "pt sans", sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 15px 0 5px 0;
@@ -143,7 +143,7 @@ h1 {
 
 .blog_title a {
     display: block; 
-    font-size: 18px;
+    font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
