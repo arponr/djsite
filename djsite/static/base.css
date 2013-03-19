@@ -103,7 +103,7 @@ body {
 }
 
 h1 {
-    font-family: "ubuntu", sans-serif;
+    font-family: futura, ubuntu, sans-serif;
     font-weight: normal;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -128,7 +128,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "ubuntu", sans-serif;
+    font-family: futura, ubuntu, sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -151,7 +151,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "ubuntu", sans-serif;
+    font-family: futura, ubuntu, sans-serif;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 135%;
