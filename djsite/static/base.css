@@ -167,7 +167,8 @@ h1 {
 
 .post_content {
     clear: both;
-    border: 1px 0 1px 0 solid #cccccc;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .post_content blockquote {
@@ -176,16 +177,19 @@ h1 {
 }
 
 .prev {
+    float: left;
     text-align: left;
     width: 30%
 }
 
 .home {
+    float: left;
     text-align: center;
     width: 40%;
 }
 
 .next {
+    float: left;
     text-align: right;
     width: 30%;
 }
