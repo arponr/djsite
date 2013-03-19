@@ -32,8 +32,9 @@ body {
 }
 
 #header {
+    width: 480px;
+    max-width: 95%;
     margin: 0 auto;
-    display: inline-block;
 }
 
 #name {
