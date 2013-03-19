@@ -32,7 +32,7 @@ body {
 }
 
 #header_content {
-    width: 480px;
+    width: 520px;
     max-width: 95%;
     margin: 0 auto;
 }
@@ -69,11 +69,11 @@ body {
 }
 
 #main {
-    width: 480px;
+    width: 520px;
     max-width: 95%;
     margin: 0 auto;
     padding: 45px 0 10px 0;
-    line-height: 140%;
+    line-height: 145%;
     position: relative;
     z-index: 1;
 }
