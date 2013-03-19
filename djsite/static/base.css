@@ -20,12 +20,12 @@ body, h1, div, ul, li {
 body {
     font-family: "adobe garamond pro", georgia, serif;
     font-size: 16px;
-    background: #fdfeff;
+    background: #eeeeee;
 }
 
 #header_wrapper {
     width: 100%;
-    background: #333745;
+    background: #333333;
     padding: 1px 0 1px 0;
     margin-bottom: 20px;
     position: fixed;
@@ -97,7 +97,7 @@ body {
 }
 
 #main a:hover {
-    color: #333745;
+    color: #000000;
 }
 
 h1 {
