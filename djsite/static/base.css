@@ -66,7 +66,8 @@ body {
     font-size: 24px;
     color: #000000;
     letter-spacing: 6px;
-    margin-top: 4px;
+    margin-top: 2px;
+    margin-right: -6px
 }
 
 #nav ul {
@@ -113,7 +114,7 @@ body {
 }
 
 h1 {
-    font-family: "hiragino kaku gothic pro", sans-serif;
+    font-family: "open sans", sans-serif;
     font-weight: normal;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -131,7 +132,7 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    font-family: "hiragino kaku gothic pro", sans-serif;
+    font-family: "open sans", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -154,7 +155,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "hiragino kaku gothic pro", sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 13px;
     margin-bottom: 10px;
 }
