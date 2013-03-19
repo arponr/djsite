@@ -45,7 +45,7 @@ body {
 }
 
 #nav ul {
-    padding-top: 6px;
+    padding-top: 7px;
 }
 
 #nav li {
@@ -72,7 +72,7 @@ body {
     width: 480px;
     max-width: 95%;
     margin: 0 auto;
-    padding: 55px 0 10px 0;
+    padding: 45px 0 10px 0;
     line-height: 140%;
     position: relative;
     z-index: 1;
@@ -104,7 +104,7 @@ body {
 }
 
 h1 {
-    font-family: "cantarell", sans-serif;
+    font-family: "ubuntu", sans-serif;
     font-weight: normal;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -130,7 +130,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "cantarell", sans-serif;
+    font-family: "ubuntu", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -153,7 +153,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "cantarell", sans-serif;
+    font-family: "ubuntu", sans-serif;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 130%;
