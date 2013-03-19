@@ -157,7 +157,7 @@ h1 {
     text-overflow: ellipsis;
     white-space: nowrap;
     word-wrap: normal;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .blog_info {
