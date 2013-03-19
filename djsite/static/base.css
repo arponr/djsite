@@ -95,10 +95,10 @@ body {
 #robot {
     position: fixed;
     z-index: 0;
-    height: 100%;
-    min-height: 400px;
+    height: 90%;
+    top: 0;
+    left: 0;
     opacity: .05;
-    margin: auto;
 }
 
 #main a:link, #main a:visited {
