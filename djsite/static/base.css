@@ -54,6 +54,7 @@ body {
 
 #lbracket {
     float: left;
+    margin-left: -30px;
 }
 
 #rbracket {
@@ -64,7 +65,7 @@ body {
     text-transform: uppercase;
     font-size: 24px;
     color: #000000;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     margin-top: 4px;
 }
 
@@ -112,9 +113,9 @@ body {
 }
 
 h1 {
-    font-family: "open sans", sans serif;
-    font-weight: normal;
-    font-size: 17px;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -130,14 +131,15 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    font-family: "open sans", sans serif;
+    font-family: "open sans", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
 .blog_title a {
     display: block; 
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 300;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -153,7 +155,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "open sans", sans serif;
+    font-family: "open sans", sans-serif;
     font-size: 13px;
     margin-bottom: 10px;
 }
