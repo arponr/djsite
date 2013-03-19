@@ -31,17 +31,17 @@ body {
 }
 
 #header_wrapper {
-    width: 480px;
-    max-width: 95%;
-    margin: 0px auto 30px auto;
     background: #222222;
-    padding-top: 7px;
-    position: static;
+    padding: 7px 0 7px 0;
+    position: fixed;
     z-index: 2;
     text-align: center;
 }
 
 #header {
+    width: 480px;
+    max-width: 95%;
+    margin: 0px auto 30px auto;
     display: inline-block;
 }
 
@@ -53,6 +53,7 @@ body {
 
 #lbracket, #rbracket {
     font-size: 48px;
+    color: #ffffff;
 }
 
 #lbracket {
