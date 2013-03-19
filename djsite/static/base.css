@@ -115,7 +115,7 @@ body {
 }
 
 h1 {
-    font-family: "pt sans", sans-serif;
+    font-family: "open sans", sans-serif;
     font-weight: normal;
     font-size: 19px;
     border-bottom: 1px solid #cccccc;
@@ -137,7 +137,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "pt sans", sans-serif;
+    font-family: "open sans", sans-serif;
     overflow: hidden;
     margin-bottom: 15px;
     z-index: 1;
@@ -160,7 +160,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "pt sans", sans-serif;
+    font-family: "open sans", sans-serif;
     margin-bottom: 5px;
 }
 
