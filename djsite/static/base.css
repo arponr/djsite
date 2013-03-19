@@ -115,7 +115,6 @@ h1 {
 /****************************** BLOG ***********************************/
 
 #about_text {
-    text-align: justify;
     margin-bottom: 25px;
 }
 
@@ -156,12 +155,11 @@ h1 {
     font-family: "ubuntu", sans-serif;
     font-size: 13px;
     margin-bottom: 5px;
-    line-height: 130%;
+    line-height: 135%;
 }
 
 .post_content {
     clear: both;
-    text-align: justify;
     border-top: 1px solid #cccccc;
 }
 
