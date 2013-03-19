@@ -96,11 +96,12 @@ body {
     position: fixed;
     z-index: -1;
     height: 90%;
+    min-height: 400px;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: 10px auto 0 auto;
+    margin: 30px auto 0 auto;
     opacity: .05;
 }
 
