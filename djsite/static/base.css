@@ -12,6 +12,7 @@ body, h1, div, ul, li {
     font-size: 100%;
     font-style: normal;
     font-weight: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
