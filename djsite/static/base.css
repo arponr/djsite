@@ -141,9 +141,8 @@ h1 {
 }
 
 #about_text p.tagline {
-    font-family: "pt sans", sans-serif;
     text-align: center;
-    font-weight: bold;
+    font-style: italic;
 }
 
 .blog_entry {
