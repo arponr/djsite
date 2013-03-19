@@ -178,7 +178,7 @@ h1 {
 
 .prev, .home, .next {
     float: left;
-    font-family: sans-serif;
+    font-family: "Europa", sans-serif;
     font-size: 13px;
     padding: 5px 0 5px 0;
 }
