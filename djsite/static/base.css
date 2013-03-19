@@ -33,8 +33,8 @@ body {
 }
 
 #header {
-    font-family: "josefin sans", sans-serif;
-    text-transform: uppercase;
+    font-family: "unifrakturmaguntia", sans-serif;
+    text-transform: lowercase;
     margin: 0 auto;
     display: inline-block;
 }
@@ -59,8 +59,7 @@ body {
 #name {
     font-size: 26px;
     color: #ffffff;
-    letter-spacing: 8px;
-    margin: 4px -5px 0 0;
+    margin: 4px 0 0 0;
 }
 
 #nav ul {
