@@ -17,7 +17,7 @@ body, h1, div, ul, li {
 
 body {
     font-family: "fanwood text", georgia, serif;
-    font-size: 16px;
+    font-size: 15px;
     background: #eeeeee;
 }
 
@@ -43,7 +43,7 @@ body {
 
 #lbracket, #rbracket {
     font-size: 46px;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffffff;
 }
 
@@ -57,7 +57,7 @@ body {
 
 #name {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 400;
     color: #ffffff;
     letter-spacing: 8px;
     margin: 4px -5px 0 0;
@@ -123,7 +123,7 @@ body {
 }
 
 h1 {
-    font-family: "open sans", sans-serif;
+    font-family: "lato", sans-serif;
     font-weight: normal;
     font-size: 16px;
     border-bottom: 1px solid #cccccc;
@@ -149,7 +149,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "open sans", sans-serif;
+    font-family: "lato", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -172,7 +172,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "open sans", sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 12px;
     margin-bottom: 5px;
 }
