@@ -133,6 +133,7 @@ h1 {
 
 .blog_title {
     font-size: 16px;
+    font-weight: 300;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
