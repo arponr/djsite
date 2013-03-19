@@ -31,6 +31,7 @@ body {
 }
 
 #header_wrapper {
+    width: 100%;
     background: #222222;
     padding: 7px 0 7px 0;
     position: fixed;
@@ -41,7 +42,7 @@ body {
 #header {
     width: 480px;
     max-width: 95%;
-    margin: 0px auto 30px auto;
+    margin: 0 auto;
     display: inline-block;
 }
 
@@ -100,7 +101,7 @@ body {
     width: 480px;
     max-width: 95%;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding: 50px 0 10px 0;
     line-height: 150%;
     position: relative;
     z-index: 1;
