@@ -116,7 +116,7 @@ body {
 }
 
 #main a:hover {
-    text-decoration: underline;
+    color: #000000;
 }
 
 h1 {
@@ -157,11 +157,6 @@ h1 {
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-}
-
-.blog_title a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid #004488;
 }
 
 .blog_info {
