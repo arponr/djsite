@@ -152,11 +152,14 @@ h1 {
 }
 
 .blog_title {
+    display: block;
+}
+
+.blog_title a {
     font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    display: block;
 }
 
 .blog_info {
