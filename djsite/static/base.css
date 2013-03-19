@@ -100,7 +100,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 10px auto 0 auto;
     opacity: .05;
 }
 
