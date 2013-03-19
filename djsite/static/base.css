@@ -19,7 +19,7 @@ body {
 
 #robot {
     position: fixed;
-    height: 85%;
+    height: 80%;
     min-height: 400px;
     opacity: .05;
     z-index: -1;
@@ -99,7 +99,7 @@ body {
     width: 480px;
     max-width: 95%;
     margin: 0 auto;
-    padding: 50px 0 10px 0;
+    padding: 65px 0 10px 0;
     line-height: 150%;
     position: relative;
     z-index: 1;
@@ -123,14 +123,12 @@ h1 {
     margin-bottom: 5px;
 }
 
-/******************************** ABOUT *******************************/
+/****************************** BLOG ***********************************/
 
 #about_text {
     text-align: justify;
     margin-bottom: 30px;
 }
-
-/****************************** BLOG ***********************************/
 
 .blog_entry {
     font-family: "pt sans", sans-serif;
