@@ -155,7 +155,7 @@ h1 {
 }
 
 .blog_title {
-    font-size: 14px;
+    font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -165,7 +165,7 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /****************************** POST **********************************/
@@ -173,7 +173,7 @@ h1 {
 .post_info {
     float: right;
     font-family: "open sans", sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
