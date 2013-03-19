@@ -41,7 +41,6 @@ body {
     font-family: "unifrakturmaguntia", sans-serif;
     font-size: 26px;
     color: #ffffff;
-    margin: 4px 0 0 0;
     float: right;
 }
 
@@ -88,7 +87,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    margin: 55px auto 0 auto;
+    margin: 35px auto 0 auto;
     opacity: .05;
 }
 
@@ -147,7 +146,7 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /****************************** POST **********************************/
@@ -155,9 +154,9 @@ h1 {
 .post_info {
     float: right;
     font-family: "molengo", sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
-    line-height: 120%;
+    line-height: 130%;
 }
 
 .post_content {
