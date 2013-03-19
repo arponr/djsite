@@ -34,6 +34,7 @@ body {
     width: 480px;
     max-width: 95%;
     margin: 0px auto 30px auto;
+    background: #222222;
     padding-top: 7px;
     position: static;
     z-index: 2;
@@ -65,6 +66,7 @@ body {
 #name {
     font-size: 28px;
     font-weight: 600;
+    color: #ffffff;
     letter-spacing: 6px;
     margin-top: 4px;
 }
@@ -90,7 +92,7 @@ body {
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 #main {
