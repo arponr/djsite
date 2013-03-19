@@ -24,9 +24,10 @@
   <br/>
   categories: 
   {% for c in p.categories.all %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
   {% if not forloop.last %}
-  , 
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {% else %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a> 
   {% endif %}
   {% endfor %}
 </div>
@@ -42,7 +43,7 @@
   <span class="home">
     home
   </span>
-  <span class="prev">
+  <span class="next">
     next
   </span>
 </div>
