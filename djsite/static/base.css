@@ -23,7 +23,7 @@ a:focus {
 
 body {
     font-family: "adobe-garamond-pro-1", "adobe-garamond-pro-2", serif;
-    font-size: 15px;
+    font-size: 16px;
     background: #eeeeee;
 }
 
@@ -111,7 +111,6 @@ body {
 
 h1 {
     font-family: "europa-1", "europa-2", sans-serif;
-    font-weight: 300;
     font-size: 20px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
@@ -142,7 +141,7 @@ h1 {
 }
 
 .blog_title {
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -152,7 +151,7 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /****************************** POST **********************************/
