@@ -156,13 +156,11 @@ h1 {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    word-wrap: normal;
-    max-width: 50%;
+    display: block;
 }
 
 .blog_info {
     float: right;
-    display: inline-block;
     margin-left: 5px;
 }
 
