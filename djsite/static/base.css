@@ -44,16 +44,14 @@ body {
     float: right;
 }
 
-#nav ul {
+#nav {
     padding-top: 7px;
 }
 
-#nav li {
-    display: inline; 
-    list-style: none;
-    margin-right: 10px;
+#nav span {
     font-size: 13px;
     text-transform: uppercase;
+    color: #888888;
 }
 
 #nav a:link, #nav a:visited {
@@ -135,7 +133,7 @@ h1 {
 }
 
 .blog_title {
-    font-size: 16px;
+    font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

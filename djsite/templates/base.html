@@ -12,13 +12,11 @@
       <div id="header_content">
 	<div id="name">a.p.r.</div>
 	<div id="nav">
-	  <ul>
-	    <li {% block nav_blog %}{% endblock %}><a href="/">blog</a></li>
-	    <li {% block nav_work %}{% endblock %}><a href="/work/">work</a></li>
-	    <li {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a></li>
-	    <li {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></li>
+	  <span {% block nav_blog %}{% endblock %}><a href="/">blog</a> &mdash; </span>
+	  <span {% block nav_work %}{% endblock %}><a href="/work/">work</a> &mdash; </span>
+	  <span {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a> &mdash; </span>
+	  <span {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></span>
 	  </ul>
-	</div>
       </div>
     </div>
 
