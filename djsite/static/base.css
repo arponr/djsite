@@ -46,7 +46,7 @@ body {
 }
 
 #nav {
-    padding-top: 7px;
+    padding-top: 6px;
 }
 
 #nav span {
@@ -103,7 +103,7 @@ body {
 }
 
 h1 {
-    font-family: muli, sans-serif;
+    font-family: europa, sans-serif;
     font-weight: lighter;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -128,7 +128,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: muli, sans-serif;
+    font-family: europa, sans-serif;
     font-weight: lighter;
     overflow: hidden;
     margin-bottom: 20px;
@@ -152,7 +152,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: muli, sans-serif;
+    font-family: europa, sans-serif;
     font-weight: lighter;
     font-size: 13px;
     margin-bottom: 5px;
