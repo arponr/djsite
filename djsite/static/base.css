@@ -45,7 +45,6 @@ body {
 
 #lbracket, #rbracket {
     font-size: 46px;
-    font-weight: 400;
     color: #ffffff;
 }
 
@@ -59,7 +58,6 @@ body {
 
 #name {
     font-size: 26px;
-    font-weight: 400;
     color: #ffffff;
     letter-spacing: 8px;
     margin: 4px -5px 0 0;
@@ -74,7 +72,7 @@ body {
     list-style: none;
     margin: 0 5px 0 5px;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #nav a:link, #nav a:visited {
@@ -127,7 +125,7 @@ body {
 h1 {
     font-family: "lato", sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 19px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
@@ -157,7 +155,7 @@ h1 {
 }
 
 .blog_title {
-    font-size: 15px;
+    font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -167,7 +165,7 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /****************************** POST **********************************/
@@ -175,7 +173,7 @@ h1 {
 .post_info {
     float: right;
     font-family: "lato", sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 
