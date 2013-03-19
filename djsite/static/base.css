@@ -45,6 +45,7 @@ body {
 }
 
 #header_content {
+    font-family: "playfair display", georgia, serif;
     float: left;
 }
 
@@ -62,7 +63,7 @@ body {
 
 #name {
     text-transform: uppercase;
-    font-size: 28px;
+    font-size: 24px;
     color: #000000;
     letter-spacing: 5px;
     margin-top: 4px;
@@ -112,7 +113,7 @@ body {
 }
 
 h1 {
-    font-family: "pt sans", sans serif;
+    font-family: "open sans", sans serif;
     font-weight: normal;
     font-size: 20px;
     border-bottom: 1px solid #cccccc;
@@ -130,7 +131,7 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    font-family: "pt sans", sans serif;
+    font-family: "open sans", sans serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -153,7 +154,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "pt sans", sans serif;
+    font-family: "open sans", sans serif;
     font-size: 13px;
     margin-bottom: 10px;
 }
