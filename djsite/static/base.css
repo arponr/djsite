@@ -167,12 +167,27 @@ h1 {
 
 .post_content {
     clear: both;
-    border-top: 1px solid #cccccc;
+    border: 1px 0 1px 0 solid #cccccc;
 }
 
 .post_content blockquote {
     font-style: italic;
     margin: 0 0 0 30px;
+}
+
+.prev {
+    text-align: left;
+    width: 30%
+}
+
+.home {
+    text-align: center;
+    width: 40%;
+}
+
+.next {
+    text-align: right;
+    width: 30%;
 }
 
 /****************************** RESUME ********************************/

@@ -24,10 +24,9 @@
   <br/>
   categories: 
   {% for c in p.categories.all %}
-  {% if not forloop.last %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-  {% else %}
   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {% if not forloop.last %}
+  , 
   {% endif %}
   {% endfor %}
 </div>
@@ -35,5 +34,16 @@
 <div class="post_content"> 
   {{ p.content|safe }}
 </div>
-<p><a href="/">&larr;</a></p>
+
+<div>
+  <span class="prev">
+    previous post
+  </span>
+  <span class="home">
+    blog home
+  </span>
+  <span class="prev">
+    next post
+  </span>
+</div>
 {% endblock %}
