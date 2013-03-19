@@ -151,7 +151,7 @@ h1 {
     margin-bottom: 15px;
 }
 
-.blog_title a {
+.blog_title {
     font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
