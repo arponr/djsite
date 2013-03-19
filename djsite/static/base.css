@@ -66,13 +66,12 @@ body {
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 6px;
-    margin-top: 2px;
+    margin-top: 3px;
     margin-right: -3px
 }
 
 #nav ul {
-    padding-top: 5px;
-    margin-left: -2px;
+    padding-top: 4px;
 }
 
 #nav li {
@@ -80,7 +79,6 @@ body {
     list-style: none;
     margin: 0 5px 0 5px;
     font-size: 13px;
-    font-weight: 700;
 }
 
 #nav a:link, #nav a:visited {
