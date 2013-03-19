@@ -116,9 +116,9 @@ body {
 }
 
 h1 {
-    font-family: "open sans", sans-serif;
+    font-family: "pt sans", sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 19px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
@@ -128,7 +128,7 @@ h1 {
 
 #about_text {
     text-align: justify;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     z-index: 1;
 }
 
@@ -138,7 +138,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "open sans", sans-serif;
+    font-family: "pt sans", sans-serif;
     overflow: hidden;
     margin-bottom: 15px;
     z-index: 1;
@@ -146,7 +146,7 @@ h1 {
 
 .blog_title a {
     display: block; 
-    font-size: 16px;
+    font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -155,15 +155,13 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 13px;
 }
 
 /****************************** POST **********************************/
 
 .post_info {
     float: right;
-    font-size: 13px;
-    font-family: "open sans", sans-serif;
+    font-family: "pt sans", sans-serif;
     margin-bottom: 5px;
 }
 
