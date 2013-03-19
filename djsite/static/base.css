@@ -17,19 +17,6 @@ body {
     background: #eeeeee;
 }
 
-#robot {
-    position: fixed;
-    height: 80%;
-    min-height: 400px;
-    opacity: .05;
-    z-index: 0;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
 #header_wrapper {
     width: 100%;
     background: #222222;
@@ -103,6 +90,20 @@ body {
     line-height: 150%;
     position: relative;
     z-index: 1;
+}
+
+#robot {
+    position: fixed;
+    height: 90%;
+    min-height: 400px;
+    opacity: .05;
+    z-index: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(/static/robot.jpg) center center;
 }
 
 #main a:link, #main a:visited {
