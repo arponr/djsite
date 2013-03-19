@@ -17,6 +17,10 @@ body, h1, div, ul, li {
     vertical-align: baseline;
 }
 
+a:focus {
+    outline: none;
+}
+
 body {
     font-family: "adobe garamond pro", georgia, serif;
     font-size: 16px;
@@ -55,7 +59,7 @@ body {
 .nav li {
     list-style: none;
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .nav a:link, .nav a:visited {
