@@ -48,7 +48,7 @@ body {
 #nav {
     padding-top: 6px;
     font-family: europa, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #888888;
 }
@@ -102,8 +102,8 @@ body {
 
 h1 {
     font-family: europa, sans-serif;
-    font-weight: lighter;
-    font-size: 24px;
+    font-weight: light;
+    font-size: 20px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
@@ -132,7 +132,7 @@ h1 {
 }
 
 .blog_title {
-    font-size: 15px;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
