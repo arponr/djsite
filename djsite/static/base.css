@@ -129,10 +129,11 @@ h1 {
     font-family: europa, sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
+    width: 48%;
 }
 
 .blog_title {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
     overflow: hidden;
     text-overflow: ellipsis;
