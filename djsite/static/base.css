@@ -12,7 +12,7 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "hiragino mincho pro", serif;
+    font-family: "pt serif", georgia, serif;
     font-size: 13px;
     background: #eeeeee;
 }
@@ -112,7 +112,7 @@ body {
 }
 
 h1 {
-    font-family: "hiragino kaku gothic pro";
+    font-family: "pt sans", sans serif;
     font-weight: normal;
     font-size: 16px;
     border-bottom: 1px solid #cccccc;
@@ -130,7 +130,7 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    font-family: "hiragino kaku gothic pro";
+    font-family: "pt sans", sans serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -153,7 +153,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "hiragino kaku gothic pro";
+    font-family: "pt sans", sans serif;
     font-size: 12px;
     margin-bottom: 10px;
 }

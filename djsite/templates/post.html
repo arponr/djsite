@@ -22,7 +22,7 @@
   edited: {{ p.edited|date:"j M Y, P" }}
   {% endif %}
   <br/>
-  category: 
+  categories: 
   {% for c in p.categories.all %}
   {% if not forloop.last %}
   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
