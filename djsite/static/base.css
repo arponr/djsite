@@ -135,7 +135,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: europa, sans-serif;
+    font-family: "Europa", sans-serif;
     overflow: hidden;
     margin-bottom: 10px;
     width: 48%;
@@ -159,7 +159,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: europa, sans-serif;
+    font-family: "Europa", sans-serif;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 135%;
