@@ -113,7 +113,7 @@ body {
 }
 
 h1 {
-    font-family: "open sans", sans-serif;
+    font-family: "hiragino kaku gothic pro", sans-serif;
     font-weight: normal;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -131,7 +131,7 @@ h1 {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    font-family: "open sans", sans-serif;
+    font-family: "hiragino kaku gothic pro", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -154,7 +154,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "open sans", sans-serif;
+    font-family: "hiragino kaku gothic pro", sans-serif;
     font-size: 13px;
     margin-bottom: 10px;
 }
