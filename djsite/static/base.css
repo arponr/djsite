@@ -45,15 +45,20 @@ body {
     float: right;
 }
 
-#nav {
+.nav {
     padding-top: 7px;
     font-family: europa, sans-serif;
     font-size: 12px;
-    text-transform: uppercase;
-    color: #888888;
+    text-transform: uppercase; 
 }
 
-#nav a:link, #nav a:visited {
+.nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav a:link, .nav a:visited {
     text-decoration: none;
     color: #888888;
     -webkit-transition-duration: 0.25s;
@@ -61,7 +66,7 @@ body {
     transition-duration: 0.25s;
 }
 
-#cur a:link, #cur a:visited, #nav a:hover {
+#cur a:link, #cur a:visited, .nav a:hover {
     color: #ffffff;
 }
 
