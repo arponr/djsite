@@ -31,13 +31,13 @@ body {
 }
 
 #header {
+    font-family: "josefin sans", sans-serif;
+    text-transform: uppercase;
     margin: 0 auto;
     display: inline-block;
 }
 
 #header_content {
-    font-family: "josefin sans", sans-serif;
-    text-transform: uppercase;
     float: left;
 }
 
@@ -123,9 +123,9 @@ body {
 }
 
 h1 {
-    font-family: "pt sans", sans-serif;
+    font-family: "open sans", sans-serif;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 16px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
@@ -149,13 +149,13 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "pt sans", sans-serif;
+    font-family: "open sans", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
 .blog_title {
-    font-size: 17px;
+    font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -165,15 +165,15 @@ h1 {
 .blog_info {
     float: right;
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /****************************** POST **********************************/
 
 .post_info {
     float: right;
-    font-family: "pt sans", sans-serif;
-    font-size: 14px;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
     margin-bottom: 5px;
 }
 
