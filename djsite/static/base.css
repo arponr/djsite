@@ -47,6 +47,8 @@ body {
 
 #nav {
     padding-top: 7px;
+    font-family: futura, sans-serif;
+    font-weight: lighter;
 }
 
 #nav span {
@@ -104,7 +106,7 @@ body {
 
 h1 {
     font-family: futura, ubuntu, sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
@@ -129,6 +131,7 @@ h1 {
 
 .blog_entry {
     font-family: futura, ubuntu, sans-serif;
+    font-weight: lighter;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -152,6 +155,7 @@ h1 {
 .post_info {
     float: right;
     font-family: futura, ubuntu, sans-serif;
+    font-weight: lighter;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 135%;
