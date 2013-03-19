@@ -47,9 +47,7 @@ body {
 
 #nav {
     padding-top: 6px;
-}
-
-#nav span {
+    font-family: europa, sans-serif;
     font-size: 13px;
     text-transform: uppercase;
     color: #888888;
@@ -105,7 +103,7 @@ body {
 h1 {
     font-family: europa, sans-serif;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 24px;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
@@ -129,7 +127,6 @@ h1 {
 
 .blog_entry {
     font-family: europa, sans-serif;
-    font-weight: lighter;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -153,7 +150,6 @@ h1 {
 .post_info {
     float: right;
     font-family: europa, sans-serif;
-    font-weight: lighter;
     font-size: 13px;
     margin-bottom: 5px;
     line-height: 135%;
