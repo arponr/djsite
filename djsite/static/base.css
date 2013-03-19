@@ -31,7 +31,7 @@ body {
     z-index: 2;
 }
 
-#header {
+#header_content {
     width: 480px;
     max-width: 95%;
     margin: 0 auto;
@@ -105,7 +105,7 @@ body {
 }
 
 h1 {
-    font-family: "lato", sans-serif;
+    font-family: "molengo", sans-serif;
     font-weight: normal;
     font-size: 18px;
     border-bottom: 1px solid #cccccc;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .blog_entry {
-    font-family: "lato", sans-serif;
+    font-family: "molengo", sans-serif;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -154,7 +154,7 @@ h1 {
 
 .post_info {
     float: right;
-    font-family: "lato", sans-serif;
+    font-family: "molengo", sans-serif;
     font-size: 12px;
     margin-bottom: 5px;
     line-height: 120%;
