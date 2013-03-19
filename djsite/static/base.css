@@ -136,6 +136,10 @@ h1 {
     margin: 10px 0 0 0;
 }
 
+#about_text p.center {
+    text-align: center;
+}
+
 .blog_entry {
     font-family: "pt sans", sans-serif;
     overflow: hidden;
