@@ -20,12 +20,12 @@ body, h1, div, ul, li {
 body {
     font-family: "adobe garamond pro", georgia, serif;
     font-size: 16px;
-    background: #eeeeee;
+    background: #daede2;
 }
 
 #header_wrapper {
     width: 100%;
-    background: #333333;
+    background: #333745;
     padding: 1px 0 1px 0;
     margin-bottom: 20px;
     position: fixed;
