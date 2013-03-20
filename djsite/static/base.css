@@ -79,12 +79,12 @@ body {
     position: fixed;
     width: 190px;
     height: 100%;
-    padding-right: 10px;
+    padding: 15px 10px 0 0;
     border-right: 1px solid #505257;
 }
 
 #title a {
-    font-size: 21px;
+    font-size: 20px;
     color: #ff976e;
     padding-top: 15px;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 #info h1 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal;
 }
 
