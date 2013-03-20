@@ -94,6 +94,7 @@ body {
     padding-top: 7px;
     font-size: 12px;
     text-transform: uppercase; 
+    font-weight: bold;
 }
 
 .nav li {
