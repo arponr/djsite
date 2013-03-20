@@ -60,14 +60,14 @@ body {
 #wrapper {
     width: 640px;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 10px;
     line-height: 140%;
     position: relative;
 }
 
 #header {
     position: fixed;
-    width: 175px;
+    width: 173px;
 }
 
 #title {
@@ -83,7 +83,7 @@ body {
 
 .nav {
     text-align: right;
-    width: 75px;
+    width: 65px;
 }
 
 .nav li {
