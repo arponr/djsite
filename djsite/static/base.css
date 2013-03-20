@@ -84,9 +84,9 @@ body {
 }
 
 #title a {
-    font-size: 20px;
+    font-size: 21px;
     color: #ff976e;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 #name {
@@ -96,19 +96,19 @@ body {
 }
 
 #info {
-    margin-top: 20px;
+    margin-top: 50px;
     line-height: 130%;
 }
 
 #info h1 {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: normal;
 }
 
 .nav {
     text-align: right;
     width: 65px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .nav li {
@@ -133,8 +133,8 @@ body {
     line-height: 140%;
     float: right;
     margin-left: 225px;
+    padding-top: 15px;
 }
-
 
 #content p {
     margin: 0 0 10px 0;
