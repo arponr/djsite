@@ -67,7 +67,7 @@ body {
 
 #header {
     position: fixed;
-    width: 174px;
+    width: 175px;
 }
 
 #title {
@@ -77,13 +77,15 @@ body {
 }
 
 #name {
-    font-size: 14px;
+    font-size: 15px;
     text-align: right;
+    margin-right: 3px;
 }
 
 .nav {
     text-align: right;
     width: 65px;
+    margin-top: 10px;
 }
 
 .nav li {
