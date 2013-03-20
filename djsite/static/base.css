@@ -103,7 +103,7 @@ body {
 }
 
 #cur a:link, #cur a:visited, .nav a:hover {
-    background: #595e63;
+    color: #fff6e5;
 }
 
 #robot {
@@ -128,15 +128,13 @@ body {
 }
 
 #main a:hover {
-    color: #fff6e5;
+    background: #505257;
 }
 
 h1 {
     font-size: 16px;
     font-weight: normal;
-    border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
-    margin: 12px 0 5px 0;
 }
 
 /****************************** BLOG ***********************************/
@@ -179,7 +177,7 @@ h1 {
 
 .post_data {
     position: fixed;
-    margin-top: 150px;
+    margin-top: 170px;
     width: 190px;
 }
 
