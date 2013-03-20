@@ -154,7 +154,7 @@ p {
     margin-bottom: 10px;
 }
 
-.blog_title a {
+.blog_title {
     font-size: 13px;
     overflow: hidden;
     text-overflow: ellipsis;
