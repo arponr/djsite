@@ -142,7 +142,6 @@ p {
     float: right;
     margin-left: 225px;
     padding: 15px 0 10px 0;
-    position: relative;
 }
 
 #content blockquote {
@@ -164,7 +163,6 @@ p {
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-    float: left;
 }
 
 .blog_info {
