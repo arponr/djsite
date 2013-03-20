@@ -103,7 +103,7 @@ body {
 }
 
 #cur a:link, #cur a:visited, .nav a:hover {
-    color: #fff6e5;
+    background: #595e63;
 }
 
 #robot {
