@@ -53,13 +53,13 @@ a:focus {
 body {
     font-family: "LMSans", sans-serif;
     font-size: 13px;
-    background: #4c4c49;
+    background: #48494c;
     color: #fff6e5;
 }
 
 #header_wrapper {
     width: 100%;
-    background: #4c4c49;
+    background: #48494c;
     padding: 3px 0 3px 0;
     padding-bottom: 30px;
     position: fixed;
@@ -74,7 +74,7 @@ body {
 
 #name {
     font-size: 16px;
-    color: #ffffff;
+    color: #ff976e;
 }
 
 .nav {
@@ -100,7 +100,7 @@ body {
 }
 
 #cur a:link, #cur a:visited, .nav a:hover {
-    color: #ffffff;
+    color: #fff6e5;
 }
 
 #main {
@@ -127,7 +127,7 @@ body {
 }
 
 #main a:link, #main a:visited {
-    color: #ff7f66;
+    color: #ff976e;
     text-decoration: none;
     -webkit-transition-duration: 0.25s;
     -moz-transition-duration: 0.25s;
@@ -135,7 +135,7 @@ body {
 }
 
 #main a:hover {
-    color: #ffffff;
+    color: #fff6e5;
 }
 
 h1 {
