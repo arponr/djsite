@@ -72,11 +72,13 @@ body {
 
 #name {
     font-size: 15px;
+    text-align: right;
 }
 
 #name .title {
     font-size: 20px;
     color: #ff976e;
+    text-align: left;
 }
 
 .nav {
@@ -174,7 +176,7 @@ h1 {
 
 .post_data {
     position: fixed;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 190px;
 }
 
@@ -182,6 +184,10 @@ h1 {
     float: right;
     margin-left: 210px;
     padding-bottom: 10px;
+}
+
+.post_content p {
+    padding: 0 0 10px 0;
 }
 
 .post_content blockquote {
