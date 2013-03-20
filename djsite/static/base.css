@@ -81,7 +81,7 @@ body {
 
 #header {
     position: fixed;
-    width: 175px;
+    width: 190px;
 }
 
 #title {
@@ -94,7 +94,7 @@ body {
 #name {
     font-size: 15px;
     text-align: right;
-    margin-right: 3px;
+    margin-right: 18px;
 }
 
 .nav {
