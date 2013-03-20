@@ -53,15 +53,15 @@ a:focus {
 body {
     font-family: "LMSans", sans-serif;
     font-size: 13px;
-    background: #3e454c;
+    background: #4b484c;
     color: #fff6e5;
 }
 
 #header_wrapper {
     width: 100%;
-    background: #3e454c;
+    background: #4b484c;
     padding: 3px 0 3px 0;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
     position: fixed;
     z-index: 2;
 }
