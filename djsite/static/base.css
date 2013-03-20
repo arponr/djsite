@@ -9,7 +9,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "latin modern sans italic";
+    font-family: "latin modern sans";
     src: local("latin modern sans italic"), url("lmsans10-italic-webfont.ttf"),
     url("static/fonts/lmsans10-oblique-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-oblique-webfont.woff") format("woff"),
@@ -19,7 +19,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "latin modern sans bold";
+    font-family: "latin modern sans";
     src: local("latin modern sans bold"), url("lmsans10-bold-webfont.ttf"),
     url("static/fonts/lmsans10-bold-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-bold-webfont.woff") format("woff"),
@@ -29,7 +29,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: "latin modern sans bold italic";
+    font-family: "latin modern sans";
     src: local("latin modern sans bold italic"), url("lmsans10-boldoblique-webfont.ttf"),
     url("static/fonts/lmsans10-boldoblique-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-boldoblique-webfont.woff") format("woff"),
@@ -56,7 +56,6 @@ body, h1, div, ul, li {
     border: 0;
     outline: 0;
     vertical-align: baseline;
-    font-weight: normal;
     text-shadow: none;
 }
 
