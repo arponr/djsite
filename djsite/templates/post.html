@@ -13,6 +13,9 @@
 {% endblock %}
 
 {% block main %}
+<div class="post_content"> 
+  {{ p.content|safe }}
+</div>
 <div class="post_data">
   <h1>{{ p.title }}</h1>
 
@@ -30,9 +33,5 @@
   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a> 
   {% endif %}
   {% endfor %}
-</div>
-
-<div class="post_content"> 
-  {{ p.content|safe }}
 </div>
 {% endblock %}
