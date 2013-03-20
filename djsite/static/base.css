@@ -60,6 +60,7 @@ body {
 #wrapper {
     width: 700px;
     margin: 0 auto;
+    padding-top: 5px;
     line-height: 140%;
     position: relative;
 }
@@ -173,12 +174,11 @@ h1 {
 
 .post_data {
     position: fixed;
-    width: 190px;
 }
 
 .post_content {
     float: right;
-    margin-left: 210px;
+    margin-left: 300px;
     padding-bottom: 10px;
 }
 
