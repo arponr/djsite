@@ -86,7 +86,7 @@ body {
 #title a {
     font-size: 20px;
     color: #ff976e;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
 }
 
 #name {
@@ -103,7 +103,7 @@ body {
 #info h1 {
     font-size: 17px;
     font-weight: normal;
-    padding-bottom: 1px
+    padding-bottom: 2px;
 }
 
 .nav {
