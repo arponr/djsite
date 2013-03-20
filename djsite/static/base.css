@@ -86,8 +86,8 @@ body {
 .nav li {
     list-style: none;
     display: inline;
-    margin-left: 12px;
-    margin-right: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .nav a:link, .nav a:visited {
