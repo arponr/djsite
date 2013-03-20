@@ -13,9 +13,9 @@
 {% endblock %}
 
 {% block main %}
-<h1>{{ p.title }}</h1>
+<div class="post_data">
+  <h1>{{ p.title }}</h1>
 
-<div class="post_info">
   created: {{ p.created|date:"j M Y, P" }}
   {% if p.edited %}
   <br/>
@@ -34,17 +34,5 @@
 
 <div class="post_content"> 
   {{ p.content|safe }}
-</div>
-
-<div>
-  <span class="prev">
-    prev
-  </span>
-  <span class="home">
-    home
-  </span>
-  <span class="next">
-    next
-  </span>
 </div>
 {% endblock %}

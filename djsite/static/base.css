@@ -2,6 +2,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%; 
     -ms-text-size-adjust: 100%;
+    margin-bottom: 1px;
 }
 
 html, body {
@@ -43,7 +44,7 @@ body {
 }
 
 #name {
-    font-family: "unifrakturmaguntia", sans-serif;
+    font-family: "cabazon-1", "cabazon-2", sans-serif;
     font-size: 26px;
     color: #ffffff;
     float: right;
@@ -157,18 +158,10 @@ h1 {
 
 /****************************** POST **********************************/
 
-.post_info {
-    float: right;
+.post_data {
+    width: 30%;
+    float: left;
     font-family: "europa-1", "europa-2", sans-serif;
-    font-size: 13px;
-    margin-bottom: 5px;
-    line-height: 135%;
-}
-
-.post_content {
-    clear: both;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid #cccccc;
 }
 
 .post_content blockquote {
