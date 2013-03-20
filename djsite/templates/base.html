@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <div id="main">
+    <div id="wrapper">
       <div id="header">
 	<div id="name"><span class="title">H&#42;(OKUM;OLOGY)</span>, by Arpon Raksit</div>
 
@@ -20,8 +20,9 @@
 	</ul>  
       </div>
 
-
-      {% block main %}{% endblock %}
+      <div id="main">
+	{% block main %}{% endblock %}
+      </div>
     </div>
   </body>
 </html>
