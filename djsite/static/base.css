@@ -57,19 +57,16 @@ body {
     color: #fff6e5;
 }
 
-#header_wrapper {
-    width: 100%;
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
     background: #48494c;
-    padding: 3px 0 3px 0;
-    padding-bottom: 30px;
-    position: fixed;
-    z-index: 2;
 }
 
 #header {
-    width: 640px;
-    max-width: 95%;
-    margin: 0 auto;
+    float: left;
+    position: fixed;
+    width: 300px;
 }
 
 #name {
