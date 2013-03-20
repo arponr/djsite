@@ -136,8 +136,7 @@ p {
 }
 
 #content {
-    width: 415px;
-    max-width: 65%;
+    width: 64%;
     line-height: 140%;
     float: right;
     margin-left: 225px;
