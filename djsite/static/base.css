@@ -25,6 +25,7 @@ a:focus {
 body {
     font-family: "futura", "gill sans", "europa-1", "europa-2", serif;
     font-size: 13px;
+    font-weight: 300;
     background: #eeeeee;
 }
 
