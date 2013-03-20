@@ -23,7 +23,7 @@ a:focus {
 
 body {
     font-family: "europa-1", "europa-2", serif;
-    font-size: 15px;
+    font-size: 13px;
     background: #eeeeee;
 }
 
@@ -131,7 +131,7 @@ h1 {
 
 #about_text p.tagline {
     text-align: center;
-    font-style: italic;
+    font-weight: 700;
 }
 
 .blog_entry {
