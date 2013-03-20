@@ -2,11 +2,11 @@ html {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%; 
     -ms-text-size-adjust: 100%;
-    margin-bottom: 1px;
 }
 
 html, body {
     height: 100%;
+    margin-bottom: 1px;
     line-height: 1;
 }
 
@@ -39,18 +39,17 @@ body {
 
 #header {
     width: 640px;
-    max-width: 95%;
     margin: 0 auto;
 }
 
 #name {
-    font-family: "cabazon-1", "cabazon-2", sans-serif;
+    font-family: "UnifrakturMaguntia", sans-serif;
     font-size: 26px;
     color: #ffffff;
-    float: right;
 }
 
 .nav {
+    float: right;
     padding-top: 7px;
     font-family: "europa-1", "europa-2", sans-serif;
     font-size: 12px;
@@ -60,7 +59,7 @@ body {
 .nav li {
     list-style: none;
     display: inline;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .nav a:link, .nav a:visited {
@@ -77,7 +76,6 @@ body {
 
 #main {
     width: 640px;
-    max-width: 95%;
     margin: 0 auto;
     padding-top: 40px;
     line-height: 140%;
@@ -159,8 +157,10 @@ h1 {
 /****************************** POST **********************************/
 
 .post_data {
-    width: 30%;
+    position: fixed;
+    width: 28%;
     float: left;
+    margin-right: 2%;
     font-family: "europa-1", "europa-2", sans-serif;
 }
 
