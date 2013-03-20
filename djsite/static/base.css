@@ -150,32 +150,19 @@ p {
 
 /****************************** BLOG ***********************************/
 
-#about_text {
-    margin-bottom: 25px;
-}
-
-#about_text p {
-    padding: 0;
-    margin: 10px 0 0 0;
-}
-
-#about_text p.tagline {
-    text-align: center;
-    font-weight: 700;
-}
-
 .blog_entry {
     overflow: hidden;
     margin-bottom: 10px;
     width: 48%;
 }
 
-.blog_title {
+.blog_title a {
     font-size: 13px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
+    float: left;
 }
 
 .blog_info {
