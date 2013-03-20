@@ -67,7 +67,7 @@ body {
 
 #header {
     position: fixed;
-    width: 300px;
+    width: 190px;
 }
 
 #name {
@@ -86,7 +86,7 @@ body {
     list-style: none;
     text-align; right;
     text-transform: uppercase; 
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .nav a:link, .nav a:visited {
@@ -174,11 +174,13 @@ h1 {
 
 .post_data {
     position: fixed;
+    margin-top: 100px;
+    width: 190px;
 }
 
 .post_content {
     float: right;
-    margin-left: 300px;
+    margin-left: 210px;
     padding-bottom: 10px;
 }
 
