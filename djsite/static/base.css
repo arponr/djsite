@@ -46,10 +46,6 @@ body, h1, div, ul, li {
     text-shadow: none;
 }
 
-a:focus {
-    outline: none;
-}
-
 body {
     font-family: "LMSans", sans-serif;
     font-size: 13px;
@@ -57,14 +53,7 @@ body {
     color: #fff6e5;
 }
 
-#wrapper {
-    width: 640px;
-    max-width: 95%;
-    margin: 0 auto;
-    position: relative;
-}
-
-#wrapper a:link, #wrapper a:visited {
+a:link, a:visited {
     color: #ff976e;
     text-decoration: none;
     -webkit-transition-duration: 0.1s;
@@ -72,8 +61,23 @@ body {
     transition-duration: 0.1s;
 }
 
-#wrapper a:hover {
+a:hover {
     background: #595c63;
+}
+
+a:focus {
+    outline: none;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+#wrapper {
+    width: 640px;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
 }
 
 #sidebar {
@@ -136,11 +140,7 @@ body {
     line-height: 140%;
     float: right;
     margin-left: 225px;
-    padding-top: 15px;
-}
-
-#content p {
-    margin: 0 0 10px 0;
+    padding: 15px 0 10px 0;
 }
 
 #content blockquote {

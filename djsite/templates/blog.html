@@ -2,15 +2,8 @@
 
 {% block nav_blog %}id="cur"{% endblock %}
 
-{% block mathjax %}
-<script type="text/javascript">    
-  MathJax.Hub.Config({extensions: ["tex2jax.js"], "HTML-CSS":{scale: 93}});
-</script>
-{% endblock %}
-
-{% block main %}
-<div id="about_text">
-  <p class="tagline">Yo. I like math, computer science, tennis, music, and fiction.</p>
+{% block info %}
+  <p>Yo. I like math, computer science, tennis, music, and fiction.</p>
 
   <p>The last of these includes film, novels, and the all-mighty television. The second to last includes playing the saxophone.</p>
 
@@ -18,7 +11,9 @@
 
   <p>I'm trying to make myself write some interesting things about the above. Feel free to browse the underwhelming results below.</p>
 </div>
+{% endblock %}
 
+{% block content %}
 {% for p in posts %}
 <div class="blog_entry">
   <div class="blog_info">{{ p.created|date:"j M Y" }}</div>
