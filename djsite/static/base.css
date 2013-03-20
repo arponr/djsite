@@ -1,40 +1,32 @@
 @font-face {
     font-family: "LMSans";
-    src: url("static/fonts/lmsans10-regular-webfont.eot");
+    src: url("static/fonts/lmsans10-regular-webfont.eot?#iefix") format("embedded-opentype"),
     src: url("static/fonts/lmsans10-regular-webfont.woff") format("woff"),
-         url("static/fonts/lmsans10-regular-webfont.otf") format("opentype"),
-         url("static/fonts/lmsans10-regular-webfont.ttf") format("truetype"),
-         url("static/fonts/lmsans10-regular-webfont.svg#LMSansRegular") format("svg");
+         url("static/fonts/lmsans10-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "LMSans";
-    src: url("static/fonts/lmsans10-oblique-webfont.eot");
+    src: url("static/fonts/lmsans10-oblique-webfont.eot?#iefix") format("embedded-opentype"),
     src: url("static/fonts/lmsans10-oblique-webfont.woff") format("woff"),
-         url("static/fonts/lmsans10-oblique-webfont.otf") format("opentype"),
-         url("static/fonts/lmsans10-oblique-webfont.ttf") format("truetype"),
-         url("static/fonts/lmsans10-oblique-webfont.svg#LMSansOblique") format("svg");
+         url("static/fonts/lmsans10-oblique-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: "LMSans";
-    src: url("static/fonts/lmsans10-bold-webfont.eot");
+    src: url("static/fonts/lmsans10-bold-webfont.eot?#iefix") format("embedded-opentype"),
     src: url("static/fonts/lmsans10-bold-webfont.woff") format("woff"),
-         url("static/fonts/lmsans10-bold-webfont.otf") format("opentype"),
-         url("static/fonts/lmsans10-bold-webfont.ttf") format("truetype"),
-         url("static/fonts/lmsans10-bold-webfont.svg#LMSansBold") format("svg");
+         url("static/fonts/lmsans10-bold-webfont.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "LMSans";
-    src: url("static/fonts/lmsans10-boldoblique-webfont.eot");
+    src: url("static/fonts/lmsans10-boldoblique-webfont.eot?#iefix") format("embedded-opentype"),
     src: url("static/fonts/lmsans10-boldoblique-webfont.woff") format("woff"),
-         url("static/fonts/lmsans10-boldoblique-webfont.otf") format("opentype"),
-         url("static/fonts/lmsans10-boldoblique-webfont.ttf") format("truetype"),
-         url("static/fonts/lmsans10-boldoblique-webfont.svg#LMSansBoldOblique") format("svg");
+         url("static/fonts/lmsans10-boldoblique-webfont.ttf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
