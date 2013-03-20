@@ -57,13 +57,11 @@ body {
     color: #fff6e5;
 }
 
-#wrapper {
+#main {
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #48494c;
+    margin: 0 auto;
+    line-height: 140%;
     position: relative;
-    display: block;
 }
 
 #header {
@@ -100,13 +98,6 @@ body {
 
 #cur a:link, #cur a:visited, .nav a:hover {
     color: #fff6e5;
-}
-
-#main {
-    width: 700px;
-    margin: 0 auto;
-    line-height: 140%;
-    position: relative;
 }
 
 #robot {
