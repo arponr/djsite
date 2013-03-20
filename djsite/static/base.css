@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "latin modern sans";
-    src: local("latin modern sans italic"), url("lmsans10-italic-webfont.ttf"),
+    src: local("latin modern sans"), url("lmsans10-italic-webfont.ttf"),
     url("static/fonts/lmsans10-oblique-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-oblique-webfont.woff") format("woff"),
     url("static/fonts/lmsans10-oblique-webfont.otf") format("opentype"),
@@ -20,7 +20,7 @@
 }
 @font-face {
     font-family: "latin modern sans";
-    src: local("latin modern sans bold"), url("lmsans10-bold-webfont.ttf"),
+    src: local("latin modern sans"), url("lmsans10-bold-webfont.ttf"),
     url("static/fonts/lmsans10-bold-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-bold-webfont.woff") format("woff"),
     url("static/fonts/lmsans10-bold-webfont.otf") format("opentype"),
@@ -30,7 +30,7 @@
 }
 @font-face {
     font-family: "latin modern sans";
-    src: local("latin modern sans bold italic"), url("lmsans10-boldoblique-webfont.ttf"),
+    src: local("latin modern sans"), url("lmsans10-boldoblique-webfont.ttf"),
     url("static/fonts/lmsans10-boldoblique-webfont.eot") format("eot"),
     url("static/fonts/lmsans10-boldoblique-webfont.woff") format("woff"),
     url("static/fonts/lmsans10-boldoblique-webfont.otf") format("opentype"),
@@ -153,6 +153,7 @@ body {
 
 h1 {
     font-size: 18px;
+    font-weight: normal;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
