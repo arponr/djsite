@@ -91,14 +91,10 @@ body {
     padding: 0 8px 0 8px;
 }
 
-.paren {
-    top: -10px;
-}
-
 #name {
     font-size: 15px;
     text-align: right;
-    margin-right: 18px;
+    margin-right: 15px;
 }
 
 .nav {
@@ -115,14 +111,14 @@ body {
 
 .nav a:link, .nav a:visited {
     text-decoration: none;
-    color: #888888;
+    color: #888888 !important;
     -webkit-transition-duration: 0.25s;
     -moz-transition-duration: 0.25s;
     transition-duration: 0.25s;
 }
 
-#cur a:link, #cur a:visited, .nav a:hover {
-    color: #fff6e5;
+#cur a:link, #cur a:visited {
+    color: #fff6e5 !important;
 }
 
 #robot {
@@ -189,9 +185,9 @@ h1 {
 
 .post_content {
     float: right;
-    margin-left: 200px;
-    padding: 0 0 10px 10px;
-    border-left: 1px solid #595c63;
+    margin-left: 195px;
+    padding: 0 0 10px 14px;
+    border-left: 1px solid #505257;
 }
 
 .post_content p {
