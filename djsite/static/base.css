@@ -99,7 +99,7 @@ body {
 #cur a:link, #cur a:visited, .nav a:hover {
     color: #fff6e5;
 }
-
+/*
 #main {
     width: 640px;
     max-width: 95%;
@@ -109,7 +109,7 @@ body {
     position: relative;
     z-index: 1;
 }
-
+*/
 #robot {
     position: fixed;
     z-index: -1;
