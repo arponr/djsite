@@ -160,7 +160,7 @@ h1 {
 
 .post_data {
     position: fixed;
-    width: 25%
+    max-width: 20%
     font-family: "europa-1", "europa-2", sans-serif;
 }
 
