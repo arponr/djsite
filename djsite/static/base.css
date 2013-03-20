@@ -1,40 +1,36 @@
 @font-face {
     font-family: "latin modern sans";
-    src: url("type/lmsans10-regular-webfont.eot");
-    src: local("☺"),
-    url("type/lmsans10-regular-webfont.woff") format("woff"),
-    url("type/lmsans10-regular-webfont.otf") format("opentype"),
-    url("type/lmsans10-regular-webfont.svg#lmsans10-regular-webfont") format("svg");
+    src: url("static/fonts/lmsans10-regular-webfont.eot") format("eot"),
+    url("static/fonts/lmsans10-regular-webfont.woff") format("woff"),
+    url("static/fonts/lmsans10-regular-webfont.otf") format("opentype"),
+    url("static/fonts/lmsans10-regular-webfont.svg#lmsans10-regular-webfont") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "latin modern sans italic";
-    src: url("type/lmsans10-oblique-webfont.eot");
-    src: local("☺"),
-    url("type/lmsans10-oblique-webfont.woff") format("woff"),
-    url("type/lmsans10-oblique-webfont.otf") format("opentype"),
-    url("type/lmsans10-oblique-webfont.svg#lmsans10-oblique-webfont") format("svg");
+    src: url("static/fonts/lmsans10-oblique-webfont.eot") format("eot"),
+         url("static/fonts/lmsans10-oblique-webfont.woff") format("woff"),
+         url("static/fonts/lmsans10-oblique-webfont.otf") format("opentype"),
+         url("static/fonts/lmsans10-oblique-webfont.svg#lmsans10-oblique-webfont") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "latin modern sans bold";
-    src: url("type/lmsans10-bold-webfont.eot");
-    src: local("☺"),
-    url("type/lmsans10-bold-webfont.woff") format("woff"),
-    url("type/lmsans10-bold-webfont.otf") format("opentype"),
-    url("type/lmsans10-bold-webfont.svg#lmsans10-bold-webfont") format("svg");
+    src: url("static/fonts/lmsans10-bold-webfont.eot") format("eot"),
+         url("static/fonts/lmsans10-bold-webfont.woff") format("woff"),
+         url("static/fonts/lmsans10-bold-webfont.otf") format("opentype"),
+         url("static/fonts/lmsans10-bold-webfont.svg#lmsans10-bold-webfont") format("svg");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "latin modern sans bold italic";
-    src: url("type/lmsans10-boldoblique-webfont.eot");
-    src: local("☺"),
-    url("type/lmsans10-boldoblique-webfont.woff") format("woff"),
-    url("type/lmsans10-boldoblique-webfont.otf") format("opentype"),
-    url("type/lmsans10-boldoblique-webfont.svg#lmsans10-boldoblique-webfont") format("svg");
+    src: url("static/fonts/lmsans10-boldoblique-webfont.eot") format("eot"),
+         url("static/fonts/lmsans10-boldoblique-webfont.woff") format("woff"),
+         url("static/fonts/lmsans10-boldoblique-webfont.otf") format("opentype"),
+         url("static/fonts/lmsans10-boldoblique-webfont.svg#lmsans10-boldoblique-webfont") format("svg");
     font-weight: bold;
     font-style: italic;
 }
@@ -64,7 +60,7 @@ a:focus {
 
 body {
     font-family: "latin modern sans", sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     background: #eeeeee;
 }
 
