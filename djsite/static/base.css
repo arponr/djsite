@@ -163,6 +163,7 @@ h1 {
 .post_content {
     float: right;
     margin-left: 200px;
+    padding-bottom: 30px;
 }
 
 .post_content blockquote {
