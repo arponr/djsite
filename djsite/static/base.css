@@ -38,7 +38,7 @@ body {
 }
 
 #header {
-    width: 520px;
+    width: 640px;
     max-width: 95%;
     margin: 0 auto;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 #main {
-    width: 520px;
+    width: 640px;
     max-width: 95%;
     margin: 0 auto;
     padding-top: 40px;
@@ -162,6 +162,10 @@ h1 {
     width: 30%;
     float: left;
     font-family: "europa-1", "europa-2", sans-serif;
+}
+
+.post_content {
+    float: right;
 }
 
 .post_content blockquote {
