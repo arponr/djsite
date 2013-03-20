@@ -56,6 +56,8 @@ body, h1, div, ul, li {
     border: 0;
     outline: 0;
     vertical-align: baseline;
+    font-weight: normal;
+    text-shadow: none;
 }
 
 a:focus {
@@ -152,7 +154,6 @@ body {
 
 h1 {
     font-size: 18px;
-    font-weight: lighter;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin: 12px 0 5px 0;
