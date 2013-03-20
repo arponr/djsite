@@ -78,15 +78,15 @@ body {
 
 .nav {
     float: right;
-    padding-top: 1px;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase; 
 }
 
 .nav li {
     list-style: none;
     display: inline;
-    margin-left: 15px;
+    margin-left: 12px;
+    margin-right: 3px;
 }
 
 .nav a:link, .nav a:visited {
