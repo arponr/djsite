@@ -163,8 +163,8 @@ p {
 }
 
 .blog_info {
-    float: right;
-    margin-left: 5px;
+    float: left;
+    margin-right: 10px;
     font-size: 13px;
 }
 
