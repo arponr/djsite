@@ -84,17 +84,21 @@ body {
     width: 190px;
 }
 
-#title {
+#title a {
     font-size: 20px;
     color: #ff976e;
     text-align: left;
     padding: 0 8px 0 8px;
 }
 
+.paren {
+    top: -1px;
+}
+
 #name {
     font-size: 15px;
     text-align: right;
-    margin-right: 18px;
+    margin: 1px 18px 0 0;
 }
 
 .nav {
