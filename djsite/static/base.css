@@ -59,9 +59,11 @@ body {
 
 #wrapper {
     width: 700px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     background: #48494c;
     position: relative;
+    display: block;
 }
 
 #header {
