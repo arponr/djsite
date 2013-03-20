@@ -65,6 +65,20 @@ body {
     position: relative;
 }
 
+
+#wrapper a:link, #wrapper a:visited {
+    color: #ff976e;
+    text-decoration: none;
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+#wrapper a:hover {
+    background: #595c63;
+}
+
+
 #header {
     position: fixed;
     width: 175px;
@@ -74,6 +88,7 @@ body {
     font-size: 20px;
     color: #ff976e;
     text-align: left;
+    padding: 0 8px 0 8px;
 }
 
 #name {
@@ -119,22 +134,9 @@ body {
     opacity: .05;
 }
 
-#main a:link, #main a:visited {
-    color: #ff976e;
-    text-decoration: none;
-    -webkit-transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    transition-duration: 0.25s;
-}
-
-#main a:hover {
-    background: #505257;
-}
-
 h1 {
     font-size: 16px;
     font-weight: normal;
-    padding-bottom: 5px;
 }
 
 /****************************** BLOG ***********************************/
