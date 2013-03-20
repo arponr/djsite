@@ -91,6 +91,10 @@ body {
     padding: 0 8px 0 8px;
 }
 
+.paren {
+    baseline-shift: 10px;
+}
+
 #name {
     font-size: 15px;
     text-align: right;
@@ -185,8 +189,8 @@ h1 {
 
 .post_content {
     float: right;
-    margin-left: 195px;
-    padding: 0 0 10px 14px;
+    margin-left: 200px;
+    padding: 0 0 10px 15px;
     border-left: 1px solid #505257;
 }
 
