@@ -132,7 +132,7 @@ body {
 }
 
 #content {
-    max-width: 65%
+    max-width: 65%;
     line-height: 140%;
     float: right;
     margin-left: 225px;
