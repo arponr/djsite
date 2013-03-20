@@ -70,7 +70,7 @@ body {
     width: 170px;
 }
 
-.title {
+#title {
     font-size: 20px;
     color: #ff976e;
     text-align: left;
@@ -83,6 +83,7 @@ body {
 
 .nav {
     text-align: right;
+    width: 50px;
 }
 
 .nav li {
@@ -129,7 +130,7 @@ body {
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
