@@ -67,7 +67,13 @@ body {
 
 #header {
     position: fixed;
-    width: 190px;
+    width: 170px;
+}
+
+.title {
+    font-size: 20px;
+    color: #ff976e;
+    text-align: left;
 }
 
 #name {
@@ -75,18 +81,12 @@ body {
     text-align: right;
 }
 
-#name .title {
-    font-size: 20px;
-    color: #ff976e;
-    text-align: left;
-}
-
 .nav {
+    text-align: right;
 }
 
 .nav li {
     list-style: none;
-    text-align; right;
     text-transform: uppercase; 
     margin-top: 5px;
 }
