@@ -65,7 +65,6 @@ body {
 }
 
 #header {
-    float: left;
     position: fixed;
     width: 300px;
 }
