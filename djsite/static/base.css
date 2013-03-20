@@ -63,8 +63,8 @@ a:focus {
 }
 
 body {
-    font-family: "latin modern sans", "europa-1", "europa-2", serif;
-    font-size: 14px;
+    font-family: "latin modern sans", sans-serif;
+    font-size: 13px;
     background: #eeeeee;
 }
 
