@@ -60,11 +60,8 @@ body {
 #wrapper {
     width: 640px;
     margin: 0 auto;
-    padding-top: 15px;
-    line-height: 140%;
     position: relative;
 }
-
 
 #wrapper a:link, #wrapper a:visited {
     color: #ff976e;
@@ -78,39 +75,45 @@ body {
     background: #595c63;
 }
 
-
-#header {
+#sidebar {
     position: fixed;
     width: 190px;
+    padding-right: 10px;
+    border-right: 1px solid #505257;
 }
 
 #title a {
     font-size: 20px;
     color: #ff976e;
-    text-align: left;
-    padding: 0 8px 0 8px;
-}
-
-.paren {
-    baseline-shift: 10px;
+    margin-top: 15px;
 }
 
 #name {
     font-size: 15px;
     text-align: right;
-    margin-right: 15px;
+    margin-right: 20px;
+}
+
+#info {
+    margin-top: 20px;
+    line-height: 130%;
+}
+
+#info h1 {
+    font-size: 15px;
+    font-weight: normal;
 }
 
 .nav {
     text-align: right;
     width: 65px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .nav li {
     list-style: none;
     text-transform: uppercase; 
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .nav a:link, .nav a:visited {
@@ -125,22 +128,20 @@ body {
     color: #fff6e5 !important;
 }
 
-#robot {
-    position: fixed;
-    z-index: -1;
-    height: 90%;
-    min-height: 400px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 35px auto 0 auto;
-    opacity: .05;
+#content {
+    line-height: 140%;
+    float: right;
+    margin-left: 225px;
 }
 
-h1 {
-    font-size: 16px;
-    font-weight: normal;
+
+#content p {
+    margin: 0 0 10px 0;
+}
+
+#content blockquote {
+    font-style: italic;
+    margin: 0 0 0 30px;
 }
 
 /****************************** BLOG ***********************************/
@@ -178,31 +179,6 @@ h1 {
     margin-left: 5px;
     font-size: 13px;
 }
-
-/****************************** POST **********************************/
-
-.post_data {
-    position: fixed;
-    margin-top: 170px;
-    width: 190px;
-}
-
-.post_content {
-    float: right;
-    margin-left: 200px;
-    padding: 0 0 10px 15px;
-    border-left: 1px solid #505257;
-}
-
-.post_content p {
-    margin: 0 0 10px 0;
-}
-
-.post_content blockquote {
-    font-style: italic;
-    margin: 0 0 0 30px;
-}
-
 
 /****************************** RESUME ********************************/
 

@@ -9,20 +9,24 @@
 
   <body>
     <div id="wrapper">
-      <div id="header">
+      <div id="sidebar">
 	<div id="title"><a href="/">H&#42;<span class="paren">(</span>OKUM;OLOGY<span class="paren">)</span></a></div>
 	
 	<div id="name">by Arpon Raksit</div>
+
+	<div id="info">
+	  {% block info %}{% endblock %}
+	</div>
 
 	<ul class="nav">
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">projects</a></li>
 	  <li {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a></li>
 	  <li {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></li>
-	</ul>  
+	</ul> 
       </div>
 
-      <div id="main">
-	{% block main %}{% endblock %}
+      <div id="content">
+	{% block content %}{% endblock %}
       </div>
     </div>
   </body>
