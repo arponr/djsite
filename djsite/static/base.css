@@ -153,6 +153,7 @@ p {
 .post_title {
     font-size: 17px;
     padding-bottom: 2px;
+    text-align: right;
 }
 
 /****************************** RESUME ********************************/
