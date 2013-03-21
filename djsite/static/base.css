@@ -130,15 +130,14 @@ p {
 }
 
 #main {
-    float: right;
     width: 40%;
     max-width: 410px;
     position: relative;
 }
 
 #content {
-    float: left;
     margin-left: 15px;
+    line-height: 155%;
 }
 
 #content blockquote {
