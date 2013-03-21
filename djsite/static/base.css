@@ -49,16 +49,14 @@ body, h1, div, ul, li {
 body {
     font-family: "LMSans", sans-serif;
     font-size: 13px;
-    background: #48494c;
+    background: #3e454c;
     color: #fff6e5;
 }
 
 a:link, a:visited {
-    color: #ff976e;
+    color: #ff7f66;
     text-decoration: none;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
+    padding: 2px 0 2px 0;
 }
 
 a:hover {
@@ -91,7 +89,7 @@ p {
 
 #title a {
     font-size: 20px;
-    color: #ff976e;
+    color: #ff7f66;
     padding-bottom: 2px;
 }
 
@@ -125,15 +123,7 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    text-decoration: none;
     color: #898c93 !important;
-    -webkit-transition-duration: 0.25s;
-    -moz-transition-duration: 0.25s;
-    transition-duration: 0.25s;
-}
-
-#cur a:link, #cur a:visited {
-    color: #fff6e5 !important;
 }
 
 #content {
