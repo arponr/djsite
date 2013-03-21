@@ -105,6 +105,12 @@ p {
     line-height: 130%;
 }
 
+#info h1 {
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #95c4af;
+}
+
 .nav {
     text-align: right;
     width: 65px;
@@ -146,14 +152,6 @@ p {
 .blog_info {
     float: left;
     width: 90px;
-}
-
-/****************************** POST ***********************************/
-
-.post_title {
-    font-size: 15px;
-    padding-bottom: 3px;
-    color: #95c4af;
 }
 
 /****************************** RESUME ********************************/

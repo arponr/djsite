@@ -13,26 +13,22 @@
 {% endblock %}
 
 {% block info %}
-<div class="post_title">
-  {{ p.title }}
-</div>
+<h1>{{ p.title }}</h1>
 
-<div class="post_info">
-  created: {{ p.created|date:"j M Y, P" }}
-  {% if p.edited %}
-  <br/>
-  edited: {{ p.edited|date:"j M Y, P" }}
-  {% endif %}
-  <br/>
-  categories: 
-  {% for c in p.categories.all %}
-  {% if not forloop.last %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-  {% else %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a> 
-  {% endif %}
-  {% endfor %}
-</div>
+created: {{ p.created|date:"j M Y, P" }}
+{% if p.edited %}
+<br/>
+edited: {{ p.edited|date:"j M Y, P" }}
+{% endif %}
+<br/>
+categories: 
+{% for c in p.categories.all %}
+{% if not forloop.last %}
+<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+{% else %}
+<a href="{{ c.get_absolute_url }}">{{ c.name }}</a> 
+{% endif %}
+{% endfor %}
 {% endblock %}
 
 {% block content %}
