@@ -91,6 +91,7 @@ p {
     font-size: 18px;
     color: #ffb0a1 !important;
     letter-spacing: 1px;
+    text-transform: lowercase;
 }
 
 #name {
