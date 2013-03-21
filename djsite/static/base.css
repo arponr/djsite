@@ -54,13 +54,13 @@ body {
 }
 
 a:link, a:visited {
-    color: #ff9782;
+    color: #ff8c75;
     text-decoration: none;
     padding: 0 0 1px 0;
 }
 
 a:hover {
-    background: #54d66;
+    background: #545d66;
 }
 
 a:focus {
@@ -84,12 +84,12 @@ p {
     width: 190px;
     height: 100%;
     padding: 15px 10px 0 0;
-    border-right: 1px solid #54d66;
+    border-right: 1px solid #545d66;
 }
 
 #title a {
     font-size: 20px;
-    color: #ff9782;
+    color: #ff8c75;
     padding-bottom: 2px;
 }
 
@@ -123,7 +123,7 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #6892ab !important;
+    color: #718a99 !important;
 }
 
 #content {
