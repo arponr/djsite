@@ -146,13 +146,13 @@ p {
 }
 
 .blog_title {
-    padding-left: 50px;
-    text-indent: -50px;
+    padding-left: 120px;
+    text-indent: -120px;
 }
 
 .blog_info {
     float: left;
-    width: 150px;
+    width: 130px;
     margin-right: 15px;
 }
 
