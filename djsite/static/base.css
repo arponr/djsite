@@ -49,6 +49,7 @@ body {
     font-family: "georgia", serif;
     font-size: 13px;
     color: #000000;
+    background: #eeeeee;
 }
 
 a:link, a:visited {
@@ -113,6 +114,11 @@ p {
     padding: 20px 15px 0 0;
     line-height: 140%;
     font-size: 12px;
+    text-align: right;
+}
+
+#info {
+    width: 180px;
 }
 
 #side_down h1 {
@@ -123,11 +129,12 @@ p {
 }
 
 #content {
-    background: #eeeeee;
     line-height: 155%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
-    height: 100%;
+    float: right;
+    width: 40%;
+    max-width: 410px;
 }
 
 #content blockquote {
