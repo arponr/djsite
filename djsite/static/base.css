@@ -48,7 +48,7 @@ body, h1, div, ul, li {
 body {
     font-family: "georgia", serif;
     font-size: 13px;
-    background: #fefefe;
+    background: #bbbbbb;
     color: #000000;
 }
 
@@ -71,18 +71,16 @@ p {
 
 #side {
     position: fixed;
-    float: left;
     width: 40%;
     min-width: 180px;
     height: 100%;
-    padding: 15px 15px 0 0;
-    border-right: 1px solid #eeeeee;
 }
 
 #side_up {
-    height: 200px;
+    height: 170px;
     background: #666666;
     text-align: right;
+    padding-right: 15px;
 }
 
 #title a {
@@ -111,10 +109,9 @@ p {
 }
 
 #side_down {
-    margin-top: 50px;
+    padding: 20px 15px 0 0;
     line-height: 140%;
     font-size: 12px;
-    background: #aaaaaa;
 }
 
 #side_down h1 {
@@ -129,6 +126,8 @@ p {
     line-height: 155%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
+    float: right;
+    width: 100%;
 }
 
 #content blockquote {
