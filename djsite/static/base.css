@@ -13,10 +13,10 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "cantarell", sans-serif;
+    font-family: "adobe garamond pro", serif;
     font-size: 13px;
     color: #000000;
-    background: #eeeeee;
+    background: #fff6e5;
 }
 
 a:link, a:visited {
@@ -42,18 +42,21 @@ p {
     width: 40%;
     min-width: 180px;
     height: 100%;
-    background: #bbbbbb;
+    background: #ff7f66;
 }
 
 #side_up {
     height: 170px;
-    background: #444444;
+    background: #3e454c;
     text-align: right;
     padding-right: 15px;
 }
 
+#title {
+    margin-top: 25px;
+}
+
 #title a {
-    font-family: "cantarell", sans-serif;
     color: #707070 !important;
     font-weight: 300;
     font-size: 20px;
@@ -67,7 +70,6 @@ p {
 }
 
 .nav {
-    font-family: "cantarell", sans-serif;
     margin-top: 25px;
 }
 
@@ -90,7 +92,6 @@ p {
 }
 
 #side_down h1 {
-    font-family: "cantarell", sans-serif;
     font-size: 13px;
     color: #707070;
     display: inline;
@@ -105,7 +106,7 @@ p {
 #content {
     float: left;
     max-width: 410px;
-    margin-left: 15px;
+    margin: 15px 15px 0 15px;
     line-height: 155%;
 }
 
