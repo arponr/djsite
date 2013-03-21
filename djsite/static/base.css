@@ -46,8 +46,8 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "LMSans", "adobe-garamond-pro", serif;
-    font-size: 13px;
+    font-family: "adobe-garamond-pro", serif;
+    font-size: 15px;
     font-weight: 300;
     background: #3e454c;
     color: #d9d1c3;
