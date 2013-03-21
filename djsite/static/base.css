@@ -97,12 +97,13 @@ p {
 #name {
     font-size: 15px;
     text-align: right;
+    margin-right: 5px;
     padding-top: 5px;
 }
 
 .nav {
     text-align: right;
-    margin: 25px 0 0 0;
+    margin: 25px 5px 0 0;
 }
 
 .nav li {
