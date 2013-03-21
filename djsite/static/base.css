@@ -4,31 +4,31 @@
          url("/static/fonts/lmsans10-regular-webfont.woff") format("woff"),
          url("/static/fonts/lmsans10-regular-webfont.ttf") format("truetype");
     font-weight: normal !important;
-    font-style: normal;
+    font-style: normal; !important
 }
 @font-face {
     font-family: "LMSans";
     src: url("/static/fonts/lmsans10-oblique-webfont.eot?#iefix") format("embedded-opentype"),
          url("/static/fonts/lmsans10-oblique-webfont.woff") format("woff"),
          url("/static/fonts/lmsans10-oblique-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: italic;
+    font-weight: normal !important;
+    font-style: italic !important;
 }
 @font-face {
     font-family: "LMSans";
     src: url("/static/fonts/lmsans10-bold-webfont.eot?#iefix") format("embedded-opentype"),
          url("/static/fonts/lmsans10-bold-webfont.woff") format("woff"),
          url("/static/fonts/lmsans10-bold-webfont.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
+    font-weight: bold !important;
+    font-style: normal !important;
 }
 @font-face {
     font-family: "LMSans";
     src: url("/static/fonts/lmsans10-boldoblique-webfont.eot?#iefix") format("embedded-opentype"),
          url("/static/fonts/lmsans10-boldoblique-webfont.woff") format("woff"),
          url("/static/fonts/lmsans10-boldoblique-webfont.ttf") format("truetype");
-    font-weight: bold;
-    font-style: italic;
+    font-weight: bold !important;
+    font-style: italic !important;
 }
 
 html, body {
@@ -153,6 +153,7 @@ p {
 .post_title {
     font-size: 17px;
     padding-bottom: 3px;
+    color: #86a4b5;
 }
 
 /****************************** RESUME ********************************/
