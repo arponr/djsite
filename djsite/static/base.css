@@ -102,6 +102,7 @@ p {
 
 #info {
     margin-top: 50px;
+    line-height: 130%;
 }
 
 .nav {
@@ -155,7 +156,6 @@ p {
 }
 
 .post_info {
-    line-height: 130%;
     text-align: right;
 }
 
