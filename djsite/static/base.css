@@ -71,6 +71,7 @@ p {
 
 #side {
     position: fixed;
+    float: left;
     width: 40%;
     min-width: 180px;
     height: 100%;
@@ -126,8 +127,6 @@ p {
     line-height: 155%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
-    float: right;
-    width: 60%;
     height: 100%;
 }
 
