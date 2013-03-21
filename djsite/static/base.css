@@ -107,8 +107,9 @@ p {
 
 #info h1 {
     font-size: 15px;
-    padding-bottom: 5px;
+    font-weight: normal;
     color: #95c4af;
+    padding-bottom: 5px;
 }
 
 .nav {
