@@ -47,8 +47,8 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "verdana";
-    font-size: 11px;
+    font-family: "LMSans", sans-serif;
+    font-size: 13px;
     font-weight: 100;
     background: #3e454c;
     color: #fff6e5;
