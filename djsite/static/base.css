@@ -54,7 +54,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #ff8c75;
+    color: #ff907a;
     text-decoration: none;
     padding: 0 0 1px 0;
 }
@@ -89,7 +89,7 @@ p {
 
 #title a {
     font-size: 20px;
-    color: #ff8c75;
+    color: #ff907a;
     padding-bottom: 2px;
 }
 
@@ -123,7 +123,7 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #718a99 !important;
+    color: #86a4b5 !important;
 }
 
 #content {
