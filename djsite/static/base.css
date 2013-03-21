@@ -58,7 +58,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #fafafa;
+    background: #eeeeee;
 }
 
 a:focus {
@@ -125,6 +125,7 @@ p {
 
 #info h1 {
     font-family: "open sans", sans-serif;
+    font-size: 13px;
     color: #707070;
     display: inline;
 }
