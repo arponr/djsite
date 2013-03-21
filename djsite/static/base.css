@@ -130,7 +130,7 @@ p {
 }
 
 #main {
-    float: right;
+    width: 60%;
     max-width: 420px;
 }
 
