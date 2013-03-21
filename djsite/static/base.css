@@ -13,9 +13,8 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "europa", sans-serif;
-    font-size: 13px;
-    font-weight: lighter;
+    font-family: "georgia", sans-serif;
+    font-size: 12px;
     background: #3e454c;
     color: #fff6e5;
 }
