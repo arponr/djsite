@@ -16,11 +16,11 @@ body {
     font-family: "eb garamond", serif;
     font-size: 13px;
     color: #000000;
-    background: #fff6e5;
+    background: #dcfdf0;
 }
 
 a:link, a:visited {
-    color: #888888;
+    color: #cccccc;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ p {
     width: 40%;
     min-width: 180px;
     height: 100%;
-    background: #ff986c;
+    background: #87a3c5;
 }
 
 #side_up {
