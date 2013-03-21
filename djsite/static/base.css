@@ -53,12 +53,12 @@ body {
 }
 
 a:link, a:visited {
-    color: #0066cc;
+    color: #0066bb;
     text-decoration: none;
 }
 
 a:hover {
-    background: #fcfcfc;
+    background: #fafafa;
 }
 
 a:focus {
@@ -87,7 +87,7 @@ p {
 
 #title a {
     font-family: "open sans", sans-serif;
-    color: #999999 !important;
+    color: #888888 !important;
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 2px;
