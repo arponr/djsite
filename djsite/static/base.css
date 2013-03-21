@@ -13,8 +13,8 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "latin modern", sans-serif;
-    font-size: 13px;
+    font-family: sans-serif;
+    font-size: 12px;
     font-weight: 300;
     background: #3e454c;
     color: #fff6e5;
