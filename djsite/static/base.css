@@ -97,7 +97,7 @@ p {
     font-size: 15px;
     text-align: right;
     margin-right: 20px;
-    padding-top: 2px;
+    padding-top: 3px;
 }
 
 #info {
@@ -146,19 +146,14 @@ p {
 }
 
 .blog_title {
-    font-size: 13px;
-    /*
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    display: block;
-    */
+    padding-left: 50px;
+    text-indent: -50px;
 }
 
 .blog_info {
     float: left;
-    margin-right: 10px;
-    font-size: 13px;
+    width: 50px;
+    margin-right: 15px;
 }
 
 /****************************** RESUME ********************************/
