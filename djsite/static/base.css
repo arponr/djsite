@@ -54,7 +54,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #9bccb6;
+    color: #adccbe;
     text-decoration: none;
     padding: 0 0 1px 0;
 }
@@ -89,7 +89,7 @@ p {
 
 #title a {
     font-size: 20px;
-    color: #ff9b87 !important;
+    color: #ffb0a1 !important;
     padding-bottom: 2px;
     letter-spacing: 1px;
 }
@@ -125,7 +125,7 @@ p {
 #info h1 {
     font-size: 15px;
     font-weight: normal;
-    color: #ff9b87;
+    color: #ffb0a1;
     display: inline;
 }
 
