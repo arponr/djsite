@@ -46,20 +46,21 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "europa", sans-serif;
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
     font-size: 13px;
     font-weight: 300;
-    background: #3e454c;
-    color: #d9d1c3;
+    background: #fefefe;
+    color: #000000;
 }
 
 a:link, a:visited {
-    color: #adccbe;
+    color: #888888;
     text-decoration: none;
 }
 
 a:hover {
-    background: #4f5861;
+    background: #eeeeee;
 }
 
 a:focus {
@@ -83,19 +84,19 @@ p {
     width: 190px;
     height: 100%;
     padding: 15px 10px 0 0;
-    border-right: 1px solid #454d54;
+    border-right: 1px solid #eeeeee;
 }
 
 #title a {
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "open sans", serif;
     font-size: 18px;
-    color: #ffb0a1 !important;
+    color: #000000 !important;
     letter-spacing: 1px;
     text-transform: lowercase;
 }
 
 #name {
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "open sans", serif;
     font-size: 15px;
     text-align: right;
     margin-right: 5px;
@@ -103,7 +104,7 @@ p {
 }
 
 .nav {
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "open sans", serif;
     text-align: right;
     margin: 25px 5px 0 0;
 }
@@ -125,10 +126,10 @@ p {
 }
 
 #info h1 {
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "open sans", serif;
     font-size: 15px;
     font-weight: normal;
-    color: #ffb0a1;
+    color: #000000;
     display: inline;
 }
 
