@@ -56,7 +56,6 @@ body {
 a:link, a:visited {
     color: #adccbe;
     text-decoration: none;
-    padding: 0 0 1px 0;
 }
 
 a:hover {
@@ -91,7 +90,6 @@ p {
     font-family: "adobe-garamond-pro", serif;
     font-size: 20px;
     color: #ffb0a1 !important;
-    padding-bottom: 2px;
     letter-spacing: 1px;
 }
 
@@ -127,7 +125,7 @@ p {
 
 #info h1 {
     font-family: "adobe-garamond-pro", serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: normal;
     color: #ffb0a1;
     display: inline;
