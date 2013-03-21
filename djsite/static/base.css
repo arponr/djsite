@@ -47,18 +47,18 @@ body, h1, div, ul, li {
 
 body {
     font-family: "georgia", serif;
-    font-size: 12px;
+    font-size: 13px;
     background: #fefefe;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #888888;
+    color: #005599;
     text-decoration: none;
 }
 
 a:hover {
-    background: #f0f0f0;
+    background: #fcfcfc;
 }
 
 a:focus {
@@ -93,8 +93,6 @@ p {
 }
 
 #name {
-    font-family: "open sans", sans-serif;
-    font-size: 13px;
     text-align: right;
     margin-right: 5px;
     padding-top: 3px;
@@ -120,17 +118,18 @@ p {
 #info {
     margin-top: 50px;
     line-height: 140%;
+    font-size: 12px;
 }
 
 #info h1 {
     font-family: "open sans", sans-serif;
-    font-size: 15px;
-    color: #000000;
+    font-size: 14px;
+    color: #888888;
     display: inline;
 }
 
 #content {
-    line-height: 145%;
+    line-height: 150%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
 }
