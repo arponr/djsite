@@ -13,14 +13,14 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "adobe garamond pro", serif;
+    font-family: "eb garamond", serif;
     font-size: 13px;
     color: #000000;
     background: #fff6e5;
 }
 
 a:link, a:visited {
-    color: #0077aa;
+    color: #888888;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ p {
     width: 40%;
     min-width: 180px;
     height: 100%;
-    background: #ff7f66;
+    background: #ff986c;
 }
 
 #side_up {
@@ -53,19 +53,17 @@ p {
 }
 
 #title {
-    margin-top: 25px;
+    padding-top: 15px;
 }
 
 #title a {
-    color: #707070 !important;
-    font-weight: 300;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: lowercase;
 }
 
 #name {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 3px;
 }
 
