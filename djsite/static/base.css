@@ -97,7 +97,7 @@ p {
     font-size: 15px;
     text-align: right;
     margin-right: 20px;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 #info {
@@ -147,7 +147,6 @@ p {
 
 .blog_title {
     padding-left: 90px;
-    text-indent: -90px;
 }
 
 .blog_info {
