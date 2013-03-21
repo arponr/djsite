@@ -46,10 +46,8 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "open sans", sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-    font-weight: 300;
+    font-family: "georgia", serif;
+    font-size: 12px;
     background: #fefefe;
     color: #000000;
 }
@@ -60,7 +58,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #eeeeee;
+    background: #f0f0f0;
 }
 
 a:focus {
@@ -88,23 +86,22 @@ p {
 }
 
 #title a {
-    font-family: "open sans", serif;
+    font-family: "open sans", sans-serif;
     font-size: 18px;
-    color: #000000 !important;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: lowercase;
 }
 
 #name {
-    font-family: "open sans", serif;
-    font-size: 15px;
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
     text-align: right;
     margin-right: 5px;
     padding-top: 3px;
 }
 
 .nav {
-    font-family: "open sans", serif;
+    font-family: "open sans", sans-serif;
     text-align: right;
     margin: 25px 5px 0 0;
 }
@@ -126,9 +123,8 @@ p {
 }
 
 #info h1 {
-    font-family: "open sans", serif;
+    font-family: "open sans", sans-serif;
     font-size: 15px;
-    font-weight: normal;
     color: #000000;
     display: inline;
 }
