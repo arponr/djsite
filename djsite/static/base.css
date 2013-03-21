@@ -131,10 +131,13 @@ p {
 
 #main {
     width: 60%;
-    max-width: 420px;
+    float: right;
+    position: relative;
 }
 
 #content {
+    float: left;
+    max-width: 410px;
     margin-left: 15px;
     line-height: 155%;
 }
