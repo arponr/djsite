@@ -84,7 +84,7 @@ p {
     width: 190px;
     height: 100%;
     padding: 15px 10px 0 0;
-    border-right: 1px solid #4f5861;
+    border-right: 1px solid #454d54;
 }
 
 #title a {
@@ -118,7 +118,7 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #9dc5b3 !important;
+    color: #95c4af !important;
 }
 
 #content {
@@ -151,9 +151,9 @@ p {
 /****************************** POST ***********************************/
 
 .post_title {
-    font-size: 17px;
+    font-size: 15px;
     padding-bottom: 3px;
-    color: #9dc5b3;
+    color: #95c4af;
 }
 
 /****************************** RESUME ********************************/
