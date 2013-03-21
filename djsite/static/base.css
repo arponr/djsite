@@ -103,7 +103,6 @@ p {
 #info {
     margin-top: 50px;
     line-height: 130%;
-    float: left;
 }
 
 .nav {
@@ -153,8 +152,7 @@ p {
 
 .post_title {
     font-size: 17px;
-    padding-bottom: 2px;
-    text-align: right;
+    padding-bottom: 3px;
 }
 
 /****************************** RESUME ********************************/
