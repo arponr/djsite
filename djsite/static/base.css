@@ -48,7 +48,6 @@ body, h1, div, ul, li {
 body {
     font-family: "georgia", serif;
     font-size: 13px;
-    background: #bbbbbb;
     color: #000000;
 }
 
@@ -75,6 +74,7 @@ p {
     width: 40%;
     min-width: 180px;
     height: 100%;
+    background: #bbbbbb;
 }
 
 #side_up {
