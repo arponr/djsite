@@ -14,10 +14,10 @@ body, h1, div, ul, li {
 
 body {
     font-family: "adobe-garamond-pro", serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     background: #3e454c;
-    color: #fff6e5;
+    color: #d9d1c3;
 }
 
 a:link, a:visited {
@@ -86,7 +86,7 @@ p {
 
 #info {
     margin-top: 50px;
-    line-height: 130%;
+    line-height: 140%;
 }
 
 #info h1 {
@@ -97,7 +97,7 @@ p {
 }
 
 #content {
-    line-height: 140%;
+    line-height: 145%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
 }
