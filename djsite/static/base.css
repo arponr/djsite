@@ -4,7 +4,7 @@
          url("/static/fonts/lmsans10-regular-webfont.woff") format("woff"),
          url("/static/fonts/lmsans10-regular-webfont.ttf") format("truetype");
     font-weight: normal !important;
-    font-style: normal; !important
+    font-style: normal !important;
 }
 @font-face {
     font-family: "LMSans";
@@ -54,7 +54,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #ff9b87;
+    color: #95c4af;
     text-decoration: none;
     padding: 0 0 1px 0;
 }
@@ -89,7 +89,7 @@ p {
 
 #title a {
     font-size: 20px;
-    color: #ff9b87;
+    color: #ff9b87 !important;
     padding-bottom: 2px;
 }
 
@@ -97,25 +97,12 @@ p {
     font-size: 15px;
     text-align: right;
     margin-right: 20px;
-    padding-top: 4px;
-}
-
-#info {
-    margin-top: 50px;
-    line-height: 130%;
-}
-
-#info h1 {
-    font-size: 15px;
-    font-weight: normal;
-    color: #95c4af;
-    display: inline;
+    padding-top: 5px;
 }
 
 .nav {
     text-align: right;
-    width: 65px;
-    margin-top: 50px;
+    margin: 25px 20px 0 0;
 }
 
 .nav li {
@@ -125,7 +112,20 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #95c4af !important;
+    color:  !important;
+}
+
+
+#info {
+    margin-top: 50px;
+    line-height: 130%;
+}
+
+#info h1 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #ff9b87;
+    display: inline;
 }
 
 #content {
