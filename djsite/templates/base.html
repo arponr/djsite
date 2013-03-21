@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <title>Arpon Raksit</title>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/static/base.css"/>
     {% block mathjax %}{% endblock %}
   </head>
 
   <body>
-    <div id="wrapper">
-      <div id="sidebar">
+    <div id="side">
+      <div id="side_up">
 	<div id="title"><a href="/">H&#42;(OKUM;OLOGY)</a></div>
 	
 	<div id="name">by Arpon Raksit</div>
@@ -19,15 +19,15 @@
 	  <li {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a></li>
 	  <li {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></li>
 	</ul> 
-
-	<div id="info">
-	  {% block info %}{% endblock %}
-	</div>
       </div>
 
-      <div id="content">
-	{% block content %}{% endblock %}
+      <div id="side_down">
+	{% block info %}{% endblock %}
       </div>
+      </div>
+
+    <div id="content">
+      {% block content %}{% endblock %}
     </div>
   </body>
 </html>

@@ -69,25 +69,25 @@ p {
     margin: 0 0 10px 0;
 }
 
-#wrapper {
-    width: 640px;
-    max-width: 95%;
-    margin: 0 auto;
-    position: relative;
-}
-
-#sidebar {
-    float: left;
+#side {
     position: fixed;
-    width: 180px;
+    float: left;
+    width: 40%;
+    min-width: 180px;
     height: 100%;
     padding: 15px 15px 0 0;
     border-right: 1px solid #eeeeee;
 }
 
+#side_up {
+    height: 200px;
+    background: #666666;
+    text-align: right;
+}
+
 #title a {
     font-family: "open sans", sans-serif;
-    color: #606060 !important;
+    color: #707070 !important;
     font-weight: 300;
     font-size: 20px;
     letter-spacing: 2px;
@@ -95,14 +95,12 @@ p {
 }
 
 #name {
-    text-align: right;
     font-size: 12px;
     padding-top: 3px;
 }
 
 .nav {
     font-family: "open sans", sans-serif;
-    text-align: right;
     margin-top: 25px;
 }
 
@@ -112,25 +110,22 @@ p {
     margin-top: 10px;
 }
 
-.nav a:link, .nav a:visited {
-    color:  !important;
-}
-
-
-#info {
+#side_down {
     margin-top: 50px;
     line-height: 140%;
     font-size: 12px;
+    background: #aaaaaa;
 }
 
-#info h1 {
+#side_down h1 {
     font-family: "open sans", sans-serif;
     font-size: 13px;
-    color: #606060;
+    color: #707070;
     display: inline;
 }
 
 #content {
+    background: #eeeeee;
     line-height: 155%;
     margin-left: 225px;
     padding: 15px 0 10px 0;
