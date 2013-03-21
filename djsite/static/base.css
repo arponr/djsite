@@ -54,7 +54,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #95c4af;
+    color: #9bccb6;
     text-decoration: none;
     padding: 0 0 1px 0;
 }
@@ -91,6 +91,7 @@ p {
     font-size: 20px;
     color: #ff9b87 !important;
     padding-bottom: 2px;
+    letter-spacing: 1px;
 }
 
 #name {
