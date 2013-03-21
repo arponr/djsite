@@ -109,7 +109,7 @@ p {
     font-size: 15px;
     font-weight: normal;
     color: #95c4af;
-    padding-bottom: 5px;
+    display: inline;
 }
 
 .nav {
