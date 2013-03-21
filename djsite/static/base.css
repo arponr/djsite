@@ -130,9 +130,8 @@ p {
 }
 
 #main {
-    width: 40%;
-    max-width: 410px;
-    position: relative;
+    float: right;
+    max-width: 420px;
 }
 
 #content {
