@@ -46,7 +46,7 @@ p {
 #sidebar {
     float: left;
     position: fixed;
-    width: 200px;
+    width: 190px;
     height: 100%;
     padding: 20px 20px 0 20px;
     border-right: 1px solid #eeeeee;
@@ -101,7 +101,7 @@ p {
 
 #content {
     line-height: 155%;
-    margin-left: 260px;
+    margin-left: 250px;
     padding: 20px 20px 20px 0;
 }
 
