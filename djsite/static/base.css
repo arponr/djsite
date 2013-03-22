@@ -52,14 +52,17 @@ p {
     border-right: 1px solid #eeeeee;
 }
 
-#title a {
+#title {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
-    color: #777777 !important;
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
     text-transform: lowercase;
     text-align: right;
+}
+
+#title a {
+    color: #777777 !important;
 }
 
 #name {
@@ -70,14 +73,14 @@ p {
 .nav {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: right;
     margin-top: 25px;
 }
 
 .nav li {
     list-style: none;
-    font-weight: 700;
+    font-weight: 720;
     text-transform: uppercase; 
     margin-top: 10px;
 }
@@ -90,6 +93,7 @@ p {
 
 #info h1 {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
+    font-size: 14px;
     font-weight: 400;
     color: #777777;
     display: inline;
@@ -97,7 +101,7 @@ p {
 
 #content {
     line-height: 155%;
-    margin-left: 240px;
+    margin-left: 260px;
     padding: 20px 20px 20px 0;
 }
 
