@@ -95,10 +95,6 @@ p {
     display: inline;
 }
 
-#main {
-    position: relative;
-}
-
 #content {
     float: left;
     max-width: 600px;
