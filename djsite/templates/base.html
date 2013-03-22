@@ -11,7 +11,7 @@
   <body>
     <div id="wrapper">
       <div id="sidebar">
-	<div id="side_content">
+	<div id="header">
 	  <div id="title"><a href="/">H&#42;(okumology)</a></div>
 	  
 	  <div id="name">by Arpon Raksit</div>
@@ -21,10 +21,10 @@
 	    <li {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a></li>
 	    <li {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></li>
 	  </ul>
+	</div>
 	  
-	  <div id="info">
-	    {% block info %}{% endblock %}
-	  </div>
+	<div id="info">
+	  {% block info %}{% endblock %}
 	</div>
       </div>
 
