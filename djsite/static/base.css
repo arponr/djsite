@@ -15,7 +15,7 @@ body, h1, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", "georgia", serif;
     font-size: 15px;
-    background: #fefefe;
+    background: #fcfefc;
     color: #000000;
 }
 
@@ -58,8 +58,8 @@ p {
 }
 
 #robot {
-    top: 20px;
-    left: 10px;
+    top: 50px;
+    left: 30px;
     height: 120px;
     position: absolute;
 }
