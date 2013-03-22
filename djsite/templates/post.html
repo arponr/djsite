@@ -13,7 +13,8 @@
 {% endblock %}
 
 {% block info %}
-<h1>{{ p.title }}</h1><br />
+<h1>{{ p.title }}</h1>
+
 created: {{ p.created|date:"j M Y, P" }}
 {% if p.edited %}
 <br/>
