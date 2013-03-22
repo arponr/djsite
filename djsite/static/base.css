@@ -15,17 +15,17 @@ body, h1, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", "georgia", serif;
     font-size: 15px;
-    background: #fefefe;
+    background: #dddddd;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #777777;
+    color: #353559;
     text-decoration: none;
 }
 
 a:hover {
-    background: #f5f5f5;
+    background: #e0e0e0;
 }
 
 a:focus {
