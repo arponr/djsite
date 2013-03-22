@@ -19,15 +19,6 @@ body {
     background: #dcfdf0;
 }
 
-a:link, a:visited {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-a:hover {
-    background: #eeeeee;
-}
-
 a:focus {
     outline: none;
 }
@@ -51,6 +42,19 @@ p {
     color: #ffffff;
     text-align: right;
     padding-right: 15px;
+}
+
+#side a:link, #side a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#side_up a:hover {
+    background: #474f57;
+}
+
+#side_down a:hover {
+    background: 93b3d9;
 }
 
 #title {
