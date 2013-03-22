@@ -13,10 +13,9 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    background: #dddddd;
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-size: 15px;
+    background: #fefefe;
     color: #000000;
 }
 
@@ -26,7 +25,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #d0d0d0;
+    background: #f0f0f0;
 }
 
 a:focus {
@@ -54,7 +53,7 @@ p {
 }
 
 #title a {
-    font-family: "europa", "helvetica neue", arial, sans-serif;
+    font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
     color: #777777 !important;
     font-size: 20px;
     text-transform: lowercase;
@@ -72,6 +71,7 @@ p {
 
 .nav li {
     list-style: none;
+    font-weight: 700;
     text-transform: uppercase; 
     margin-top: 10px;
 }
@@ -82,7 +82,7 @@ p {
 }
 
 #info h1 {
-    font-family: "europa", "helvetica neue", arial, sans-serif;
+    font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #777777;
@@ -116,5 +116,5 @@ p {
     text-align: right;
     width: 75px;
     margin-right: 25px;
-    font-size: 13px;
+    font-size: 14px;
 }
