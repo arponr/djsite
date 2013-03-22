@@ -13,10 +13,19 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "eb garamond", serif;
-    font-size: 15px;
+    font-family: "georgia", serif;
+    font-size: 13px;
+    background: #fefefe;
     color: #000000;
-    background: #dcfdf0;
+}
+
+a:link, a:visited {
+    color: #0077aa;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #eeeeee;
 }
 
 a:focus {
@@ -27,50 +36,40 @@ p {
     margin: 0 0 10px 0;
 }
 
-#side {
-    position: fixed;
+#wrapper {
+    width: 640px;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#sidebar {
     float: left;
-    width: 200px;
+    position: fixed;
+    width: 180px;
     height: 100%;
-    background: #87a3c5;
-}
-
-#side_up {
-    height: 170px;
-    background: #3e454c;
-    color: #cccccc;
-    text-align: right;
-}
-
-#side a:link, #side a:visited {
-    color: #cccccc;
-    text-decoration: none;
-}
-
-#side_up a:hover {
-    background: #525a63;
-}
-
-#side_down a:hover {
-    background: #93b3d9;
-}
-
-#title {
-    padding-top: 15px;
+    padding: 15px 15px 0 0;
+    border-right: 1px solid #eeeeee;
 }
 
 #title a {
+    font-family: "open sans", sans-serif;
+    color: #606060 !important;
+    font-weight: 300;
     font-size: 20px;
-    color: #ffffff !important;
     letter-spacing: 2px;
     text-transform: lowercase;
 }
 
 #name {
+    text-align: right;
+    font-size: 12px;
     padding-top: 3px;
 }
 
 .nav {
+    font-family: "open sans", sans-serif;
+    text-align: right;
     margin-top: 25px;
 }
 
@@ -80,25 +79,28 @@ p {
     margin-top: 10px;
 }
 
-#side_down {
-    padding-top: 20px;
-    position: relative;
+.nav a:link, .nav a:visited {
+    color:  !important;
 }
+
 
 #info {
-    float: right;
+    margin-top: 50px;
     line-height: 140%;
+    font-size: 12px;
 }
 
-#side_down h1 {
-    font-size: 18px;
+#info h1 {
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+    color: #606060;
     display: inline;
 }
 
 #content {
-    max-width: 500px;
-    margin: 15px 15px 0 220px;
     line-height: 155%;
+    margin-left: 225px;
+    padding: 15px 0 10px 0;
 }
 
 #content blockquote {

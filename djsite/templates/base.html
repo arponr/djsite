@@ -8,8 +8,8 @@
   </head>
 
   <body>
-    <div id="side">
-      <div id="side_up">
+    <div id="wrapper">
+      <div id="sidebar">
 	<div id="title"><a href="/">H&#42;(OKUM;OLOGY)</a></div>
 	
 	<div id="name">by Arpon Raksit</div>
@@ -18,20 +18,16 @@
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">projects</a></li>
 	  <li {% block nav_atoms %}{% endblock %}><a href="/atoms/">atoms</a></li>
 	  <li {% block nav_contact %}{% endblock %}><a href="/contact/">contact</a></li>
-	</ul> 
-      </div>
+	</ul>
       
-      <div id="side_down">
 	<div id="info">
 	  {% block info %}{% endblock %}
 	</div>
       </div>
-    </div>
-    
 
       <div id="content">
 	{% block content %}{% endblock %}
       </div>
-
+    </div>
   </body>
 </html>
