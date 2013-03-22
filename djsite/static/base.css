@@ -16,7 +16,7 @@ body {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
     font-weight: 300;
     font-size: 14px;
-    background: #fefefe;
+    background: #dddddd;
     color: #000000;
 }
 
@@ -26,7 +26,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #f0f0f0;
+    background: #d0d0d0;
 }
 
 a:focus {
@@ -57,12 +57,12 @@ p {
     font-family: "europa", "helvetica neue", arial, sans-serif;
     color: #777777 !important;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 #name {
     text-align: right;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 .nav {
