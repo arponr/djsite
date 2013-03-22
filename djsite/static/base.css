@@ -14,7 +14,7 @@ body, h1, div, ul, li {
 
 body {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 14px;
     background: #fefefe;
     color: #000000;
@@ -38,7 +38,7 @@ p {
 }
 
 #wrapper {
-    width: 640px;
+    width: 700px;
     max-width: 95%;
     margin: 0 auto;
     position: relative;
@@ -47,23 +47,21 @@ p {
 #sidebar {
     float: left;
     position: fixed;
-    width: 180px;
+    width: 200px;
     height: 100%;
-    padding: 15px 15px 0 0;
+    padding: 15px 20px 0 0;
     border-right: 1px solid #eeeeee;
 }
 
 #title a {
     font-family: "europa", "helvetica neue", arial, sans-serif;
-    color: #666666 !important;
+    color: #777777 !important;
     font-size: 20px;
-    letter-spacing: 2px;
-    text-transform: lowercase;
 }
 
 #name {
     text-align: right;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 .nav {
@@ -77,11 +75,6 @@ p {
     margin-top: 10px;
 }
 
-.nav a:link, .nav a:visited {
-    color:  !important;
-}
-
-
 #info {
     margin-top: 50px;
     line-height: 140%;
@@ -90,14 +83,14 @@ p {
 #info h1 {
     font-family: "europa", "helvetica neue", arial, sans-serif;
     font-size: 16px;
-    font-weight: lighter;
-    color: #666666;
+    font-weight: 300;
+    color: #777777;
     display: inline;
 }
 
 #content {
     line-height: 155%;
-    margin-left: 225px;
+    margin-left: 240px;
     padding: 15px 0 10px 0;
 }
 
@@ -124,66 +117,3 @@ p {
     margin-right: 15px;
     font-size: 12px;
 }
-
-/****************************** RESUME ********************************/
-
-.sec {
-    font-family: "hiragino mincho pro";
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-
-.sec h2 {
-    font-size: 100%;
-    display: inline;
-}
-
-.sec li {
-    margin-left: 18px;
-}
-
-.ssec {
-    margin-bottom: 10px;
-}
-
-#button-wrapper {
-    padding-top: 20px;
-    text-align: center;
-}
-
-#button-wrapper a:link, #button-wrapper a:visited {
-    color: #000;
-}
-
-.button {     
-    padding: 5px 15px;
-    margin-bottom: 20px;
-    background: #ccc;
-    font-family: 'Courier', monospace;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    border: 0;
-    -webkit-transition-duration: 0.1s;
-    -moz-transition-duration: 0.1s;
-    transition-duration: 0.1s;
-}
-
-.button:hover, .button:focus {
-    background: #bbb;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-
-.button:active {
-    -webkit-box-shadow: 0 0 0 0;
-    -moz-box-shadow: 0 0 0 0;
-    box-shadow: 0 0 0 0;
-}
-
-
-
