@@ -83,7 +83,7 @@ p {
 }
 
 .nav {
-    font-size: 14px;
+    font-size: 13px;
     text-align: right;
     margin-top: 25px;
 }
@@ -139,13 +139,13 @@ p {
 }
 
 .blog_title {
-    padding-left: 100px;
+    padding-left: 95px;
 }
 
 .blog_info {
     float: left;
     text-align: right;
     width: 75px;
-    margin-right: 25px;
+    margin-right: 20px;
     font-size: 14px;
 }
