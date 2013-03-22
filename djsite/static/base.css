@@ -13,8 +13,9 @@ body, h1, div, ul, li {
 }
 
 body {
-    font-family: "eb garamond", serif;
-    font-size: 15px;
+    font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
     background: #fefefe;
     color: #000000;
 }
@@ -53,8 +54,6 @@ p {
 }
 
 #title a {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
     color: #606060 !important;
     font-size: 20px;
     letter-spacing: 2px;
@@ -67,8 +66,6 @@ p {
 }
 
 .nav {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
     text-align: right;
     margin-top: 25px;
 }
@@ -91,8 +88,6 @@ p {
 }
 
 #info h1 {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
     font-size: 16px;
     color: #606060;
     display: inline;
