@@ -20,12 +20,12 @@ body {
 }
 
 a:link, a:visited {
-    color: #353559;
+    color: #33358a;
     text-decoration: none;
 }
 
 a:hover {
-    background: #e0e0e0;
+    background: #d0d0d0;
 }
 
 a:focus {
