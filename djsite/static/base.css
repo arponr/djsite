@@ -110,6 +110,12 @@ p {
     margin-bottom: 10px;
 }
 
+#info h2 {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 #content {
     line-height: 150%;
     margin-left: 250px;
