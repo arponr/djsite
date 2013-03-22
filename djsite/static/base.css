@@ -15,7 +15,7 @@ body, h1, div, ul, li {
 body {
     font-family: "nimbus-sans", "helvetica neue", arial, sans-serif;
     font-weight: lighter;
-    font-size: 13px;
+    font-size: 14px;
     background: #fefefe;
     color: #000000;
 }
@@ -54,7 +54,8 @@ p {
 }
 
 #title a {
-    color: #606060 !important;
+    font-family: "europa", "helvetica neue", arial, sans-serif;
+    color: #666666 !important;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: lowercase;
@@ -84,12 +85,13 @@ p {
 #info {
     margin-top: 50px;
     line-height: 140%;
-    font-size: 12px;
 }
 
 #info h1 {
+    font-family: "europa", "helvetica neue", arial, sans-serif;
     font-size: 16px;
-    color: #606060;
+    font-weight: lighter;
+    color: #666666;
     display: inline;
 }
 
