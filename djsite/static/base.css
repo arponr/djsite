@@ -116,6 +116,10 @@ p {
     text-transform: uppercase;
 }
 
+#info .note {
+    font-size: 12px;
+}
+
 #content {
     line-height: 150%;
     margin-left: 250px;
