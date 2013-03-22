@@ -99,7 +99,7 @@ p {
     font-size: 17px;
     font-weight: 600;
     font-style: italic;
-    display: inline;
+    margin-bottom: 10px;
 }
 
 #content {
