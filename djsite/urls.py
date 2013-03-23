@@ -6,6 +6,7 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
                        ('^$', 'djsite.views.home'),
+                       ('^work/$', 'djsite.views.work'),
                        ('^blog/$', 'blog.views.blog'),
                        (r'^blog/category/([-\w]+)/$', 'blog.views.category'),
                        (r'^blog/post/([-\w]+)/$', 'blog.views.post'),

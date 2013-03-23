@@ -61,12 +61,16 @@ a:focus {
     color: #ff9379;
 }
 
-#email a:link, #email a:visited {
-    color: #7cc598;
+#work a:link, #work a:visited {
+    color: #c5a5ff;
 }
 
 #github a:link, #github a:visited {
     color: #feffbf;
+}
+
+#email a:link, #email a:visited {
+    color: #7cc598;
 }
 
 #twitter a:link, #twitter a:visited {
