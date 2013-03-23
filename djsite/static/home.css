@@ -15,9 +15,9 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "museo-sans", "helvetica neue", sans-serif;
     font-size: 18px;
-    font-weight: 100;
+    font-weight: 300;
     background: #2c3136;
-    color: #888888;
+    color: #999999;
 }
 
 a:link, a:visited {
@@ -43,4 +43,11 @@ a:focus {
 #intro {
     font-size: 22px;
     color: #ffffff;
+    margin-bottom: 25px;x
 }
+
+#list li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+    
