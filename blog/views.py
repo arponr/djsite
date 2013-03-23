@@ -1,3 +1,4 @@
+from django.http import Http404  
 from django.shortcuts import render_to_response, get_object_or_404
 from blog.models import Post, Category
 
@@ -13,8 +14,14 @@ def category(request, sl):
                                'cats': Category.objects.all(),
                                'cur': c}) 
 
-def post(request, sl):
+def post(request, year, month, sl):
+    try: 
+        y, m = int(year), int(month)
+    except ValueError:
+        raise Http404()
     p = get_object_or_404(Post, slug=sl)
+    if p.created.year != y or p.created.month != m:
+        raise Http404()
     return render_to_response('post.html', {'p': p})
 
 
