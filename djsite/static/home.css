@@ -55,7 +55,7 @@ a:focus {
 }
 
 #blog a:link, #blog a:visited {
-    color: #ff9077;
+    color: #ff9379;
 }
 
 #email a:link, #email a:visited {
@@ -63,7 +63,7 @@ a:focus {
 }
 
 #github a:link, #github a:visited {
-    color: #fff981;
+    color: #feffbf;
 }
 
 #twitter a:link, #twitter a:visited {
