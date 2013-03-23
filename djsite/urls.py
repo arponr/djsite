@@ -6,9 +6,9 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
                        ('^$', 'djsite.views.home'),
-                       ('^posts/$', 'blog.views.blog'),
-                       (r'^posts/([-\w]+)/$', 'blog.views.category'),
-                       (r'^posts/(\d{4})/(\d{2})/([-\w]+)/$', 'blog.views.post'),
+                       ('^blog/$', 'blog.views.blog'),
+                       (r'^blog/category/([-\w]+)/$', 'blog.views.category'),
+                       (r'^blog/post/([-\w]+)/$', 'blog.views.post'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
