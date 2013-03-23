@@ -55,27 +55,22 @@ a:focus {
 }
 
 #blog a:link, #blog a:visited {
-    color: #ff7f66;
-
+    color: #ff9077;
 }
 
 #email a:link, #email a:visited {
-    color: #6dc58b;
-
+    color: #7cc598;
 }
 
 #github a:link, #github a:visited {
-    color: #fff58d;
-
+    color: #fff981;
 }
 
 #twitter a:link, #twitter a:visited {
-    color: #7ecefd;
-
+    color: #9dd6fd;
 }
 
 #lastfm a:link, #lastfm a:visited {
-    color: #d2434d;
-
+    color: #d26267;
 }
     
