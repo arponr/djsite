@@ -37,16 +37,13 @@ a:focus {
     padding: 50px 50px 50px 50px;
     max-width: 100%;
     margin: 0 auto;
-}
- 
-#content {
     text-align: right;
-}
+} 
 
 #intro {
     font-size: 22px;
     color: #cccccc;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .welcome {
