@@ -34,11 +34,14 @@ a:focus {
 
 #wrapper {
     width: 500px;
-    margin: 50px 50px 50px 50px;
     max-width: 100%;
     margin: 0 auto;
-    text-align: right;
 } 
+
+#content {
+    padding: 50px 50px 50px 50px;
+    text-align: right;
+}
 
 #intro {
     font-size: 22px;
