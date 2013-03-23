@@ -21,7 +21,6 @@ body {
 }
 
 a:link, a:visited {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -35,9 +34,13 @@ a:focus {
 
 #wrapper {
     width: 700px;
-    padding: 50px;
+    padding: 50px 50px 50px 50px;
     max-width: 100%;
     margin: 0 auto;
+}
+ 
+#content {
+    padding-right: 200px;
 }
 
 #intro {
@@ -49,5 +52,30 @@ a:focus {
 #list li {
     list-style: none;
     margin-bottom: 20px;
+}
+
+#blog a:link, #blog a:visited {
+    color: #ff7f66;
+
+}
+
+#email a:link, #email a:visited {
+    color: #6dc58b;
+
+}
+
+#github a:link, #github a:visited {
+    color: #fff58d;
+
+}
+
+#twitter a:link, #twitter a:visited {
+    color: #7ecefd;
+
+}
+
+#lastfm a:link, #lastfm a:visited {
+    color: #d2434d;
+
 }
     
