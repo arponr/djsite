@@ -59,7 +59,7 @@ p {
 }
 
 #robot {
-    top: 60px;
+    top: 62px;
     left: 100px;
     height: 120px;
     position: absolute;
@@ -75,7 +75,7 @@ p {
 
 #name {
     text-align: right;
-    padding-top: 3px;
+    padding: 3px 0 140px 0;
 }
 
 .nav {
