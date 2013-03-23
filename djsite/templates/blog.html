@@ -3,15 +3,13 @@
 {% block nav_blog %}id="cur"{% endblock %}
 
 {% block info %}
-<h1>About the author</h1>
+<h1>Categories</h1>
 
-<h2>Interests</h2>
-
-<p>Math, computer science, tennis, music, and fiction.</p>
-
-<h2>Currently</h2>
-
-<p>At Harvard, mostly trying to understand as much math as I can, while I can.</p>
+<ul>
+  {% for c in cats %}
+  <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock %}
 
 {% block content %}

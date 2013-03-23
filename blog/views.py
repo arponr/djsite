@@ -1,10 +1,10 @@
-from django.http import Http404
 from django.shortcuts import render_to_response, get_object_or_404
-from blog.models import Post
+from blog.models import Post, Category
 
 def blog(request):
     return render_to_response('blog.html', 
-                              {'posts': Post.objects.all()}) 
+                              {'posts': Post.objects.all(),
+                               'cats': Category.objects.all()}) 
 
 def category(request, sl):
     c = get_object_or_404(Category, slug=sl)
