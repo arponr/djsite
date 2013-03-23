@@ -40,13 +40,17 @@ a:focus {
 }
  
 #content {
+    text-align: right;
     padding-right: 200px;
 }
 
 #intro {
     font-size: 22px;
-    color: #ffffff;
     margin-bottom: 40px;
+}
+
+.welcome {
+    color: #ffffff;
 }
 
 #list li {
