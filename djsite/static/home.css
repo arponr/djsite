@@ -15,7 +15,8 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 18px;
-    background: #3e454c;
+    font-weight: 300;
+    background: #2c3136;
     color: #ffffff;
 }
 
@@ -25,9 +26,16 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #606b75;
+    background: #3e454c;
 }
 
 a:focus {
     outline: none;
+}
+
+#wrapper {
+    width: 700px;
+    padding: 50px;
+    max-width: 100%;
+    margin: 0 auto;
 }
