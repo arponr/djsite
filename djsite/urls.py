@@ -5,9 +5,8 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       ('^$', 'blog.views.blog'),
-                       (r'^post/([-\w]+)/$', 'blog.views.post'),
-                       ('^work/$', 'djsite.views.work'),
+                       ('^posts/$', 'blog.views.blog'),
+                       (r'^posts/([-\w]+)/$', 'blog.views.post'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
