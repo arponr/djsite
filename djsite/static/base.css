@@ -95,10 +95,14 @@ p {
     margin-bottom: 5px;
 }
 
+#info h2 {
+    font-size: 12px;
+    text-tranform: uppercase;
+}
+
 #info li {
     list-style: none;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 #content {
