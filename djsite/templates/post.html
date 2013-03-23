@@ -15,12 +15,12 @@
 {% block info %}
 <h1>{{ p.title }}</h1>
 
-<h2>created</h2> 
+<h2>original post</h2> 
 
 <p>{{ p.created|date:"j M Y, P" }}</p>
 
 {% if p.edited %}
-<h2>edited</h2>
+<h2>last edited</h2>
 
 <p>{{ p.edited|date:"j M Y, P" }}</p>
 
