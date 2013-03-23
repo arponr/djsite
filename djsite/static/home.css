@@ -34,7 +34,7 @@ a:focus {
 
 #wrapper {
     width: 500px;
-    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
     max-width: 100%;
     margin: 0 auto;
     text-align: right;
@@ -42,7 +42,6 @@ a:focus {
 
 #intro {
     font-size: 22px;
-    color: #bbbbbb;
     margin-bottom: 40px;
 }
 
