@@ -105,6 +105,10 @@ p {
     margin-bottom: 5px;
 }
 
+#cur a {
+    color: #000000 !important;
+}
+
 #content {
     line-height: 150%;
     margin-left: 220px;

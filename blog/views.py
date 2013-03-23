@@ -9,7 +9,9 @@ def blog(request):
 def category(request, sl):
     c = get_object_or_404(Category, slug=sl)
     return render_to_response('category.html', 
-                              {'posts': c.post_set.all()}) 
+                              {'posts': c.post_set.all(),
+                               'cats': Category.objects.all(),
+                               'cur': c}) 
 
 def post(request, sl):
     p = get_object_or_404(Post, slug=sl)
