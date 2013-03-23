@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+body, h1, h2, div, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    text-shadow: none;
+}
+
+body {
+    font-family: courier, "courier new", monospace;
+    font-size: 13px;
+    background: #ffffff;
+    color: #000000;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background: #dddddd;
+}
+
+a:focus {
+    outline: none;
+}
+
+#wrapper {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+} 
+
+#header {
+    padding: 10px 20px 0 20px;
+    text-align: center;
+}
+
+#title {
+    text-transform: uppercase;
+}
+
+#content {
+    padding: 50px 50px 50px 50px;
+}
