@@ -14,14 +14,14 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: "museo-sans", "helvetica neue", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 100;
     background: #2c3136;
-    color: #ffffff;
+    color: #888888;
 }
 
 a:link, a:visited {
-    color: #aaaaaa;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -38,4 +38,9 @@ a:focus {
     padding: 50px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+#intro {
+    font-size: 22px;
+    color: #ffffff;
 }
