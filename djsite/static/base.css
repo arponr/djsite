@@ -73,10 +73,6 @@ p {
     text-align: right;
 }
 
-#title a {
-    color: #000000 !important;
-}
-
 #name {
     text-align: right;
     padding-top: 3px;
@@ -116,10 +112,6 @@ p {
     text-transform: uppercase;
 }
 
-#info .note {
-    font-size: 12px;
-}
-
 #content {
     line-height: 150%;
     margin-left: 250px;
@@ -139,13 +131,13 @@ p {
 }
 
 .blog_title {
-    padding-left: 95px;
+    padding-left: 90px;
 }
 
 .blog_info {
     float: left;
     text-align: right;
-    width: 75px;
+    width: 70px;
     margin-right: 20px;
     font-size: 12px;
     text-transform: uppercase;
