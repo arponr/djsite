@@ -51,7 +51,7 @@ a:focus {
 }
 
 #main_wrapper {
-    padding: 10px 0 50px 0;
+    padding: 15px 0 50px 0;
 }
 
 #main {
@@ -67,7 +67,7 @@ a:focus {
 
 #list li {
     list-style: none;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 #blog a:hover {
