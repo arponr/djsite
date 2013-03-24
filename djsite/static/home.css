@@ -16,10 +16,11 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 16px;
     font-weight: 300;
+    background: #fafbf6;
 }
 
 a:link, a:visited {
-    color: #3e454c
+    color: #3e454c;
     text-decoration: none;
 }
 
