@@ -51,9 +51,8 @@ p {
     position: fixed;
     width: 180px;
     min-height: 100%;
-    background: #ff7f66;
+    background: #ff8a60;
     padding: 20px 0 0 20px;
-    border-right: 1px solid #e2e3de;
     text-align: right;
 }
 
@@ -86,7 +85,6 @@ p {
 #info {
     margin-top: 10px;
     padding: 20px 20px 0 0;
-    border-top: 1px solid #e0e0e0;
     font-size: 14px;
 }
 
