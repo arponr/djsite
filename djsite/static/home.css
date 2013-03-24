@@ -14,7 +14,7 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: "europa", "helvetica neue", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     background: #3e454c;
     color: #9bacbd;
@@ -51,7 +51,7 @@ a:focus {
 }
 
 #main_wrapper {
-    padding: 20px 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 
 #main {
@@ -67,7 +67,7 @@ a:focus {
 
 #list li {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #blog a:hover {
