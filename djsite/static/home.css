@@ -16,6 +16,7 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 18px;
     font-weight: 300;
+    background: cbe1f7;
 }
 
 a:link, a:visited {
@@ -29,7 +30,7 @@ a:focus {
 
 #header_wrapper {
     background: #2c3136;
-    color: #999999;
+    color: #97a7b8;
     padding: 50px 0 30px 0;
 }
 
@@ -42,13 +43,13 @@ a:focus {
 } 
 
 .welcome {
-    color: #ffffff;
+    color: #cbe1f7;
 }
 
 #main_wrapper {
-    background: #999999;
+    background: #97a7b8;
     color: #000000;
-    padding: 30px 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 
 #main {
