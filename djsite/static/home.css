@@ -16,12 +16,16 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 18px;
     font-weight: 300;
-    background: cbe1f7;
+    background: #3e454c;
+    color: #9daebf;
 }
 
 a:link, a:visited {
-    color: #666666;
     text-decoration: none;
+}
+
+a:hover {
+    background: #4d565e;
 }
 
 a:focus {
@@ -47,8 +51,6 @@ a:focus {
 }
 
 #main_wrapper {
-    background: #97a7b8;
-    color: #000000;
     padding: 10px 0 50px 0;
 }
 
@@ -64,27 +66,27 @@ a:focus {
     margin-top: 20px;
 }
 
-#blog a:hover {
+#blog a:link, #blog a:visited {
     color: #ff9379;
 }
 
-#work a:hover {
+#work a:link, #work a:visited {
     color: #c5a5ff;
 }
 
-#github a:hover {
+#github a:link, #github a:visited  {
     color: #feffbf;
 }
 
-#email a:hover  {
+#email a:link, #email a:visited {
     color: #7cc598;
 }
 
-#twitter a:hover {
+#twitter a:link, #twitter a:visited {
     color: #9dd6fd;
 }
 
-#lastfm a:hover {
+#lastfm a:link, #lastfm a:visited {
     color: #d26267;
 }
     
