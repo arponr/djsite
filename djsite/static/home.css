@@ -17,15 +17,12 @@ body {
     font-size: 18px;
     font-weight: 300;
     background: #3e454c;
-    color: #ccd9e5;
+    color: #9eacba;
 }
 
 a:link, a:visited {
+    color: #ffffff;
     text-decoration: none;
-}
-
-a:hover {
-    background: #4d565e;
 }
 
 a:focus {
@@ -43,11 +40,10 @@ a:focus {
     margin: 0 auto;
     text-align: right;
     font-size: 22px;
-    color: #ffffff;
 } 
 
-.name {
-    color: #97a7b8;
+.welcome {
+    color: #ffffff;
 }
 
 #main_wrapper {
@@ -66,27 +62,27 @@ a:focus {
     margin-top: 20px;
 }
 
-#blog a:link, #blog a:visited {
+#blog a:hover {
     color: #ff9379;
 }
 
-#work a:link, #work a:visited {
+#work a:hover {
     color: #c5a5ff;
 }
 
-#github a:link, #github a:visited  {
+#github a:hover  {
     color: #feffbf;
 }
 
-#email a:link, #email a:visited {
+#email a:hover {
     color: #7cc598;
 }
 
-#twitter a:link, #twitter a:visited {
+#twitter a:hover {
     color: #9dd6fd;
 }
 
-#lastfm a:link, #lastfm a:visited {
+#lastfm a:hover {
     color: #d26267;
 }
     
