@@ -16,8 +16,8 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 18px;
     font-weight: 300;
-    background: #2c3136;
-    color: #999999;
+    background: #999999;
+    color: #000000;
 }
 
 a:link, a:visited {
@@ -32,25 +32,35 @@ a:focus {
     outline: none;
 }
 
-#wrapper {
+#header_wrapper {
+    padding: 50px 0 0 50px;
+    background: #2c3136;
+}
+
+#header_content {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
-} 
-
-#content {
-    padding: 50px 50px 50px 50px;
+    color: #999999;
     text-align: right;
-}
-
-#intro {
     font-size: 22px;
-    margin-bottom: 40px;
-}
+} 
 
 .welcome {
     color: #ffffff;
 }
+
+#main_wrapper {
+    padding: 50px 0 0 50px;
+}
+
+#main_content {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: right;
+} 
+
 
 #list li {
     list-style: none;
