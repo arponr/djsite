@@ -14,76 +14,42 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: "europa", "helvetica neue", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
-    background: #96a2a6;
+    background: #2c3136;
+    color: #9bacbd;
 }
 
 a:link, a:visited {
-    color: #3e454c;
     text-decoration: none;
+}
+
+a:hover {
+    background: #3e454c;
 }
 
 a:focus {
     outline: none;
 }
 
-#header_wrapper {
-    background: #2c3136;
-    padding: 20px 0 20px 0;
-}
-
-#header {
-    width: 700px;
+#wrapper {
+    width: 600px;
     max-width: 100%;
     margin: 0 auto;
 } 
 
-#header_content {
-    padding: 0 50px 0 50px;
-    text-align: center;
-    font-size: 18px;
-    color: #96a2a6;
+#content {
+    padding: 50px 50px 50px 50px;
+    text-align: right;
+}
+
+#intro {
+    font-size: 22px;
+    margin-bottom: 40px;
 }
 
 .welcome {
     color: #ffffff;
-}
-
-#nav {
-    margin-top: 15px;
-}
-
-#nav li {
-    list-style: none;
-    margin: 0 15px 0 15px;
-    text-transform: uppercase;
-    font-size: 14px;
-    display: inline;
-}
-
-#nav a:link, #nav a:visited {
-    color: #96a2a6;
-    text-decoration: none;
-}
-
-#nav a:hover, .active {
-    color: #e4eff2;
-}
-
-#main_wrapper {
-    padding: 15px 0 50px 0;
-}
-
-#main {
-    width: 700px;
-    max-width: 100%;
-    margin: 0 auto;
-} 
-
-#main_content {    
-    padding: 0 50px 0 50px;
-    text-align: right;
 }
 
 #list li {
@@ -91,27 +57,26 @@ a:focus {
     margin-top: 25px;
 }
 
-#blog a:hover {
+#blog a:link, #blog a:visited {
     color: #ff9379;
 }
 
-#work a:hover {
+#work a:link, #work a:visited {
     color: #c5a5ff;
 }
 
-#github a:hover  {
+#github a:link, #github a:visited {
     color: #feffbf;
 }
 
-#email a:hover {
+#email a:link, #email a:visited {
     color: #7cc598;
 }
 
-#twitter a:hover {
+#twitter a:link, #twitter a:visited {
     color: #9dd6fd;
 }
 
-#lastfm a:hover {
+#lastfm a:link, #lastfm a:visited {
     color: #d26267;
 }
-    
