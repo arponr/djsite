@@ -17,7 +17,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     background: #3e454c;
-    color: #9daebf;
+    color: #ffffff;
 }
 
 a:link, a:visited {
@@ -34,7 +34,6 @@ a:focus {
 
 #header_wrapper {
     background: #2c3136;
-    color: #97a7b8;
     padding: 50px 0 30px 0;
 }
 
@@ -46,8 +45,8 @@ a:focus {
     font-size: 22px;
 } 
 
-.welcome {
-    color: #ffffff;
+.name {
+    color: #97a7b8;
 }
 
 #main_wrapper {
