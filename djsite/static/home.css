@@ -46,7 +46,7 @@ a:focus {
     color: #96a2a6;
 }
 
-.welcome, .active {
+.welcome {
     color: #ffffff;
 }
 
@@ -64,12 +64,12 @@ a:focus {
 }
 
 #nav a:link, #nav a:visited {
-    color: ##96a2a6;
+    color: #96a2a6;
     text-decoration: none;
 }
 
-#nav a:hover {
-    color: #ffffff;
+#nav a:hover, .active {
+    color: #d3e5eb;
 }
 
 #main_wrapper {
