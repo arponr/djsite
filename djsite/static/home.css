@@ -37,7 +37,7 @@ a:focus {
 #header {
     width: 600px;
     max-width: 100%;
-    padding: 0 60px 0 40px;
+    margin: 0 60px 0 40px;
     margin: 0 auto;
     text-align: right;
     font-size: 22px;
@@ -54,7 +54,7 @@ a:focus {
 #main {
     width: 600px;
     max-width: 100%;
-    padding: 0 60px 0 40px;
+    margin: 0 60px 0 40px;
     margin: 0 auto;
     text-align: right;
 } 
