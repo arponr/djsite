@@ -16,16 +16,11 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 18px;
     font-weight: 300;
-    background: #999999;
-    color: #000000;
 }
 
 a:link, a:visited {
+    color: #666666;
     text-decoration: none;
-}
-
-a:hover {
-    background: #3e454c;
 }
 
 a:focus {
@@ -33,11 +28,11 @@ a:focus {
 }
 
 #header_wrapper {
-    padding: 50px 0 0 50px;
     background: #2c3136;
 }
 
-#header_content {
+#header {
+    padding: 50px 0 0 50px;
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
@@ -51,43 +46,44 @@ a:focus {
 }
 
 #main_wrapper {
-    padding: 50px 0 0 50px;
+    background: #fafbf6;
+    color: #000000;
 }
 
 #main_content {
+    padding: 50px 0 0 50px;
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
     text-align: right;
 } 
 
-
 #list li {
     list-style: none;
     margin-top: 20px;
 }
 
-#blog a:link, #blog a:visited {
+#blog a:hover {
     color: #ff9379;
 }
 
-#work a:link, #work a:visited {
+#work a:hover {
     color: #c5a5ff;
 }
 
-#github a:link, #github a:visited {
+#github a:hover {
     color: #feffbf;
 }
 
-#email a:link, #email a:visited {
+#email a:hover  {
     color: #7cc598;
 }
 
-#twitter a:link, #twitter a:visited {
+#twitter a:hover {
     color: #9dd6fd;
 }
 
-#lastfm a:link, #lastfm a:visited {
+#lastfm a:hover {
     color: #d26267;
 }
     
