@@ -16,12 +16,10 @@ body {
     font-family: "europa", "helvetica neue", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    background: #3e454c;
-    color: #9bacbd;
 }
 
 a:link, a:visited {
-    color: #ffffff;
+    color: #3e454c
     text-decoration: none;
 }
 
@@ -31,7 +29,7 @@ a:focus {
 
 #header_wrapper {
     background: #2c3136;
-    padding: 50px 0 40px 0;
+    padding: 30px 0 20px 0;
 }
 
 #header {
@@ -44,6 +42,7 @@ a:focus {
     padding: 0 50px 0 50px;
     text-align: right;
     font-size: 22px;
+    color: #9bacbd;
 }
 
 .welcome {
