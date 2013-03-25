@@ -13,9 +13,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "Gill Sans MT Pro", "Gill Sans MT", "Gill Sans", sans-serif;
+    font-family: "europa", "gill sans mt", "gill sans", sans-serif;
     font-size: 17px;
-    font-weight: 300;
     background: #2c3136;
     color: #96a2a6;
 }
