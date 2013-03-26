@@ -1,4 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@font-face {
+    font-family: 'misterk';
+    src: url('misterk-webfont.eot');
+    src: url('misterk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('misterk-webfont.woff') format('woff'),
+         url('misterk-webfont.ttf') format('truetype'),
+         url('misterk-webfont.svg#misterk_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body {
     height: 100%;
@@ -72,10 +81,8 @@ p {
 }
 
 #title {
-    font-family: "adobe-garamond-pro", georgia, serif;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: lowercase;
+    font-family: "misterk", serif;
+    font-size: 30px;
 }
 
 #name {
@@ -88,13 +95,12 @@ p {
     margin-top: 10px;
     padding: 20px 20px 0 0;
     border-top: 1px solid #e0e0e0;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #info h1 {
-    font-family: "adobe-garamond-pro", georgia, serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-family: "misterk", serif;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
