@@ -7,7 +7,7 @@
 
 <ul>
   {% for c in cats %}
-  <li><h2><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></h2> ({{ c.post_set.count }})</li>
+  <li><h2><a href="{{ c.get_absolute_url }}">{{ c.name }}</a> ({{ c.post_set.count }})</h2></li>
   {% endfor %}
 </ul>
 {% endblock %}
