@@ -124,7 +124,7 @@ p {
 #content {
     line-height: 150%;
     margin-left: 220px;
-    padding: 30px 20px 20px 0px;
+    padding: 35px 20px 20px 0px;
 }
 
 #content blockquote {
@@ -136,9 +136,8 @@ p {
 
 .blog_entry {
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: "misterk", serif;
-    line-height: 125%;
 }
 
 .blog_title {
