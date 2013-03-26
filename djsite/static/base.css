@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 html, body {
     height: 100%;
     line-height: 1;
@@ -13,7 +15,7 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "museo-sans", "georgia", serif;
+    font-family: "droid sans", "georgia", serif;
     font-size: 14px;
     font-weight: 300;
     background: #fafbf6;
