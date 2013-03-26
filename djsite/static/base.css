@@ -87,7 +87,7 @@ p {
 
 #name {
     padding: 0 20px 120px 0;
-    maring-top: -5px;
+    maring-top: -20px;
 }
 
 #info {
@@ -105,9 +105,9 @@ p {
 }
 
 #info h2 {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
-    text-transform: uppercase;
+    font-style: italic;
 }
 
 #info li {
