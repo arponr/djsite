@@ -71,13 +71,15 @@ p {
 
 #title {
     font-family: "adobe-garamond-pro", georgia, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: lowercase;
 }
 
 #name {
     padding: 3px 0 120px 0;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 #info {
