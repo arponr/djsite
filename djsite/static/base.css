@@ -86,9 +86,7 @@ p {
 }
 
 #name {
-    padding: 3px 0 120px 0;
-    font-size: 12px;
-    text-transform: uppercase;
+    padding: 20px 0 120px 0;
 }
 
 #info {
@@ -101,6 +99,7 @@ p {
 #info h1 {
     font-family: "misterk", serif;
     font-size: 24px;
+    font-weight: normal;
     margin-bottom: 10px;
 }
 
