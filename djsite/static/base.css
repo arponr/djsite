@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Molengo);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
 @font-face {
     font-family: 'misterk';
     src: url('misterk-webfont.eot');
@@ -25,8 +25,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "adobe garamond pro", sans-serif;
-    font-size: 15px;
+    font-family: "PT Serif", sans-serif;
+    font-size: 14px;
     background: #fafbf6;
     color: #000000;
 }
