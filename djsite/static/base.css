@@ -71,10 +71,10 @@ p {
 
 #title {
     font-family: "source-code-pro", monospace;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 #name {
@@ -90,7 +90,7 @@ p {
 
 #info h1 {
     font-family: "source-code-pro", monospace;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
 }
