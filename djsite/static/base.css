@@ -15,9 +15,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "gill sans mt", "gill sans", sans-serif;
+    font-family: "junction", sans-serif;
     font-size: 14px;
-    font-weight: 300;
     background: #fafbf6;
     color: #000000;
 }
