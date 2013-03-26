@@ -67,7 +67,6 @@ p {
 
 #header {
     padding-right: 20px;
-    line-height: 50%;
 }
 
 #header a:link, #header a:visited {
@@ -88,7 +87,7 @@ p {
 
 #name {
     padding: 0 20px 120px 0;
-    maring-top: -20px;
+    margin-top: -20px;
 }
 
 #info {
@@ -108,6 +107,7 @@ p {
 #info h2 {
     font-family: "misterk", serif;
     font-size: 16px;
+    font-weight: normal;
 }
 
 #info li {
