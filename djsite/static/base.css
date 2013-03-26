@@ -83,12 +83,12 @@ p {
 
 #title {
     font-family: "misterk", serif;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 #name {    
     font-family: "misterk", serif;
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 20px 130px 0;
     margin-top: -12px;
 }
@@ -138,10 +138,12 @@ p {
 .blog_entry {
     overflow: hidden;
     margin-bottom: 10px;
+    font-family: "misterk", serif;
 }
 
 .blog_title {
     padding-left: 90px;
+    font-size: 18px;
 }
 
 .blog_info {
@@ -149,6 +151,6 @@ p {
     text-align: right;
     width: 70px;
     margin-right: 20px;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
 }
