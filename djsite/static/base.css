@@ -82,11 +82,11 @@ p {
 
 #title {
     font-family: "misterk", serif;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 #name {
-    padding: 20px 0 120px 0;
+    padding: 3px 20px 120px 0;
 }
 
 #info {
@@ -98,7 +98,7 @@ p {
 
 #info h1 {
     font-family: "misterk", serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: normal;
     margin-bottom: 10px;
 }
