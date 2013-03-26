@@ -70,10 +70,11 @@ p {
 }
 
 #title {
+    font-family: "source-code-pro", monospace;
     font-size: 24px;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 500;
     text-transform: lowercase;
+    letter-spacing: 2px;
 }
 
 #name {
@@ -88,9 +89,9 @@ p {
 }
 
 #info h1 {
+    font-family: "source-code-pro", monospace;
     font-size: 17px;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
