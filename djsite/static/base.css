@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 @font-face {
     font-family: 'misterk';
     src: url('misterk-webfont.eot');
@@ -25,7 +25,7 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "linden-hill", sans-serif;
+    font-family: "gentium book basic", serif;
     font-size: 13px;
     background: #fafbf6;
     color: #000000;
@@ -135,20 +135,19 @@ p {
 /****************************** BLOG ***********************************/
 
 .blog_entry {
-    overflow: hidden;
     margin-bottom: 15px;
     font-family: "misterk", serif;
 }
 
 .blog_title {
-    padding-left: 100px;
+    padding-left: 90px;
     font-size: 26px;
 }
 
 .blog_info {
     float: left;
     text-align: right;
-    width: 80px;
+    width: 70px;
     margin-right: 20px;
     font-size: 24px;
 }
