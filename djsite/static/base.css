@@ -86,8 +86,8 @@ p {
 }
 
 #name {
-    padding: 0 20px 120px 0;
-    margin-top: -20px;
+    padding: 0 20px 130px 0;
+    margin-top: -15px;
 }
 
 #info {
@@ -99,14 +99,14 @@ p {
 
 #info h1 {
     font-family: "misterk", serif;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 #info h2 {
     font-family: "misterk", serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: normal;
 }
 
