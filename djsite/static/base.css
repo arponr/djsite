@@ -70,11 +70,10 @@ p {
 }
 
 #title {
-    font-family: "source-code-pro", monospace;
-    font-size: 20px;
-    font-weight: 500;
+    font-family: "adobe-garamond-pro", georgia, serif;
+    font-size: 18px;
+    font-weight: 600;
     text-transform: lowercase;
-    letter-spacing: 4px;
 }
 
 #name {
@@ -89,9 +88,9 @@ p {
 }
 
 #info h1 {
-    font-family: "source-code-pro", monospace;
+    font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
