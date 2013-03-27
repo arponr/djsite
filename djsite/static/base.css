@@ -36,7 +36,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    background: #faefe6;
+    color: #333333;
 }
 
 a:focus {
@@ -74,6 +74,7 @@ p {
 
 #name {    
     font-size: 20px;
+    margin: -12px 0 0 10px;
 }
 
 #info {
@@ -95,7 +96,7 @@ p {
 }
 
 #main {
-    margin-top: 150px;
+    margin-top: 80px;
     line-height: 140%;
 }
 
