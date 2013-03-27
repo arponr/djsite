@@ -26,12 +26,12 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    background: #e0d6ce;
+    background: #dddddd;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #e0d6ce;
+    color: #f0f0f0;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ p {
 #header {
     width: 100%;
     background: #333333;
-    color: #faefe6;
+    color: #f0f0f0;
     font-family: "misterk", serif;
 }
 
@@ -93,8 +93,9 @@ p {
 
 #info {
     width: 100%;
-    background: #c9594a;
+    background: #f0f0f0;
     color: #000000;
+    height: 100px;
 }
 
 #info h1 {
