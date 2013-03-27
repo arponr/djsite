@@ -13,8 +13,6 @@
 {% endblock %}
 
 {% block info %}
-<h1>{{ p.title }}</h1>
-
 <div id="meta">
   created: {{ p.created|date:"j M Y, P" }}<br />
   {% if p.edited %}
@@ -29,6 +27,8 @@
   {% endif %}
   {% endfor %}
 </div>
+
+<h1>{{ p.title }}</h1>
 {% endblock %}
 
 {% block content %}
