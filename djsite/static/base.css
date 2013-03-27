@@ -31,12 +31,12 @@ body {
 }
 
 a:link, a:visited {
-    color: #e0d6ce;
+    color: #000000;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffa377;
+    color: #faefe6;
 }
 
 a:focus {
@@ -50,7 +50,7 @@ p {
 
 #header {
     width: 100%;
-    background: #333333;
+    background: #c9594a;
     color: #faefe6;
     position: fixed;
     z-index: 1;
