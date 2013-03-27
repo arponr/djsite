@@ -103,13 +103,13 @@ p {
     font-family: "misterk", serif;
     font-size: 26px;
     font-weight: normal;
+    margin-bottom: 5px;
 }
 
 #info h2 {
     font-size: 12px;
     font-weight: normal;
     text-transform: uppercase;
-    margin-bottom: 5px;
 }
 
 #info li {
