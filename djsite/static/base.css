@@ -31,12 +31,12 @@ body {
 }
 
 a:link, a:visited {
-    color: #000000;
+    color: #e0d6ce;
     text-decoration: none;
 }
 
 a:hover {
-    color: #faefe6;
+    color: #c9594a;
 }
 
 a:focus {
@@ -50,7 +50,7 @@ p {
 
 #header {
     width: 100%;
-    background: #c9594a;
+    background: #333333;
     color: #faefe6;
     font-family: "misterk", serif;
 }
@@ -94,12 +94,11 @@ p {
 
 #info {
     width: 100%;
-    background: #6ba2da;
+    background: #c9594a;
     color: #000000;
 }
 
 #info h1 {
-    float: right;
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
@@ -112,7 +111,6 @@ p {
 }
 
 #main {
-    padding-top: 80px;
     line-height: 140%;
 }
 
@@ -140,4 +138,10 @@ p {
     width: 75px;
     margin-right: 20px;
     font-size: 24px;
+}
+
+/****************************** POST ****************************/
+
+#meta {
+    float: right;
 }
