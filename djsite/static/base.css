@@ -51,7 +51,7 @@ p {
 #header {
     width: 100%;
     background: #333333;
-    color: #dddddd;
+    color: #f0f0f0;
     font-family: "misterk", serif;
 }
 
@@ -93,7 +93,7 @@ p {
 
 #info {
     width: 100%;
-    background: #f0f0f0;
+    background: #dddddd;
     color: #000000;
     min-height: 80px;
 }
