@@ -26,12 +26,12 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    background: #fafef6;
+    background: #fafbf6;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #faefe6;
+    color: #fafbf6;
     text-decoration: none;
 }
 
@@ -60,7 +60,8 @@ p {
 .wrapper {
     width: 700px;
     max-width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 
@@ -93,12 +94,7 @@ p {
     padding: 0 10px 0 10px;
 }
 
-.main {
-
-    width: 700px;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
+#main {
     margin-top: 80px;
     line-height: 140%;
 }
