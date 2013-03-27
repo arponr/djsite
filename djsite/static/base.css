@@ -79,7 +79,7 @@ p {
 
 #nav {
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #nav li {
@@ -90,10 +90,15 @@ p {
 }
 
 #nav a {
-    padding: 0 5px 0 5px;
+    padding: 0 10px 0 10px;
 }
 
 .main {
+
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
     margin-top: 80px;
     line-height: 140%;
 }
