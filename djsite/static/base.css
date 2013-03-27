@@ -36,7 +36,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #eac41d;
+    color: #ffa377;
 }
 
 a:focus {
@@ -57,15 +57,26 @@ p {
     font-family: "misterk", serif;
 }
 
-.wrapper {
+.hwrapper {
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
-.content {
+.hcontent {
     padding: 10px 20px 10px 20px;
+}
+
+.mwrapper {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
     position: relative;
+}
+
+.mcontent {
+    padding: 10px 20px 10px 20px;
 }
 
 #title {
