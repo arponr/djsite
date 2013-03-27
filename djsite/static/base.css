@@ -31,12 +31,12 @@ body {
 }
 
 a:link, a:visited {
-    color: #000000;
+    color: #faefe6;
     text-decoration: none;
 }
 
 a:hover {
-    background: #ecede8;
+    background: #faefe6;
 }
 
 a:focus {
@@ -51,7 +51,7 @@ p {
 #header {
     width: 100%;
     background: #333333;
-    color: #e0d6ce;
+    color: #faefe6;
     position: fixed;
     z-index: 1;
     font-family: "misterk", serif;
@@ -94,7 +94,12 @@ p {
     margin-left: 20px;
 }
 
-#main_content blockquote {
+#main {
+    margin-top: 150px;
+    line-height: 140%;
+}
+
+.content blockquote {
     font-style: italic;
     margin: 0 0 0 30px;
 }
