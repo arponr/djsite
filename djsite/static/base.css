@@ -57,25 +57,14 @@ p {
     font-family: "misterk", serif;
 }
 
-.hwrapper {
+.wrapper {
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-.hcontent {
-    padding: 10px 20px 10px 20px;
-}
-
-.mwrapper {
-    width: 700px;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-
-.mcontent {
+.content {
     padding: 10px 20px 10px 20px;
 }
 
@@ -104,8 +93,8 @@ p {
     padding: 0 10px 0 10px;
 }
 
-#header {
-    margin-top: 80px;
+#main {
+    padding-top: 80px;
     line-height: 140%;
 }
 
