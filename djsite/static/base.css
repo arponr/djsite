@@ -48,48 +48,34 @@ p {
     margin: 0 0 10px 0;
 }
 
-#wrapper {
-    width: 640px;
+#header {
+    width: 100%;
+    background: #333333;
+    position: fixed;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 700px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-#sidebar {
-    float: left;
-    position: fixed;
-    width: 180px;
-    height: 100%;
-    padding: 20px 0 0 20px;
-    border-right: 1px solid #e2e3de;
-    text-align: right;
-}
-
-#header {
-    padding-right: 20px;
-}
-
-#header a:link, #header a:visited {
-    color: #000000 !important;
-}
-
-#robot {
-    top: 63px;
-    left: 120px;
-    height: 120px;
-    position: absolute;
+.content {
+    padding: 10px 20px 10px 20px;
 }
 
 #title {
     font-family: "misterk", serif;
     font-size: 40px;
+    float: left;
 }
 
 #name {    
     font-family: "misterk", serif;
     font-size: 20px;
-    padding: 0 25px 120px 0;
-    margin-top: -13px;
+    float: left;
 }
 
 #info {
@@ -99,36 +85,14 @@ p {
     font-size: 13px;
 }
 
-#info h1 {
-    font-family: "misterk", serif;
-    font-size: 26px;
-    font-weight: normal;
-    margin-bottom: 5px;
+#nav li {
+    font-size: 24px;
+    display: inline;
+    list-style:none;
+    margin-left: 20px;
 }
 
-#info h2 {
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin-bottom: 2px;
-}
-
-#info li {
-    list-style: none;
-    margin-bottom: 5px;
-}
-
-#cur a {
-    color: #000000 !important;
-}
-
-#content {
-    line-height: 150%;
-    margin-left: 220px;
-    padding: 25px 20px 20px 0px;
-}
-
-#content blockquote {
+#main_content blockquote {
     font-style: italic;
     margin: 0 0 0 30px;
 }

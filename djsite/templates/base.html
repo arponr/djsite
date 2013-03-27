@@ -9,22 +9,22 @@
   </head>
 
   <body>
-    <div id="wrapper">
-      <div id="sidebar">
-	<div id="header">
-	  <img src="/static/robot.jpg" id="robot"> 
-
+    <div id="header">
+      <div class="wrapper">
+	<div class="content">
 	  <div id="title"><a href="/blog/">Hokumology</a></div>
-	  
 	  <div id="name">by <a href="/">Arpon Raksit</a></div>
-	</div>
-	  
-	<div id="info">
-	  {% block info %}{% endblock %}
+	  <ul id="nav">
+	    <li><a href="/about">About</a></li>
+	    <li><a href="/blog">Blog</a></li>
+	    <li><a href="/work">Work</a></li>
+	  </ul>
 	</div>
       </div>
+    </div>
 
-      <div id="content">
+    <div class="wrapper">
+      <div class="content">
 	{% block content %}{% endblock %}
       </div>
     </div>
