@@ -26,7 +26,7 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    background: #fafbf6;
+    background: #e0d6ce;
     color: #000000;
 }
 
@@ -51,8 +51,10 @@ p {
 #header {
     width: 100%;
     background: #333333;
+    color: #e0d6ce;
     position: fixed;
     z-index: 1;
+    font-family: "misterk", serif;
 }
 
 .wrapper {
@@ -67,15 +69,11 @@ p {
 }
 
 #title {
-    font-family: "misterk", serif;
     font-size: 40px;
-    float: left;
 }
 
 #name {    
-    font-family: "misterk", serif;
     font-size: 20px;
-    float: left;
 }
 
 #info {
@@ -83,6 +81,10 @@ p {
     padding: 20px 20px 0 0;
     border-top: 1px solid #e0e0e0;
     font-size: 13px;
+}
+
+#nav {
+    float: right;
 }
 
 #nav li {
