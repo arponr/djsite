@@ -26,12 +26,12 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    background: #e5d6ce;
+    background: #fafbf6;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #e5d6ce;
+    color: #fafbf6;
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ p {
 }
 
 .wrapper {
-    width: 700px;
+    width: 500px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -69,11 +69,11 @@ p {
 }
 
 #title {
-    font-size: 40px;
+    font-size: 48px;
 }
 
 #name {    
-    font-size: 20px;
+    font-size: 28px;
     margin: -12px 0 0 10px;
 }
 
@@ -83,7 +83,7 @@ p {
 }
 
 #nav li {
-    font-size: 24px;
+    font-size: 36px;
     display: inline;
     list-style:none;
     margin-left: 20px;
