@@ -95,7 +95,7 @@ p {
     width: 100%;
     background: #f0f0f0;
     color: #000000;
-    height: 100px;
+    min-height: 80px;
 }
 
 #info h1 {
