@@ -26,7 +26,7 @@ body, h1, h2, div, ul, li {
 body {
     font-family: "adobe-garamond-pro", georgia, serif;
     font-size: 15px;
-    background: #f0f0f0;
+    background: #ffffff;
     color: #000000;
 }
 
@@ -50,8 +50,8 @@ p {
 
 #header {
     width: 100%;
-    background: #333333;
-    color: #f0f0f0;
+    background: #6da155;
+    color: #ffffff;
     font-family: "misterk", serif;
 }
 
@@ -93,7 +93,7 @@ p {
 
 #info {
     width: 100%;
-    background: #333333;
+    background: #5e8fc1;
     color: #000000;
     min-height: 80px;
 }
