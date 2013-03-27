@@ -36,7 +36,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #c7443b;
+    color: #eac41d;
 }
 
 a:focus {
@@ -61,11 +61,11 @@ p {
     width: 700px;
     max-width: 100%;
     margin: 0 auto;
-    position: relative;
 }
 
 .content {
     padding: 10px 20px 10px 20px;
+    position: relative;
 }
 
 #title {
