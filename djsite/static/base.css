@@ -36,7 +36,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #333333;
+    color: #c7443b;
 }
 
 a:focus {
@@ -60,8 +60,7 @@ p {
 .wrapper {
     width: 700px;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
 }
 
