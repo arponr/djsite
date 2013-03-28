@@ -55,7 +55,7 @@ p {
 }
 
 .wrapper {
-    width: 800px;
+    width: 750px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -77,7 +77,7 @@ p {
 
 #nav {
     float: right;
-    margin-: 15px 20px 0 0;
+    margin: 15px 20px 0 0;
 }
 
 #nav li {
@@ -93,12 +93,12 @@ p {
 }
 
 #main {
-    padding-top: 10px;
+    padding-top: 20px;
     line-height: 150%;
 }
 
 .left {
-    width: 300px;
+    width: 250px;
     min-height: 100%;
     float: left;
     font-size: 13px;
