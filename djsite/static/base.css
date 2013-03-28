@@ -103,7 +103,7 @@ p {
 }
 
 .left {
-    width: 250px;
+    width: 300px;
     min-height: 100%;
     float: left;
     font-size: 13px;
@@ -112,7 +112,7 @@ p {
 
 .right {
     float: right;
-    width: 500px;
+    width: 450px;
     line-height: 150%;
 }
 
