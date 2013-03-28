@@ -83,7 +83,7 @@ p {
     text-transform: uppercase;
     display: inline;
     list-style:none;
-    margin-left: 30px;
+    margin-right: 50px;
 }
 
 #nav a:link, #nav a:visited {
