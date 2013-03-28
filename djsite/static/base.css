@@ -24,19 +24,19 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "adobe-garamond-pro", georgia, serif;
+    font-family: "times", "times new roman", serif;
     font-size: 15px;
     background: #ffffff;
     color: #000000;
 }
 
 a:link, a:visited {
-    color: #f0f0f0;
+    color: #bbbbbb;
     text-decoration: none;
 }
 
 a:hover {
-    color: #c9594a;
+    color: #ffffff;
 }
 
 a:focus {
@@ -50,13 +50,13 @@ p {
 
 #header {
     width: 100%;
-    background: #6da155;
+    background: #d05a4b;
     color: #ffffff;
     font-family: "misterk", serif;
 }
 
 .wrapper {
-    width: 600px;
+    width: 800px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -91,27 +91,21 @@ p {
     padding: 0 10px 0 10px;
 }
 
-#info {
-    width: 100%;
-    background: #5e8fc1;
-    color: #000000;
-    min-height: 80px;
+.wrapper_left {
+    width: 300px;
+    min-height: 100%;
+    float: left;
 }
 
-#info h1 {
+.wrapper_left h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
 }
 
-#info h2 {
-    font-size: 12px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
 #main {
     line-height: 140%;
+    position: relative;
 }
 
 .content blockquote {
@@ -142,6 +136,3 @@ p {
 
 /****************************** POST ****************************/
 
-#meta {
-    float: right;
-}
