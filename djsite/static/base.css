@@ -88,13 +88,18 @@ p {
     margin-left: 30px;
 }
 
-#nav a {
+#nav a:link, #nav a:visited {
+    color: #000000;
+    text-decoration: none;
     padding: 0 10px 0 10px;
 }
 
-#main {
+#cur, #nav a:hover {
+    color: #ffffff;
+}
+
+.left, .right {
     padding-top: 20px;
-    line-height: 150%;
 }
 
 .left {
@@ -102,17 +107,20 @@ p {
     min-height: 100%;
     float: left;
     font-size: 13px;
+    line-height: 120%;
 }
 
 .right {
     float: right;
     width: 500px;
+    line-height: 150%;
 }
 
 .content h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
+    line-height: 1;
 }
 
 .content blockquote {

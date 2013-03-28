@@ -2,8 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <title>hokumology</title>
-    <script type="text/javascript" src="//use.typekit.net/ztj7kcf.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link rel="stylesheet" type="text/css" href="/static/base.css"/>
     {% block mathjax %}{% endblock %}
   </head>
@@ -13,12 +11,12 @@
       <div class="wrapper">
 	<div class="content">
 	  <ul id="nav">
-	    <li><a href="/about">About</a></li>
-	    <li><a href="/blog">Blog</a></li>
-	    <li><a href="/work">Work</a></li>
+	    <li {% block nav_about %}{% endblock %}><a href="/about">About</a></li>
+	    <li {% block nav_blog %}{% endblock %}><a href="/blog">Blog</a></li>
+	    <li {% block nav_work %}{% endblock %}><a href="/work">Work</a></li>
 	  </ul>
 	  <div id="title">Hokumology</div>
-	  <div id="name">by Arpon Raksit</div>
+	  <div id="name">by Arpon R.</div>
 	</div>
       </div>
     </div>
