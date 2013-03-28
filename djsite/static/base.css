@@ -91,11 +91,6 @@ p {
     padding: 0 10px 0 10px;
 }
 
-#main {
-    line-height: 150%;
-    position: relative;
-}
-
 .left {
     width: 300px;
     min-height: 100%;
@@ -107,7 +102,7 @@ p {
     width: 500px;
 }
 
-.left h1 {
+.content h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
