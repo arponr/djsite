@@ -136,11 +136,10 @@ p {
 .blog_entry {
     clear: both;
     margin-bottom: 15px;
-    font-family: "misterk", serif;
 }
 
 .blog_title {
-    padding-left: 95px;
+    font-family: "misterk", serif;
     font-size: 26px;
 }
 
