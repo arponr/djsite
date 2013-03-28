@@ -84,17 +84,23 @@ p {
     font-size: 24px;
     display: inline;
     list-style:none;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #nav a {
     padding: 0 10px 0 10px;
 }
 
+#main {
+    padding-top: 20px;
+    line-height: 150%;
+}
+
 .left {
     width: 300px;
     min-height: 100%;
     float: left;
+    font-size: 13px;
 }
 
 .right {
