@@ -83,17 +83,16 @@ p {
     text-transform: uppercase;
     display: inline;
     list-style:none;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 #nav a:link, #nav a:visited {
     color: #000000;
     text-decoration: none;
-    padding: 0 10px 0 10px;
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    border: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 .left, .right {
