@@ -96,17 +96,18 @@ p {
     position: relative;
 }
 
-.info {
+.left {
     width: 300px;
     min-height: 100%;
     float: left;
 }
 
-.content {
+.right {
     float: right;
+    width: 500px;
 }
 
-.info h1 {
+.left h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
