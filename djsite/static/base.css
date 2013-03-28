@@ -31,7 +31,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #bbbbbb;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ p {
 #header {
     width: 100%;
     background: #d05a4b;
-    color: #ffffff;
+    color: #000000;
     font-family: "misterk", serif;
 }
 
@@ -91,13 +91,13 @@ p {
     padding: 0 10px 0 10px;
 }
 
-.wrapper_left {
+.info {
     width: 300px;
     min-height: 100%;
     float: left;
 }
 
-.wrapper_left h1 {
+.info h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
