@@ -71,7 +71,7 @@ p {
 }
 
 #name {
-    margin: -13px 0 0 35px;
+    margin: -13px 0 0 34px;
 }
 
 #nav {
@@ -145,11 +145,6 @@ p {
 }
 
 .blog_info {
-    float: left;
-    text-align: right;
-    width: 75px;
-    margin-right: 20px;
-    font-size: 24px;
 }
 
 /****************************** POST ****************************/
