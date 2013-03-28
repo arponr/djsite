@@ -129,6 +129,10 @@ p {
 
 /****************************** BLOG ***********************************/
 
+#cats li {
+    list-style: none;
+}
+
 .blog_entry {
     clear: both;
     margin-bottom: 15px;
