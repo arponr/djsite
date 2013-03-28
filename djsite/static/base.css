@@ -75,7 +75,8 @@ p {
 }
 
 #nav {
-    margin: 15px 0 0 300px;
+    float: right;
+    margin: 15px 100px 0 0;
 }
 
 #nav li {
@@ -93,7 +94,7 @@ p {
 
 #cur a:link, #cur a:visited, #nav a:hover {
     padding: 0 9px 0 9px;
-    border-bottom: 1px solid #000000;
+    border: 1px solid #000000;
 }
 
 .left, .right {
