@@ -92,6 +92,7 @@ p {
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
+    padding: 0 10px 0 10px;
     border-bottom: 1px solid #000000;
 }
 
