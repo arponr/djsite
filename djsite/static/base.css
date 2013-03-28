@@ -76,6 +76,7 @@ p {
 
 #headline {
     float: right;
+    position: relative;
 }
 
 #nav {
