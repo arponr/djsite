@@ -2,16 +2,6 @@
 
 {% block nav_blog %}id="cur"{% endblock %}
 
-{% block info %}
-<h1>Categories</h1>
-
-<ul id="cats">
-  {% for c in cats %}
-  <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a> ({{ c.post_set.count }})</li>
-  {% endfor %}
-</ul>
-{% endblock %}
-
 {% block content %}
 {% for p in posts %}
 <div class="blog_entry">
