@@ -67,18 +67,17 @@ p {
 }
 
 #title {
-    float: right;
     font-family: "misterk", serif;
     font-size: 40px;
 }
 
 #name {
-    float: right;
-    margin: 26px -110px 0 0;
+    margin: 26px 0 0 34px;
 }
 
 #nav {
-    margin: 15px 0 0 -10px;
+    float: right;
+    margin: 15px 0 0 100px;
 }
 
 #nav li {
@@ -106,13 +105,13 @@ p {
 .left {
     width: 300px;
     min-height: 100%;
-    float: right;
+    float: left;
     font-size: 13px;
     line-height: 125%;
 }
 
 .right {
-    float: left;
+    float: right;
     width: 450px;
     line-height: 150%;
 }
