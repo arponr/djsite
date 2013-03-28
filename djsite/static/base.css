@@ -66,17 +66,14 @@ p {
 }
 
 #title {
+    float: right;
     font-family: "misterk", serif;
     font-size: 40px;
 }
 
 #name {
-    margin: -13px 0 0 34px;
-}
-
-#headline {
     float: right;
-    position: relative;
+    margin: -13px 0 0 34px;
 }
 
 #nav {
