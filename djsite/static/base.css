@@ -76,7 +76,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 100px 0 0;
+    margin: 15px 150px 0 0;
 }
 
 #nav li {
@@ -89,11 +89,11 @@ p {
 #nav a:link, #nav a:visited {
     color: #000000;
     text-decoration: none;
-    padding: 0 10px 0 10px;
+    padding: 3px 10px 3px 10px;
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    padding: 0 9px 0 9px;
+    padding: 3px 9px 3px 9px;
     border: 1px solid #000000;
 }
 
