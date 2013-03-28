@@ -94,7 +94,7 @@ p {
     padding: 0 10px 0 10px;
 }
 
-#cur, #nav a:hover {
+#cur a:link #cur a:visited, #nav a:hover {
     color: #ffffff;
 }
 
