@@ -74,11 +74,11 @@ p {
 
 #name {
     float: right;
-    margin: 25px -100px 0 0;
+    margin: 26px -110px 0 0;
 }
 
 #nav {
-    margin: 15px 0px 0 0;
+    margin: 15px 0 0 -10px;
 }
 
 #nav li {
