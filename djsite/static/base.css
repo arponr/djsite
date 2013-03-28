@@ -76,7 +76,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 70px 0 0;
+    margin: 15px 0px 0 0;
 }
 
 #nav li {
@@ -104,13 +104,13 @@ p {
 .left {
     width: 300px;
     min-height: 100%;
-    float: left;
+    float: right;
     font-size: 13px;
     line-height: 125%;
 }
 
 .right {
-    float: right;
+    float: left;
     width: 450px;
     line-height: 150%;
 }
