@@ -68,7 +68,6 @@ p {
 #title {
     font-family: "misterk", serif;
     font-size: 40px;
-    color: #000000;
 }
 
 #name {
@@ -94,7 +93,7 @@ p {
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    color: #000000;
+    text-decoration: underline;
 }
 
 .left, .right {
