@@ -72,7 +72,7 @@ p {
 }
 
 #name {
-    margin: -14px 0 0 20px;
+    margin: -14px 0 0 30px;
 }
 
 #nav {
@@ -89,13 +89,13 @@ p {
 }
 
 #nav a:link, #nav a:visited {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     padding: 0 10px 0 10px;
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 .left, .right {
@@ -107,7 +107,7 @@ p {
     min-height: 100%;
     float: left;
     font-size: 13px;
-    line-height: 120%;
+    line-height: 125%;
 }
 
 .right {
