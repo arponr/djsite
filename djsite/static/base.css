@@ -51,7 +51,7 @@ p {
 #header {
     width: 100%;
     background: #d05a4b;
-    color: #ffffff;
+    color: #000000;
 }
 
 .wrapper {
@@ -87,13 +87,13 @@ p {
 }
 
 #nav a:link, #nav a:visited {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 0 10px 0 10px;
 }
 
 #cur a:link, #cur a:visited, #nav a:hover {
-    text-decoration: underline;
+    border: 1px solid #000000;
 }
 
 .left, .right {
