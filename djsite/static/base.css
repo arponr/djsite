@@ -56,7 +56,6 @@ p {
 
 .wrapper {
     width: 790px;
-    max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -76,7 +75,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 100px 0 0;
+    margin: 15px 130px 0 0;
 }
 
 #nav li {
@@ -110,10 +109,11 @@ p {
 
 .blog_title {
     font-family: "misterk", serif;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .blog_info {
+    float: right;
     font-size: 13px;
 }
 
