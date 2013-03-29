@@ -55,7 +55,7 @@ p {
 }
 
 .wrapper {
-    width: 730px;
+    width: 740px;
     margin: 0 auto;
     position: relative;
 }
@@ -75,7 +75,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 150px 0 0;
+    margin: 15px 140px 0 0;
 }
 
 #nav li {
