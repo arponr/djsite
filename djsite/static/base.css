@@ -74,8 +74,8 @@ p {
 }
 
 #nav {
-    float: right;
-    margin: 15px 130px 0 0;
+    float: left;
+    margin: 15px 0 0 285px;
 }
 
 #nav li {
@@ -109,12 +109,13 @@ p {
 
 .blog_title {
     font-family: "misterk", serif;
-    font-size: 26px;
-    float: right;
-    margin-right: 200px;
+    font-size: 28px;
+    float: left;
+    margin-left: 285px;
 }
 
 .blog_info {
+
 }
 
 /****************************** POST ****************************/
