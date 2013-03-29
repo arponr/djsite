@@ -97,34 +97,8 @@ p {
     border: 1px solid #000000;
 }
 
-.left, .right {
+#main {
     padding-top: 20px;
-}
-
-.left {
-    width: 300px;
-    min-height: 100%;
-    float: left;
-    font-size: 13px;
-    line-height: 125%;
-}
-
-.right {
-    float: right;
-    width: 450px;
-    line-height: 150%;
-}
-
-.content h1 {
-    font-family: "misterk", serif;
-    font-size: 30px;
-    font-weight: normal;
-    line-height: 1;
-}
-
-.content blockquote {
-    font-style: italic;
-    margin: 0 0 0 30px;
 }
 
 /****************************** BLOG ***********************************/
@@ -148,3 +122,28 @@ p {
 
 /****************************** POST ****************************/
 
+.post_info {
+    width: 300px;
+    min-height: 100%;
+    float: left;
+    font-size: 13px;
+    line-height: 125%;
+}
+
+.post_content {
+    float: right;
+    width: 450px;
+    line-height: 150%;
+}
+
+.post_content h1 {
+    font-family: "misterk", serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.post_content blockquote {
+    font-style: italic;
+    margin: 0 0 0 30px;
+}

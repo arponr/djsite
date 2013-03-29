@@ -12,23 +12,25 @@
 </script>
 {% endblock %}
 
-{% block info %}
-<h1>{{ p.title }}</h1>
-
-created: {{ p.created|date:"j M Y, P" }}<br />
-{% if p.edited %}
-edited: {{ p.edited|date:"j M Y, P" }}<br />
-{% endif %}
-categories:
-{% for c in p.categories.all %}
-{% if not forloop.last %}
-<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-{% else %}
-<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-{% endif %}
-{% endfor %}
-{% endblock %}
-
 {% block content %}
-{{ p.content|safe }}
+<div class="post_info">
+  <h1>{{ p.title }}</h1>
+
+  created: {{ p.created|date:"j M Y, P" }}<br />
+  {% if p.edited %}
+  edited: {{ p.edited|date:"j M Y, P" }}<br />
+  {% endif %}
+  categories:
+  {% for c in p.categories.all %}
+  {% if not forloop.last %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {% else %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {% endif %}
+  {% endfor %}
+</div>
+
+<div class="post_content">
+  {{ p.content|safe }}
+</div>
 {% endblock %}
