@@ -65,11 +65,13 @@ p {
 }
 
 #title {
+    float: left;
     font-family: "misterk", serif;
     font-size: 40px;
 }
 
 #name {
+    float: left;
     margin: -13px 0 0 34px;
 }
 
@@ -115,7 +117,7 @@ p {
 }
 
 .blog_info {
-
+    float: left;
 }
 
 /****************************** POST ****************************/
