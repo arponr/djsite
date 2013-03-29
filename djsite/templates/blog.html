@@ -3,7 +3,7 @@
 {% block nav_blog %}id="cur"{% endblock %}
 
 {% block content %}
-<h1>Posts {% block category %}{% endblock %}</h1>
+<h1>Archive {% block category %}{% endblock %}</h1>
 <ul class="post_list">
 {% for p in posts %}
 <li><a href="{{ p.get_absolute_url }}">{{ p.title }}</a>, posted {{ p.created|date:"j M Y" }} in
