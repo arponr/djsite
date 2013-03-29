@@ -75,7 +75,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 140px 0 0;
+    margin: 15px 130px 0 0;
 }
 
 #nav li {
@@ -115,6 +115,7 @@ p {
 .blog_info {
     float: right;
     font-size: 13px;
+    margin-right: 100px;
 }
 
 /****************************** POST ****************************/
