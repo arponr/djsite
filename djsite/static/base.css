@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 html, body {
     height: 100%;
     line-height: 1;
@@ -109,13 +113,10 @@ p {
 
 .blog_title {
     font-family: "misterk", serif;
-    font-size: 28px;
-    padding-left: 285px;
+    font-size: 24px;
 }
 
 .blog_info {
-    float: left;
-    width: 285px;
 }
 
 /****************************** POST ****************************/
