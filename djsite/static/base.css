@@ -76,14 +76,14 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 0 0 0px;
+    margin: 15px 0 0 -100px;
 }
 
 #nav li {
     text-transform: uppercase;
     display: inline;
     list-style:none;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #nav a:link, #nav a:visited {
