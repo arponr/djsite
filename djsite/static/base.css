@@ -33,7 +33,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #999999;
+    color: #888888;
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ p {
 }
 
 #main {
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
 }
 
 /****************************** BLOG ***********************************/
