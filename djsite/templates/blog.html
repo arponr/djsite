@@ -6,7 +6,7 @@
 {% for p in posts %}
 <div class="blog_entry">
   <div class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a> </div>
-  <div class="blog_info">{{ p.created|date:"j M Y" }}, in
+  <div class="blog_info">{{ p.created|date:"j M Y" }} in
     {% for c in p.categories.all %}
     {% if not forloop.last %}
     <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 

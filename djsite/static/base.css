@@ -110,11 +110,11 @@ p {
 .blog_title {
     font-family: "misterk", serif;
     font-size: 26px;
+    float: right;
     margin-right: 200px;
 }
 
 .blog_info {
-    font-size: 13px;
 }
 
 /****************************** POST ****************************/
