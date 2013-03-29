@@ -55,7 +55,7 @@ p {
 }
 
 .wrapper {
-    width: 790px;
+    width: 730px;
     margin: 0 auto;
     position: relative;
 }
@@ -75,7 +75,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 130px 0 0;
+    margin: 15px 150px 0 0;
 }
 
 #nav li {
@@ -121,14 +121,14 @@ p {
 
 .post_info {
     float: left;
-    width: 300px;
+    width: 275px;
     font-size: 13px;
     line-height: 125%;
 }
 
 .post_content {
     float: right;
-    width: 450px;
+    width: 425px;
     line-height: 150%;
 }
 
