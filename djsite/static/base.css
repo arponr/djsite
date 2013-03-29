@@ -76,7 +76,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 0 0 160px;
+    margin: 15px 0 0 -100px;
 }
 
 #nav li {
