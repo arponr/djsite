@@ -76,7 +76,7 @@ p {
 
 #nav {
     float: right;
-    margin: 15px 0 0 -100px;
+    margin: 15px 0 0 -160px;
 }
 
 #nav li {
@@ -123,20 +123,19 @@ p {
 /****************************** POST ****************************/
 
 .post_info {
-    width: 300px;
-    min-height: 100%;
     float: left;
+    width: 300px;
     font-size: 13px;
     line-height: 125%;
 }
 
 .post_content {
     float: right;
-    width: 450px;
+    width: 400px;
     line-height: 150%;
 }
 
-.post_content h1 {
+.post_info h1 {
     font-family: "misterk", serif;
     font-size: 30px;
     font-weight: normal;
