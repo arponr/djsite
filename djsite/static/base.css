@@ -65,19 +65,17 @@ p {
 }
 
 #title {
-    float: left;
     font-family: "misterk", serif;
     font-size: 40px;
 }
 
 #name {
-    float: left;
     margin: -13px 0 0 34px;
 }
 
 #nav {
-    float: left;
-    margin: 15px 0 0 285px;
+    float: right;
+    margin: 15px 130px 0 0;
 }
 
 #nav li {
@@ -112,12 +110,12 @@ p {
 .blog_title {
     font-family: "misterk", serif;
     font-size: 28px;
-    float: left;
-    margin-left: 285px;
+    padding-left: 285px;
 }
 
 .blog_info {
     float: left;
+    width: 285px;
 }
 
 /****************************** POST ****************************/
