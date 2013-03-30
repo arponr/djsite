@@ -57,7 +57,7 @@ p {
 
 #header {
     width: 100%;
-    border-bottom: 1px solid #f0f0f0; 
+    border-bottom: 1px solid #f5f5f5; 
     text-align: center;
 }
 
@@ -74,7 +74,7 @@ p {
 #title {
     font-family: "misterk", "adobe-garamond-pro", serif;
     font-size: 30px;
-    margin-bottom: 5px;
+    margin: 0 0 5px -5px;
 }
 
 #nav li {
