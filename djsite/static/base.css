@@ -35,11 +35,11 @@ body {
 a:link, a:visited {
     color: #444444;
     text-decoration: none;
-    -webkit-transition: color .25s;
-    -moz-transition: color .25s;
-    -ms-transition: color .25s;
-    -o-transition: color .25s;
-    transition: color .25s;
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
 }
 
 a:hover {
@@ -57,8 +57,7 @@ p {
 
 #header {
     width: 100%;
-    border-bottom: 1px solid #eeeeee;
-    color: #000000;
+    background: #5da252;
 }
 
 .wrapper {
