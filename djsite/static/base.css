@@ -58,6 +58,7 @@ p {
 #header {
     width: 100%;
     border-bottom: 1px solid #f0f0f0; 
+    text-align: center;
 }
 
 .wrapper {
@@ -80,11 +81,11 @@ p {
     font-size: 15px;
     display: inline;
     list-style:none;
-    margin-left: 25px;
+    margin: 0 10px 0 10px;
 }
 
 #main {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .content h1 {
