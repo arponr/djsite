@@ -33,7 +33,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #444444;
+    color: #444455;
     text-decoration: none;
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
