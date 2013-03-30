@@ -57,7 +57,6 @@ p {
 
 #header {
     width: 100%;
-    background: #a2b0b9;
 }
 
 .wrapper {
@@ -71,13 +70,13 @@ p {
 }
 
 #title {
-    font-size: 20px;
-    font-style: italic;
+    font-family: "misterk", "adobe-garamond-pro", serif;
+    font-size: 28px;
+    float: right;
 }
 
 #nav {
     float: right;
-    margin-top: 2px;
 }
 
 #nav li {
