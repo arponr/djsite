@@ -28,9 +28,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "acuta", serif;
-    font-size: 15px;
-    font-weight: 300;
+    font-family: "adobe-garamond-pro", serif;
+    font-size: 16px;
 }
 
 a:link, a:visited {
