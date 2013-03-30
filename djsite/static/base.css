@@ -52,7 +52,7 @@ p {
 
 #header {
     width: 100%;
-    background: #d05a4b;
+    background: #bfcee5;
     color: #000000;
 }
 
@@ -73,7 +73,7 @@ p {
 
 #nav {
     float: right;
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
 #nav li {
