@@ -28,8 +28,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "times", "times new roman", serif;
-    font-size: 15px;
+    font-family: "adobe-garamond-pro", serif;
+    font-size: 16px;
 }
 
 a:link, a:visited {
@@ -57,7 +57,7 @@ p {
 }
 
 .wrapper {
-    width: 740px;
+    width: 600px;
     margin: 0 auto;
     position: relative;
 }
@@ -67,20 +67,17 @@ p {
 }
 
 #title {
-    font-family: "misterk", serif;
-    font-size: 40px;
-}
-
-#name {
-    margin: -13px 0 0 34px;
+    font-size: 20px;
+    font-style: italic;
 }
 
 #nav {
     float: right;
-    margin: 15px 130px 0 0;
 }
 
 #nav li {
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 12px;
     text-transform: uppercase;
     display: inline;
     list-style:none;
@@ -103,8 +100,9 @@ p {
 }
 
 .content h1 {
-    font-family: "misterk", serif;
-    font-size: 30px;
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
     font-weight: normal;
     line-height: 1;
     margin-bottom: 5px;
@@ -114,7 +112,7 @@ p {
 
 .post_list li {
     list-style: none;
-    margin-bottom: 15px;
+    margin: 0 0 15px 10px;
 }
 
 /****************************** POST ***********************************/
