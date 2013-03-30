@@ -9,25 +9,19 @@
   </head>
 
   <body>
-    <div id="header">
-      <div class="wrapper">
-	<div class="content">	  
-	  <div id="title">Something, by Arpon</div>
+    <div id="wrapper">
+      <div id="header">	  
+	<div id="title">Something, by Arpon</div>
 
-	  <ul id="nav">
-	    <li {% block nav_about %}{% endblock %}><a href="/about">About</a></li>
-	    <li {% block nav_blog %}{% endblock %}><a href="/blog">Blog</a></li>
-	    <li {% block nav_work %}{% endblock %}><a href="/work">Work</a></li>
-	  </ul>
-	</div>
+	<ul id="nav">
+	  <li {% block nav_about %}{% endblock %}><a href="/about">About</a></li>
+	  <li {% block nav_blog %}{% endblock %}><a href="/blog">Blog</a></li>
+	  <li {% block nav_work %}{% endblock %}><a href="/work">Work</a></li>
+	</ul>
       </div>
-    </div>
 
-    <div id="main">
-      <div class="wrapper">
-	<div class="content">
+      <div id="content">
 	  {% block content %}{% endblock %}
-	</div>
       </div>
     </div>
   </body>
