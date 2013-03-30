@@ -23,9 +23,9 @@
   in 
   {% for c in p.categories.all %}
   {% if not forloop.last %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {{ c.name }}, 
   {% else %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {{ c.name }}
   {% endif %}
   {% endfor %}
 </div>
