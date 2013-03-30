@@ -28,12 +28,12 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "adobe-garamond-pro", serif;
+    font-family: "acuta", serif;
     font-size: 16px;
 }
 
 a:link, a:visited {
-    color: #444455;
+    color: #555560;
     text-decoration: none;
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
