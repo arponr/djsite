@@ -28,8 +28,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "adobe-garamond-pro", serif;
-    font-size: 16px;
+    font-family: "pt-serif", serif;
+    font-size: 14px;
 }
 
 a:link, a:visited {
