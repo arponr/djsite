@@ -60,7 +60,7 @@ h1, h2 {
     text-transform: uppercase;
     font-weight: normal;
     line-height: 1;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -108,16 +108,17 @@ h2 {
 }
 
 .blog_title {
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .blog_info {
     float: left;
-    width: 70px;
+    width: 50px;
     margin-right: 10px;
+    padding-top: 1px;
     font-size: 12px;
     font-family: "PT Sans", sans-serif;
-    color: #ff7f66;
+    color: #d96848;
 }
 
 /****************************** POST ***********************************/
