@@ -87,13 +87,12 @@ h2 {
 #title {
     font-family: "misterk", "pt-sans", sans-serif;
     font-size: 30px;
-    margin: 0 0 5px -6px;
 }
 
 #nav li {
     display: inline;
     list-style: none;
-    margin-right: 20px;
+    margin: 0 10px 0 10px;
 }
 
 #content {
