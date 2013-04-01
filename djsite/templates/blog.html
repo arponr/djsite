@@ -6,7 +6,7 @@
 <h2>Recent</h2>
 <ul class="blog_list">
 {% for p in posts %}
-<li><div class="blog_info">{{ p.created|date:"Y-m-d" }}</div><div class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></div></li>
+<li><div class="blog_info">{{ p.created|date:"d/m/y" }}</div><div class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></div></li>
 {% endfor %}
 </ul>
 {% endblock %}
