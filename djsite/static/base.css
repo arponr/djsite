@@ -33,7 +33,7 @@ body {
 }
 
 a:link, a:visited {
-    color: #555560;
+    color: #666666;
     text-decoration: none;
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
@@ -85,7 +85,7 @@ h2 {
 }
 
 #title {
-    font-family: "misterk", "adobe-garamond-pro", serif;
+    font-family: "misterk", "pt-sans", sans-serif;
     font-size: 30px;
     margin: 0 0 5px -6px;
 }
@@ -97,7 +97,7 @@ h2 {
 }
 
 #content {
-    padding: 30px 20px 20px 30px;
+    padding: 15px 20px 20px 30px;
 }
 
 /****************************** BLOG ***********************************/
