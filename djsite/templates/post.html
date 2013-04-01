@@ -13,9 +13,9 @@
 {% endblock %}
 
 {% block content %}
-<div class="post_info">
-  <h1>{{ p.title }}</h1>
+<h1>{{ p.title }}</h1>
 
+<div class="post_info">
   created {{ p.created|date:"j M Y" }} &mdash; 
   {% if p.edited %}
   edited {{ p.edited|date:"j M Y" }} &mdash; 
