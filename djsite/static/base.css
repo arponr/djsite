@@ -64,11 +64,11 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #wrapper {
@@ -91,7 +91,6 @@ h2 {
 }
 
 #nav li {
-    font-size: 15px;
     display: inline;
     list-style:none;
     margin: 0 10px 0 10px;
@@ -112,8 +111,7 @@ h2 {
 
 .post_info {
     text-align: center;
-    font-size: 13px;
-    line-height: 120%;
+    font-size: 12px;
 }
 
 .post_content {
