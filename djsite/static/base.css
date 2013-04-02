@@ -28,7 +28,7 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "PT Serif", serif;
+    font-family: skolar, serif;
     font-size: 14px;
 }
 
@@ -56,7 +56,7 @@ p {
 }
 
 h1, h2 {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Futura PT", sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     line-height: 1;
@@ -86,7 +86,7 @@ h2 {
 }
 
 #title {
-    font-family: "misterk", "PT Sans", sans-serif;
+    font-family: "misterk", "Futura PT", sans-serif;
     font-size: 30px;
     margin: 0 0 3px -6px;
 }
@@ -111,7 +111,7 @@ h2 {
 .blog_info {
     padding: 1px 0 0 10px;
     font-size: 12px;
-    font-family: "PT Sans", sans-serif;
+    font-family: "Futura PT", sans-serif;
 }
 
 /****************************** POST ***********************************/
@@ -119,7 +119,7 @@ h2 {
 .post_info {
     text-align: center;
     font-size: 12px;
-    font-family: "PT Sans", sans-serif;
+    font-family: "Futura PT", sans-serif;
 }
 
 .post_content {
