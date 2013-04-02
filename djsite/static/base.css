@@ -29,7 +29,8 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: skolar, serif;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 a:link, a:visited {
@@ -56,7 +57,7 @@ p {
 }
 
 h1, h2 {
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -96,6 +97,7 @@ h2 {
 }
 
 #nav li {
+    font-size: 14px;
     display: inline;
     list-style: none;
     margin: 0 10px 0 10px;
