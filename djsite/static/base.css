@@ -82,7 +82,7 @@ h2 {
 
 #header {
     margin: 0 20px 0 20px;
-    padding: 15px 0 15px 0;
+    padding: 20px 0 15px 0;
     border-bottom: 1px solid #f0f0f0; 
 }
 
@@ -93,7 +93,7 @@ h2 {
 
 #nav {
     float: right;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 #nav li {
@@ -104,7 +104,7 @@ h2 {
 }
 
 #content {
-    padding: 15px 20px 15px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 /****************************** BLOG ***********************************/
@@ -127,7 +127,7 @@ h2 {
 .post_info {
     text-align: center;
     font-size: 13px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     color: #505050;
 }
 
