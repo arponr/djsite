@@ -89,12 +89,11 @@ h2 {
 #title {
     font-family: "misterk", "skolar", serif;
     font-size: 30px;
-    margin-bottom: 3px;
-    text-align: center;
 }
 
 #nav {
     float: right;
+    margin-top: 3px;
 }
 
 #nav li {
