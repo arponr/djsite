@@ -62,7 +62,7 @@ h1, h2 {
 }
 
 h1 {
-    font-family: "myriad-pro", sans-serif;
+    font-family: "ff-dagny-web-pro", sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -86,7 +86,7 @@ h2 {
 }
 
 #title {
-    font-family: "misterk", "myriad-pro", sans-serif;
+    font-family: "misterk", "ff-dagny-web-pro", sans-serif;
     font-size: 30px;
     margin: 0 0 3px -6px;
 }
@@ -107,7 +107,7 @@ h2 {
 .blog_list li {
     list-style: none;
     margin: 0 0 10px 10px;
-    font-family: "myriad-pro", sans-serif;
+    font-family: "ff-dagny-web-pro", sans-serif;
     font-size: 16px;
 }
 
@@ -121,7 +121,7 @@ h2 {
 .post_info {
     text-align: center;
     font-size: 14px;
-    font-family: "myriad-pro", sans-serif;
+    font-family: "ff-dagny-web-pro", sans-serif;
 }
 
 .post_content {
