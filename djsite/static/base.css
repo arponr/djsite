@@ -88,6 +88,7 @@ h2 {
 #title {
     font-family: "misterk", "skolar", serif;
     font-size: 30px;
+    margin: 0 0 3px 0;
 }
 
 #nav li {
