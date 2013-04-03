@@ -111,9 +111,9 @@ h2 {
 
 .blog_list li {
     list-style: none;
-    margin: 0 0 15px 10px;
+    margin: 0 0 10px 10px;
     font-family: "calluna-sans", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .blog_info {
