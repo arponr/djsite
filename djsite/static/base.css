@@ -29,7 +29,7 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: skolar, serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 a:link, a:visited {
@@ -74,7 +74,7 @@ h2 {
 }
 
 #wrapper {
-    width: 525px;
+    width: 500px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -113,7 +113,7 @@ h2 {
     list-style: none;
     margin: 0 0 15px 10px;
     font-family: "calluna-sans", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .blog_info {
