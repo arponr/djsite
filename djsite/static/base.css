@@ -111,7 +111,7 @@ h2 {
 
 .blog_list li {
     list-style: none;
-    margin: 0 0 10px 10px;
+    margin: 0 0 15px 10px;
     font-family: "calluna-sans", sans-serif;
     font-size: 16px;
 }
@@ -119,7 +119,7 @@ h2 {
 .blog_info {
     padding: 1px 0 0 10px;
     font-family: skolar, serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 /****************************** POST ***********************************/
