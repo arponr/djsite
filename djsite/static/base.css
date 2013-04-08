@@ -69,16 +69,19 @@ h2 {
 }
 
 #wrapper {
-    width: 500px;
+    width: 550px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
 }
 
-#header {
-    margin: 0 20px 0 20px;
-    padding: 20px 0 15px 0;
-    border-bottom: 1px solid #f0f0f0; 
+#sidebar {
+    float: left;
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    padding: 20px 20px 0 20px;
+    text-align: right;
 }
 
 #title {
@@ -88,13 +91,12 @@ h2 {
 
 #nav {
     float: right;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 #nav li {
-    display: inline;
     list-style: none;
-    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 #content {
