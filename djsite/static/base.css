@@ -35,11 +35,11 @@ body {
 a:link, a:visited {
     color: #000000;
     text-decoration: none;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #dddddd;
 }
 
 a:hover {
-    background: #aaaaaa;
+    background: #dddddd;
 }
 
 a:focus {
@@ -80,28 +80,27 @@ h2 {
     position: fixed;
     width: 50px;
     height: 100%;
-    padding: 20px 0 0 20px;
+    padding: 50px 0 0 20px;
     text-align: right;
 }
 
 #title {
-    font-family: skolar, serif;
-    font-style: italic;
+    font-size: 30px;
 }
 
 #nav {
     float: right;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 #nav li {
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #content {
-    margin-left: 100px;
-    padding: 20px 20px 20px 0px;
+    margin-left: 120px;
+    padding: 50px 20px 20px 0px;
 }
 
 /****************************** BLOG ***********************************/
@@ -120,7 +119,6 @@ h2 {
 /****************************** POST ***********************************/
 
 .post_info {
-    text-align: center;
     font-size: 13px;
     padding-bottom: 20px;
     color: #505050;
@@ -128,7 +126,6 @@ h2 {
 
 .post_content {
     padding-top: 20px;
-    border-top: 1px solid #f0f0f0; 
     line-height: 160%;
 }
 
