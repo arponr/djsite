@@ -116,7 +116,7 @@ h2 {
 .blog_info {
     padding: 1px 0 0 20px;
     font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
     color: #505050;
 }
@@ -131,7 +131,7 @@ h2 {
 
 .post_content {
     padding-top: 20px;
-    line-height: 160%;
+    line-height: 150%;
 }
 
 .post_content blockquote {
