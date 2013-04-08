@@ -107,7 +107,6 @@ h2 {
 
 .blog_post {
     margin-bottom: 50px;
-    line-height: 120%;
 }
 
 .blog_title {
@@ -122,6 +121,11 @@ h2 {
     font-size: 13px;
     font-style: normal;
     color: #555555;
+}
+
+.blog_prev {
+    line-height: 120%;
+    margin: 10px 0 0 10px;
 }
 
 /****************************** POST ***********************************/
