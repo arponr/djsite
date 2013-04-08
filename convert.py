@@ -1,14 +1,14 @@
 import sys, subprocess
 
 def conv(s):
-    p = subprocess.Popen((['pandoc', '--from=markdown',
-                           '--mathjax', '--to=html']
-                          stdin=subprocess.PIPE,  
-                          stdout=subprocess.PIPE))
-    return ((p.communicate(s)[0]
-             .replace('\n', '\n\n')
-             .replace('---', '&mdash;')
-             .replace('--', '&ndash;')))
+    p = subprocess.Popen(['pandoc', '--from=markdown',
+                          '--mathjax', '--to=html'],
+                         stdin=subprocess.PIPE,  
+                         stdout=subprocess.PIPE)
+    return (p.communicate(s)[0]
+            .replace('\n', '\n\n')
+            .replace('---', '&mdash;')
+            .replace('--', '&ndash;'))
 
 if __name__ == '__main__':    
     fname = sys.argv[1]
