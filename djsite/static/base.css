@@ -107,6 +107,7 @@ h2 {
 
 .blog_post {
     margin-bottom: 50px;
+    line-height: 120%;
 }
 
 .blog_title {
@@ -133,7 +134,7 @@ h2 {
 
 .post_content {
     padding-top: 20px;
-    line-height: 150%;
+    line-height: 140%;
 }
 
 .post_content blockquote {
