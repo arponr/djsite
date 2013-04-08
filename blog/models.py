@@ -17,6 +17,7 @@ class Category(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=100)
     slug = models.SlugField(unique=True)
+    preview = models.TextField()
     content = models.TextField()
     created = models.DateTimeField()
     edited = models.DateTimeField(null=True, blank=True)

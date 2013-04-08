@@ -9,26 +9,25 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         with open('upload-temp') as f:
-            _title = f.readline().rstrip()
-            _slug = f.readline().rstrip()
-            _cats = f.readline().rstrip().split(', ')
-            _content = f.read().lstrip()
+            sep = '\n' + ('-' * 70) + '\n')
+            fields = f.read().split(sep)
             if options['update']:
                 try:
-                    p = Post.objects.get(slug=_slug)
+                    p = Post.objects.get(slug=fields[1])
                     p.edited = datetime.now()
                 except Post.DoesNotExist:
                     raise CommandError('no post with slug "%s" exists'
-                                       % _slug) 
+                                       % fields[1]) 
             else:
                 p = Post()
                 p.created = datetime.now()
                 p.edited = None
-            p.title = _title
-            p.slug = _slug
-            p.content = _content
+            p.title = fields[0]
+            p.slug = fields[1]
+            p.preview = fields[3]
+            p.content = fields[4]
             p.save()
-            for cat in _cats:
+            for cat in fields[2].split(', '):
                 try:
                     c = Category.objects.get(name=cat)
                 except Category.DoesNotExist:
