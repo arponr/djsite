@@ -100,14 +100,14 @@ h2 {
 
 #content {
     margin-left: 140px;
-    padding: 60px 20px 20px 0px;
+    padding: 55px 20px 20px 0px;
 }
 
 /****************************** BLOG ***********************************/
 
 .blog_list li {
     list-style: none;
-    margin: 0 0 50px 10px;
+    margin-bottom: 50px;
     font-family: skolar, serif;
     font-style: italic;
 }
