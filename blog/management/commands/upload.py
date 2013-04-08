@@ -5,13 +5,17 @@ from optparse import make_option
 from datetime import datetime
 
 class Command(BaseCommand):
-    option_list = BaseCommand.option_list + (make_option('--update'),)
+    option_list = (BaseCommand.option_list + 
+                   (make_option('-e', action='store_true',
+                                dest='edit'), 
+                    make_option('-c', action='store_false',
+                                dest='edit')))
 
     def handle(self, *args, **options):
         with open('upload-temp') as f:
             sep = '\n' + ('-' * 70) + '\n'
             fields = f.read().split(sep)
-            if options['update']:
+            if options.edit:
                 try:
                     p = Post.objects.get(slug=fields[1])
                     p.edited = datetime.now()
