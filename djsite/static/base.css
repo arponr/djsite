@@ -77,7 +77,7 @@ h2 {
 #sidebar {
     float: left;
     position: fixed;
-    width: 50px;
+    width: 75px;
     height: 100%;
     padding: 50px 30px 0 20px;
     border-right: 1px solid #eeeeee;
@@ -85,11 +85,10 @@ h2 {
 }
 
 #logo {
-    width: 50px;
+    width: 75px;
 }
 
 #nav {
-    float: right;
     margin-top: 30px;
 }
 
@@ -99,7 +98,7 @@ h2 {
 }
 
 #content {
-    margin-left: 140px;
+    margin-left: 165px;
     padding: 60px 20px 20px 0px;
 }
 
