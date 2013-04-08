@@ -7,9 +7,7 @@ from datetime import datetime
 class Command(BaseCommand):
     option_list = (BaseCommand.option_list + 
                    (make_option('-e', action='store_true',
-                                dest='edit'), 
-                    make_option('-c', action='store_false',
-                                dest='edit')))
+                                dest='edit', default=False))) 
 
     def handle(self, *args, **options):
         with open('upload-temp') as f:
