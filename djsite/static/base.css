@@ -69,7 +69,7 @@ h2 {
 }
 
 #wrapper {
-    width: 550px;
+    width: 600px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -78,7 +78,7 @@ h2 {
 #sidebar {
     float: left;
     position: fixed;
-    width: 100px;
+    width: 50px;
     height: 100%;
     padding: 20px 0 0 20px;
     text-align: right;
@@ -100,7 +100,7 @@ h2 {
 }
 
 #content {
-    margin-left: 150px;
+    margin-left: 100px;
     padding: 20px 20px 20px 0px;
 }
 
