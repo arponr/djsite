@@ -15,7 +15,7 @@ class Command(BaseCommand):
         with open('upload-temp') as f:
             sep = '\n' + ('-' * 70) + '\n'
             fields = f.read().split(sep)
-            if options.edit:
+            if options['edit']:
                 try:
                     p = Post.objects.get(slug=fields[1])
                     p.edited = datetime.now()
