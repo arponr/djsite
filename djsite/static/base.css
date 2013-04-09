@@ -55,13 +55,12 @@ h1, h2 {
     font-family: skolar, serif;
     font-weight: 400;
     line-height: 1;
-    font-style: italic;
     margin-bottom: 10px;
 }
 
 h1 {
     font-family: wayfinding-sans, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 h2 {
@@ -112,13 +111,13 @@ h2 {
 
 .blog_title {
     font-family: wayfinding-sans, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .blog_info {
     font-family: wayfinding-sans, sans-serif;
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 13px;
     color: #555555;
 }
 
@@ -130,6 +129,7 @@ h2 {
 /****************************** POST ***********************************/
 
 .post_info {
+    font-family: wayfinding-sans, sans-serif;
     font-size: 13px;
     padding-bottom: 15px;
     color: #505050;
