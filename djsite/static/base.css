@@ -30,7 +30,6 @@ body, h1, h2, div, ul, li {
 body {
     font-family: ff-dagny-web-pro, sans-serif;
     font-size: 14px;
-    font-weight: 300;
 }
 
 a:link, a:visited {
@@ -91,7 +90,6 @@ h2 {
 
 #nav {
     margin: 30px 5px 0 0;
-    font-size: 16px;
 }
 
 #nav li {
