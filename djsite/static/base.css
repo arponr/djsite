@@ -52,7 +52,7 @@ p {
 }
 
 h1, h2 {
-    font-family: eskapade-fraktur, serif;
+    font-family: skolar, serif;
     font-weight: 400;
     font-style: italic;
     line-height: 1;
@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 h2 {
@@ -110,7 +110,7 @@ h2 {
 
 .blog_title {
     font-family: eskapade-fraktur, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
 }
 
