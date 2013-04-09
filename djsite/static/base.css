@@ -52,7 +52,7 @@ p {
 }
 
 h1, h2 {
-    font-family: skolar, serif;
+    font-family: chaparral-pro, serif;
     font-weight: 400;
     font-style: italic;
     line-height: 1;
@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 h2 {
@@ -109,8 +109,8 @@ h2 {
 }
 
 .blog_title {
-    font-family: eskapade-fraktur, serif;
-    font-size: 18px;
+    font-family: chaparral-pro, serif;
+    font-size: 16px;
     font-style: italic;
 }
 
