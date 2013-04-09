@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 h2 {
@@ -110,7 +110,7 @@ h2 {
 
 .blog_title {
     font-family: eskapade-fraktur, serif;
-    font-size: 16px;
+    font-size: 24px;
     font-style: italic;
 }
 
