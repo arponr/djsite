@@ -16,53 +16,47 @@ body {
     font-family: myriad-pro-condensed, sans-serif;
     font-size: 20px;
     background: #f28550;
-    color: #ffffff;
+    color: #000000;
 }
 
 a:link, a:visited {
+    color: #000000;
     text-decoration: none;
+    border-bottom: 1px solid #000000;
 }
 
 a:hover {
-    background: #3e454c;
+    border: none;
 }
 
 a:focus {
     outline: none;
 }
 
-#wrapper {
+.wrapper {
     width: 600px;
     max-width: 100%;
     margin: 0 auto;
 } 
 
-#content {
+.content {
     padding: 50px 50px 50px 50px;
+    text-align: center;
 }
 
-#intro {
-    font-size: 28px;
-    margin-bottom: 40px;
-}
-
-.name {
-    color: #000000;
+.intro {
+    text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
-#list li {
+.nothing {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.links li {
     list-style: none;
     display: inline;
     margin-right: 25px;
-}
-
-a:link, a:visited {
-    color: #000000;
-    text-decoration: none;
-    border-bottom: 1px solid #eeeeee;
-}
-
-a:hover {
-    border: none;
 }
