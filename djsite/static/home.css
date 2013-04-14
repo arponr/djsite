@@ -53,10 +53,11 @@ a:focus {
 .nothing {
     color: #ffffff;
     font-size: 36px;
+    margin-bottom: 50px;
 }
 
 .links li {
     list-style: none;
     display: inline;
-    margin-right: 25px;
+    margin: 0 15px 0 15px;
 }
