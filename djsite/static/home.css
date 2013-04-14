@@ -13,9 +13,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: "source-sans-pro", "gill sans mt", "gill sans", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+    font-family: futura-pt-condensed, sans-serif;
+    font-size: 20px;
     background: #2c3136;
     color: #96a2a6;
 }
@@ -44,8 +43,9 @@ a:focus {
 }
 
 #intro {
-    font-size: 22px;
+    font-size: 28px;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .welcome {
