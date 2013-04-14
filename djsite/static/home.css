@@ -13,10 +13,10 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: futura-pt-condensed, sans-serif;
+    font-family: myriad-pro-condensed, sans-serif;
     font-size: 20px;
-    background: #2c3136;
-    color: #96a2a6;
+    background: #f29863;
+    color: #ffffff;
 }
 
 a:link, a:visited {
@@ -39,17 +39,16 @@ a:focus {
 
 #content {
     padding: 50px 50px 50px 50px;
-    text-align: right;
 }
 
 #intro {
     font-size: 28px;
     margin-bottom: 40px;
-    text-transform: uppercase;
 }
 
-.welcome {
-    color: #ffffff;
+.name {
+    color: #000000;
+    font-weight: 600;
 }
 
 #list li {
