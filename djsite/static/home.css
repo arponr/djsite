@@ -15,7 +15,7 @@ body, h1, h2, div, ul, li {
 body {
     font-family: myriad-pro-condensed, sans-serif;
     font-size: 20px;
-    background: #f29863;
+    background: #f28550;
     color: #ffffff;
 }
 
@@ -53,29 +53,16 @@ a:focus {
 
 #list li {
     list-style: none;
-    margin-top: 25px;
+    display: inline;
+    margin-right: 25px;
 }
 
-#blog a:link, #blog a:visited {
-    color: #ff9379;
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #eeeeee;
 }
 
-#work a:link, #work a:visited {
-    color: #c5a5ff;
-}
-
-#github a:link, #github a:visited {
-    color: #feffbf;
-}
-
-#email a:link, #email a:visited {
-    color: #7cc598;
-}
-
-#twitter a:link, #twitter a:visited {
-    color: #9dd6fd;
-}
-
-#lastfm a:link, #lastfm a:visited {
-    color: #d26267;
+a:hover {
+    border: none;
 }
