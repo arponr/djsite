@@ -40,7 +40,7 @@ a:focus {
 } 
 
 .content {
-    padding: 50px 50px 50px 50px;
+    padding: 100px 50px 50px 50px;
     text-align: center;
 }
 
@@ -51,8 +51,10 @@ a:focus {
 }
 
 .nothing {
-    color: #ffffff;
-    font-size: 36px;
+    font-family: eskapade-fraktur, serif;
+    font-style: italic;
+    color: #ffff9d;
+    font-size: 48px;
     margin-bottom: 50px;
 }
 
