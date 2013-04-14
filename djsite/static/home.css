@@ -32,14 +32,13 @@ body {
     background: #778691;
 }
 
-.content {
+.wrapper {
+    width: 100%;
+    height: 300px;
+    background: #f28550;
     position: absolute;
     top: 50%;
-    height: 150px;
-    width: 100%;
-    margin-top: -75px;
-    background: #f28550;
-    padding: 50px 50px 50px 50px;
+    margin-top: 150px;
     text-align: center;
 }
 
