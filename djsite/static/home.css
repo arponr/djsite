@@ -34,14 +34,8 @@ body {
     color: #fafaf7;
 }
 
-.wrapper {
-    width: 800px;
-    max-width: 100%;
-    margin: 0 auto;
-} 
-
 .content {
-    padding: 100px 50px 100px 50px;
+    padding: 100px 300px;
 }
 
 .intro {
@@ -66,7 +60,6 @@ body {
     display: block;
     width: 100px;
     margin: 0 auto;
-    padding-top: 30px;
 }
 
 .links {
