@@ -13,14 +13,13 @@ body, h1, h2, div, ul, li {
 }
 
 a:link, a:visited {
-    color: #fafaf7;
+    color: #000000;
     text-decoration: none;
-    border-bottom: 1px solid #fafaf7;
+    border-bottom: 1px solid #000000;
 }
 
 a:hover {
-    color: #000000;
-    border: none;
+    border-bottom: 2px solid #000000;
 }
 
 a:focus {
@@ -28,21 +27,15 @@ a:focus {
 }
 
 body {
-    font-family: prenton-ultra-condensed, sans-serif;
-    font-size: 26px;
-    background: #fafaf7;
-}
-
-.wrapper {
-    background: #2f5489;
-    color: #fafaf7;
+    font-family: chaparral-pro, serif;
+    font-size: 16px;
+    background: #fbfcf6;
 }
 
 .content {
     width: 800px;
     margin: 0 auto;
     padding: 50px 0;
-    text-align: center;
 }
 
 .intro {
