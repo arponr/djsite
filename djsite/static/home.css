@@ -27,35 +27,29 @@ a:focus {
 }
 
 body {
-    font-family: myriad-pro-condensed, sans-serif;
+    font-family: atrament-web, sans-serif;
     font-size: 20px;
-    background: #f29863;
+    background: #2f5489;
+    color: #eeeeee;
 }
 
 .wrapper {
-    width: 100%;
-    height: 300px;
-    background: #f28550;
-    position: absolute;
-    top: 50%;
-    margin-top: -150px;
-    text-align: center;
-}
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+} 
 
 .content {
-    padding-top: 75px;
+    padding: 50px 50px 50px 50px;
 }
 
 .intro {
-    text-transform: uppercase;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
-.nothing {
-    font-family: eskapade-fraktur, serif;
-    font-style: italic;
-    font-size: 48px;
+.name {
+    color: #000000;
+    font-size: 36px;
     margin-bottom: 50px;
 }
 
