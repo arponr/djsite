@@ -35,7 +35,7 @@ body {
 }
 
 .content {
-    padding: 50px 30%;
+    padding: 50px 20%;
 }
 
 .intro {
@@ -47,7 +47,6 @@ body {
     color: #000000;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 50px;
 }
 
 .circle {
@@ -63,7 +62,6 @@ body {
 }
 
 .links {
-    margin-top: 50px;
     text-align: right;
 }
 
