@@ -41,7 +41,7 @@ body {
 .content {
     width: 800px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .intro {
@@ -57,8 +57,12 @@ body {
 
 .robot {
     display: block;
-    width: 300px;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
 }
 
 .links {
