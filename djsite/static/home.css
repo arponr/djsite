@@ -13,9 +13,9 @@ body, h1, h2, div, ul, li {
 }
 
 a:link, a:visited {
-    color: #eeeeee;
+    color: #fafaf7;
     text-decoration: none;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #fafaf7;
 }
 
 a:hover {
@@ -28,10 +28,10 @@ a:focus {
 }
 
 body {
-    font-family: atrament-web, sans-serif;
+    font-family: futura-pt, sans-serif;
     font-size: 24px;
     background: #2f5489;
-    color: #eeeeee;
+    color: #fafaf7;
 }
 
 .wrapper {
@@ -59,15 +59,15 @@ body {
 .robot {
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 150px;
 }
 
 .links {
+    margin-top: 50px;
     text-align: right;
 }
 
 .links li {
     list-style: none;
-    display: inline;
-    margin-left: 25px;
+    margin-bottom: 20px;
 }
