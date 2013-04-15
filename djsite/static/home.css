@@ -57,9 +57,7 @@ body {
 }
 
 .circle {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
+    width: 100%;
     background: #fafaf7;
     border-radius: 125px;
 }
