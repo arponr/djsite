@@ -43,11 +43,6 @@ body {
     font-size: 32px;
 }
 
-.name {
-    color: #000000;
-    font-size: 32px;
-    font-weight: 500;
-}
 
 .robot {
     display: block;
@@ -63,5 +58,5 @@ body {
 .links li {
     list-style: none;
     display: inline;
-    margin: 0 15px;
+    margin-right: 30px;
 }
