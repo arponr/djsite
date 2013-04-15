@@ -30,12 +30,18 @@ a:focus {
 body {
     font-family: prenton-ultra-condensed, sans-serif;
     font-size: 26px;
+    background: #fafaf7;
+}
+
+.wrapper {
     background: #2f5489;
     color: #fafaf7;
 }
 
 .content {
-    padding: 50px 20%;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .intro {
@@ -49,20 +55,14 @@ body {
     font-weight: 500;
 }
 
-.circle {
-    width: 100%;
-    padding: 20px 0;
-    background: #fafaf7;
-}
-
 .robot {
     display: block;
-    width: 100px;
+    width: 300px;
     margin: 0 auto;
 }
 
 .links {
-    text-align: right;
+    float: right;
 }
 
 .links li {
