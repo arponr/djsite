@@ -56,6 +56,13 @@ body {
     margin-bottom: 50px;
 }
 
+.circle {
+    width: 400px;
+    height: 400px;
+    background: #fafaf7;
+    border-radius: 200px;
+}
+
 .robot {
     display: block;
     margin: 0 auto;
