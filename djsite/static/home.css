@@ -58,8 +58,8 @@ body {
 
 .circle {
     width: 100%;
+    padding: 20px 0;
     background: #fafaf7;
-    border-radius: 125px;
 }
 
 .robot {
