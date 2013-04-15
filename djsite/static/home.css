@@ -27,13 +27,13 @@ a:focus {
 }
 
 body {
-    font-family: chaparral-pro, serif;
+    font-family: "chaparral-pro", serif;
     font-size: 16px;
     background: #fbfcf6;
 }
 
 .content {
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
     padding: 50px 0;
 }
