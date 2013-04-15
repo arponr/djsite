@@ -32,17 +32,11 @@ body {
     background: #fbfcf6;
 }
 
-.content {
+.wrapper {
     width: 500px;
     margin: 0 auto;
     padding: 50px 0;
 }
-
-.intro {
-    margin-bottom: 10px;
-    font-size: 32px;
-}
-
 
 .robot {
     display: block;
@@ -52,7 +46,7 @@ body {
 }
 
 .links {
-    margin-top: 10px;
+    float: right;
 }
 
 .links li {
