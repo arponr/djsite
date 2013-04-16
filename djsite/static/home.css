@@ -17,7 +17,7 @@ a:focus {
 }
 
 body {
-    font-family: "skolar", serif;
+    font-family: "ff-dagny-web-pro", serif;
     font-size: 14px;
     background: #ccced2;
 }
@@ -29,16 +29,15 @@ body {
 }
 
 .content {
-    width: 600px;
+    width: 525px;
     margin: 0 auto;
     position: relative;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .name {
     color: #feb41c;
-    font-size: 20px;
-    font-style: italic;
+    font-size: 24px;
 }
 
 .links {
