@@ -27,9 +27,9 @@ a:focus {
 }
 
 body {
-    font-family: "chaparral-pro", serif;
+    font-family: "ff-dagny-web-pro", serif;
     font-size: 16px;
-    background: #fbfcf6;
+    background: #aabbbb;
 }
 
 .header {
@@ -51,12 +51,13 @@ body {
 
 .links {
     float: right;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .links li {
     list-style: none;
     display: inline;
+    text-transform: uppercase;
     margin-left: 30px;
 }
 
