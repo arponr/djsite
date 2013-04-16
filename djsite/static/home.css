@@ -34,20 +34,36 @@ body {
 
 .header {
     width: 100%;
-    height: 75px;
+    height: 70px;
     background: #363f45;
-    color: #feb41c;
 }
 
 .content {
     width: 600px;
     margin: 0 auto;
     position: relative;
+    padding-top: 20px;
+}
+
+.name {
+    color: #feb41c;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .links {
     float: right;
     margin-top: 25px;
+}
+
+.links a:link, .links a:visited {
+    color: #ccced2;
+    text-decoration: none;
+    border-bottom: 1px solid #ccced2;
+}
+
+.links a:hover {
+    border-bottom: 2px solid #feb41c;
 }
 
 .links li {
