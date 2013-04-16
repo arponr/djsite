@@ -27,26 +27,22 @@ a:focus {
 }
 
 body {
-    font-family: "ff-dagny-web-pro", serif;
-    font-size: 16px;
-    background: #aabbbb;
+    font-family: "skolar", serif;
+    font-size: 14px;
+    background: #ccced2;
 }
 
 .header {
     width: 100%;
     height: 75px;
-    background: #ff9b6f;
+    background: #363f45;
+    color: #feb41c;
 }
 
 .content {
     width: 600px;
     margin: 0 auto;
     position: relative;
-}
-
-.logo {
-    width: 75px;
-    margin-top: 10px;
 }
 
 .links {
