@@ -42,7 +42,7 @@ body {
 
 .links {
     float: right;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .links a:link, .links a:visited {
