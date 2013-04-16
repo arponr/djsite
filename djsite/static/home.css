@@ -47,7 +47,7 @@ body {
 }
 
 .links a:link, .links a:visited {
-    color: #bbbdc0;
+    color: #aaadb0;
     text-decoration: none;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
@@ -56,7 +56,7 @@ body {
 }
 
 .links a:hover {
-    color: #feb41c;
+    color: #ccced2;
 }
 
 .links li {
