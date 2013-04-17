@@ -86,13 +86,18 @@ p {
 
 .main h1 {
     font-weight: normal;
-    margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
     
 /****************************** BLOG ***********************************/
 
 .blog_post {
     margin-bottom: 40px;
+}
+
+.blog_title {
+    font-size: 15px;
 }
 
 .blog_info {
