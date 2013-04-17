@@ -17,8 +17,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: adelle-sans, sans-serif;
-    font-size: 13px;
+    font-family: calluna-sans, sans-serif;
+    font-size: 14px;
     background: #ccced2;
 }
 
@@ -66,6 +66,7 @@ p {
 .nav li {
     list-style: none;
     display: inline;
+    font-size: 13px;
     text-transform: uppercase;
     margin-right: 30px;
 }
@@ -93,7 +94,9 @@ p {
 }
 
 .blog_title {
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .blog_info {
