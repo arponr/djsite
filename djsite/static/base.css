@@ -83,6 +83,11 @@ p {
 .main a:hover {
     text-decoration: underline;
 }
+
+.main h1 {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
     
 /****************************** BLOG ***********************************/
 
@@ -92,6 +97,8 @@ p {
 
 .blog_info {
     margin-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .blog_prev {
@@ -102,13 +109,12 @@ p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
-    padding-bottom: 15px;
-    color: #505050;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
 
 .post_content {
-    padding-top: 20px;
     line-height: 150%;
 }
 
