@@ -5,8 +5,8 @@
 {% block content %}
 {% for p in posts %}
 <div class="blog_post">
-  <span class="sans blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></span>
-  <span class="sans blog_info">{{ p.created|date:"j M Y" }} in 
+  <span class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></span>
+  <span class="blog_info">{{ p.created|date:"j M Y" }} in 
   {% for c in p.categories.all %}
   {% if not forloop.last %}
   {{ c.name }}, 
