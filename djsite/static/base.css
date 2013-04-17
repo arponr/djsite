@@ -89,7 +89,7 @@ p {
 /****************************** BLOG ***********************************/
 
 .blog_post {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .blog_title, .blog_info {
@@ -99,7 +99,8 @@ p {
 
 .blog_info {
     font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
+    color: #363f45;
     margin-left: 20px;
 }
 
