@@ -13,9 +13,9 @@
       <div class="wrapper">
 	<div class="content">
 	  <ul class="nav">
-	    <li><a href="/">blog</a></li>
-	    <li><a href="/work/">work</a></li>
-	    <li><a href="/about/">about</a></li>
+	    <li {% block nav_blog %}{% endblock %}><a href="/">blog</a></li>
+	    <li {% block nav_work %}{% endblock %}><a href="/work/">work</a></li>
+	    <li {% block nav_about %}{% endblock %}><a href="/about/">about</a></li>
 	  </ul>
 	</div>
       </div>
