@@ -17,9 +17,8 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: jaf-facitweb, sans-serif;
-    font-size: 14px;
-    font-weight: 300;
+    font-family: adelle-sans, sans-serif;
+    font-size: 13px;
     background: #ccced2;
 }
 
@@ -48,7 +47,7 @@ p {
 .nav a:link, .nav a:visited {
     color: #aaadb0;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
