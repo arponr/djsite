@@ -68,27 +68,31 @@ p {
     margin-right: 30px;
 }
 
+.main {
+    padding: 12px 0 20px 0;
+}
+
 /****************************** BLOG ***********************************/
 
 .blog_post {
-    margin-top: 12px
-    margin-bottom: 38px;
+    margin-bottom: 50px;
 }
 
 .blog_title {
     font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .blog_info {
     font-family: ff-dagny-web-pro, sans-serif;
+    font-size: 13px;
     padding-left: 20px;
     color: #363f45;
 }
 
 .blog_prev {
     line-height: 150%;
-    margin: 10px 0 0 15px;
+    margin: 5px 0 0 15px;
 }
 
 /****************************** POST ***********************************/
