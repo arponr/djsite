@@ -5,7 +5,7 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       ('^$', 'djsite.views.blog'),
+                       ('^$', 'blog.views.blog'),
                        ('^work/$', 'djsite.views.work'),
                        (r'^/category/([-\w]+)/$', 'blog.views.category'),
                        (r'^/post/([-\w]+)/$', 'blog.views.post'),
