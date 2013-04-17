@@ -90,21 +90,13 @@ p {
     margin-bottom: 40px;
 }
 
-.blog_title, .blog_info {
-    font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 15px;
-}
-
 .blog_info {
-    font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 13px;
-    color: #363f45;
     margin-left: 20px;
 }
 
 .blog_prev {
     line-height: 150%;
-    margin: 10px 0 0 15px;
+    margin: 8px 0 0 15px;
 }
 
 /****************************** POST ***********************************/
