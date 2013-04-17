@@ -20,6 +20,7 @@ body {
     font-family: ff-dagny-web-pro, sans-serif;
     font-size: 14px;
     background: #ccced2;
+    color: #363f45;
 }
 
 a:focus {
@@ -46,7 +47,7 @@ p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #aaadb0;
+    color: #999ca0;
     text-decoration: none;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
@@ -75,15 +76,12 @@ p {
 }
 
 .main a:link, .main a:visited {
-    color: #363f45;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    -moz-transition: color .2s;
-    transition: color .2s;
+    color: #000000;
+    text-decoration: none;
 }
 
 .main a:hover {
-    color: #000000;
+    text-decoration: underline;
 }
     
 /****************************** BLOG ***********************************/
