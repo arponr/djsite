@@ -7,8 +7,8 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
                        ('^$', 'blog.views.blog'),
                        ('^work/$', 'djsite.views.work'),
-                       (r'^/category/([-\w]+)/$', 'blog.views.category'),
-                       (r'^/post/([-\w]+)/$', 'blog.views.post'),
+                       (r'^category/([-\w]+)/$', 'blog.views.category'),
+                       (r'^post/([-\w]+)/$', 'blog.views.post'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
