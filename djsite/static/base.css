@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'misterk';
-    src: url('misterk-webfont.eot');
-    src: url('misterk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('misterk-webfont.woff') format('woff'),
-         url('misterk-webfont.ttf') format('truetype'),
-         url('misterk-webfont.svg#misterk_regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html {
     overflow-y: scroll;
 }
@@ -32,74 +21,47 @@ body {
     font-size: 14px;
 }
 
-a:link, a:visited {
-    color: #000000;
-    text-decoration: none;
-    border-bottom: 1px solid #eeeeee;
-}
-
-a:hover {
-    background: #eeeeee;
-}
-
 a:focus {
     outline: none;
 }
 
 p {
     padding: 0;
-    margin: 0 0 10px 0;
-}
-
-h1, h2 {
-    font-family: chaparral-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1;
     margin-bottom: 10px;
 }
 
-h1 {
-    font-size: 16px;
+.header {
+    width: 100%;
+    height: 65px;
+    background: #363f45;
 }
 
-h2 {
-    font-size: 14px;    
-}
-
-#wrapper {
-    width: 620px;
-    max-width: 100%;
+.content {
+    width: 525px;
     margin: 0 auto;
     position: relative;
+    padding-top: 25px;
 }
 
-#sidebar {
-    float: left;
-    position: fixed;
-    width: 75px;
-    height: 100%;
-    padding: 50px 25px 0 20px;
-    border-right: 1px solid #eeeeee;
-    text-align: right;
+.nav a:link, .nav a:visited {
+    color: #aaadb0;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    -moz-transition: color .2s;
+    transition: color .2s;
 }
 
-#logo {
-    width: 75px;
+.cur a:link, .cur a:visited, .nav a:hover {
+    color: #ccced2;
 }
 
-#nav {
-    margin: 30px 5px 0 0;
-}
-
-#nav li {
+.nav li {
     list-style: none;
-    margin-bottom: 10px;
-}
-
-#content {
-    margin-left: 160px;
-    padding: 53px 20px 20px 0px;
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 30px;
 }
 
 /****************************** BLOG ***********************************/

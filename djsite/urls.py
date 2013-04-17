@@ -5,11 +5,10 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-                       ('^$', 'djsite.views.home'),
+                       ('^$', 'djsite.views.blog'),
                        ('^work/$', 'djsite.views.work'),
-                       ('^blog/$', 'blog.views.blog'),
-                       (r'^blog/category/([-\w]+)/$', 'blog.views.category'),
-                       (r'^blog/post/([-\w]+)/$', 'blog.views.post'),
+                       (r'^/category/([-\w]+)/$', 'blog.views.category'),
+                       (r'^/post/([-\w]+)/$', 'blog.views.post'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
