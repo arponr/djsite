@@ -17,7 +17,7 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: prenton, sans-serif;
+    font-family: chaparral, sans-serif;
     font-size: 14px;
     background: #ccced2;
 }
@@ -29,6 +29,11 @@ a:focus {
 p {
     padding: 0;
     margin-bottom: 10px;
+}
+
+.sans {
+    font-family: ff-dagny-web-pro, sans-serif;
+    font-size: 13px;
 }
 
 .header {
@@ -47,8 +52,6 @@ p {
 .nav a:link, .nav a:visited {
     color: #aaadb0;
     text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
     -moz-transition: color .2s;
@@ -66,7 +69,7 @@ p {
 .nav li {
     list-style: none;
     display: inline;
-    font-size: 13px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-right: 30px;
 }
