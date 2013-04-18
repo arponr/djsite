@@ -25,24 +25,22 @@ first paragraph was just for the sake of
 contradiction/contrast. Here's the actual point of the post.
 
 I'm also taking a course on number fields this semseter, and section
-today was comprised of just our TF, the infamous [Levent
-Alpoge](http://people.fas.harvard.edu/~alpoge/), and me. (My current
-understanding: Levent is essentially
+today was comprised of just our TF, the infamous [Levent Alpoge]
+[levent], and me. (My current understanding: Levent is essentially
 
 1. an unrelenting and rather talented troll,
 2. a total boss.
 
 I'm not sure if I got the order there right, but I'll leave it like
 that in the hopes that he reads this.) Anyway, Levent asks me if I
-want to talk about [the theorem of Dirichlet on primes in arithmetic
-progressions](http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions). I
-say yes, and that I know nothing of how the proof goes. He's about to
-start talking---he says often in number theory we have to do some
-algebra and some analysis, and usually the analysis is where the deep,
-tricky stuff is happening; I'm only writing that here because I want
-to remember that---but, true to form, instead of actually starting the
-proof, he decides that today I am Dirichlet and I will prove this
-theorem.
+want to talk about [Dirichlet's theorem on primes in arithmetic
+progressions] [dirichlet]. I say yes, and that I know nothing of how
+the proof goes. He's about to start talking---he says often in number
+theory we have to do some algebra and some analysis, and usually the
+analysis is where the deep, tricky stuff is happening; I'm only
+writing that here because I want to remember that---but, true to form,
+instead of actually starting the proof, he decides that today I am
+Dirichlet and I will prove this theorem.
 
 Obviously he was exaggerating and presented the bulk of the argument
 (that is, the analysis), but I had to try and figure out some of the
@@ -109,7 +107,7 @@ happened infinitely better, and especially forced me to think about
 analogies and related questions. To paraphrase Frost, I was forced to
 think inventively, and that made all the difference.
 
-It's definitely a clich&egrave; that doing math is the only way to
+It's definitely a clich&eacute; that doing math is the only way to
 really learn it. But I think it's easy to forget this when we get all
 this abstraction thrown in our faces; I end up spending a lot of time
 trying to absorb and understand, and this is fine, but today has
@@ -124,3 +122,7 @@ consequences from all the machinery of basic algebraic topology.
 
 This was my first real post. Congratulations, Arpon, you hero.
 
+[levent] http://people.fas.harvard.edu/~alpoge/ "Levent Alpoge"
+[dirichlet]
+http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions
+"Dirichlet's theorem on primes in arithmetic progressions"
