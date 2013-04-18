@@ -33,7 +33,7 @@ p {
 }
 
 .math {
-    font-size: 90%;
+    font-size: 13px;
 }
 
 .header {
@@ -51,7 +51,6 @@ p {
 .nav a:link, .nav a:visited {
     color: #999ca0;
     text-decoration: none;
-    font-size: 13px;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
     -moz-transition: color .2s;
@@ -63,7 +62,7 @@ p {
 }
 
 .nav {
-    padding-top: 19px;
+    padding-top: 18px;
 }
 
 .nav li {
@@ -91,7 +90,6 @@ p {
     color: #000000;
     font-weight: normal;
     font-size: 18px;
-    font-family: chaparral-pro, serif;
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -104,7 +102,6 @@ p {
 
 .blog_title {
     font-size: 16px;
-    font-family: chaparral-pro, serif;
     font-style: italic;
 }
 
