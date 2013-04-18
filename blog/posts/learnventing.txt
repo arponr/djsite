@@ -61,7 +61,7 @@ p \mapsto \frac{1}{\varphi(n)} \sum_{\chi \in
   ((\mathbb{Z}/n)^\times)^\vee} \chi(p)\overline{\chi(a)},
 \]
 where $G^\vee := \mathrm{Hom}_{\mathrm{Ab}}(G, \mathbb{C}^\times)$ is
-the \emph{Pontryagin dual} of a finite abelian group $G$. Now, if I
+the _Pontryagin dual_ of a finite abelian group $G$. Now, if I
 saw this written down with this notation (and I had known that
 evaluation gives an isomorphism $\mathrm{ev} : G \to G^{\vee\vee}$,
 which is not hard to see if one appeals to the structure theorem for
@@ -76,27 +76,25 @@ floundered while Levent hinted me towards this final result. He
 started by just asking me to write down an algebraic form for that
 indicator function. To be fair, he hinted right away that this had to
 do with representation theory, but I'm way too stupid to have foreseen
-that. Indeed it took me \emph{way} too long (extrapolating from
+that. Indeed it took me _way_ too long (extrapolating from
 $n=2,3$) to arrive at the expression
 \[
 p \mapsto \frac{1}{n} \sum_{k \in \mathbb{Z}/n} e^{2\pi ik(p-a)/n}.
 \]
 The problem with this is that Dirichlet's theorem really has to do
 with $(\mathbb{Z}/n)^\times$ and $\varphi(n)$, not $\mathbb{Z}/n$ and
-$n$. So these \emph{additive characters} (as I've learned to call them
-in this setting) $x \mapsto e^{2\pi ikx/n}$ just won't do. What we
-want is to find the proper analogy with \emph{multiplicative
-  characters} $\chi \in ((\mathbb{Z}/n)^\times)^\vee$. This also took
-me ridiculously long (after learning about Pontryagin duality),
-expecting na\"ively that $\sum_{k \in \mathbb{Z}/n}$ would be replaced
-by $\prod_\chi$. But anyway, with sufficient nudging (and profanity
-and ``yelling at each other'', since this is how Levent does math
-apparently...it works...) I got to the analogous
-\[
-p \mapsto \frac{1}{\varphi(n)} \sum_{\chi \in
-  ((\mathbb{Z}/n)^\times)^\vee} \chi(p/a) = \frac{1}{\varphi(n)}
-\sum_{\chi \in ((\mathbb{Z}/n)^\times)^\vee} \chi(p)\overline{\chi(a)}.
-\]
+$n$. So these _additive characters_ (as I've learned to call them in
+this setting) $x \mapsto e^{2\pi ikx/n}$ just won't do. What we want
+is to find the proper analogy with _multiplicative characters_ $\chi
+\in ((\mathbb{Z}/n)^\times)^\vee$. This also took me ridiculously long
+(after learning about Pontryagin duality), expecting na\"ively that
+$\sum_{k \in \mathbb{Z}/n}$ would be replaced by $\prod_\chi$. But
+anyway, with sufficient nudging (and profanity and ``yelling at each
+other'', since this is how Levent does math apparently...it works...)
+I got to the analogous \[ p \mapsto \frac{1}{\varphi(n)} \sum_{\chi
+\in ((\mathbb{Z}/n)^\times)^\vee} \chi(p/a) = \frac{1}{\varphi(n)}
+\sum_{\chi \in ((\mathbb{Z}/n)^\times)^\vee}
+\chi(p)\overline{\chi(a)}.  \]
 
 That took a lot more work than looking at the answer and declaring it
 trivial. Also it made me feel like an idiot (though we decided it
@@ -112,12 +110,12 @@ learn it. But I think it's easy to forget this when we get all this
 abstraction thrown in our faces; I end up spending a lot of time
 trying to absorb and understand, and this is fine, but today has
 really convinced me that it's imperative to go back later and try to
-\emph{reinvent} (with some help, probably...) the fundamentals. I
-decided to call this \emph{learnventing}, for the obvious reason, and
-to pay tribute to that troll Levent. So this summer I'm going to try
-to do as much of this as possible, and hopefully this will turn into
-some blogging. In particular I really want to learnvent some basic
-algebra (representation theory, Galois theory) and some of the cool
+_reinvent_ (with some help, probably...) the fundamentals. I decided
+to call this _learnventing_, for the obvious reason, and to pay
+tribute to that troll Levent. So this summer I'm going to try to do as
+much of this as possible, and hopefully this will turn into some
+blogging. In particular I really want to learnvent some basic algebra
+(representation theory, Galois theory) and some of the cool
 consequences from all the machinery of basic algebraic topology.
 
 This was my first real post. Congratulations, Arpon, you hero.
