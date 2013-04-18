@@ -12,8 +12,8 @@ def conv(s):
 
 if __name__ == '__main__':    
     fname = sys.argv[1]
-    with open('blog/posts/' + fname + '.tex') as f:
-        sep = '\n' + ('%' * 70) + '\n'
+    with open('blog/posts/' + fname + '.txt') as f:
+        sep = '\n' + ('-' * 70) + '\n'
         fields = f.read().split(sep)
         preview, content = conv(fields[3]), conv(fields[4])
         with open('upload-temp', 'w') as g:

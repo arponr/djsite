@@ -11,7 +11,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         with open('upload-temp') as f:
-            sep = '\n' + ('%' * 70) + '\n'
+            sep = '\n' + ('-' * 70) + '\n'
             fields = f.read().split(sep)
             if options['edit']:
                 try:
