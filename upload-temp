@@ -4,56 +4,10 @@ learnventing
 ----------------------------------------------------------------------
 learning, math
 ----------------------------------------------------------------------
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-
-  <meta name="generator" content="pandoc" />
-
-  <title></title>
-
-  <style type="text/css">code{white-space: pre;}</style>
-
-</head>
-
-<body>
-
 <p>Today I was convinced that I really need to sit down, screw around, and reinvent the fundamentals for myself to have any chance at understanding or retaining math.</p>
-
-</body>
-
-</html>
 
 
 ----------------------------------------------------------------------
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-
-  <meta name="generator" content="pandoc" />
-
-  <title></title>
-
-  <style type="text/css">code{white-space: pre;}</style>
-
-  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-</head>
-
-<body>
-
 <p>This semester I've been taking a course on algebraic topology, which is purportedly a continuation of the introduction to the subject I took last semester. Really it's this insane plunge into some neat(-looking) but ridiculously abstract homotopy theory. I really hope to understand it one day. Hopefully this absurd month (four final projects/papers!) will pass by relatively successfully and without claiming too much of my sanity; then over the summer I can write a bit about (and finally learn) some of the ideas that appeared in the course.</p>
 
 <p>But today I was convinced that there is something far more important I need to do this summer: sit down, screw around, and reinvent all the fundamentals (which I've forgotten) for myself. Indeed that whole first paragraph was just for the sake of contradiction/contrast. Here's the actual point of the post.</p>
@@ -111,8 +65,4 @@ p \mapsto \frac{1}{\varphi(n)} \sum_{\chi
 <p>It's definitely a clichè that doing math is the only way to really learn it. But I think it's easy to forget this when we get all this abstraction thrown in our faces; I end up spending a lot of time trying to absorb and understand, and this is fine, but today has really convinced me that it's imperative to go back later and try to <em>reinvent</em> (with some help, probably...) the fundamentals. I decided to call this <em>learnventing</em>, for the obvious reason, and to pay tribute to that troll Levent. So this summer I'm going to try to do as much of this as possible, and hopefully this will turn into some blogging. In particular I really want to learnvent some basic algebra (representation theory, Galois theory) and some of the cool consequences from all the machinery of basic algebraic topology.</p>
 
 <p>This was my first real post. Congratulations, Arpon, you hero.</p>
-
-</body>
-
-</html>
 
