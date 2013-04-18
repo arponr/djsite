@@ -35,7 +35,7 @@ understanding: Levent is essentially
 I'm not sure if I got the order there right, but I'll leave it like
 that in the hopes that he reads this.) Anyway, Levent asks me if I
 want to talk about [Dirichlet's theorem on primes in arithmetic
-progressions](http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions#Distribution). I
+progressions](http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions). I
 say yes, and that I know nothing of how the proof goes. He's about to
 start talking---he says often in number theory we have to do some
 algebra and some analysis, and usually the analysis is where the deep,
