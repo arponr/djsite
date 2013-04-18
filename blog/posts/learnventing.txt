@@ -51,8 +51,8 @@ can write the indicator function
 \[
 p \mapsto 
 \begin{cases}
-1 & p \equiv a \pod{n}, \\
-0 & \text{otherwise}
+1, & p \equiv a \pod{n}, \\
+0, & \text{otherwise},
 \end{cases}
 \]
 algebraically as
