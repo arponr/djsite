@@ -65,8 +65,8 @@ the _Pontryagin dual_ of a finite abelian group $G$. Now, if I
 saw this written down with this notation (and I had known that
 evaluation gives an isomorphism $\mathrm{ev} : G \to G^{\vee\vee}$,
 which is not hard to see if one appeals to the structure theorem for
-finite abelian groups), and Levent had said ``orthogonality
-relations'' (observe $\mathrm{ev}(g)$ is an irreducible character on
+finite abelian groups), and Levent had said "orthogonality
+relations" (observe $\mathrm{ev}(g)$ is an irreducible character on
 $G^\vee$ for $g \in G$), the statement would be obvious to me. Indeed
 from this perspective, i.e., in hindsight, the statement is utterly
 trivial.
@@ -87,10 +87,10 @@ $n$. So these _additive characters_ (as I've learned to call them in
 this setting) $x \mapsto e^{2\pi ikx/n}$ just won't do. What we want
 is to find the proper analogy with _multiplicative characters_ $\chi
 \in ((\mathbb{Z}/n)^\times)^\vee$. This also took me ridiculously long
-(after learning about Pontryagin duality), expecting na\"ively that
+(after learning about Pontryagin duality), expecting na&iuml;vely that
 $\sum_{k \in \mathbb{Z}/n}$ would be replaced by $\prod_\chi$. But
-anyway, with sufficient nudging (and profanity and ``yelling at each
-other'', since this is how Levent does math apparently...it works...)
+anyway, with sufficient nudging (and profanity and "yelling at each
+other", since this is how Levent does math apparently...it works...)
 I got to the analogous 
 $$ 
 p \mapsto \frac{1}{\varphi(n)} \sum_{\chi
@@ -108,9 +108,9 @@ happened infinitely better, and especially forced me to think about
 analogies and related questions. To paraphrase Frost, I was forced to
 think inventively, and that made all the difference.
 
-It's definitely a cliche that doing math is the only way to really
-learn it. But I think it's easy to forget this when we get all this
-abstraction thrown in our faces; I end up spending a lot of time
+It's definitely a clich&egrave; that doing math is the only way to
+really learn it. But I think it's easy to forget this when we get all
+this abstraction thrown in our faces; I end up spending a lot of time
 trying to absorb and understand, and this is fine, but today has
 really convinced me that it's imperative to go back later and try to
 _reinvent_ (with some help, probably...) the fundamentals. I decided

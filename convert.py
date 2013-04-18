@@ -1,7 +1,7 @@
 import sys, subprocess
 
 def conv(s):
-    p = subprocess.Popen(['pandoc', '--from=markdown',
+    p = subprocess.Popen(['pandoc', '--from=markdown', '-s',
                           '--mathjax', '--to=html'],
                          stdin=subprocess.PIPE,  
                          stdout=subprocess.PIPE)
