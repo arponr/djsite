@@ -12,7 +12,7 @@ learning, math
 
 <p>But today I was convinced that there is something far more important I need to do this summer: sit down, screw around, and reinvent all the fundamentals (which I've forgotten) for myself. Indeed that whole first paragraph was just for the sake of contradiction/contrast. Here's the actual point of the post.</p>
 
-<p>I'm also taking a course on number fields this semseter, and section today was comprised of just our TF, the infamous [Levent Alpoge][levent], and me. (My current understanding: Levent is essentially</p>
+<p>I'm also taking a course on number fields this semseter, and section today was comprised of just our TF, the infamous <a href="http://people.fas.harvard.edu/~alpoge/" title="Levent Alpoge">Levent Alpoge</a>, and me. (My current understanding: Levent is essentially</p>
 
 <ol style="list-style-type: decimal">
 
@@ -22,7 +22,7 @@ learning, math
 
 </ol>
 
-<p>I'm not sure if I got the order there right, but I'll leave it like that in the hopes that he reads this.) Anyway, Levent asks me if I want to talk about [Dirichlet's theorem on primes in arithmetic progressions][dirichlet]. I say yes, and that I know nothing of how the proof goes. He's about to start talking&mdash;he says often in number theory we have to do some algebra and some analysis, and usually the analysis is where the deep, tricky stuff is happening; I'm only writing that here because I want to remember that&mdash;but, true to form, instead of actually starting the proof, he decides that today I am Dirichlet and I will prove this theorem.</p>
+<p>I'm not sure if I got the order there right, but I'll leave it like that in the hopes that he reads this.) Anyway, Levent asks me if I want to talk about <a href="http://en.wikipedia.org/wiki/Dirichlet&#39;s_theorem_on_arithmetic_progressions" title="Dirichlet&#39;s theorem on primes in arithmetic progressions">Dirichlet's theorem on primes in arithmetic progressions</a>. I say yes, and that I know nothing of how the proof goes. He's about to start talking&mdash;he says often in number theory we have to do some algebra and some analysis, and usually the analysis is where the deep, tricky stuff is happening; I'm only writing that here because I want to remember that&mdash;but, true to form, instead of actually starting the proof, he decides that today I am Dirichlet and I will prove this theorem.</p>
 
 <p>Obviously he was exaggerating and presented the bulk of the argument (that is, the analysis), but I had to try and figure out some of the algebra. Basically what I ended up doing is realising that, if <span class="math">\(p \in \mathbb{N}\)</span> is prime and <span class="math">\(a, n \in \mathbb{N}\)</span> with <span class="math">\((a,n) = 1\)</span>, one can write the indicator function <span class="math">\[
 
@@ -65,6 +65,4 @@ p \mapsto \frac{1}{\varphi(n)} \sum_{\chi
 <p>It's definitely a cliché that doing math is the only way to really learn it. But I think it's easy to forget this when we get all this abstraction thrown in our faces; I end up spending a lot of time trying to absorb and understand, and this is fine, but today has really convinced me that it's imperative to go back later and try to <em>reinvent</em> (with some help, probably...) the fundamentals. I decided to call this <em>learnventing</em>, for the obvious reason, and to pay tribute to that troll Levent. So this summer I'm going to try to do as much of this as possible, and hopefully this will turn into some blogging. In particular I really want to learnvent some basic algebra (representation theory, Galois theory) and some of the cool consequences from all the machinery of basic algebraic topology.</p>
 
 <p>This was my first real post. Congratulations, Arpon, you hero.</p>
-
-<p>[levent] http://people.fas.harvard.edu/~alpoge/ &quot;Levent Alpoge&quot; [dirichlet] http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions &quot;Dirichlet's theorem on primes in arithmetic progressions&quot;</p>
 
