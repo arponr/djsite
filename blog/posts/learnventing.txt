@@ -1,0 +1,47 @@
+Learnventing
+----------------------------------------------------------------------
+learnventing
+----------------------------------------------------------------------
+learning, math
+----------------------------------------------------------------------
+Today I was convinced that I really need to sit down, screw around,
+and reinvent the fundamentals for myself to have any chance at
+understanding or retaining math.
+----------------------------------------------------------------------
+This semester I've been taking a course on algebraic topology, which
+is purportedly a continuation of the introduction to the subject I
+took last semester. Really it's this insane plunge into some
+neat(-looking) but ridiculously abstract homotopy theory. I really
+hope to understand it one day. Hopefully this absurd month (four final
+projects/papers!) will pass by relatively successfully and without
+claiming too much of my sanity; then over the summer I can write a bit
+about (and finally learn) some of the ideas that appeared in the
+course. 
+
+But today I was convinced that there is something far more important I
+need to do this summer: sit down, screw around, and reinvent all the
+fundamentals (which I've forgotten) for myself. Indeed that whole
+first paragraph was just for the sake of
+<strike>contradiction</strike> contrast. Here's the actual point of
+the post.
+
+I'm also taking a course on number fields this semseter, and section
+today was comprised of just our TF, the infamous Levent Alpoge, and
+me. (My current understanding: Levent is essentially
+
+1. an unrelenting and rather talented troll,
+2. a total boss.
+
+I'm not sure if I got the order there right, but I'll leave it like
+that in the hopes that he reads this.) Anyway, Levent asks me if I
+want to talk about the theorem on primes in arithmetic progressions
+due to Dirichlet. I say yes, and that I know nothing of how the proof
+goes. He's about to start talking (he says often in number theory we
+have to do some algebra and some analysis, and usually the analysis is
+where the deep, tricky stuff is happening), but, true to form, instead
+of actually starting the proof, he decides that today I am Dirichlet
+and I will prove this theorem. 
+
+Obviously he was exaggerating and presented the bulk of the argument
+(that is, the analysis), but I had to try and figure out some of the
+algebra. Basically what I ended up doing is realising 

@@ -1,0 +1,122 @@
+Learnventing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+learnventing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+learning, math
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Today I was convinced that I really need to sit down, screw around,
+and reinvent the fundamentals for myself to have any chance at
+understanding or retaining math.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+This semester I've been taking a course on algebraic topology, which
+is purportedly a continuation of the introduction to the subject I
+took last semester. Really it's this insane plunge into some
+neat(-looking) but ridiculously abstract homotopy theory. I really
+hope to understand it one day. Hopefully this absurd month (four final
+projects/papers!) will pass by relatively successfully and without
+claiming too much of my sanity; then over the summer I can write a bit
+about (and finally learn) some of the ideas that appeared in the
+course. 
+
+But today I was convinced that there is something far more important I
+need to do this summer: sit down, screw around, and reinvent all the
+fundamentals (which I've forgotten) for myself. Indeed that whole
+first paragraph was just for the sake of
+<strike>contradiction</strike> contrast. Here's the actual point of
+the post.
+
+I'm also taking a course on number fields this semseter, and section
+today was comprised of just our TF, the infamous Levent Alpoge, and
+me. (My current understanding: Levent is essentially
+\begin{enumerate}
+\item an unrelenting and rather talented troll,
+\item a total boss.
+\end{enumerate}
+I'm not sure if I got the order there right, but I'll leave it like
+that in the hopes that he reads this.) Anyway, Levent asks me if I
+want to talk about the theorem on primes in arithmetic progressions
+due to Dirichlet. I say yes, and that I know nothing of how the proof
+goes. He's about to start talking---he says often in number theory we
+have to do some algebra and some analysis, and usually the analysis is
+where the deep, tricky stuff is happening; I'm only writing that here
+because I want to remember that---but, true to form, instead
+of actually starting the proof, he decides that today I am Dirichlet
+and I will prove this theorem. 
+
+Obviously he was exaggerating and presented the bulk of the argument
+(that is, the analysis), but I had to try and figure out some of the
+algebra. Basically what I ended up doing is realising that, if $p \in
+\mathbb{N}$ is prime and $a, n \in \mathbb{N}$ with $(a,n) = 1$, one
+can write the indicator function
+\[
+p \mapsto 
+\begin{cases}
+1 & p \equiv a \pod{n}, \\
+0 & \text{otherwise}
+\]
+algebraically as
+\[
+p \mapsto \frac{1}{\varphi(n)} \sum_{\chi \in
+  ((\mathbb{Z}/n)^\times)^\vee} \chi(p)\oline{\chi(a)},
+\]
+where $G^\vee := \mathrm{Hom}_{\mathrm{Ab}}(G, \mathbb{C}^\times)$ is
+the \emph{Pontryagin dual} of a finite abelian group $G$. Now, if I
+saw this written down with this notation (and I had known that
+evaluation gives an isomorphism $\mathrm{ev} : G \to G^{\vee\vee}$,
+which is not hard to see if one appeals to the structure theorem for
+finite abelian groups), and Levent had said ``orthogonality
+relations'' (observe $\mathrm{ev}(g)$ is an irreducible character for
+$g \in G$ on $G^\vee$), the statement would be obvious to me. Indeed
+from this perspective, i.e., in hindsight, the statement is utterly
+trivial.
+
+But getting there was far from trivial. True to my own form, I
+floundered while Levent hinted me towards this final result. He
+started by just asking me to write down an algebraic form for that
+indicator function. To be fair, he hinted right away that this had to
+do with representation theory, but I'm way too stupid to have foreseen
+that. Indeed it took me \emph{way} too long (extrapolating from
+$n=2,3$) to arrive at the expression
+\[
+p \mapsto \frac{1}{n} \sum_{k \in \Z/n} e^{2\pi ik(p-a)/n}.
+\]
+The problem with this is that Dirichlet's theorem really has to do
+with $(\Z/n)^\times$ and $\varphi(n)$, not $\Z/n$ and $n$. So these
+\emph{additive characters} (as I've learned to call them in this
+setting) $x \mapsto e^{2\pi ikx/n}$ just won't do. What we want is to
+find the proper analogy with \emph{multiplicative characters} $\chi
+\in ((\Z/n)^\times)^\vee$. This also took me ridiculously long (after
+learning about Pontryagin duality), expecting na\"ively that $\sum_{k
+  \in \Z/n}$ would be replaced by $\prod_\chi$. But anyway, with
+sufficient nudging (and profanity and ``yelling at each other'', since
+this is how Levent does math apparently...it works...) I got to the
+analogous
+\[
+p \mapsto \frac{1}{\varphi(n)} \sum_{\chi \in
+  ((\mathbb{Z}/n)^\times)^\vee} \chi(p/a) = \frac{1}{\varphi(n)}
+\sum_{\chi \in ((\mathbb{Z}/n)^\times)^\vee} \chi(p)\oline{\chi(a)}.
+\]
+
+That took a lot more work than looking at the answer and declaring it
+trivial. Also it made me feel like an idiot (though we decided it
+would be a lot worse when, in a few years, he screams obscenities at
+his students in front of five hundred of their peers). But seriously,
+the exercise without a doubt made me understand everything that
+happened infinitely better, and especially forced me to think about
+analogies and related questions. To paraphrase Frost, I was forced to
+think inventively, and that made all the difference.
+
+It's definitely a cliche that doing math is the only way to really
+learn it. But I think it's easy to forget this when we get all this
+abstraction thrown in our faces; I end up spending a lot of time
+trying to absorb and understand, and this is fine, but today has
+really convinced me that it's imperative to go back later and try to
+\emph{reinvent} (with some help, probably...) the fundamentals. I
+decided to call this \emph{learnventing}, for the obvious reason, and
+to pay tribute to that troll Levent. So this summer I'm going to try
+to do as much of this as possible, and hopefully this will turn up
+into some blogging. In particular I really want to learnvent some
+basic algebra (representation theory, Galois theory) and some of the
+cool consequences from all the machinery of basic algebraic topology.
+
+This was my first real post. Congratulations, Arpon, you hero.
