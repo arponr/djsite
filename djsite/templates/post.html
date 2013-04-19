@@ -9,12 +9,12 @@
 {% block main %}
 <h1>{{ p.title }}</h1>
 
-<div class="post_info">
-  created {{ p.created|date:"j M Y" }} &mdash; 
+<ul class="info">
+  <li>created {{ p.created|date:"j M Y" }} &mdash;</li>
   {% if p.edited %}
-  edited {{ p.edited|date:"j M Y" }} &mdash; 
+  <li>edited {{ p.edited|date:"j M Y" }} &mdash;</li>
   {% endif %}
-  in 
+  <li>in 
   {% for c in p.categories.all %}
   {% if not forloop.last %}
   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
@@ -22,7 +22,8 @@
    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
   {% endif %}
   {% endfor %}
-</div>
+  </li>
+</ul>
 
 <div class="post_content">
   {{ p.content|safe }}

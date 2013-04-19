@@ -13,7 +13,7 @@ was advertised as a natural continuation of the introduction to the
 subject I took last semester. It's turned out to be this insane plunge
 into some neat(-looking) but ridiculously abstract homotopy theory,
 with the goal of proving [the Sullivan conjecture] [sullivan]. I
-really hope to understand it one day...hopefully this absurd month
+really hope to understand it one day . . . hopefully this absurd month
 (four final projects/papers!) will pass by relatively successfully and
 without claiming too much of my sanity; then over the summer I can
 write a bit about (and finally learn) some of the ideas that appeared
@@ -90,8 +90,8 @@ is to find the proper analogy with _multiplicative characters_ $\chi
 (after learning about Pontryagin duality), expecting na&iuml;vely that
 $\sum_{k \in \mathbb{Z}/n}$ would be replaced by $\prod_\chi$. But
 anyway, with sufficient nudging (and profanity and "yelling at each
-other", since this is how Levent does math apparently...it works...)
-I got to the analogous 
+other", since this is how Levent does math apparently . . . it works
+. . .) I got to the analogous 
 $$ 
 p \mapsto \frac{1}{\varphi(n)} \sum_{\chi
 \in ((\mathbb{Z}/n)^\times)^\vee} \chi(p/a) = \frac{1}{\varphi(n)}
@@ -114,7 +114,7 @@ really learn it. But I think it's easy to forget this when we get all
 this abstraction thrown in our faces; I end up spending a lot of time
 trying to absorb and understand, and this is fine, but today has
 really convinced me that it's imperative to go back later and try to
-_reinvent_ (with some help, probably...) the fundamentals. I decided
+_reinvent_ (with some help, probably . . .) the fundamentals. I decided
 to call this _learnventing_, for the obvious reason, and to pay
 tribute to that troll Levent. So this summer I'm going to try to do as
 much of this as possible, and hopefully it will turn into some
