@@ -6,11 +6,7 @@
 
 {% block nav_blog %}class="cur"{% endblock %}
 
-{% block mathjax %}
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-{% endblock %}
-
-{% block content %}
+{% block main %}
 <h1>{{ p.title }}</h1>
 
 <div class="post_info">
@@ -21,9 +17,9 @@
   in 
   {% for c in p.categories.all %}
   {% if not forloop.last %}
-  {{ c.name }}, 
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
   {% else %}
-  {{ c.name }}
+   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
   {% endif %}
   {% endfor %}
 </div>

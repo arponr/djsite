@@ -5,26 +5,22 @@
     <script type="text/javascript" src="//use.typekit.net/ztj7kcf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <link href="/static/base.css" rel="stylesheet" type="text/css">
-    {% block mathjax %}{% endblock %}
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </head>
 
   <body>
     <div class="header">
-      <div class="wrapper">
-	<div class="content">
-	  <ul class="nav">
-	    <li {% block nav_blog %}{% endblock %}><a href="/">blog</a></li>
-	    <li {% block nav_work %}{% endblock %}><a href="/work/">work</a></li>
-	    <li {% block nav_about %}{% endblock %}><a href="/about/">about</a></li>
-	  </ul>
-	</div>
+      <div class="content">
+	<ul class="nav">
+	  <li {% block nav_blog %}{% endblock %}><a href="/">blog</a></li>
+	  <li {% block nav_work %}{% endblock %}><a href="/work/">work</a></li>
+	  <li {% block nav_about %}{% endblock %}><a href="/about/">about</a></li>
+	</ul>
       </div>
     </div>
 
-    <div class="wrapper">
-      <div class="main content">
-	{% block content %}{% endblock %}
-      </div>
+    <div class="main content">
+      {% block main %}{% endblock %}
     </div>
   </body>
 </html>
