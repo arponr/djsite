@@ -18,7 +18,7 @@ body, h1, h2, div, ul, li {
 
 body {
     font-family: camingodos-web, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     background: #ccced2;
     color: #363f45;
 }
@@ -33,7 +33,7 @@ p {
 }
 
 .math {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .header {
@@ -63,7 +63,6 @@ p {
 
 .nav {
     padding-top: 16px;
-    font-size: 14px;
 }
 
 .nav li {
@@ -90,7 +89,7 @@ p {
 .main h1 {
     color: #000000;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
     
@@ -102,25 +101,27 @@ p {
 
 .blog_info {
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 
 .blog_prev {
     line-height: 150%;
+    text-align: justify;
     margin: 8px 0 0 15px;
 }
 
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 12px;
+    font-size: 13px;
     text-transform: uppercase;
     padding-bottom: 30px;
 }
 
 .post_content {
-    line-height: 175%;
+    line-height: 150%;
+    text-align: justify;
 }
 
 .post_content blockquote {
