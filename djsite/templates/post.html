@@ -10,9 +10,9 @@
 <h1>{{ p.title }}</h1>
 
 <ul class="info">
-  <li>created {{ p.created|date:"j M Y" }} &mdash;</li>
+  <li>created {{ p.created|date:"j M Y" }}</li>
   {% if p.edited %}
-  <li>edited {{ p.edited|date:"j M Y" }} &mdash;</li>
+  <li>edited {{ p.edited|date:"j M Y" }}</li>
   {% endif %}
   <li>in 
   {% for c in p.categories.all %}
