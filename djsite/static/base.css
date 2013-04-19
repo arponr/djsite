@@ -99,6 +99,8 @@ p {
     text-transform: uppercase;
     font-size: 12px;
     margin-right: 15px;
+    float: left; 
+    width: 33%;
 }
 
 /****************************** BLOG ***********************************/
