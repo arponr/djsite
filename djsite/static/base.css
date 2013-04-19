@@ -17,7 +17,7 @@ body, h1, h2, div, ul, li {
 }
 
 body {
-    font-family: skolar, sans-serif;
+    font-family: jaf-facitweb, sans-serif;
     font-size: 14px;
     background: #ccced2;
     color: #363f45;
@@ -90,7 +90,6 @@ p {
 .main h1 {
     color: #000000;
     font-weight: normal;
-    font-family: nimbus-sans, sans-serif;
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 10px;
@@ -103,7 +102,6 @@ p {
 }
 
 .blog_title {
-    font-family: nimbus-sans, sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
