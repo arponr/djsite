@@ -43,7 +43,7 @@ p {
 }
 
 .content {
-    width: 500px;
+    width: 525px;
     margin: 0 auto;
     position: relative;
 }
@@ -125,7 +125,7 @@ p {
 }
 
 .post_content {
-    line-height: 160%;
+    line-height: 175%;
 }
 
 .post_content blockquote {
