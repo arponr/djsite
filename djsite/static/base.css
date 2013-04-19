@@ -19,7 +19,6 @@ body, h1, h2, div, ul, li {
 body {
     font-family: jaf-facitweb, sans-serif;
     font-size: 14px;
-    font-weight: 300;
     background: #ccced2;
     color: #363f45;
 }
@@ -126,7 +125,7 @@ p {
 }
 
 .post_content {
-    line-height: 150%;
+    line-height: 160%;
 }
 
 .post_content blockquote {
