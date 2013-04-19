@@ -9,14 +9,15 @@ and reinvent the fundamentals for myself to have any chance at
 understanding or retaining math.
 ----------------------------------------------------------------------
 This semester I've been taking a course on algebraic topology, which
-is purportedly a continuation of the introduction to the subject I
-took last semester. Really it's this insane plunge into some
-neat(-looking) but ridiculously abstract homotopy theory. I really
-hope to understand it one day. Hopefully this absurd month (four final
-projects/papers!) will pass by relatively successfully and without
-claiming too much of my sanity; then over the summer I can write a bit
-about (and finally learn) some of the ideas that appeared in the
-course. 
+was advertised as a natural continuation of the introduction to the
+subject I took last semester. It's turned out to be this insane plunge
+into some neat(-looking) but ridiculously abstract homotopy theory,
+with the goal of proving [the Sullivan conjecture] [sullivan]. I
+really hope to understand it one day...hopefully this absurd month
+(four final projects/papers!) will pass by relatively successfully and
+without claiming too much of my sanity; then over the summer I can
+write a bit about (and finally learn) some of the ideas that appeared
+in the course.
 
 But today I was convinced that there is something far more important I
 need to do this summer: sit down, screw around, and reinvent all the
@@ -45,7 +46,7 @@ Dirichlet and I will prove this theorem.
 Obviously he was exaggerating and presented the bulk of the argument
 (that is, the analysis), but I had to try and figure out some of the
 algebra. Basically what I ended up doing is realising that, if $p \in
-\mathbb{N}$ is prime and $a, n \in \mathbb{N}$ with $(a,n) = 1$, one
+\mathbb{N}$ is prime and $a, n \in \mathbb{N}$ are relatively prime, one
 can write the indicator function
 $$
 p \mapsto 
@@ -73,9 +74,9 @@ trivial.
 But getting there was far from trivial. True to my own form, I
 floundered while Levent hinted me towards this final result. He
 started by just asking me to write down an algebraic form for that
-indicator function. To be fair, he hinted right away that this had to
+indicator function. (To be fair, he hinted right away that this had to
 do with representation theory, but I'm way too stupid to have foreseen
-that. Indeed it took me _way_ too long (extrapolating from
+the result.) Indeed it took me _way_ too long (extrapolating from
 $n=2,3$) to arrive at the expression
 $$
 p \mapsto \frac{1}{n} \sum_{k \in \mathbb{Z}/n} e^{2\pi ik(p-a)/n}.
@@ -102,9 +103,10 @@ That took a lot more work than looking at the answer and declaring it
 trivial. Also it made me feel like an idiot (though we decided it
 would be a lot worse when, in a few years, he screams obscenities at
 his students in front of five hundred of their peers). But seriously,
-the exercise without a doubt made me understand everything that
-happened infinitely better, and especially forced me to think about
-analogies and related questions. To paraphrase Frost, I was forced to
+the exercise (i.e., screwing around at the blackboard) made me
+understand everything that happened infinitely better, and in
+particular forced me to think about analogies and connections I
+wouldn't have otherwise noticed. To paraphrase Frost, I was forced to
 think inventively, and that made all the difference.
 
 It's definitely a clich&eacute; that doing math is the only way to
@@ -115,10 +117,11 @@ really convinced me that it's imperative to go back later and try to
 _reinvent_ (with some help, probably...) the fundamentals. I decided
 to call this _learnventing_, for the obvious reason, and to pay
 tribute to that troll Levent. So this summer I'm going to try to do as
-much of this as possible, and hopefully this will turn into some
+much of this as possible, and hopefully it will turn into some
 blogging. In particular I really want to learnvent some basic algebra
-(representation theory, Galois theory) and some of the cool
-consequences from all the machinery of basic algebraic topology.
+(representation theory of finite groups, Galois theory), some of the
+cool consequences from all the machinery of basic algebraic topology,
+and basic complex analysis.
 
 This was my first real post. Congratulations, Arpon, you hero.
 
@@ -126,3 +129,5 @@ This was my first real post. Congratulations, Arpon, you hero.
 [dirichlet]:
 http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions
 "Dirichlet's theorem on primes in arithmetic progressions"
+[sulivan] : http://en.wikipedia.org/wiki/Sullivan_conjecture "The
+Sullivan conjecture"
