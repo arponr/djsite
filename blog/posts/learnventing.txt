@@ -129,5 +129,5 @@ This was my first real post. Congratulations, Arpon, you hero.
 [dirichlet]:
 http://en.wikipedia.org/wiki/Dirichlet's_theorem_on_arithmetic_progressions
 "Dirichlet's theorem on primes in arithmetic progressions"
-[sulivan] : http://en.wikipedia.org/wiki/Sullivan_conjecture "The
+[sullivan]: http://en.wikipedia.org/wiki/Sullivan_conjecture "The
 Sullivan conjecture"
