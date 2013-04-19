@@ -29,6 +29,7 @@ class Command(BaseCommand):
             p.preview = fields[3]
             p.content = fields[4]
             p.save()
+            p.categories.clear()
             for cat in fields[2].split(', '):
                 try:
                     c = Category.objects.get(name=cat)

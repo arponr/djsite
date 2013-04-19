@@ -101,7 +101,7 @@ p {
 
 .blog_info {
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -114,7 +114,7 @@ p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     padding-bottom: 30px;
 }

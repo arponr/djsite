@@ -2,7 +2,7 @@ Learnventing
 ----------------------------------------------------------------------
 learnventing
 ----------------------------------------------------------------------
-learning, math
+learning, representation theory, number theory
 ----------------------------------------------------------------------
 Today I was convinced that I really need to sit down, screw around,
 and reinvent the fundamentals for myself to have any chance at
