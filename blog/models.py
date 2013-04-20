@@ -4,6 +4,7 @@ from django.core.urlresolvers import reverse
 class Category(models.Model):
     name = models.CharField(max_length=100,unique=True)
     slug = models.SlugField(unique=True)
+    icon = models.ImageField(upload_to='icons')
 
     def __unicode__(self):
         return self.name
@@ -31,3 +32,8 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-created']
+
+class PostFile(models.Model):
+    title = models.CharField(max_length=100)
+    content = models.FileField(upload_to='%Y/%m/%d')
+    post = models.ForeignKey('Post')
