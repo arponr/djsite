@@ -30,13 +30,13 @@ p \mapsto
 
 \begin{cases}
 
-1, &amp; p \equiv a \pod{n}, \\
+1 &amp; \text{if}\ p \equiv a \pod{n}, \\
 
-0, &amp; \text{otherwise},
+0 &amp; \text{otherwise}
 
 \end{cases}
 
-\]</span> algebraically as <span class="math">\[
+\quad\text{algebraically as}\quad
 
 p \mapsto \frac{1}{\varphi(n)} \sum_{\chi \in
 
