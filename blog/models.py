@@ -4,7 +4,7 @@ from django.core.urlresolvers import reverse
 class Category(models.Model):
     name = models.CharField(max_length=100,unique=True)
     slug = models.SlugField(unique=True)
-    icon = models.ImageField(upload_to='icons')
+    icon = models.FileField(upload_to='icons')
 
     def __unicode__(self):
         return self.name
