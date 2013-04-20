@@ -62,14 +62,15 @@ p {
 }
 
 .nav {
-    padding-top: 16px;
+    padding-top: 17px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .nav li {
     list-style: none;
     display: inline;
-    font-weight: 500;
-    text-transform: uppercase;
     margin-right: 30px;
 }
 
@@ -91,13 +92,17 @@ p {
     color: #000000;
     font-weight: normal;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
     
 /****************************** BLOG ***********************************/
 
 .blog_post {
     margin-bottom: 40px;
+}
+
+.blog_title {
+    font-size: 15px;
 }
 
 .blog_info {
