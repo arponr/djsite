@@ -9,10 +9,10 @@ urlpatterns = patterns('',
                        ('^work/$', 'djsite.views.work'),
                        (r'^category/([-\w]+)/$', 'blog.views.category'),
                        (r'^post/([-\w]+)/$', 'blog.views.post'),
-
+                       url(r'^admin/', include(admin.site.urls)),
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+    
 )
