@@ -3,8 +3,12 @@ from blog.models import Category, Post, PostFile
 from markdown import markdown
 from datetime import datetime
 
+class PostFileInline(admin.TabularInline):
+    model = PostFile
+
 class PostAdmin(admin.ModelAdmin):    
     exclude = ('created', 'edited')
+    inlines = [PostFileInline,]
 
     def save_model(self, request, obj, form, change):
         obj.preview = markdown(obj.preview)
