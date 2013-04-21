@@ -3,7 +3,7 @@ from blog.models import Category, Post, PostFile
 from markdown import markdown
 from datetime import datetime
 
-class PostAdmin(admin.ModelAmin):    
+class PostAdmin(admin.ModelAdmin):    
     exclude = ('created', 'edited')
 
     def save_model(self, request, obj, form, change):
