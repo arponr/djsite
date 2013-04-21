@@ -1,11 +1,11 @@
 from django import template
-from markdown import markdown
+import markdown
 
 register = template.Library()
 
 def mdown(value):
-    return (markdown(value).replace('---', '&mdash;')
-            .replace('--', '&ndash;'))
+    md = markdown.Markdown(extensions=['mathjax', 'smartypants'])
+    return md.convert(value)
 
 register.filter('mdown', mdown)
 
