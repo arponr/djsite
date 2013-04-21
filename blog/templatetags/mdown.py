@@ -1,5 +1,5 @@
 from django import template
-import markdown
+import markdown, mdx_mathjax
 
 register = template.Library()
 
