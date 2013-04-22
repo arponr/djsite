@@ -13,7 +13,7 @@ class PostFileInline(admin.TabularInline):
 class PostAdmin(admin.ModelAdmin):    
     exclude = ('created', 'edited')
     inlines = [PostFileInline,]
-    prepopulated_fields = {'slug':('name',)}
+    prepopulated_fields = {'slug':('title',)}
     formfield_overrides = {
         models.TextField: {'widget': Textarea(attrs={'rows':20,
                                                      'cols':70})}
