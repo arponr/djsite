@@ -17,10 +17,12 @@ class MathJaxPattern(markdown.inlinepatterns.Pattern):
         )
 
     def handleMatch(self, m):
-        el = markdown.util.etree.Element('span')
-        el.set('class', 'math')
-        el.text = m.group(2) + m.group(3) + m.group(2)
-        return el
+        node = markdown.util.etree.Element('span')
+        node.set('class', 'math')
+        node.text = markdown.util.AtomicString(
+            m.group(2) + m.group(3) + m.group(2)
+        )
+        return node
 
 class MathJaxExtension(markdown.Extension):
     def extendMarkdown(self, md, md_globals):
