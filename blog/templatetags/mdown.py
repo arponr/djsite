@@ -10,18 +10,13 @@ def mdown(value):
 
 register.filter('mdown', mdown)
 
-class MathJaxPattern(markdown.inlinepatterns.Pattern):
+class MathJaxPattern(markdown.inlinepatterns.SimpleTextPattern):
     def __init__(self):
         markdown.inlinepatterns.Pattern.__init__(
             self, r'(?<!\\)(\$\$?)(.+?)\2'
         )
 
-    def handleMatch(self, m):
-        node = markdown.util.etree.Element()
-        node.text = markdown.util.AtomicString(
-            m.group(2) + m.group(3) + m.group(2)
-        )
-        return node
+
 
 class MathJaxExtension(markdown.Extension):
     def extendMarkdown(self, md, md_globals):
