@@ -1,7 +1,6 @@
 import markdown
 
 class MathJaxPattern(markdown.inlinepatterns.Pattern):
-
     def __init__(self):
         markdown.inlinepatterns.Pattern.__init__(self, r'(?<!\\)(\$\$?)(.+?)\2')
 
