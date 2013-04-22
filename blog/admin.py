@@ -2,12 +2,17 @@ from django.contrib import admin
 from blog.models import Category, Post, PostFile
 from datetime import datetime
 
-class PostFileInline(admin.TabularInline):
-    model = PostFile
+class CategoryAdmin(admin.ModelAdmin):
+    prepopulated_fields = {'slug':('name',)}
 
 class PostAdmin(admin.ModelAdmin):    
     exclude = ('created', 'edited')
     inlines = [PostFileInline,]
+    prepopulated_fields = {'slug':('name',)}
+    formfield_overrides = {
+        models.TextField: {'widget': Textarea(attrs={'rows':20,
+                                                     'cols':70})}
+    }
 
     def save_model(self, request, obj, form, change):
         if change:
@@ -17,6 +22,9 @@ class PostAdmin(admin.ModelAdmin):
             obj.edited = None
         obj.save()
 
-admin.site.register(Category)
+class PostFileInline(admin.TabularInline):
+    model = PostFile
+
+admin.site.register(Category, CategoryAdmin)
 admin.site.register(Post, PostAdmin)
 admin.site.register(PostFile)
