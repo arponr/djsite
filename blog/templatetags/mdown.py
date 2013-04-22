@@ -17,7 +17,7 @@ class MathJaxPattern(markdown.inlinepatterns.Pattern):
         )
 
     def handleMatch(self, m):
-        node = markdown.util.etree.Element('mathjax')
+        node = markdown.util.etree.Element()
         node.text = markdown.util.AtomicString(
             m.group(2) + m.group(3) + m.group(2)
         )
