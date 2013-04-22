@@ -13,7 +13,7 @@ register.filter('mdown', mdown)
 class MathJaxPattern(markdown.inlinepatterns.Pattern):
     def __init__(self):
         markdown.inlinepatterns.Pattern.__init__(
-            self, r'(?<!\\)(\$\$?)(.+?)\2')
+            self, r'(?<!\\)(\$\$?)(.+?)\2'
         )
 
     def handleMatch(self, m):
