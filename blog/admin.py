@@ -1,4 +1,6 @@
 from django.contrib import admin
+from django.forms import Textarea
+from django.db import models
 from blog.models import Category, Post, PostFile
 from datetime import datetime
 
