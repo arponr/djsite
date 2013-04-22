@@ -5,6 +5,9 @@ from datetime import datetime
 class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug':('name',)}
 
+class PostFileInline(admin.TabularInline):
+    model = PostFile
+
 class PostAdmin(admin.ModelAdmin):    
     exclude = ('created', 'edited')
     inlines = [PostFileInline,]
@@ -21,9 +24,6 @@ class PostAdmin(admin.ModelAdmin):
             obj.created = datetime.now()
             obj.edited = None
         obj.save()
-
-class PostFileInline(admin.TabularInline):
-    model = PostFile
 
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Post, PostAdmin)
