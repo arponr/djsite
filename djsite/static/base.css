@@ -7,7 +7,7 @@ html, body {
     line-height: 1;
 }
 
-body, h1, h2, div, ul, li {
+body, h1, h2, div, ul, li, p {
     margin: 0;
     padding: 0;
     border: 0;
@@ -27,9 +27,8 @@ a:focus {
     outline: none;
 }
 
-p {
-    padding: 0;
-    margin: 0 0 15px 0;
+p + p {
+    margin-top: 15px;
 }
 
 .math {
@@ -110,9 +109,23 @@ p {
     font-size: 13px;
 }
 
+.actions {
+    font-family: nimbus-sans, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.actions li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
 .blog_prev {
     text-align: justify;
-    display: none;
+    margin-top: 10px;
 }
 
 /****************************** POST ***********************************/
