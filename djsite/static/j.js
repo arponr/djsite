@@ -2,6 +2,6 @@ $('.hidden').hide();
 
 $('.toggle').click(
     function(){
-	$(this).next('.hidden').toggle();
+	$(this).next('.hidden').hide();
     }
 );
