@@ -1,8 +1,7 @@
 $('.hidden').hide();
 
 $('.toggle').click(
-    function(event){
-	event.preventDefault();
+    function(){
 	$(this).next('.hidden').toggle();
     }
 );
