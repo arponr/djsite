@@ -112,7 +112,7 @@ p {
 
 .blog_prev {
     text-align: justify;
-    margin: 5px 0 0 15px;
+    display: none;
 }
 
 /****************************** POST ***********************************/

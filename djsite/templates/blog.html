@@ -5,15 +5,20 @@
 {% block nav_blog %}class="cur"{% endblock %}
 
 {% block main %}
+<script type="text/javascript">
+  function toggle_prev(p) {      
+      $("#" + p).toggle();
+  }
+</script>
+
 {% for p in posts %}
 <div{% cycle " class=colour" "" %}>
   <div class="content">
     {% include "post_info.html" %}
-    <!--
-    <div class="blog_prev">
+    <a href="" onclick="toggle_prev('{{ p.slug }}');">Preview</a>
+    <div class="blog_prev" id="{{ p.slug }}">
       {{ p.preview|mdown|safe }}
     </div>
-    -->
   </div>
 </div>
 {% endfor %}
