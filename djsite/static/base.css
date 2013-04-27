@@ -61,8 +61,7 @@ p {
 }
 
 .nav {
-    padding-top: 25px;
-    font-size: 13px;
+    padding-top: 24px;
     font-family: nimbus-sans, "Helvetica Neue", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -93,7 +92,6 @@ p {
     font-weight: 300;
     font-family: nimbus-sans, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
-    text-align: center;
 }
     
 /****************************** BLOG ***********************************/
@@ -123,7 +121,6 @@ p {
 .post_info {
     font-size: 13px;
     padding-bottom: 30px;
-    text-align: center;
 }
 
 .post_content {
