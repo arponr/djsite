@@ -38,7 +38,7 @@ p {
 .header {
     width: 100%;
     height: 60px;
-    background: #363f50;
+    background: #363f45;
 }
 
 .content {
@@ -79,7 +79,7 @@ p {
 }
 
 .main a:link, .main a:visited {
-    color: #363f50;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ p {
 }
 
 .main h1 {
-    color: #363f50;
+    color: #000000;
     font-weight: normal;
     font-size: 20px;
     margin-bottom: 5px;
