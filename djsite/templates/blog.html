@@ -15,7 +15,7 @@
 <div{% cycle " class=colour" "" %}>
   <div class="content">
     {% include "post_info.html" %}
-    <a href="" onclick="toggle_prev('{{ p.slug }}');">Preview</a>
+    <a href="#" onclick="toggle_prev('{{ p.slug }}');">Preview</a>
     <div class="blog_prev" id="{{ p.slug }}">
       {{ p.preview|mdown|safe }}
     </div>
