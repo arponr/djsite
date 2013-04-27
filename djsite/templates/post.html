@@ -11,8 +11,8 @@
 {% block main %}
 <div class="colour">
   <div class="content">
-    <h1>{{ p.title }}</h1>
     <div class="post_info">
+      <h1>{{ p.title }}</h1>
       created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
       in 
       {% for c in p.categories.all %}

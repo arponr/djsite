@@ -20,6 +20,7 @@ body {
     font-family: skolar, georgia, serif;
     font-size: 14px;
     color: #363f45;
+    background: #dfe1e5;
 }
 
 a:focus {
@@ -74,7 +75,6 @@ p {
 }
 
 .main {
-    padding: 30px 0 20px 0;
     line-height: 150%;
 }
 
@@ -124,7 +124,7 @@ p {
 
 .post_info {
     font-size: 13px;
-    padding-bottom: 30px;
+    padding: 20px 0;
 }
 
 .post_content {
