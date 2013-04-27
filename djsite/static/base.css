@@ -63,6 +63,7 @@ p {
 .nav {
     padding-top: 25px;
     font-size: 13px;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -89,9 +90,9 @@ p {
 
 .main h1 {
     color: #000000;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 5px;
 }
     
