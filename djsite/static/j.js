@@ -1,6 +1,6 @@
-$('.hidden').hide()
+$('.hidden').hide();
 
-$(".toggle").click(function(event){
+$('.toggle').click(function(event){
     event.preventDefault();
     $(this).next('.hidden').toggle();
 }
