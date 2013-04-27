@@ -1,7 +1,6 @@
-$('.hidden').hide();
-
-$('.toggle').click(
-    function(){
+$(document).ready(function() {
+    $('.hidden').hide();
+    $('.toggle').click(function() {
 	$(this).next('.hidden').hide();
-    }
-);
+    });
+});
