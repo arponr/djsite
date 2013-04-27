@@ -11,7 +11,7 @@
     {% include "post_info.html" %}
       <a href="" class="toggle">Preview</a>
       <a href="{{ p.get_absolute_url }}">Full post</a>
-    <div class="hidden blog_prev">
+    <div class="hidden">
       {{ p.preview|mdown|safe }}
     </div>
   </div>
