@@ -1,0 +1,12 @@
+<div class="post_info">
+  <h1>{{ p.title }}</h1>
+  created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
+  in 
+  {% for c in p.categories.all %}
+  {% if not forloop.last %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {% else %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {% endif %}
+  {% endfor %}
+</div>

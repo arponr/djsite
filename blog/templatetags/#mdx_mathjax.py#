@@ -1,0 +1,5 @@
+import markdown
+
+
+def makeExtension(configs=None):
+    return MathJaxExtension(configs)
