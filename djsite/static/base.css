@@ -93,7 +93,7 @@ p {
     font-weight: 300;
     font-family: nimbus-sans, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
-    text-align: right;
+    text-align: center;
 }
     
 /****************************** BLOG ***********************************/
@@ -123,7 +123,7 @@ p {
 .post_info {
     font-size: 13px;
     padding-bottom: 30px;
-    text-align: right;
+    text-align: center;
 }
 
 .post_content {
