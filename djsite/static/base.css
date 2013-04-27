@@ -114,13 +114,13 @@ p + p {
     font-weight: 300;
     font-size: 13px;
     text-transform: uppercase;
+    margin: 10px 0;
 }
 
 .actions li {
     list-style: none;
     display: inline;
     margin-right: 30px;
-    margin-top: 10px;
 }
 
 .blog_prev {
