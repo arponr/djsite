@@ -103,7 +103,8 @@ p {
 }
 
 .blog_title {
-    font-size: 15px;
+    font-size: 18px;
+    font-family: jaf-facitweb, "Helvetica Neue", sans-serif;
 }
 
 .blog_info {
