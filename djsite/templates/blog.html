@@ -5,12 +5,6 @@
 {% block nav_blog %}class="cur"{% endblock %}
 
 {% block main %}
-<script type="text/javascript">
-  function toggle_prev(p) {      
-      $("#" + p).show();
-  }
-</script>
-
 {% for p in posts %}
 <div{% cycle " class=colour" "" %}>
   <div class="content">
