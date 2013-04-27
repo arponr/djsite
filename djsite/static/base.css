@@ -48,7 +48,7 @@ p + p {
 }
 
 .nav {
-    font-family: nimbus-sans, "Helvetica Neue", sans-serif;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -87,8 +87,8 @@ p + p {
 
 .main h1 {
     font-size: 24px;
-    font-weight: 300;
-    font-family: nimbus-sans, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
 }
 
@@ -99,8 +99,8 @@ p + p {
 /****************************** BLOG ***********************************/
 
 .actions {
-    font-family: nimbus-sans, "Helvetica Neue", sans-serif;
-    font-weight: 300;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-weight: 400;
     font-size: 13px;
     text-transform: uppercase;
     margin-top: 10px;
