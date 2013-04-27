@@ -9,10 +9,8 @@
 <div{% cycle " class=colour" "" %}>
   <div class="content">
     {% include "post_info.html" %}
-    <ul class="actions">
-      <li><a href="" class="toggle">Preview</a></li>
-      <li><a href="{{ p.get_absolute_url }}">Full post</a></li>
-    </ul>
+      <a href="" class="toggle">Preview</a>
+      <a href="{{ p.get_absolute_url }}">Full post</a>
     <div class="hidden blog_prev">
       {{ p.preview|mdown|safe }}
     </div>
