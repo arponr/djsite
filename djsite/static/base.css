@@ -47,19 +47,6 @@ p {
     position: relative;
 }
 
-.nav a:link, .nav a:visited {
-    color: #999ca0;
-    text-decoration: none;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    -moz-transition: color .2s;
-    transition: color .2s;
-}
-
-.cur a:link, .cur a:visited, .nav a:hover {
-    color: #ccced2;
-}
-
 .nav {
     padding-top: 24px;
     font-family: nimbus-sans, "Helvetica Neue", sans-serif;
@@ -71,6 +58,19 @@ p {
     list-style: none;
     display: inline;
     margin-right: 30px;
+}
+
+.nav a:link, .nav a:visited {
+    color: #999ca0;
+    text-decoration: none;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    -moz-transition: color .2s;
+    transition: color .2s;
+}
+
+.cur a:link, .cur a:visited, .nav a:hover {
+    color: #ccced2;
 }
 
 .main {
@@ -92,6 +92,10 @@ p {
     font-weight: 300;
     font-family: nimbus-sans, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
+}
+
+.colour {
+    background: #ccced2;
 }
     
 /****************************** BLOG ***********************************/
