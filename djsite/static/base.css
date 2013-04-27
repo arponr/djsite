@@ -89,8 +89,7 @@ p {
 }
 
 .main h1 {
-    color: #000000;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
@@ -103,7 +102,7 @@ p {
 }
 
 .blog_title {
-    font-size: 16px;
+    font-size: 18px;
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
 }
 
