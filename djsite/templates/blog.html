@@ -6,20 +6,24 @@
 
 {% block main %}
 {% for p in posts %}
-<div class="blog_post">
-  <span class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></span>
-  <span class="blog_info">{{ p.created|date:"j M Y" }} in 
-  {% for c in p.categories.all %}
-  {% if not forloop.last %}
-  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-  {% else %}
-   <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-  {% endif %}
-  {% endfor %}
-  </span>
+<div{% cycle "class=colour" "" %}>
+  <div class="content">
+    <div class="blog_post">
+      <span class="blog_title"><a href="{{ p.get_absolute_url }}">{{ p.title }}</a></span>
+      <span class="blog_info">{{ p.created|date:"j M Y" }} in 
+	{% for c in p.categories.all %}
+	{% if not forloop.last %}
+	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+	{% else %}
+	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+	{% endif %}
+	{% endfor %}
+      </span>
 
-  <div class="blog_prev">
-    {{ p.preview|mdown|safe }}
+      <div class="blog_prev">
+	{{ p.preview|mdown|safe }}
+      </div>
+    </div>
   </div>
 </div>
 {% endfor %}
