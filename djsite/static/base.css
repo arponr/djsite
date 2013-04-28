@@ -99,7 +99,7 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
-.down { 
+.down, .up { 
     border-color: rgba(54,63,69,.5) transparent;
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
