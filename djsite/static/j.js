@@ -4,6 +4,7 @@ $(document).ready(function() {
 	e.preventDefault();
 	var post = $('document.body.main.post');
 	var i = post.index($(this).parent('.post'));
+	alert(i);
 	post.each(function(j, obj) {
 	    if (j < i) {
 		obj.removeClass().addClass('post '+'colour'+j);
