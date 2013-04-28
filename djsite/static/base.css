@@ -35,7 +35,7 @@ p + p {
 }
 
 .header {
-    background: #363f45;
+    background: #444f57;
 }
 
 .content {
@@ -101,21 +101,21 @@ p + p {
 }
 
 .colour1 {
-    background: #444f57;
-}
-
-.colour2 {
     background: #55626b;
 }
 
-.colour3 {
+.colour2 {
     background: #65747f;
 }
 
-.colour4 {
+.colour3 {
     background: #758794;
 }
     
+.colour4 {
+    background: #859aa8;
+}
+
 /****************************** BLOG ***********************************/
 
 .actions {
