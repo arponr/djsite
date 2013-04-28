@@ -9,9 +9,7 @@
 {% for p in posts %}
   <li>
     <div>
-      <a href="" class="toggle">
-	<div class="down"></div>{{ p.title }}
-      </a>
+      <a href="" class="toggle"><div class="down"></div></a>{{ p.title }}
       <span class="info date">{{ p.created|date:"j M Y" }}</span>
     </div>
     <div class="hidden">
