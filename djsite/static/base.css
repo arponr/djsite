@@ -20,6 +20,7 @@ body {
     font-family: skolar, georgia, serif;
     font-size: 14px;
     color: #363f45;
+    background: #f7faff;
 }
 
 a:focus {
@@ -92,8 +93,24 @@ p + p {
     margin-bottom: 10px;
 }
 
-.colour {
-    background: #dfe1e5;
+.colour1 {
+    background: #f7faff;
+}
+
+.colour2 {
+    background: #ccced2;
+}
+
+.colour3 {
+    background: #d5d7db;
+}
+
+.colour4 {
+    background: #e1e3e8;
+}
+
+.colour5 {
+    background: #edf0f5;
 }
     
 /****************************** BLOG ***********************************/

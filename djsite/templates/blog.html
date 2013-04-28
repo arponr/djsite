@@ -6,7 +6,7 @@
 
 {% block main %}
 {% for p in posts %}
-<div{% cycle " class=colour" "" %}>
+<div class={% cycle "colour1" "colour2" "colour3" "colour4" "colour5"%}>
   <div class="content">
     {% include "post_info.html" %}
     <ul class="actions">
