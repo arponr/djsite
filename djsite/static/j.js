@@ -3,5 +3,4 @@ $(document).ready(function() {
 	e.preventDefault();
 	$(this).parent().next('.hidden').slideToggle();
     });
-    $('.hidden').hide();    
 });
