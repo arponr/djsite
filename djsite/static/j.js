@@ -3,8 +3,9 @@ $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var post = $(document.body.main.post);
+	alert("here 1");
 	var i = post.index($(this).parent('.post'));
-	alert(i);
+	alert("here 2");
 	post.each(function(j, obj) {
 	    if (j < i) {
 		obj.removeClass().addClass('post '+'colour'+j);
