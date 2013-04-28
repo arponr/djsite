@@ -16,5 +16,4 @@ $(document).ready(function() {
 	$(this).parent('.actions').next('.prev').slideToggle(300);
     });
     $('.prev').hide();
-    $('.post:first').find('.toggle').trigger();
 });
