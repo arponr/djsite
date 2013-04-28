@@ -35,7 +35,7 @@ p + p {
 }
 
 .header {
-    background: #444f57;
+    background: #363f45;
 }
 
 .content {
@@ -92,24 +92,26 @@ p + p {
     margin-bottom: 10px;
 }
 
+.colour {
+    color: #ccced2;
+}
 
+.colour a:link, .colour a:visited {
+    color: #ccced2;
+}
 
 .colour1 {
-    background: #55626b;
+    background: #444f57;
 }
 
 .colour2 {
-    background: #65747f;
+    background: #55626b;
 }
 
 .colour3 {
-    background: #758794;
+    background: #65747f;
 }
     
-.colour4 {
-    background: #859aa8;
-}
-
 /****************************** BLOG ***********************************/
 
 .actions {
