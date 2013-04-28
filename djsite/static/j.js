@@ -1,8 +1,10 @@
 $(document).ready(function() {
-    $('.prev').hide();
+    var post = $('.post');
+
+    $('.prev').hide();    
+
     $('.toggle').click(function(e) {
 	e.preventDefault();
-	var post = $('document.body.main.post');
 	var i = post.index($(this).closest('.post'));
 	alert(i);
 	post.each(function(j, obj) {
