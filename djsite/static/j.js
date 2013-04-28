@@ -8,7 +8,7 @@ $(document).ready(function() {
 	var i = post.index($(this).closest('.post'));
 	post.each(function(j, obj) {
 	    if (j < i) {
-		obj.parent().hide();
+		$(this).parent().hide();
 	    }/*
 	    else if (j > i) {
 		obj.parent().removeClass().addClass('colour' + j);
