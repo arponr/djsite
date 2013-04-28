@@ -91,41 +91,12 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
 }
-
-.colour {
-    color: #999ca0;
-}
-
-.colour a:link, .colour a:visited {
-    color: #ccced2;
-}
-
-.colour1 {
-    background: #282f33;
-}
-
-.colour2 {
-    background: #363f45;
-}
-
-.colour3 {
-    background: #4d5861;
-}
     
 /****************************** BLOG ***********************************/
 
-.actions {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-
-.actions li {
+.posts li {
     list-style: none;
-    display: inline;
-    margin-right: 30px;
+    margin-bottom: 20px;
 }
 
 .prev {
