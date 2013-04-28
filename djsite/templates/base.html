@@ -18,10 +18,17 @@
     <div class="header">
       <div class="content">
 	<ul class="nav">
-	  <li {% block nav_blog %}{% endblock %}><a href="/">blog</a></li>
+	  <li {% block nav_blog %}{% endblock %}><a href="/"><a href="" class="toggle down"></a>blog</a></li>
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">work</a></li>
 	  <li {% block nav_about %}{% endblock %}><a href="/about/">about</a></li>
 	</ul>
+	<div class="hidden">
+	  <ul class="cats">
+	    {% for c in cats %}
+	    <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
       </div>
     </div>
 
