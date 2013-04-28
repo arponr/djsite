@@ -8,14 +8,14 @@ $(document).ready(function() {
 	var i = post.index($(this).closest('.post'));
 	post.each(function(j, obj) {
 	    if (j < i) {
-		$(this).parent().hide();
-	    }/*
+		$(this).parent().removeClass().addClass('colour' + (j+1));
+	    }
 	    else if (j > i) {
-		obj.parent().removeClass().addClass('colour' + j);
+		$(this).parent().removeClass().addClass('colour' + j);
 	    }
 	    else {
-		obj.parent().removeClass();
-	    }*/
+		$(this).parent().removeClass();
+	    }
 	});
 	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
