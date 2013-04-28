@@ -21,9 +21,10 @@
       <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
       {% endif %}
       {% endfor %}
-      <div class="prev">
+
+      <span class="prev">
 	{{ p.preview|mdown|safe }}
-      </div>
+      </span>
     </div>
   </li>
 {% endfor %}

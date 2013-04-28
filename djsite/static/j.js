@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    var post = $('.post');
-    var prev = $('.prev');
-    var last = -1;
-
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	/*
@@ -26,6 +22,6 @@ $(document).ready(function() {
 	$(this).parent().next('.hidden').slideToggle();
     });
 
-    prev.hide();    
+    $('.hidden').hide();    
     $('.toggle').eq(0).trigger('click');
 });
