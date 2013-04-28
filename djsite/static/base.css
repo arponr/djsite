@@ -106,7 +106,7 @@ p + p {
     height: 0;
     width: 0;
     top: 10px;
-    float: left;
+    display: inline;
 }
 
 .info {
