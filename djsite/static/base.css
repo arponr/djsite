@@ -95,6 +95,8 @@ p + p {
 /****************************** BLOG ***********************************/
 
 .down {
+    float: left;
+    margin-right: 5px;
     width: 0; 
     height: 0; 
     border-left: 5px solid transparent;
