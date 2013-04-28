@@ -23,7 +23,7 @@ $(document).ready(function() {
 	    last = i;
 	}
 	*/
-	$(this).nextUntil('.prev').slideToggle(400);
+	$(this).parent().next('.prev').slideToggle();
     });
 
     prev.hide();    
