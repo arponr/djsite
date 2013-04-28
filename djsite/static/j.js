@@ -1,7 +1,6 @@
 $(document).ready(function() {
     var post = $('.post');
-
-    $('.prev').hide();    
+    var prev = $('.prev');
 
     $('.toggle').click(function(e) {
 	e.preventDefault();
@@ -17,6 +16,10 @@ $(document).ready(function() {
 		$(this).parent().removeClass();
 	    }
 	});
+	prev.hide('slide', {direction:'up'}, 300);
 	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
+
+    prev.hide();    
+    $('.toggle').eq(0).trigger('click');
 });
