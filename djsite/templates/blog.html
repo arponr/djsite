@@ -8,8 +8,10 @@
 <ul class="posts">
 {% for p in posts %}
   <li>
-    {{ p.title }}
-    <span class="info date">{{ p.created|date:"j M Y" }}</span>
+    <div class="post">
+      {{ p.title }}
+      <span class="info date">{{ p.created|date:"j M Y" }}</span>
+    </div>
     <a href="" class="toggle"><div class="down"></div></a>
     <div class="hidden">
       <span class="info">
