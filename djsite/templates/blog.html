@@ -8,25 +8,25 @@
 <ul class="posts">
 {% for p in posts %}
   <li>
-    <div>
-      <a href="" class="toggle"><div class="down"></div></a>
+    <a href="" class="toggle"><div class="down"></div></a>
+    <div class="post">
       {{ p.title }}
       <span class="info date">{{ p.created|date:"j M Y" }}</span>
-    </div>
-    <div class="hidden">
-      <span class="info">
-	in 
-	{% for c in p.categories.all %}
-	{% if not forloop.last %}
-	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-	{% else %}
-	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-	{% endif %}
-	{% endfor %}
-      </span>
-      <div class="prev">
-	{{ p.preview|mdown|safe }}
-	<a href="{{ p.get_absolute_url }}"><span class="info">read more . . .</span></a>
+      <div class="hidden">
+	<span class="info">
+	  in 
+	  {% for c in p.categories.all %}
+	  {% if not forloop.last %}
+	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+	  {% else %}
+	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+	  {% endif %}
+	  {% endfor %}
+	</span>
+	<div class="prev">
+	  {{ p.preview|mdown|safe }}
+	  <a href="{{ p.get_absolute_url }}"><span class="info">read more . . .</span></a>
+	</div>
       </div>
     </div>
   </li>

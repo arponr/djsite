@@ -100,12 +100,17 @@ p + p {
 }
 
 .down { 
-    border-color: transparent #363f45;
+    border-color: #363f45 transparent;
     border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
+    border-width: 4px 4px 0 4px;
     height: 0;
     width: 0;
     display: inline-block;
+    float: left;
+}
+
+.post {
+    margin-left: 10px;
 }
 
 .info {
@@ -119,7 +124,7 @@ p + p {
 
 .prev {
     text-align: justify;
-    margin: 5px 0 0 20px;
+    margin: 5px 0 0 10px;
 }
 
 /****************************** POST ***********************************/
