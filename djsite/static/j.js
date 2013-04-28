@@ -8,13 +8,13 @@ $(document).ready(function() {
 	var i = post.index($(this).closest('.post'));
 	post.each(function(j, obj) {
 	    if (j < i) {
-		alert(j);
+		obj.parent().removeClass().addClass('colour' + (j+1));
 	    }
 	    else if (j > i) {
-		alert(j-1);
+		obj.parent().removeClass().addClass('colour' + j);
 	    }
 	    else {
-		alert("psoej");
+		obj.parent().removeClass();
 	    }
 	});
 	$(this).closest('.actions').next('.prev').slideToggle(300);
