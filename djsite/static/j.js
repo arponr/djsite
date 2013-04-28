@@ -19,7 +19,7 @@ $(document).ready(function() {
 	    last = i;
 	}
 	*/
-	$(this).parent().next('.hidden').slideToggle();
+	$(this).next('.hidden').slideToggle();
     });
 
     $('.hidden').hide();    
