@@ -3,6 +3,7 @@ $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var i = $('.post').index($(this).parent('.post'));
+	/*
 	$('.post').each(function(j, obj) {
 	    if (j < i) {
 		obj.removeClass().addClass('post '+'colour'+j);
@@ -14,6 +15,7 @@ $(document).ready(function() {
 		obj.removeClass().addClass('post');
 	    }
 	});
-	$(this).closest('ul').next('.prev').slideToggle(300);
+	*/
+	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
 });
