@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('.post li:before').click(function(e) {
+    $('.toggle').click(function(e) {
 	e.preventDefault();
-	$(this).find('.hidden').slideToggle();
+	$(this).parent().next('.hidden').slideToggle();
     });
 
     $('.hidden').hide();    
-    $('.post li:before').eq(0).trigger('click');
+    $('.toggle').eq(0).trigger('click');
 });
