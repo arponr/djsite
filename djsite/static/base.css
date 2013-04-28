@@ -62,10 +62,10 @@ p + p {
 .nav a:link, .nav a:visited {
     color: #999ca0;
     text-decoration: none;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    -moz-transition: color .2s;
-    transition: color .2s;
+    -webkit-transition: color .3s;
+    -o-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
 }
 
 .cur a:link, .cur a:visited, .nav a:hover {
@@ -101,6 +101,10 @@ p + p {
 
 .down { 
     border-color: rgba(54,63,69,.5) transparent;
+    -webkit-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    transition: border-color .3s;
     border-style: solid;
     border-width: 5px 5px 0 5px;
     height: 0;
