@@ -43,7 +43,7 @@ p + p {
     max-width: 95%;
     margin: 0 auto;
     position: relative;
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 .nav {
@@ -96,7 +96,7 @@ p + p {
 
 .posts li {
     list-style: none;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .info {
