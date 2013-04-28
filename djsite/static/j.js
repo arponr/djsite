@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var post = $('.post');
     var prev = $('.prev');
+    var last = -1;
 
     $('.toggle').click(function(e) {
 	e.preventDefault();
@@ -16,7 +17,10 @@ $(document).ready(function() {
 		$(this).parent().removeClass();
 	    }
 	});
-	prev.slideUp(300);
+	if (i != last) {	    
+	    prev.slideUp(300);
+	    last = i;
+	}
 	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
 
