@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var post = $('document.body.main.post');
-	var i = post.index($(this).parent('.post'));
+	var i = post.index($(this).closest('.post'));
 	alert(i);
 	post.each(function(j, obj) {
 	    if (j < i) {
