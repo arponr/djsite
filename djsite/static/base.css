@@ -20,7 +20,6 @@ body {
     font-family: skolar, georgia, serif;
     font-size: 14px;
     color: #363f45;
-    background: #dfe1e5;
 }
 
 a:focus {
@@ -36,11 +35,11 @@ p + p {
 }
 
 .header {
-    background: #363f45;
+    background: #dfe1e5;
 }
 
 .content {
-    width: 600px;
+    width: 550px;
     max-width: 95%;
     margin: 0 auto;
     position: relative;
