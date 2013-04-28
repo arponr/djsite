@@ -6,6 +6,9 @@ $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var i = post.index($(this).closest('.post'));
+	if (i === last) {
+	    return;
+	}
 	post.each(function(j, obj) {
 	    if (j < i) {
 		$(this).parent().removeClass().addClass('colour' + (j+1));
@@ -17,11 +20,9 @@ $(document).ready(function() {
 		$(this).parent().removeClass();
 	    }
 	});
-	if (i != last) {	    
-	    prev.slideUp(300);
-	    last = i;
-	}
+	prev.slideUp(300);
 	$(this).closest('.actions').next('.prev').slideToggle(300);
+	last = i;
     });
 
     prev.hide();    
