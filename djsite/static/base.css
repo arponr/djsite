@@ -92,6 +92,14 @@ p + p {
     margin-bottom: 10px;
 }
 
+.colour {
+    color: #999ca0;
+}
+
+.colour a:link, .colour a:visited {
+    color: #ccced2;
+}
+
 .colour1 {
     background: #465159;
 }

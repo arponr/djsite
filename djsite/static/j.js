@@ -6,23 +6,22 @@ $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var i = post.index($(this).closest('.post'));
-	if (i === last) {
-	    return;
-	}
 	post.each(function(j, obj) {
 	    if (j < i) {
-		$(this).parent().removeClass().addClass('colour' + (j+1));
+		$(this).parent().removeClass().addClass('colour colour' + (j+1));
 	    }
 	    else if (j > i) {
-		$(this).parent().removeClass().addClass('colour' + j);
+		$(this).parent().removeClass().addClass('colour colour' + j);
 	    }
 	    else {
 		$(this).parent().removeClass();
 	    }
 	});
-	prev.slideUp(300);
+	if (i != last) {	    
+	    prev.slideUp(300);
+	    last = i;
+	}
 	$(this).closest('.actions').next('.prev').slideToggle(300);
-	last = i;
     });
 
     prev.hide();    
