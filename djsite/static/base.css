@@ -40,8 +40,8 @@ p + p {
 }
 
 .content {
-    width: 525px;
-    max-width: 100%;
+    width: 600px;
+    max-width: 95%;
     margin: 0 auto;
     position: relative;
     padding: 20px 0px;
