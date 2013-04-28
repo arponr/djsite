@@ -4,7 +4,7 @@ from blog.models import Post, Category
 
 def blog(request):
     return render_to_response('blog.html', 
-                              {'posts': Post.objects.all() * 5,
+                              {'posts': list(Post.objects.all()) * 5,
                                'cats': Category.objects.all()}) 
 
 def category(request, sl):
