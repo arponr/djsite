@@ -10,21 +10,22 @@
   <li>
     <div>
       <a href="" class="toggle">{{ p.title }}</a>
-      <span class="date">{{ p.created|date:"j M Y" }}</span>
+      <span class="info date">{{ p.created|date:"j M Y" }}</span>
     </div>
     <div class="hidden">
-      in 
-      {% for c in p.categories.all %}
-      {% if not forloop.last %}
-      <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-      {% else %}
-      <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-      {% endif %}
-      {% endfor %}
-
-      <span class="prev">
-	{{ p.preview|mdown|safe }}
+      <span class="info">
+	in 
+	{% for c in p.categories.all %}
+	{% if not forloop.last %}
+	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+	{% else %}
+	<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+	{% endif %}
+	{% endfor %}
       </span>
+      <div class="prev">
+	{{ p.preview|mdown|safe }}
+      </div>
     </div>
   </li>
 {% endfor %}

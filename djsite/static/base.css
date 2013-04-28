@@ -99,10 +99,13 @@ p + p {
     margin-bottom: 20px;
 }
 
-.date {
+.info {
     font-size: 13px;
     font-style: italic;
-    margin-left: 10px;
+}
+
+.date {
+    margin-left: 15px;
 }
 
 .prev {
