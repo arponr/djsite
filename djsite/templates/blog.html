@@ -9,6 +9,7 @@
 {% for p in posts %}
   <li>
     <a href="" class="toggle">{{ p.title }}</a>
+    <span class="date">{{ p.created|date:"j M Y" }}</span>
     <div class="prev">
       {{ p.preview|mdown|safe }}
     </div>
