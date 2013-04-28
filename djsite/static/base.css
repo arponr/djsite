@@ -109,7 +109,8 @@ p + p {
 }
 
 .post {
-    float: right;
+    float: left;
+    margin-left: 15px;
 }
 
 .info {
