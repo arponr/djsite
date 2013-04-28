@@ -126,6 +126,10 @@ p + p {
     border-width: 0px 6px 6px 6px;
 }
 
+.title {
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+}
+
 .info {
     font-size: 13px;
     font-style: italic;
