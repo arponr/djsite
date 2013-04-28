@@ -93,23 +93,19 @@ p + p {
 }
 
 .colour1 {
-    background: #ffffff;
-}
-
-.colour5 {
-    background: #ccced2;
-}
-
-.colour4 {
-    background: #d5d7db;
-}
-
-.colour3 {
-    background: #e1e3e8;
+    background: #465159;
 }
 
 .colour2 {
-    background: #edf0f5;
+    background: #54626b;
+}
+
+.colour3 {
+    background: #61727d;
+}
+
+.colour4 {
+    background: #697b87;
 }
     
 /****************************** BLOG ***********************************/
