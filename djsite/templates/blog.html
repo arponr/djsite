@@ -5,20 +5,14 @@
 {% block nav_blog %}class="cur"{% endblock %}
 
 {% block main %}
+<ul class="posts">
 {% for p in posts %}
-<div>
-  <div class="post">
-    <div class="content">
-      {% include "post_info.html" %}
-      <ul class="actions">
-	<li><a href="" class="toggle">Preview</a></li>
-	<li><a href="{{ p.get_absolute_url }}">Full post</a></li>
-      </ul>
-      <div class="prev">
-	{{ p.preview|mdown|safe }}
-      </div>
+  <li>
+    <a href="" class="toggle">{{ p.title }}</a>
+    <div class="prev">
+      {{ p.preview|mdown|safe }}
     </div>
-  </div>
-</div>
+  </li>
 {% endfor %}
+</ul>
 {% endblock %}

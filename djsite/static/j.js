@@ -5,6 +5,7 @@ $(document).ready(function() {
 
     $('.toggle').click(function(e) {
 	e.preventDefault();
+	/*
 	var i = post.index($(this).closest('.post'));
 	post.each(function(j, obj) {
 	    if (j < i) {
@@ -21,7 +22,8 @@ $(document).ready(function() {
 	    prev.slideUp(400);
 	    last = i;
 	}
-	$(this).closest('.actions').next('.prev').slideToggle(400);
+	*/
+	$(this).next('.prev').slideToggle(400);
     });
 
     prev.hide();    
