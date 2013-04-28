@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$(this).parent().removeClass();
 	    }
 	});
-	prev.hide('slide', {direction:'up'}, 300);
+	prev.hide();
 	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
 
