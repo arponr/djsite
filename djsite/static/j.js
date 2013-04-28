@@ -13,7 +13,7 @@ $(document).ready(function() {
 		obj.removeClass().addClass('post');
 	    }
 	});
-	$(this).closest('.actions').next('.prev').slideToggle(300);
+	$(this).closest('ul.actions').next('.prev').slideToggle(300);
     });
     $('.prev').hide();
 });
