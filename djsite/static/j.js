@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.toggle').click(function(e) {
 	e.preventDefault();
-	$(this).next('.hidden').slideToggle();
+	$(this).next().find('.hidden').slideToggle();
     });
 
     $('.hidden').hide();    
