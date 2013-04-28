@@ -6,15 +6,17 @@
 
 {% block main %}
 {% for p in posts %}
-<div class={% cycle "colour1" "colour2" "colour3" "colour4" "colour5"%}>
-  <div class="content">
-    {% include "post_info.html" %}
-    <ul class="actions">
-      <li><a href="" class="toggle">Preview</a></li>
-      <li><a href="{{ p.get_absolute_url }}">Full post</a></li>
-    </ul>
-    <div class="prev">
-      {{ p.preview|mdown|safe }}
+<div class="post">
+  <div>
+    <div class="content">
+      {% include "post_info.html" %}
+      <ul class="actions">
+	<li><a href="" class="toggle">Preview</a></li>
+	<li><a href="{{ p.get_absolute_url }}">Full post</a></li>
+      </ul>
+      <div class="prev">
+	{{ p.preview|mdown|safe }}
+      </div>
     </div>
   </div>
 </div>
