@@ -16,7 +16,7 @@ $(document).ready(function() {
 		$(this).parent().removeClass();
 	    }
 	});
-	prev.hide();
+	prev.slideUp(300);
 	$(this).closest('.actions').next('.prev').slideToggle(300);
     });
 
