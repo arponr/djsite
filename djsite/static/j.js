@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('.prev').hide();
     $('.toggle').click(function(e) {
 	e.preventDefault();
 	var i = $('.post').index($(this).parent('.post'));
@@ -15,5 +16,4 @@ $(document).ready(function() {
 	});
 	$(this).closest('ul').next('.prev').slideToggle(300);
     });
-    $('.prev').hide();
 });
