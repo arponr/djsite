@@ -105,7 +105,6 @@ p + p {
     border-width: 5px 5px 0 5px;
     height: 0;
     width: 0;
-    display: inline-block;
     margin-right: 5px;
 }
 
@@ -114,8 +113,12 @@ p + p {
     font-style: italic;
 }
 
-.date, .hidden {
+.date {
     margin-left: 15px;
+}
+
+.hidden {
+    margin-left: 20px;
 }
 
 .prev {
