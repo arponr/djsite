@@ -18,10 +18,10 @@ $(document).ready(function() {
 	    }
 	});
 	if (i != last) {	    
-	    prev.slideUp(300);
+	    prev.slideUp(400);
 	    last = i;
 	}
-	$(this).closest('.actions').next('.prev').slideToggle(300);
+	$(this).closest('.actions').next('.prev').slideToggle(400);
     });
 
     prev.hide();    
