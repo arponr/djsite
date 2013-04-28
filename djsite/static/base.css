@@ -105,7 +105,10 @@ p + p {
     border-width: 5px 5px 0 5px;
     height: 0;
     width: 0;
+    display: inline-block;
     margin-right: 5px;
+    position: relative;
+    top: -2px;
 }
 
 .info {
