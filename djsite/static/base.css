@@ -106,17 +106,24 @@ p + p {
     -moz-transition: border-color .3s;
     transition: border-color .3s;
     border-style: solid;
-    border-width: 6px 6px 0 6px;
     height: 0;
     width: 0;
     display: inline-block;
     margin-right: 5px;
     position: relative;
-    top: -2px;
+    top: -1px;
 }
 
-.down:hover {
+.down:hover, .up:hover {
     border-color: rgba(54,63,69,1) transparent;
+}
+
+.down {
+    border-width: 6px 6px 0 6px;
+}
+
+.up {
+    border-width: 0px 6px 6px 6px;
 }
 
 .info {
