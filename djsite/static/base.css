@@ -71,7 +71,7 @@ p + p {
 .cur a:link, .cur a:visited, .nav a:hover {
     color: #ccced2;
 }
-*/
+
 .main {
     line-height: 150%;
 }
@@ -91,7 +91,7 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
 }
-    
+*/    
 /****************************** BLOG ***********************************/
 
 .posts li {
