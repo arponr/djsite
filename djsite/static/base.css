@@ -100,13 +100,13 @@ p + p {
 }
 
 .lines { 
-    border-bottom: 6px double #999ca0;
-    border-top: 2px solid #999ca0; 
+    border-bottom: .125em solid #999ca0;
+    border-top: .375em double #999ca0; 
     display: inline-block;
-    height: 2px; 
-    width: 15px;
+    height: .125em; 
+    width: 1em;
     position: relative;
-    top: 1px;
+    top: .25em;
 }​
 
 .lines:hover {
