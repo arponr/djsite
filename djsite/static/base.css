@@ -117,13 +117,13 @@ p + p {
 }
 
 .lines:before {
-  height: 0.25em;
+  height: 0.2em;
   border-top: 0.125em solid #000;
   border-bottom: 0.125em solid #000;
 }
 
 .lines:after {
-  height: 0.75em;
+  height: 0.65em;
   border-bottom: 0.125em solid #000;
 }
 
