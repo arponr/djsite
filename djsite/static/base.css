@@ -100,7 +100,7 @@ p + p {
 }
 
 .down, .up { 
-    border-color: rgba(54,63,69,.5) transparent;
+    border-color: #586670 transparent;
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
     -moz-transition: border-color .3s;
@@ -115,7 +115,7 @@ p + p {
 }
 
 .down:hover, .up:hover {
-    border-color: rgba(54,63,69,1) transparent;
+    border-color: #363f45 transparent;
 }
 
 .down {
