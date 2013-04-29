@@ -118,7 +118,7 @@ p + p {
 }
 
 .lines:before {
-    height: 0.25em;
+    height: 0.2em;
     border-width: 0.125em 0;
 }
 
