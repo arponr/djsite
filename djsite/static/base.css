@@ -100,10 +100,10 @@ p + p {
 }
 
 .lines { 
-    border-bottom: 2px solid #999ca0;
-    border-top: 6px double #999ca0; 
+    border-top: 2px solid #999ca0;
+    border-bottom: 6px double #999ca0; 
     display: inline-block;
-    height: 2pxem; 
+    height: 2px; 
     width: 15px;
     position: relative;
 }​
