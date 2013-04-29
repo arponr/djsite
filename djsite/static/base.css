@@ -100,12 +100,11 @@ p + p {
 }
 
 .lines { 
-    height: .13em; 
-    width: 1em;
-    border-width: .13em 0 .39em 0;
+    height: 2px; 
+    width: 15px;
+    border-width: 2px 0 6px 0;
     border-style: solid none double none;
     display: inline-block;
-    position: relative;
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
     -moz-transition: border-color .3s;
