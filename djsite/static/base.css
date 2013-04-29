@@ -106,7 +106,11 @@ p + p {
     height: 2px; 
     width: 15px;
     position: relative;
-    top: .1em;
+    top: .05em;
+    -webkit-transition: border-color .3s;
+    -o-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    transition: border-color .3s;
 }​
 
 .lines:hover {
