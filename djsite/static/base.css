@@ -105,7 +105,8 @@ p + p {
 
 .lines:before { 
     content: "";
-    top: -.15em;
+    position: abolute;
+    top: .25em;
     height: .13em; 
     width: 1em;
     border-width: .13em 0 .39em 0;
