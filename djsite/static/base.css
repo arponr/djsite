@@ -124,7 +124,7 @@ p + p {
 
 .lines:after {
     height: 0.65em;
-    border-bottom: 0.125em;
+    border-width: 0 0 0.125em 0;
 }
 
 .lines:link, .lines:visited {
