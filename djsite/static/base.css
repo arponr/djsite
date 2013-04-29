@@ -103,19 +103,26 @@ p + p {
     position: relative;
 }
 
-.lines:before { 
-    content: "";
-    position: abolute;
-    height: 2px; 
-    width: 15px;
-    border-width: 2px 0 6px 0;
-    border-style: solid none double none;
-    display: inline-block;
-    -webkit-transition: border-color .3s;
-    -o-transition: border-color .3s;
-    -moz-transition: border-color .3s;
-    transition: border-color .3s;
-}​
+.lines {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.lines:before, .lines:after {
+  content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0;
+  width: 1em;
+  height: 0.25em;
+  border-top: 0.125em solid #000;
+  border-bottom: 0.125em solid #000;
+}
+
+.lines:after {
+  height: 0.625em;
+  border-bottom: 0.125em solid #000;
+}
 
 .lines:link, .lines:visited {
     border-color: #999ca0;
