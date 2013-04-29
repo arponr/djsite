@@ -110,7 +110,6 @@ p + p {
     display: inline-block;
     margin-right: 5px;
     position: relative;
-    top: -1px;
 }
 
 .down {
@@ -139,7 +138,6 @@ p + p {
 
 .title {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    font-size: 15px;
 }
 
 .info {
