@@ -106,7 +106,6 @@ p + p {
     height: .125em; 
     width: 1em;
     position: relative;
-    top: .25em;
 }​
 
 .lines:hover {
