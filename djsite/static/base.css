@@ -99,6 +99,19 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
+.lines { 
+    border-bottom: .15em solid #999ca0;
+    border-top: .45em double #999ca0; 
+    display: inline-block;
+    height: .15em; 
+    width: 1em;
+    position: relative;
+}​
+
+.lines:hover {
+    border-color: #ccced2 !important;
+}
+
 .title {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
 }
