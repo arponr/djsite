@@ -121,19 +121,19 @@ p + p {
     border-width: 0px 6px 6px 6px;
 }
 
-.main.down, .main.up {
+.main .down, .main .up {
     border-color: rgba(54,63,69,.5) transparent;
 }
 
-.main.down:hover, .main.up:hover {
+.main .down:hover, .main .up:hover {
     border-color: rgba(54,63,69,1) transparent;
 }
 
-.header.down, .header.up {
+.header .down, .header .up {
     border-color: #999ca0;
 }
 
-.header.down:hover, .header.up:hover {
+.header .down:hover, .header .up:hover {
     border-color: #ccced2;
 }
 
