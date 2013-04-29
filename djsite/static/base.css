@@ -105,6 +105,8 @@ p + p {
     display: inline-block;
     height: 2px; 
     width: 15px;
+    position: relative;
+    top: 1px;
 }​
 
 .lines:hover {
