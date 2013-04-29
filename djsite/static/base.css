@@ -103,8 +103,8 @@ p + p {
     border-bottom: 8px double black; 
     border-top: 3px solid black; 
     display: inline-block;
-    height: 5px; 
-    width: 10px;
+    height: 3px; 
+    width: 15px;
 }​
 
 .down, .up { 
