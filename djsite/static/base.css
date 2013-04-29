@@ -100,11 +100,11 @@ p + p {
 }
 
 .lines { 
-    border-top: 2px solid #999ca0;
-    border-bottom: 6px double #999ca0; 
+    height: .125em; 
+    width: 1em;
+    border-width: .125em 0 .375em 0;
+    border-style: solid none double none;
     display: inline-block;
-    height: 2px; 
-    width: 15px;
     position: relative;
     top: .05em;
     -webkit-transition: border-color .3s;
@@ -113,8 +113,12 @@ p + p {
     transition: border-color .3s;
 }​
 
+.lines:link, .lines:visited {
+    border-color: #999ca0;
+}
+
 .lines:hover {
-    border-color: #ccced2 !important;
+    border-color: #ccced2;
 }
 
 .title {
