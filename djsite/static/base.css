@@ -100,49 +100,17 @@ p + p {
 }
 
 .lines { 
-    border-bottom: 6px double black; 
-    border-top: 2px solid black; 
+    border-bottom: 6px double #999ca0;
+    border-top: 2px solid #999ca0; 
     display: inline-block;
     height: 2px; 
     width: 15px;
+    position: relative;
+    top: 1px;
 }​
 
-.down, .up { 
-    -webkit-transition: border-color .3s;
-    -o-transition: border-color .3s;
-    -moz-transition: border-color .3s;
-    transition: border-color .3s;
-    border-style: solid;
-    height: 0;
-    width: 0;
-    display: inline-block;
-    margin-right: 5px;
-    position: relative;
-    top: -1px;
-}
-
-.down {
-    border-width: 7px 5px 0 5px;
-}
-
-.up {
-    border-width: 0px 5px 7px 5px;
-}
-
-.main .down, .main .up {
-    border-color: rgba(54,63,69,.5) transparent;
-}
-
-.main .down:hover, .main .up:hover {
-    border-color: rgba(54,63,69,1) transparent;
-}
-
-.header .down, .header .up {
-    border-color: #999ca0 transparent;
-}
-
-.header .down:hover, .header .up:hover {
-    border-color: #ccced2 transparent;
+.lines:hover {
+    border-color: #ccced2;
 }
 
 .title {
