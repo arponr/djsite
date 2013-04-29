@@ -101,11 +101,11 @@ p + p {
 
 .lines {
     position: relative;
-    top: -.20em;
 }
 
 .lines:before { 
     content: "";
+    top: -.15em;
     height: .13em; 
     width: 1em;
     border-width: .13em 0 .39em 0;
