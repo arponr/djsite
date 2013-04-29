@@ -100,6 +100,7 @@ p + p {
 }
 
 .lines:before { 
+    content: "";
     height: 1px; 
     width: 15px;
     border-width: 2px 0 6px 0;
