@@ -110,7 +110,7 @@ p + p {
     display: inline-block;
     margin-right: 5px;
     position: relative;
-    top: -1px;
+    top: -2px;
 }
 
 .down {
