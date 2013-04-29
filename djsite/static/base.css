@@ -114,16 +114,28 @@ p + p {
     top: -1px;
 }
 
-.down:hover, .up:hover {
-    border-color: #363f45 transparent;
-}
-
 .down {
     border-width: 6px 6px 0 6px;
 }
 
 .up {
     border-width: 0px 6px 6px 6px;
+}
+
+.main.down, .main.up {
+    border-color: rgba(54,63,69,.5) transparent;
+}
+
+.main.down:hover, .main.up:hover {
+    border-color: rgba(54,63,69,.5) transparent;
+}
+
+.header.down, .header.up {
+    border-color: #999ca0;
+}
+
+.header.down#hover, .header.up#hover {
+    border-color: #ccced2;
 }
 
 .title {
