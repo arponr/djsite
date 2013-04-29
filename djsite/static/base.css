@@ -108,7 +108,7 @@ p + p {
   padding-left: 1.25em;
 }
 
-.lines:before, .lines:after {
+.lines:before {
   content: "";
   position: absolute;
   top: 0.25em;
