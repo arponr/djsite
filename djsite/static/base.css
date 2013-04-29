@@ -126,14 +126,14 @@ p + p {
 }
 
 .main.down:hover, .main.up:hover {
-    border-color: rgba(54,63,69,.5) transparent;
+    border-color: rgba(54,63,69,1) transparent;
 }
 
 .header.down, .header.up {
     border-color: #999ca0;
 }
 
-.header.down#hover, .header.up#hover {
+.header.down:hover, .header.up:hover {
     border-color: #ccced2;
 }
 
