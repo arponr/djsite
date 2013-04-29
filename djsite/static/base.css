@@ -99,6 +99,14 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
+.lines { 
+    border-bottom: 17px double black; 
+    border-top: 6px solid black; 
+    content:"";
+    height: 5px; 
+    width:30px;
+}​
+
 .down, .up { 
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
