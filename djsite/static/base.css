@@ -110,9 +110,6 @@ p + p {
 
 .lines:before {
   content: "";
-  position: absolute;
-  top: 0.25em;
-  left: 0;
   width: 1em;
   height: 0.25em;
   border-top: 0.125em solid #000;
@@ -120,7 +117,9 @@ p + p {
 }
 
 .lines:after {
-  height: 0.625em;
+  content: "";
+  width: 1em;
+  height: 0.5em;
   border-bottom: 0.125em solid #000;
 }
 

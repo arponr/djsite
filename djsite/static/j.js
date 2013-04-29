@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.head_toggle.up, .head_toggle.down').click(function(e) {
+    $('.head_toggle.lines').click(function(e) {
 	e.preventDefault();
 	$(this).parent().parent().next('.hidden').slideToggle();
 	$(this).toggleClass('down up');
