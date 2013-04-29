@@ -100,7 +100,6 @@ p + p {
 }
 
 .down, .up { 
-    border-color: #586670 transparent;
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
     -moz-transition: border-color .3s;
