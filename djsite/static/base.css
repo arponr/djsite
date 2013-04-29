@@ -99,6 +99,11 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
+.lines {
+    position: relative;
+    top: -.25em;
+}
+
 .lines:before { 
     content: "";
     height: .125em; 
