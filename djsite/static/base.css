@@ -114,11 +114,11 @@ p + p {
 }
 
 .down {
-    border-width: 5px 5px 0 5px;
+    border-width: 6px 6px 0 6px;
 }
 
 .up {
-    border-width: 0px 5px 5px 5px;
+    border-width: 0px 6px 6px 6px;
 }
 
 .main .down, .main .up {
