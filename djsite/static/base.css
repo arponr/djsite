@@ -108,18 +108,22 @@ p + p {
   padding-left: 1.25em;
 }
 
-.lines:before {
+.lines:before, .lines:after {
   content: "";
+  position: absolute;
+  top: 0.25em;
+  left: 0;
   width: 1em;
+}
+
+.lines:before {
   height: 0.25em;
   border-top: 0.125em solid #000;
   border-bottom: 0.125em solid #000;
 }
 
 .lines:after {
-  content: "";
-  width: 1em;
-  height: 0.5em;
+  height: 0.625em;
   border-bottom: 0.125em solid #000;
 }
 
