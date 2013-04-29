@@ -108,7 +108,7 @@ p + p {
     position: abolute;
     height: 2px; 
     width: 15px;
-    border-width: 2px 0 .6px 0;
+    border-width: 2px 0 6px 0;
     border-style: solid none double none;
     display: inline-block;
     -webkit-transition: border-color .3s;
