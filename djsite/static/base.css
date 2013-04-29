@@ -59,6 +59,19 @@ p + p {
     margin-right: 40px;
 }
 
+.nav a:link, .nav a:visited {
+    color: #999ca0;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    -o-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+}
+
+.cur a:link, .cur a:visited, .nav a:hover {
+    color: #ccced2;
+}
+
 .main {
     line-height: 150%;
 }
