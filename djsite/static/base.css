@@ -99,7 +99,7 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
-.down, .up { 
+.header .down, .header .up, .main .down, .main .up { 
     -webkit-transition: border-color .3s;
     -o-transition: border-color .3s;
     -moz-transition: border-color .3s;
@@ -113,11 +113,11 @@ p + p {
     top: -1px;
 }
 
-.down {
+.header .down, .main .down {
     border-width: 6px 6px 0 6px;
 }
 
-.up {
+.header .up, .main .up {
     border-width: 0px 6px 6px 6px;
 }
 
