@@ -45,7 +45,7 @@ p + p {
     position: relative;
     padding: 20px 0px;
 }
-
+/*
 .nav {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
@@ -71,7 +71,7 @@ p + p {
 .cur a:link, .cur a:visited, .nav a:hover {
     color: #ccced2;
 }
-
+*/
 .main {
     line-height: 150%;
 }
