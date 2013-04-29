@@ -100,7 +100,7 @@ p + p {
 }
 
 .lines { 
-    height: 2px; 
+    height: 1px; 
     width: 15px;
     border-width: 2px 0 6px 0;
     border-style: solid none double none;
