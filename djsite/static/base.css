@@ -121,11 +121,11 @@ p + p {
 }
 
 .main .down, .main .up {
-    border-color: rgba(54,63,69,.5) transparent;
+    border-color: rgba(54,63,69,.5) transparent transparent transparent;
 }
 
 .main .down:hover, .main .up:hover {
-    border-color: rgba(54,63,69,1) transparent;
+    border-color: transparent transparent rgba(54,63,69,1) transparent;
 }
 
 .header .down, .header .up {
