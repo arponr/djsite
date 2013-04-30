@@ -10,8 +10,8 @@
     </script>
     <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="static/jquery.js"></script>
-    <script type="text/javascript" src="static/j.js"></script>
+    <script type="text/javascript" src="/static/jquery.js"></script>
+    <script type="text/javascript" src="/static/j.js"></script>
   </head>
 
   <body>
@@ -25,8 +25,13 @@
 	</ul>
 	<div class="hidden">
 	  <ul class="cats">
+	    Categories: 
 	    {% for c in cats %}
-	    <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+	    {% if not forloop.last %}
+	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+	    {% else %}
+	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+	    {% endif %}
 	    {% endfor %}
 	  </ul>
 	</div>
