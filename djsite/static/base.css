@@ -111,7 +111,7 @@ p + p {
 .lines:before, .lines:after {
     content: "";
     position: absolute;
-    top: 5px;
+    top: 4px;
     left: 0;
     width: 15px;
     border-style: solid;
