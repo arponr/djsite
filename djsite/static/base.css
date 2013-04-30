@@ -113,18 +113,18 @@ p + p {
     position: absolute;
     top: 0.25em;
     left: 0;
-    width: 1em;
+    width: 15px;
     border-style: solid;
 }
 
 .lines:before {
-    height: 0.2em;
-    border-width: 0.2em 0;
+    height: 1px;
+    border-width: 2px 0;
 }
 
 .lines:after {
-    height: 0.6em;
-    border-width: 0 0 0.2em 0;
+    height: 4px;
+    border-width: 0 0 2px 0;
 }
 
 .lines:link, .lines:visited {
