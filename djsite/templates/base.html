@@ -25,7 +25,7 @@
 	</ul>
 	<div class="hidden">
 	  <ul class="cats">
-	    <span class="menu">Categories</span><br/> 
+	    <div class="menu">Categories</div> 
 	    {% for c in cats %}
 	    {% if not forloop.last %}
 	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
