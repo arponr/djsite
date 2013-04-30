@@ -77,6 +77,11 @@ p + p {
     color: #dce0e5;
 }
 
+.menu {
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+}
+
 .cats {
     color: #a6a9ad;
     margin-top: 15px;
