@@ -123,7 +123,7 @@ p + p {
 }
 
 .lines:after {
-    height: 4px;
+    height: 6px;
     border-width: 0 0 2px 0;
 }
 
