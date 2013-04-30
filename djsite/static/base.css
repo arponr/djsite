@@ -103,15 +103,10 @@ p + p {
     position: relative;
 }
 
-.lines {
-    position: relative;
-    padding-left: 1.25em;
-}
-
 .lines:before, .lines:after {
     content: "";
     position: absolute;
-    top: 4px;
+    top: 3px;
     left: 0;
     width: 15px;
     border-style: solid;
@@ -139,16 +134,16 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
 }
 
+.date {
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
 .info {
     font-size: 13px;
     font-style: italic;
-}
-
-.date {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;
-    margin-left: 15px;
 }
 
 .hidden {
