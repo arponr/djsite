@@ -34,6 +34,11 @@ p + p {
     font-size: 12px;
 }
 
+
+.hidden {
+    display: none;
+}
+
 .header {
     background: #363f45;
 }
@@ -59,7 +64,7 @@ p + p {
     margin-right: 30px;
 }
 
-.nav a:link, .nav a:visited {
+.header a:link, .header a:visited {
     color: #999ca0;
     text-decoration: none;
     -webkit-transition: color .3s;
@@ -68,8 +73,18 @@ p + p {
     transition: color .3s;
 }
 
-.cur a:link, .cur a:visited, .nav a:hover {
+.cur a:link, .cur a:visited, .header a:hover {
     color: #ccced2;
+}
+
+.cats {
+    margin-top: 10px;
+}
+
+.cats li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
 }
 
 .main {
@@ -148,10 +163,6 @@ p + p {
 .info {
     font-size: 13px;
     font-style: italic;
-}
-
-.hidden {
-    display: none;
 }
 
 .prev {
