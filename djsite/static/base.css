@@ -110,6 +110,8 @@ p + p {
 
 .lines:before, .lines:after {
     content: "";
+    position: absolute;
+    top: 2px;
     width: 15px;
     border-style: solid;
 }
