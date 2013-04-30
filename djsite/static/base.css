@@ -65,7 +65,7 @@ p + p {
 }
 
 .header a:link, .header a:visited {
-    color: #999ca0;
+    color: #a6a9ad;
     text-decoration: none;
     -webkit-transition: color .3s;
     -o-transition: color .3s;
@@ -74,10 +74,11 @@ p + p {
 }
 
 .cur a:link, .cur a:visited, .header a:hover {
-    color: #ccced2;
+    color: #dce0e5;
 }
 
 .cats {
+    color: #a6a9ad;
     margin-top: 15px;
     font-size: 13px;
 }
@@ -143,11 +144,11 @@ p + p {
 }
 
 .lines:link, .lines:visited {
-    border-color: #999ca0;
+    border-color: #a6a9ad;
 }
 
 .lines:hover {
-    border-color: #ccced2;
+    border-color: #dce0e5;
 }
 
 .title {
