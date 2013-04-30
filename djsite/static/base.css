@@ -110,9 +110,6 @@ p + p {
 
 .lines:before, .lines:after {
     content: "";
-    position: absolute;
-    top: 0.25em;
-    left: 0;
     width: 15px;
     border-style: solid;
 }
@@ -145,6 +142,9 @@ p + p {
 }
 
 .date {
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
     margin-left: 15px;
 }
 
