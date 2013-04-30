@@ -114,7 +114,7 @@ p + p {
 
 .lines:before {
     height: 2px;
-    border-width: 2px 0;
+    border-width: 2px 0 1px 0;
 }
 
 .lines:after {
