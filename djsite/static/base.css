@@ -106,19 +106,19 @@ p + p {
 .lines:before, .lines:after {
     content: "";
     position: absolute;
-    top: .3em;
+    top: 3px;
     left: 0;
     width: 15px;
     border-style: solid;
 }
 
 .lines:before {
-    height: 1px;
+    height: 2px;
     border-width: 2px 0;
 }
 
 .lines:after {
-    height: 6px;
+    height: 7px;
     border-width: 0 0 2px 0;
 }
 
