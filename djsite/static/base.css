@@ -51,7 +51,7 @@ p + p {
     max-width: 95%;
     margin: 0 auto;
     position: relative;
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
 
 .nav {
@@ -88,7 +88,7 @@ p + p {
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .main a:link, .main a:visited {
