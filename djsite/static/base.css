@@ -82,7 +82,7 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
     margin-top: 15px;
-    display: inline-block;
+    display: inline;
 }
 
 .cats {
