@@ -85,7 +85,8 @@ p + p {
 }
 
 .cats {
-    margin: 15px 0 0 60px;
+    margin-top: 15px;
+    padding-left: 55px;
 }
 
 .main {
@@ -126,7 +127,7 @@ p + p {
 .lines:before, .lines:after {
     content: "";
     position: absolute;
-    top: 3px;
+    top: 2px;
     left: 0;
     width: 15px;
     border-style: solid;
