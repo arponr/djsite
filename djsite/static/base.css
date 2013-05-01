@@ -51,7 +51,7 @@ p + p {
     max-width: 95%;
     margin: 0 auto;
     position: relative;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .nav {
@@ -86,8 +86,9 @@ p + p {
 
 .cats {
     position: relative;
-    top: -14px;
+    top: -17px;
     left: 75px;
+    width: 475px;
 }
 
 .main {
