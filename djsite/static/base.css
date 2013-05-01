@@ -55,7 +55,6 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
     font-size: 13px;
-    text-transform: uppercase;
 }
 
 .nav li {
@@ -79,20 +78,15 @@ p + p {
 
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-size: 13px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin: 15px 0 0 33px;
 }
 
 .cats {
     color: #a6a9ad;
-    margin: 10px 0 0 30px;
+    margin: 5px 0 0 35px;
     font-size: 13px;
-}
-
-.cats li {
-    list-style: none;
-    display: inline;
-    margin-right: 10px;
 }
 
 .main {

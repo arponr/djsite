@@ -24,8 +24,8 @@
 	  <li {% block nav_about %}{% endblock %}><a href="/about/">about</a></li>
 	</ul>
 	<div class="hidden">
-	  <ul class="cats">
-	    <div class="menu">Categories</div> 
+	  <div class="menu">Categories</div> 
+	  <div class="cats">
 	    {% for c in cats %}
 	    {% if not forloop.last %}
 	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
@@ -33,7 +33,7 @@
 	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
 	    {% endif %}
 	    {% endfor %}
-	  </ul>
+	  </div>
 	</div>
       </div>
     </div>
