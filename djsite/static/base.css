@@ -78,17 +78,16 @@ p + p {
     color: #e4e8ed;
 }
 
+.cats {
+    padding-left: 75px;
+    text-indent: -75px;
+    margin-top: 10px;
+}
+
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    margin-top: 15px;
-    display: inline-block;
-}
-
-.cats {
-    padding-left: 75px;
-    text-indent: -70px;
-    display: inline-block;
+    margin-right: 5px;
 }
 
 .main a:link, .main a:visited {
