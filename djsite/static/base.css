@@ -80,11 +80,11 @@ p + p {
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    margin: 15px 0 0 33px;
+    margin: 15px 0 0 0;
 }
 
 .cats {
-    margin: 5px 0 0 34px;
+    margin: 5px 0 0 2px;
 }
 
 .main {
