@@ -41,6 +41,8 @@ p + p {
 
 .header {
     background: #363f45;
+    color: #a6a9ad;
+    font-size: 13px;
 }
 
 .content {
@@ -78,15 +80,12 @@ p + p {
 
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    font-size: 13px;
     font-weight: 700;
     margin: 15px 0 0 33px;
 }
 
 .cats {
-    color: #a6a9ad;
     margin: 5px 0 0 35px;
-    font-size: 13px;
 }
 
 .main {
