@@ -82,11 +82,11 @@ p + p {
     font-weight: 700;
     margin-top: 15px;
     float: left;
+    width: 55px;
 }
 
 .cats {
     margin-top: 15px;
-    padding-left: 55px;
 }
 
 .main {
