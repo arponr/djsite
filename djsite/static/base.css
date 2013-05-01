@@ -81,12 +81,12 @@ p + p {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
     margin-top: 15px;
-    float: left;
-    width: 75px;
 }
 
 .cats {
     margin-top: 15px;
+    position: absolute;
+    left: 75px;
 }
 
 .main {
@@ -127,7 +127,7 @@ p + p {
 .lines:before, .lines:after {
     content: "";
     position: absolute;
-    top: 2px;
+    top: 3px;
     left: 0;
     width: 15px;
     border-style: solid;
@@ -139,7 +139,7 @@ p + p {
 }
 
 .lines:after {
-    height: 10px;
+    height: 8px;
     border-width: 0 0 2px 0;
 }
 
