@@ -85,7 +85,7 @@ p + p {
 
 .cats {
     position: relative;
-    top: 15px;
+    top: -15px;
     left: 75px;
 }
 
@@ -134,7 +134,7 @@ p + p {
 }
 
 .lines:before {
-    height: 3px;
+    height: 2px;
     border-width: 2px 0 2px 0;
 }
 
