@@ -84,8 +84,8 @@ p + p {
 }
 
 .cats {
-    margin-top: 15px;
-    position: absolute;
+    position: relative;
+    top: 15px;
     left: 75px;
 }
 
