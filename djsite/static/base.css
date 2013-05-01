@@ -88,6 +88,7 @@ p + p {
 .cats {
     padding-left: 75px;
     text-indent: -70px;
+    display: inline;
 }
 
 .main a:link, .main a:visited {
