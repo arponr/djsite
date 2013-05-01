@@ -40,7 +40,7 @@ p + p {
 }
 
 .header {
-    background: #363f45;
+    background: #b5b8bd;
     color: #a6a9ad;
     font-size: 13px;
 }
@@ -56,7 +56,6 @@ p + p {
 .nav {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .nav li {
@@ -66,7 +65,7 @@ p + p {
 }
 
 .header a:link, .header a:visited {
-    color: #a6a9ad;
+    color: #b5b8bd;
     text-decoration: none;
     -webkit-transition: color .3s;
     -o-transition: color .3s;
@@ -75,7 +74,7 @@ p + p {
 }
 
 .cur a:link, .cur a:visited, .header a:hover {
-    color: #dce0e5;
+    color: #e4e8ed;
 }
 
 .menu {
