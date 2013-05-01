@@ -20,6 +20,7 @@ body {
     font-family: skolar, georgia, serif;
     font-size: 14px;
     color: #363f45;
+    line-height: 150%;
 }
 
 a:focus {
@@ -90,7 +91,6 @@ p + p {
 }
 
 .main {
-    line-height: 150%;
 }
 
 .main a:link, .main a:visited {
