@@ -82,7 +82,7 @@ p + p {
     font-weight: 700;
     margin-top: 15px;
     float: left;
-    width: 55px;
+    width: 75px;
 }
 
 .cats {
@@ -134,12 +134,12 @@ p + p {
 }
 
 .lines:before {
-    height: 2px;
+    height: 3px;
     border-width: 2px 0 2px 0;
 }
 
 .lines:after {
-    height: 8px;
+    height: 10px;
     border-width: 0 0 2px 0;
 }
 
