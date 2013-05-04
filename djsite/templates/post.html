@@ -9,13 +9,9 @@
 {% block nav_blog %}class="cur"{% endblock %}
 
 {% block main %}
-<div class="colour2">
-  <div class="content">
-    {% include "post_info.html" %}
-  </div>
-</div>
+{% include "post_info.html" %}
 
-<div class="content post_content">
+<div class="post_content">
   {{ p.content|mdown|safe }}
 </div>
 {% endblock %}

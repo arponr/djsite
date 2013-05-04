@@ -8,12 +8,7 @@ Today I was convinced that I really need to sit down, screw around,
 and reinvent the fundamentals for myself to have any chance at
 understanding or retaining math.
 ----------------------------------------------------------------------
-This semester I've been taking a course on algebraic topology, which
-was advertised as a natural continuation of the introduction to the
-subject I took last semester. It's turned out to be this insane plunge
-into some neat(-looking) but ridiculously abstract homotopy theory,
-with the goal of proving [the Sullivan conjecture] [sullivan]. I
-really hope to understand it one day . . . hopefully this absurd month
+This semester I've been taking a course on algebraic topology, which was advertised as a natural continuation of the introduction to the subject I took last semester. It's turned out to be this insane plunge into some neat(-looking) but ridiculously abstract homotopy theory, with the goal of proving [the Sullivan conjecture] [sullivan]. I really hope to understand it one day . . . hopefully this absurd month
 (four final projects/papers!) will pass by relatively successfully and
 without claiming too much of my sanity; then over the summer I can
 write a bit about (and finally learn) some of the ideas that appeared
