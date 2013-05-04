@@ -146,6 +146,7 @@ p + p {
 
 .title {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    margin-right: 10px;
 }
 
 .date {
