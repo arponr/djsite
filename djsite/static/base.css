@@ -17,8 +17,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, georgia, serif;
-    font-size: 14px;
+    font-family: times, georgia, serif;
+    font-size: 15px;
     color: #363f45;
     line-height: 150%;
 }
@@ -96,7 +96,7 @@ p + p {
 }
 
 .main a:hover {
-    border-bottom: 1px solid #000000;
+    text-decoration: underline;
 }
 
 .main h1 {
@@ -146,14 +146,13 @@ p + p {
 
 .title {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    margin-right: 10px;
 }
 
 .date {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-size: 11px;
     text-transform: uppercase;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .info {
