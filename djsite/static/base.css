@@ -17,8 +17,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: adobe-garamond-pro, georgia, serif;
-    font-size: 16px;
+    font-family: skolar, georgia, serif;
+    font-size: 14px;
     color: #363f45;
     line-height: 150%;
 }
@@ -32,7 +32,7 @@ p + p {
 }
 
 .math {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .hidden {
@@ -42,7 +42,7 @@ p + p {
 .header {
     background: #363f45;
     color: #b5b8bd;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .content {
@@ -56,7 +56,6 @@ p + p {
 .nav {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    font-size: 13px
     text-transform: uppercase;
 }
 
@@ -88,7 +87,6 @@ p + p {
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    font-size: 13px;
     margin-right: 7px;
 }
 
@@ -104,7 +102,7 @@ p + p {
 .main h1 {
     font-size: 20px;
     font-weight: 400;
-    font-style: italic;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     margin-bottom: 10px;
 }
     
@@ -147,7 +145,7 @@ p + p {
 }
 
 .title {
-    font-style: italic;
+    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
 }
 
 .date {
@@ -158,7 +156,7 @@ p + p {
 }
 
 .info {
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
 }
 
@@ -170,7 +168,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 14px;
+    font-size: 13px;
     margin: 20px 0 40px 0;
 }
 
