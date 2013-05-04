@@ -35,7 +35,6 @@ p + p {
     font-size: 12px;
 }
 
-
 .hidden {
     display: none;
 }
@@ -47,7 +46,7 @@ p + p {
 }
 
 .content {
-    width: 550px;
+    width: 500px;
     max-width: 95%;
     margin: 0 auto;
     position: relative;
@@ -174,6 +173,7 @@ p + p {
 
 .post_info {
     font-size: 13px;
+    margin: 20px 0 40px 0;
 }
 
 .post_content {
