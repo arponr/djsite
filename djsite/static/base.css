@@ -32,7 +32,7 @@ p + p {
 }
 
 .math {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .hidden {
@@ -42,7 +42,7 @@ p + p {
 .header {
     background: #363f45;
     color: #b5b8bd;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .content {
@@ -56,6 +56,7 @@ p + p {
 .nav {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
+    font-size: 13px
     text-transform: uppercase;
 }
 
@@ -87,6 +88,7 @@ p + p {
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
+    font-size: 13px;
     margin-right: 7px;
 }
 
@@ -102,7 +104,7 @@ p + p {
 .main h1 {
     font-size: 20px;
     font-weight: 400;
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-style: italic;
     margin-bottom: 10px;
 }
     
@@ -145,7 +147,7 @@ p + p {
 }
 
 .title {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-style: italic;
 }
 
 .date {
@@ -156,7 +158,7 @@ p + p {
 }
 
 .info {
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
 }
 
@@ -168,7 +170,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
+    font-size: 14px;
     margin: 20px 0 40px 0;
 }
 
