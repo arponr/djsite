@@ -87,7 +87,7 @@ p + p {
 }
 
 .title {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .title a:link, .title a:visited {
@@ -107,7 +107,7 @@ p + p {
     position: relative;
     top: 1px;
     left: 5px;
-    font-size: 18px;
+    font-size: 16px;
     -moz-transition: left .2s;
     -webkit-transition: left .2s;
     -o-transition: left .2s;
