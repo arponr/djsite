@@ -20,7 +20,7 @@ body {
     font-family: chaparral-pro, serif;
     font-size: 15px;
     color: #363f45;
-    line-height: 170%;
+    line-height: 150%;
 }
 
 a:focus {
@@ -134,7 +134,7 @@ p + p {
 }
 
 .post_content {
-
+    line-height: 125%;
 }
 
 .post_content blockquote {
