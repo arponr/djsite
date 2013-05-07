@@ -129,12 +129,12 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
-    margin: 20px 0 40px 0;
+    font-size: 14px;
+    margin-bottom: 40px;
 }
 
 .post_content {
-    line-height: 125%;
+    line-height: 170%;
 }
 
 .post_content blockquote {
