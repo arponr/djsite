@@ -19,7 +19,7 @@ body {
     font-family: chaparral-pro, serif;
     font-size: 15px;
     color: #363f45;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a:focus {
@@ -97,7 +97,6 @@ p + p {
 .date {
     font-family: museo-sans, sans-serif;
     font-size: 11px;
-    text-transform: uppercase;
 }
 
 .info {
@@ -113,12 +112,7 @@ p + p {
 .post_info {
     font-family: museo-sans, sans-serif;
     font-size: 11px;
-    text-transform: uppercase;
     margin-bottom: 30px;
-}
-
-.post_content {
-    line-height: 170%;
 }
 
 .post_content blockquote {
