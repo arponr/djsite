@@ -16,8 +16,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: "courier", serif;
-    font-size: 13px;
+    font-family: source-code-pro, serif;
+    font-size: 12px;
     color: #363f45;
     line-height: 1.6em;
 }
