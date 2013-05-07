@@ -15,25 +15,26 @@
   </head>
 
   <body>
-    <div class="header">
+    <div class="sidebar">
       <div class="content">
+	<div class="name">
+	  Hokumology by Arpon 
+	</div>
 	<ul class="nav">
 	  <li><a href="" class="lines"></a></li>
 	  <li {% block nav_blog %}{% endblock %}><a href="/">Posts</a></li>
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">Work</a></li>
 	  <li {% block nav_about %}{% endblock %}><a href="/about/">About</a></li>
 	</ul>
-	<div class="hidden">
-	  <div class="cats">
-	    <span class="menu">Categories</span> 
-	    {% for c in cats %}
-	    {% if not forloop.last %}
-	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-	    {% else %}
-	    <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-	    {% endif %}
-	    {% endfor %}
-	  </div>
+	<div class="cats">
+	  <span class="menu">Categories</span> 
+	  {% for c in cats %}
+	  {% if not forloop.last %}
+	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+	  {% else %}
+	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+	  {% endif %}
+	  {% endfor %}
 	</div>
       </div>
     </div>
