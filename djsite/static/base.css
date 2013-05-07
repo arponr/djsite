@@ -79,7 +79,7 @@ p + p {
 
 .main {
     margin-left: 275px;
-    padding-top: 1px;
+    padding-top: 2px;
     width: 650px;
 }
     
@@ -110,8 +110,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-family: museo-sans, sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 30px;
 }
 
