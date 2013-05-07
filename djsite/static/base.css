@@ -87,7 +87,8 @@ p + p {
 }
 
 .title {
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .title a:link, .title a:visited {
