@@ -80,8 +80,8 @@ p + p {
 
 .main {
     margin-left: 275px;
-    padding-top: 5px;
-    width: 625px;
+    padding-top: 3px;
+    width: 650px;
 }
     
 /****************************** BLOG ***********************************/
@@ -99,7 +99,7 @@ p + p {
     font-family: museo-sans, sans-serif;
     font-size: 11px;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-right: 5px;
 }
 
 .info {
