@@ -17,7 +17,7 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, serif;
+    font-family: apolline, serif;
     font-size: 14px;
     color: #363f45;
     line-height: 150%;
@@ -63,7 +63,6 @@ p + p {
 }
 
 .name {
-    font-family: ltc-bodoni-175, serif;
     font-size: 24px;
     line-height: 150%;
     margin-bottom: 30px;
@@ -83,7 +82,8 @@ p + p {
 
 .menu {
     font-family: museo-sans, sans-serif;
-    font-weight: 700;
+    text-transform: uppercase;
+    text-size: 11px;
 }
 
 .main {
@@ -94,7 +94,6 @@ p + p {
 .main h1 {
     font-size: 20px;
     font-weight: 400;
-    font-family: ltc-bodoni-175, serif;
     margin-bottom: 10px;
 }
     
@@ -105,45 +104,13 @@ p + p {
     margin: 20px 0 30px 0;
 }
 
-.lines {
-    position: relative;
-}
-
-.lines:before, .lines:after {
-    content: "";
-    position: absolute;
-    top: 3px;
-    left: 0;
-    width: 15px;
-    border-style: solid;
-}
-
-.lines:before {
-    height: 2px;
-    border-width: 2px 0 2px 0;
-}
-
-.lines:after {
-    height: 8px;
-    border-width: 0 0 2px 0;
-}
-
-.lines:link, .lines:visited {
-    border-color: #a6a9ad;
-}
-
-.lines:hover {
-    border-color: #dce0e5;
-}
-
 .title {
-    font-family: ltc-bodoni-175, serif;
     font-size: 16px
 }
 
 .date {
     font-family: museo-sans, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
     margin-left: 20px;
 }
