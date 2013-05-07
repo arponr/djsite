@@ -13,7 +13,7 @@
     </div>
     <span class="date">{{ p.created|date:"Y-m-j" }}</span>
     <span class="info">
-      in 
+      &mdash; in 
       {% for c in p.categories.all %}
       {% if not forloop.last %}
       <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
