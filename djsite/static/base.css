@@ -17,8 +17,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: apolline, serif;
-    font-size: 14px;
+    font-family: athelas, serif;
+    font-size: 15px;
     color: #363f45;
     line-height: 150%;
 }
@@ -83,7 +83,7 @@ p + p {
 .menu {
     font-family: museo-sans, sans-serif;
     text-transform: uppercase;
-    text-size: 11px;
+    font-size: 11px;
 }
 
 .main {
