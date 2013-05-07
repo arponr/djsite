@@ -4,7 +4,6 @@ html {
 
 html, body {
     height: 100%;
-    line-height: 1;
 }
 
 body, h1, h2, div, ul, li, p {
@@ -20,7 +19,7 @@ body {
     font-family: chaparral-pro, serif;
     font-size: 15px;
     color: #363f45;
-    line-height: 150%;
+    line-height: 1.4em;
 }
 
 a:focus {
