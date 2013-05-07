@@ -27,13 +27,11 @@
 	</ul>
 	<div class="cats">
 	  <span class="menu">Categories</span> 
-	  {% for c in cats %}
-	  {% if not forloop.last %}
-	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-	  {% else %}
-	  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-	  {% endif %}
-	  {% endfor %}
+	  <ul>
+	    {% for c in cats %}
+	    <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+	    {% endfor %}
+	  </ul>
 	</div>
       </div>
     </div>
