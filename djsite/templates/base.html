@@ -17,22 +17,22 @@
   <body>
     <div class="sidebar">
       <div class="content">
-	<div class="name">
-	  Hokumology<br/>by Arpon Raksit
-	</div>
+	<div class="title">Hokumology</div>
+	by Arpon Raksit
+
+	<span class="menu">Pages</span> 
 	<ul class="nav">
 	  <li {% block nav_blog %}{% endblock %}><a href="/">Posts</a></li>
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">Work</a></li>
 	  <li {% block nav_about %}{% endblock %}><a href="/about/">About</a></li>
 	</ul>
-	<div class="cats">
-	  <span class="menu">Categories</span> 
-	  <ul>
-	    {% for c in cats %}
-	    <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
-	    {% endfor %}
-	  </ul>
-	</div>
+
+	<span class="menu">Categories</span> 
+	<ul>
+	  {% for c in cats %}
+	  <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
+	  {% endfor %}
+	</ul>
       </div>
     </div>
 
