@@ -106,7 +106,6 @@ p + p {
 
 .title .arrow {
     position: relative;
-    top: 1px;
     left: 5px;
     font-size: 16px;
     -moz-transition: left .2s;
