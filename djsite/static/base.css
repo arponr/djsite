@@ -18,7 +18,7 @@ body, h1, h2, div, ul, li, p {
 
 body {
     font-family: chaparral-pro, serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #363f45;
     line-height: 150%;
 }
@@ -50,7 +50,7 @@ p + p {
 
 .sidebar {
     background: #e6eaf0;
-    width: 300px;
+    width: 275px;
     min-height: 100%;
     position: fixed;
     text-align: right;
@@ -79,8 +79,8 @@ p + p {
 }
 
 .main {
-    margin-left: 300px;
-    width: 600px;
+    margin-left: 275px;
+    width: 625px;
 }
     
 /****************************** BLOG ***********************************/
