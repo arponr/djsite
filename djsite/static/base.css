@@ -65,36 +65,22 @@ p + p {
 
 .name {
     font-size: 24px;
-    margin-bottom: 30px;
-}
-
-.nav {
-    margin-bottom: 30px;
 }
 
 .sidebar li {
     list-style: none;
 }
 
-.cats {
-}
-
-
 .menu {
     font-family: museo-sans, sans-serif;
     text-transform: uppercase;
     font-size: 11px;
+    margin-top: 30px;
 }
 
 .main {
     margin-left: 300px;
     width: 600px;
-}
-
-.main h1 {
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 10px;
 }
     
 /****************************** BLOG ***********************************/
@@ -105,7 +91,7 @@ p + p {
 }
 
 .title {
-    font-size: 16px
+    font-size: 18px
 }
 
 .date {

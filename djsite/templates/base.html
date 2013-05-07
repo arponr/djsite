@@ -20,14 +20,14 @@
 	<div class="title">Hokumology</div>
 	by Arpon Raksit
 
-	<span class="menu">Pages</span> 
-	<ul class="nav">
+	<div class="menu">Pages</div> 
+	<ul>
 	  <li {% block nav_blog %}{% endblock %}><a href="/">Posts</a></li>
 	  <li {% block nav_work %}{% endblock %}><a href="/work/">Work</a></li>
 	  <li {% block nav_about %}{% endblock %}><a href="/about/">About</a></li>
 	</ul>
 
-	<span class="menu">Categories</span> 
+	<div class="menu">Categories</div> 
 	<ul>
 	  {% for c in cats %}
 	  <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>

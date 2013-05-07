@@ -1,5 +1,5 @@
 <div class="post_info">
-  <h1>{{ p.title }}</h1>
+  <div class="title">{{ p.title }}</div>
   created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
   in 
   {% for c in p.categories.all %}
