@@ -17,7 +17,7 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, georgia, serif;
+    font-family: skolar, serif;
     font-size: 14px;
     color: #363f45;
     line-height: 150%;
@@ -49,7 +49,7 @@ p + p {
 }
 
 .sidebar {
-    background: #dce0e5;
+    background: #e6eaf0;
     width: 300px;
     min-height: 100%;
     position: fixed;
@@ -81,7 +81,7 @@ p + p {
 
 
 .menu {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-family: nimbus-sans, sans-serif;
     font-weight: 700;
 }
 
@@ -93,7 +93,7 @@ p + p {
 .main h1 {
     font-size: 20px;
     font-weight: 400;
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-family: ambroise-std, serif;
     margin-bottom: 10px;
 }
     
@@ -136,12 +136,13 @@ p + p {
 }
 
 .title {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
+    font-family: ambroise-std, serif;
+    font-size: 16px
 }
 
 .date {
-    font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
-    font-size: 11px;
+    font-family: nimbus-sans, sans-serif;
+    font-size: 12px;
     text-transform: uppercase;
     margin-left: 20px;
 }
