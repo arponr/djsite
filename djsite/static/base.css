@@ -59,11 +59,13 @@ p + p {
 .content {
     margin: 0 auto;
     position: relative;
-    padding: 20px 40px;
+    padding: 20px 50px;
 }
 
 .name {
     font-size: 24px;
+    line-height: 200%;
+    margin-bottom: 30px;
 }
 
 .nav {
@@ -74,15 +76,12 @@ p + p {
 }
 
 .cats {
-    padding-left: 75px;
-    text-indent: -75px;
-    margin-top: 10px;
 }
+
 
 .menu {
     font-family: ff-dagny-web-pro, "Helvetica Neue", sans-serif;
     font-weight: 700;
-    margin-right: 7px;
 }
 
 .main {
