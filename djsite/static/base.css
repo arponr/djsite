@@ -80,7 +80,7 @@ p + p {
 
 .main {
     margin-left: 275px;
-    padding-top: 3px;
+    padding-top: 1px;
     width: 650px;
 }
     
@@ -99,7 +99,6 @@ p + p {
     font-family: museo-sans, sans-serif;
     font-size: 11px;
     text-transform: uppercase;
-    margin-right: 5px;
 }
 
 .info {
@@ -107,14 +106,16 @@ p + p {
 }
 
 .prev {
-    margin: 10px 0 0 15px;
+    margin: 10px 0 0 0;
 }
 
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 14px;
-    margin-bottom: 40px;
+    font-family: museo-sans, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .post_content {
