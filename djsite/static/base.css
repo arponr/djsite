@@ -55,7 +55,7 @@ p + p {
 .content {
     margin: 0 auto;
     position: relative;
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .name {
@@ -106,7 +106,8 @@ p + p {
 .title .arrow {
     position: relative;
     top: 1px;
-    font-size: 16px;
+    left: 5px;
+    font-size: 18px;
     -moz-transition: left .2s;
     -webkit-transition: left .2s;
     -o-transition: left .2s;
@@ -114,7 +115,7 @@ p + p {
 }
 
 .title a:hover .arrow {
-    left: 10px;
+    left: 15px;
 }
 
 
