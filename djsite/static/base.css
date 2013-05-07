@@ -63,6 +63,7 @@ p + p {
 }
 
 .name {
+    font-family: ltc-bodoni-175, serif;
     font-size: 24px;
     line-height: 150%;
     margin-bottom: 30px;
@@ -81,7 +82,7 @@ p + p {
 
 
 .menu {
-    font-family: nimbus-sans, sans-serif;
+    font-family: museo-sans, sans-serif;
     font-weight: 700;
 }
 
@@ -93,7 +94,7 @@ p + p {
 .main h1 {
     font-size: 20px;
     font-weight: 400;
-    font-family: ambroise-std, serif;
+    font-family: ltc-bodoni-175, serif;
     margin-bottom: 10px;
 }
     
@@ -136,12 +137,12 @@ p + p {
 }
 
 .title {
-    font-family: ambroise-std, serif;
+    font-family: ltc-bodoni-175, serif;
     font-size: 16px
 }
 
 .date {
-    font-family: nimbus-sans, sans-serif;
+    font-family: museo-sans, sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     margin-left: 20px;
