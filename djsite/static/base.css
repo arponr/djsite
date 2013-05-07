@@ -79,7 +79,7 @@ p + p {
 }
 
 .main {
-    margin-left: 275px;
+    margin: 10px 0 0 275px;
     width: 625px;
 }
     

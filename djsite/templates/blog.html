@@ -8,10 +8,8 @@
 <ul class="posts">
 {% for p in posts %}
   <li>
-    <div>
-      <a href="{{ p.get_absolute_url }}" class="title">{{ p.title }}</a>
-      <span class="date">{{ p.created|date:"j M Y" }}</span>
-    </div>
+    <div class="date">{{ p.created|date:"j M Y" }}</div>
+    <a href="{{ p.get_absolute_url }}" class="title">{{ p.title }}</a>    
     <div class="hidden">
       <span class="info">
 	in 
