@@ -92,7 +92,7 @@ p + p {
 
 .date {
     font-family: museo-sans, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .info {
@@ -107,7 +107,7 @@ p + p {
 
 .post_info {
     font-size: 14px;
-    margin: 10px 0 30px 0;
+    margin: 5px 0 30px 0;
 }
 
 .post_content blockquote {
