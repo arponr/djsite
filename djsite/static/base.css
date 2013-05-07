@@ -91,7 +91,8 @@ p + p {
 }
 
 .title {
-    font-weight: 700;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .date {
@@ -102,8 +103,7 @@ p + p {
 }
 
 .info {
-    font-size: 13px;
-    font-style: italic;
+    font-size: 14px;
 }
 
 .prev {
