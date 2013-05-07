@@ -9,7 +9,7 @@
 {% for p in posts %}
   <li>
     <div>
-      <a href="" class="title">{{ p.title }}</a>
+      <a href="{{ p.get_absolute_url }}" class="title">{{ p.title }}</a>
       <span class="date">{{ p.created|date:"j M Y" }}</span>
     </div>
     <div class="hidden">
@@ -25,7 +25,6 @@
       </span>
       <div class="prev">
 	{{ p.preview|mdown|safe }}
-	<a href="{{ p.get_absolute_url }}"><span class="info">read more . . .</span></a>
       </div>
     </div>
   </li>
