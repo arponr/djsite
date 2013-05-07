@@ -79,7 +79,8 @@ p + p {
 }
 
 .main {
-    margin: 10px 0 0 275px;
+    margin-left: 275px;
+    padding-top: 10px;
     width: 625px;
 }
     
