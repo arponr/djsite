@@ -75,7 +75,7 @@ p + p {
 
 .main {
     margin-left: 275px;
-    padding-top: 2px;
+    padding-top: 1px;
     width: 650px;
 }
     
@@ -89,6 +89,20 @@ p + p {
 .title {
     font-size: 22px;
 }
+
+.title a:link, .title a:visited {
+    color: #363f45;
+    text-decoration: none;
+}
+
+.title a:hover {
+    color: #000000;    
+}
+
+.title a:hover .arrow {
+    margin-left: 5px;
+}
+
 
 .date {
     font-family: museo-sans, sans-serif;
