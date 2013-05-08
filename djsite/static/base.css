@@ -75,7 +75,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 3pt;
     float: right;
-    padding-right: 10px;
+    padding-right: 9px;
 }
 
 .front {
@@ -103,9 +103,7 @@ p + p {
 
 .title {
     font-family: nimbus-sans, sans-serif;
-    text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1pt;
 }
 
 .title a:link, .title a:visited {
