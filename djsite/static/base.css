@@ -73,7 +73,7 @@ p + p {
 
 .main {
     max-width: 95%;
-    width: 550px;
+    width: 750px;
     margin: 0 auto;
     position: relative;
 }
@@ -143,6 +143,7 @@ p + p {
 
 .post_content {
     margin-left: 220px;
+    width: 530px;
 }
 
 .post_content blockquote {
