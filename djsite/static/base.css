@@ -44,6 +44,7 @@ p + p {
 
 .header {
     font-size: 16px;
+    border-bottom: 1px solid #000000;
 }
 
 .content {
@@ -60,7 +61,7 @@ p + p {
 }
 
 .lbrace {
-    right: 111px;
+    right: 112px;
 }
 
 .rbrace {
