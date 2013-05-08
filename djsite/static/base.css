@@ -16,7 +16,7 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: times, serif;
+    font-family: "Times New Roman", serif;
     font-size: 15px;
     color: #363f45;
     line-height: 1.5em;
@@ -87,8 +87,8 @@ p + p {
 }
 
 .title {
+    font-family: source-code-pro, monospace;
     font-size: 18px;
-    text-transform: uppercase;
 }
 
 .title a:link, .title a:visited {
