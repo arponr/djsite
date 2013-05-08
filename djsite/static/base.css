@@ -48,7 +48,7 @@ p + p {
 }
 
 .content {
-    padding: 10px 0;
+    max-width: 95%;
     margin: 0 auto;
     position: relative;
 }
@@ -75,7 +75,7 @@ p + p {
 }
 
 .main {
-
+    width: 550px;
 }
     
 /****************************** BLOG ***********************************/
