@@ -26,7 +26,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #71745f;
+    color: #2e3e3d;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -47,7 +47,7 @@ p + p {
 }
 
 .header {
-    font-size: 16px;
+    font-size: 13px;
     background: #bfc0b6;
     height: 60px;
 }
@@ -78,6 +78,7 @@ p + p {
 }
 
 .headline {
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 3pt;
     float: right;
