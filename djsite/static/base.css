@@ -18,7 +18,6 @@ body, h1, h2, div, ul, li, p {
 body {
     font-family: "Times New Roman", serif;
     font-size: 14px;
-    color: #363f45;
     line-height: 1.5em;
 }
 
@@ -45,7 +44,7 @@ p + p {
 }
 
 .content {
-    width: 550px;
+    width: 500px;
     max-width: 95%; 
     padding: 10px 0;
     margin: 0 auto;
