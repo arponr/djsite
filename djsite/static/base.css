@@ -103,9 +103,7 @@ p + p {
 
 .title {
     font-family: "futura-pt", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2pt;
+    font-size: 18px;
 }
 
 .title a:link, .title a:visited {
@@ -137,7 +135,6 @@ p + p {
 
 .date, .info {
     font-family: "futura-pt", sans-serif;
-    font-size: 13px;
 }
 
 .prev {
@@ -149,7 +146,6 @@ p + p {
 
 .post_info {
     font-family: "futura-pt", sans-serif;
-    font-size: 13px;
     margin: 5px 0 30px 0;
 }
 
