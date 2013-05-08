@@ -101,9 +101,9 @@ p + p {
 }
 
 .title {
-    font-family: futura-pt, sans-serif;
+    font-family: nimbus-sans, sans-serif;
     text-transform: uppercase;
-    font-size: 16px;
+    font-weight: 700;
 }
 
 .title a:link, .title a:visited {
@@ -135,8 +135,8 @@ p + p {
 
 
 .date, .info {
-    font-family: futura-pt, sans-serif;
-    font-size: 11px;
+    font-family: nimbus-sans, sans-serif;
+    font-size: 12px;
 }
 
 .prev {
@@ -147,8 +147,8 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-family: futura-pt, sans-serif;
-    font-size: 11px;
+    font-family: nimbus-sans, sans-serif;
+    font-size: 12px;
     margin: 5px 0 30px 0;
 }
 
