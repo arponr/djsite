@@ -80,7 +80,7 @@ p + p {
 
 .front {
     font-family: ff-dagny-web-pro, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -103,8 +103,7 @@ p + p {
 
 .title {
     font-family: ff-dagny-web-pro, sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .title a:link, .title a:visited {
