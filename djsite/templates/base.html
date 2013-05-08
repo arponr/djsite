@@ -13,24 +13,14 @@
   </head>
 
   <body>
-    <div class="sidebar">
+    <div class="header">
       <div class="content">
-	<div class="name">Hokumology</div>
-	by Arpon Raksit
-
-	<div class="menu">Pages</div> 
 	<ul>
-	  <li {% block nav_blog %}{% endblock %}><a href="/">Blog</a></li>
-	  <li {% block nav_work %}{% endblock %}><a href="/work/">Projects</a></li>
-	  <li {% block nav_about %}{% endblock %}><a href="/about/">About</a></li>
+	  <li><a href="/">Blog</a></li>
+	  <li><a href="/work/">Projects</a></li>
+	  <li><a href="/about/">About</a></li>
 	</ul>
-
-	<div class="menu">Categories</div> 
-	<ul>
-	  {% for c in cats %}
-	  <li><a href="{{ c.get_absolute_url }}">{{ c.name }}</a></li>
-	  {% endfor %}
-	</ul>
+	Yo, you probably don't care.
       </div>
     </div>
 

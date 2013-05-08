@@ -43,19 +43,16 @@ p + p {
     font-size: 13px;
 }
 
-.sidebar {
-    background: #e6eaf0;
-    width: 250px;
-    min-height: 100%;
-    position: fixed;
-    text-align: right;
+.header {
     font-size: 13px;
 }
 
 .content {
+    width: 550px;
+    max-width: 100%; 
+    padding: 10px 20px;
     margin: 0 auto;
     position: relative;
-    padding: 30px 50px;
 }
 
 .name {
@@ -74,9 +71,7 @@ p + p {
 }
 
 .main {
-    margin-left: 250px;
-    padding-top: 1px;
-    width: 600px;
+
 }
     
 /****************************** BLOG ***********************************/
