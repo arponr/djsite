@@ -52,12 +52,15 @@ p + p {
 }
 
 .lbrace, .rbrace {
-    height: 30px;
-    position: absolute;
+    height: 40px;
+}
+
+.lbrace {
+    float: left;
 }
 
 .rbrace {
-    left: 112px;
+    float: right;
 }
 
 .headline {
