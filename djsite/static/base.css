@@ -75,7 +75,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 3pt;
     float: right;
-    padding-right: 12px;
+    padding-right: 10px;
 }
 
 .front {
@@ -137,8 +137,7 @@ p + p {
 
 
 .date, .info {
-    font-family: nimbus-sans, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .prev {
@@ -149,7 +148,6 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-family: nimbus-sans, sans-serif;
     font-size: 13px;
     margin: 5px 0 30px 0;
 }
