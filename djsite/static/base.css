@@ -54,19 +54,18 @@ p + p {
 .lbrace, .rbrace {
     height: 30px;
     position: absolute;
-}
-
-.lbrace {
+    top: -2px;
 }
 
 .rbrace {
-    left: 100px;
+    left: 110px;
 }
 
 .headline {
     font-family: futura-pt, sans-serif;
     font-size: 12px;
     text-transform: uppercase;
+    padding-left: 5px;
 }
 
 .header ul {
