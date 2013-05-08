@@ -26,12 +26,16 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #000000;
+    color: #bfc0b6;
     text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #000000;
 }
 
 p + p {
@@ -106,19 +110,6 @@ p + p {
 .title {
     font-family: "futura-pt", sans-serif;
     font-size: 18px;
-}
-
-.title a:link, .title a:visited {
-    color: #363f45;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-
-.title a:hover {
-    color: #000000;    
 }
 
 .title .arrow {
