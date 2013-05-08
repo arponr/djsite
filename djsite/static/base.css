@@ -48,7 +48,6 @@ p + p {
     width: 550px;
     max-width: 95%; 
     padding: 10px 0;
-    margin-bottom: 20px;
     margin: 0 auto;
     position: relative;
 }
@@ -75,7 +74,7 @@ p + p {
 }
 
 .main {
-
+    padding: 20px 0;
 }
     
 /****************************** BLOG ***********************************/
