@@ -79,7 +79,7 @@ p + p {
 }
 
 .front {
-    font-family: "camingodos-web", sans-serif;
+    font-family: "futura-pt", sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -102,8 +102,10 @@ p + p {
 }
 
 .title {
-    font-family: "camingodos-web", sans-serif;
-    font-size: 18px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2pt;
 }
 
 .title a:link, .title a:visited {
@@ -134,8 +136,8 @@ p + p {
 }
 
 .date, .info {
-    font-family: "camingodos-web", sans-serif;
-    font-size: 12px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 13px;
 }
 
 .prev {
@@ -146,8 +148,8 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-family: "camingodos-web", sans-serif;
-    font-size: 12px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 13px;
     margin: 5px 0 30px 0;
 }
 
