@@ -59,8 +59,14 @@ p + p {
     font-size: 24px;
 }
 
-.sidebar li {
+.header ul {
+    float: right;
+}
+
+.header li {
     list-style: none;
+    display: inline;
+    margin-left: 20px;
 }
 
 .menu {
