@@ -51,8 +51,10 @@ p + p {
     position: relative;
 }
 
-.name {
-    font-size: 24px;
+.headline {
+    font-family: museo-sans, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 
 .header ul {
@@ -105,7 +107,7 @@ p + p {
 .title .arrow {
     position: relative;
     left: 5px;
-    font-size: 16px;
+    font-size: 14px;
     -moz-transition: left .2s;
     -webkit-transition: left .2s;
     -o-transition: left .2s;
@@ -123,14 +125,20 @@ p + p {
 }
 
 .prev {
-    margin: 10px 0 0 0;
+    margin-top: 10px;
+    text-align: justify;
 }
 
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
+    font-family: museo-sans, sans-serif;
+    font-size: 11px;
     margin: 5px 0 30px 0;
+}
+
+.post_content {
+    text-align: justify;
 }
 
 .post_content blockquote {
