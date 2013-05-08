@@ -79,7 +79,7 @@ p + p {
 }
 
 .front {
-    font-family: museo-sans, sans-serif;
+    font-family: camingodos-web, sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -102,7 +102,7 @@ p + p {
 }
 
 .title {
-    font-family: museo-sans, sans-serif;
+    font-family: camingodos-web, sans-serif;
     font-size: 18px;
 }
 
@@ -135,7 +135,7 @@ p + p {
 
 
 .date, .info {
-    font-family: museo-sans, sans-serif;
+    font-family: camingodos-web, sans-serif;
     font-size: 12px;
 }
 
@@ -147,7 +147,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-family: museo-sans, sans-serif;
+    font-family: camingodos-web, sans-serif;
     font-size: 12px;
     margin: 5px 0 30px 0;
 }
