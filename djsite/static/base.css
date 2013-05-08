@@ -60,7 +60,7 @@ p + p {
 }
 
 .lbrace {
-    right: 107px;
+    right: 110px;
 }
 
 .rbrace {
@@ -80,6 +80,7 @@ p + p {
 
 .front {
     font-family: nimbus-sans, sans-serif;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -104,6 +105,7 @@ p + p {
     font-family: nimbus-sans, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 1pt;
 }
 
 .title a:link, .title a:visited {
@@ -148,7 +150,7 @@ p + p {
 
 .post_info {
     font-family: nimbus-sans, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     margin: 5px 0 30px 0;
 }
 
