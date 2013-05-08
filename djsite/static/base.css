@@ -64,14 +64,14 @@ p + p {
 }
 
 .vert {
-    padding-top: 13px;
+    padding-top: 8px;
 }
 
 .headline {
     text-transform: uppercase;
     letter-spacing: 1pt;
     float: right;
-    padding-right: 15px;
+    padding: 5px 15px 0 0;
 }
 
 .header li {
