@@ -53,10 +53,10 @@ p + p {
 
 .lbrace, .rbrace {
     height: 30px;
+    position: relative;
 }
 
 .rbrace {
-    position: relative;
     left: 100px;
 }
 
