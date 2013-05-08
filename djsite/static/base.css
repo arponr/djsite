@@ -56,7 +56,7 @@ p + p {
 }
 
 .lbrace {
-    right: 83px;
+    right: 84px;
 }
 
 .rbrace {
@@ -71,7 +71,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 1pt;
     float: right;
-    padding: 5px 15px 0 0;
+    padding-right: 15px;
 }
 
 .header li {
