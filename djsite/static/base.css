@@ -40,7 +40,6 @@ p + p {
 
 .header {
     font-size: 13px;
-    border-bottom: 1px solid #e5e9f0;
 }
 
 .content {
@@ -62,11 +61,14 @@ p + p {
     float: right;
 }
 
+.vert {
+    padding-top: 20px;
+}
+
 .headline {
-    font-family: futura-pt, sans-serif;
-    font-size: 12px;
     text-transform: uppercase;
-    padding-left: 7px;
+    letter-spacing: 1pt;
+    padding-left: 10px;
 }
 
 .header ul {
@@ -76,14 +78,7 @@ p + p {
 .header li {
     list-style: none;
     display: inline;
-    margin-left: 20px;
-}
-
-.menu {
-    font-family: futura-pt, sans-serif;
-    text-transform: uppercase;
-    font-size: 11px;
-    margin-top: 30px;
+    padding: 0 10px;
 }
 
 .main {
