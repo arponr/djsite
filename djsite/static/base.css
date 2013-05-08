@@ -38,8 +38,12 @@ p + p {
     margin-top: 15px;
 }
 
-.header {
+.math {
+    font-size: 13px;
+}
 
+.header {
+    font-size: 13px;
 }
 
 .content {
