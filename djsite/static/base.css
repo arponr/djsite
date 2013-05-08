@@ -56,11 +56,11 @@ p + p {
 }
 
 .lbrace {
-    right: 0;
+    right: 82px;
 }
 
 .rbrace {
-    right: 82px;
+    right: 0;
 }
 
 .vert {
@@ -70,17 +70,14 @@ p + p {
 .headline {
     text-transform: uppercase;
     letter-spacing: 1pt;
-    padding-left: 15px;
-}
-
-.header ul {
     float: right;
+    padding-right: 15px;
 }
 
 .header li {
     list-style: none;
     display: inline;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .main {
