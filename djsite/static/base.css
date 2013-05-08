@@ -19,7 +19,7 @@ body {
     font-family: "Times New Roman", serif;
     font-size: 14px;
     color: #363f45;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 a:focus {
@@ -87,8 +87,9 @@ p + p {
 }
 
 .title {
-    font-family: source-code-pro, monospace;
-    font-size: 18px;
+    font-family: museo-sans, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .title a:link, .title a:visited {
