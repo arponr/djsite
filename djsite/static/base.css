@@ -53,10 +53,14 @@ p + p {
 
 .lbrace, .rbrace {
     height: 30px;
-    position: relative;
+}
+
+.lbrace {
+    float: left;
 }
 
 .rbrace {
+    position: relative;
     left: 100px;
 }
 
