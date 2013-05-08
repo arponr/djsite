@@ -48,9 +48,6 @@ p + p {
 }
 
 .content {
-    max-width: 95%;
-    margin: 0 auto;
-    position: relative;
 }
 
 .name {
@@ -75,7 +72,10 @@ p + p {
 }
 
 .main {
+    max-width: 95%;
     width: 550px;
+    margin: 0 auto;
+    position: relative;
 }
     
 /****************************** BLOG ***********************************/
