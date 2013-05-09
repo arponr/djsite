@@ -59,7 +59,6 @@ p + p {
 }
 
 .header {
-    background: #eda065;
     height: 60px;
 }
 
@@ -93,7 +92,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding-right: 11px;
+    padding-right: 13px;
 }
 
 .front {
