@@ -70,7 +70,7 @@ p + p {
 }
 
 .lbrace, .rbrace {
-    height: 30px;
+    height: 40px;
     position: absolute;
 }
 
@@ -87,11 +87,11 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding: 3px 13px 0 0;
+    padding: 8px 13px 0 0;
 }
 
 .header ul {
-    padding-top: 6px;
+    padding-top: 11px;
 }
 
 .header li {
@@ -111,7 +111,7 @@ p + p {
 }
 
 .main {
-    padding: 20px 0;
+
 }
     
 /****************************** BLOG ***********************************/
