@@ -47,7 +47,7 @@ p + p {
 }
 
 .header {
-    background: #f08e5d;
+    background: #e79c57;
     height: 60px;
 }
 
@@ -65,7 +65,7 @@ p + p {
 }
 
 .lbrace {
-    right: 105px;
+    right: 106px;
 }
 
 .rbrace {
@@ -81,7 +81,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding-right: 10px;
+    padding-right: 11px;
 }
 
 .front {
