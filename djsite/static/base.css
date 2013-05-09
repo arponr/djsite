@@ -92,14 +92,7 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding-right: 13px;
-}
-
-.front {
-    font-family: "futura-pt", sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 3pt;
+    padding-right: 14px;
 }
 
 .header li {
@@ -113,11 +106,12 @@ p + p {
 .sep {
     width: 100px;
     margin: 0 auto;
-    letter-spacing: 5pt;
+    letter-spacing: 10pt;
+    font-family: pigeon, serif;
 }
 
 .main {
-    padding: 20px 0;
+
 }
     
 /****************************** BLOG ***********************************/
