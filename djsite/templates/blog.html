@@ -5,30 +5,27 @@
 {% block nav_blog %}class="cur"{% endblock %}
 
 {% block main %}
-<ul class="posts">
 {% for p in posts %}
-  <li>
-    <div class="title">
-      <a href="{{ p.get_absolute_url }}">
-	{{ p.title }} 
-	<span class="arrow">&rarr;</span>
-      </a>
-    </div>
-    <span class="date">{{ p.created|date:"Y-m-j" }}</span>
-    <span class="info">
-      &mdash; in 
-      {% for c in p.categories.all %}
-      {% if not forloop.last %}
-      <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-      {% else %}
-      <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-      {% endif %}
-      {% endfor %}
-    </span>
-    <div class="prev">
-      {{ p.preview|mdown|safe }}
-    </div>
-  </li>
+<div class="sep">***</div>
+<div class="title">
+  <a href="{{ p.get_absolute_url }}">
+    {{ p.title }} 
+    <span class="arrow">&rarr;</span>
+  </a>
+</div>
+<span class="date">{{ p.created|date:"Y-m-j" }}</span>
+<span class="info">
+  &mdash; in 
+  {% for c in p.categories.all %}
+  {% if not forloop.last %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {% else %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {% endif %}
+  {% endfor %}
+</span>
+<div class="prev">
+  {{ p.preview|mdown|safe }}
+</div>
 {% endfor %}
-</ul>
 {% endblock %}

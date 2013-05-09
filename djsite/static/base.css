@@ -87,11 +87,11 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding: 8px 13px 0 0;
+    padding: 7px 13px 0 0;
 }
 
 .header ul {
-    padding-top: 11px;
+    padding-top: 10px;
 }
 
 .header li {
