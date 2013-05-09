@@ -96,6 +96,7 @@ p + p {
     display: inline;
     margin-right: 20px;
     font-family: eskapade-fraktur, serif;
+    font-size: 15px;
     text-transform: lowercase;
 }
 
@@ -112,7 +113,8 @@ p + p {
 
 .title {
     font-family: "eskapade-fraktur", serif;
-    font-size: 18px;
+    font-size: 24px;
+    font-style: ittalic;
 }
 
 .title .arrow {
