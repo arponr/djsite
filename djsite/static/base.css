@@ -68,7 +68,6 @@ p + p {
     margin: 0 auto;
     padding-top: 10px;
     position: relative;
-    border-top: 1px solid #6f7b87;
 }
 
 .lbrace, .rbrace {
@@ -109,6 +108,11 @@ p + p {
     margin-right: 20px;
     font-family: pigeon, serif;
     font-size: 15px;
+}
+
+.sep {
+    margin: 0 auto;
+    letter-spacing: 5pt;
 }
 
 .main {
