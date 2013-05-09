@@ -1,3 +1,15 @@
+@font-face {
+    font-family: pigeon;
+    src: url('/static/pigeon-webfont.eot');
+    src: url('/static/pigeon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/pigeon-webfont.woff') format('woff'),
+         url('/static/pigeon-webfont.ttf') format('truetype'),
+         url('/static/pigeon-webfont.svg#PigeonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     overflow-y: scroll;
 }
@@ -95,7 +107,7 @@ p + p {
     list-style: none;
     display: inline;
     margin-right: 20px;
-    font-family: eskapade-fraktur, serif;
+    font-family: pigeon, serif;
     font-size: 15px;
     text-transform: lowercase;
 }
@@ -112,7 +124,7 @@ p + p {
 }
 
 .title {
-    font-family: "eskapade-fraktur", serif;
+    font-family: pigeon, serif;
     font-size: 24px;
     font-style: ittalic;
 }
