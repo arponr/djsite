@@ -65,7 +65,7 @@ p + p {
 }
 
 .lbrace {
-    right: 112px;
+    right: 105px;
 }
 
 .rbrace {
@@ -81,14 +81,14 @@ p + p {
     text-transform: uppercase;
     letter-spacing: 2pt;
     float: right;
-    padding-right: 9px;
+    padding-right: 10px;
 }
 
 .front {
     font-family: "futura-pt", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: 2pt;
+    letter-spacing: 3pt;
 }
 
 .header li {
