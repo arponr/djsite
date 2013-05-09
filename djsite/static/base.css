@@ -111,12 +111,13 @@ p + p {
 }
 
 .sep {
+    width: 100px;
     margin: 0 auto;
     letter-spacing: 5pt;
 }
 
 .main {
-    padding: 30px 0;
+    padding: 20px 0;
 }
     
 /****************************** BLOG ***********************************/
