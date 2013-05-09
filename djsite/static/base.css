@@ -117,10 +117,13 @@ p + p {
     
 /****************************** BLOG ***********************************/
 
+.post {
+    margin: 40px 0;
+}
+
 .title {
     font-family: pigeon, serif;
     font-size: 20px;
-    margin-top: 40px;
 }
 
 .title .arrow {
@@ -142,7 +145,7 @@ p + p {
 }
 
 .prev {
-    margin: 10px 0 40px 0;
+    margin-top: 10px;
     text-align: justify;
 }
 
