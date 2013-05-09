@@ -59,7 +59,7 @@ p + p {
 }
 
 .header {
-    padding: 10px 0 20px 0;
+    padding: 15px 0 20px 0;
     border-bottom: 1px solid #e0e6eb;
 }
 
@@ -92,7 +92,7 @@ p + p {
 }
 
 .header ul {
-    padding-top: 9px;
+    padding-top: 10px;
 }
 
 .header li {
@@ -100,7 +100,6 @@ p + p {
     display: inline;
     margin-right: 20px;
     font-family: pigeon, serif;
-    font-size: 15px;
 }
 
 .sep {
@@ -124,7 +123,7 @@ p + p {
 }
 
 .title {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .date  {
