@@ -108,6 +108,7 @@ p + p {
     margin: 0 auto;
     letter-spacing: 10pt;
     font-family: pigeon, serif;
+    font-size: 18px;
 }
 
 .main {
