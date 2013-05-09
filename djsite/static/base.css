@@ -60,7 +60,7 @@ p + p {
 
 .header {
     padding: 10px 0 20px 0;
-    border-bottom: 1px solid #d5dfe8;
+    border-bottom: 1px solid #e0e6eb;
 }
 
 .content {
@@ -105,7 +105,7 @@ p + p {
 
 .sep {
     width: 100px;
-    margin: 0 auto;
+    margin: 40px auto;
     letter-spacing: 10pt;
     font-family: pigeon, serif;
     font-size: 18px;
