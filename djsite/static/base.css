@@ -84,7 +84,7 @@ p + p {
 }
 
 .vert {
-    padding-top: 7px;
+    padding-top: 5px;
 }
 
 .headline {
@@ -93,6 +93,10 @@ p + p {
     letter-spacing: 2pt;
     float: right;
     padding-right: 14px;
+}
+
+.header ul {
+    padding-top: 1px;
 }
 
 .header li {
