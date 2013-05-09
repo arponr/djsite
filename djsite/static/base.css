@@ -105,7 +105,7 @@ p + p {
 
 .sep {
     width: 100px;
-    margin: 40px auto;
+    margin: 0 auto;
     letter-spacing: 10pt;
     font-family: pigeon, serif;
     font-size: 18px;
@@ -117,14 +117,10 @@ p + p {
     
 /****************************** BLOG ***********************************/
 
-.posts li {
-    list-style: none;
-    margin-bottom: 50px;
-}
-
 .title {
     font-family: pigeon, serif;
     font-size: 20px;
+    margin-top: 40px;
 }
 
 .title .arrow {
@@ -146,7 +142,7 @@ p + p {
 }
 
 .prev {
-    margin-top: 10px;
+    margin: 10px 0 40px 0;
     text-align: justify;
 }
 
