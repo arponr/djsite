@@ -28,8 +28,5 @@
     {{ p.preview|mdown|safe }}
   </div>
 </div>
-{% if not forloop.last %}
-<div class="sep">***</div>
-{% endif %}
 {% endfor %}
 {% endblock %}
