@@ -59,7 +59,7 @@ p + p {
 }
 
 .header {
-    padding: 15px 0;
+    padding: 10px 0 20px 0;
 }
 
 .content {
@@ -91,7 +91,7 @@ p + p {
 }
 
 .header ul {
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 .header li {
@@ -145,7 +145,7 @@ p + p {
 }
 
 .prev {
-    margin: 10px 0 15px 0;
+    margin: 10px 0 20px 0;
     text-align: justify;
 }
 
