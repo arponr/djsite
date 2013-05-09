@@ -119,35 +119,16 @@ p + p {
 
 .posts li {
     list-style: none;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: pigeon, serif;
 }
 
 .title {
-    font-family: pigeon, serif;
     font-size: 20px;
 }
 
-.title .arrow {
-    position: relative;
-    left: 5px;
-    font-size: 14px;
-    -moz-transition: left .2s;
-    -webkit-transition: left .2s;
-    -o-transition: left .2s;
-    transition: left .2s;
-}
-
-.title a:hover .arrow {
-    left: 15px;
-}
-
-.date, .info {
-    font-family: pigeon, serif;
-}
-
-.prev {
-    margin-top: 10px;
-    text-align: justify;
+.date  {
+    margin-right: 10px;
 }
 
 /****************************** POST ***********************************/
