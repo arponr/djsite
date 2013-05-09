@@ -109,7 +109,6 @@ p + p {
     margin-right: 20px;
     font-family: pigeon, serif;
     font-size: 15px;
-    text-transform: lowercase;
 }
 
 .main {
@@ -125,8 +124,7 @@ p + p {
 
 .title {
     font-family: pigeon, serif;
-    font-size: 24px;
-    font-style: ittalic;
+    font-size: 22px;
 }
 
 .title .arrow {
@@ -144,7 +142,7 @@ p + p {
 }
 
 .date, .info {
-    font-size: 13px;
+    font-family: pigeon, serif;
 }
 
 .prev {
@@ -155,7 +153,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_info {
-    font-size: 13px;
+    font-family: pigeon, serif;
     margin: 5px 0 30px 0;
 }
 
