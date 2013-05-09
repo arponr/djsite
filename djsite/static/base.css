@@ -38,7 +38,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #4f5861;
+    color: #364559;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -102,35 +102,31 @@ p + p {
     font-family: pigeon, serif;
 }
 
-.sep {
-    width: 100px;
-    margin: 0 auto;
-    letter-spacing: 10pt;
-    font-family: pigeon, serif;
-    font-size: 18px;
-}
-
 .main {
-
+    padding-top: 30px;
 }
     
 /****************************** BLOG ***********************************/
 
 .posts li {
     list-style: none;
-    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: pigeon, serif;
-}
-
-.title {
     font-size: 16px;
 }
 
 .date  {
+    font-size: 14px;
     margin-right: 10px;
 }
 
 /****************************** POST ***********************************/
+
+
+.title {
+    font-family: pigeon, serif;
+    font-size: 24px;
+}
 
 .post_info {
     font-family: pigeon, serif;
