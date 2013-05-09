@@ -59,7 +59,7 @@ p + p {
 }
 
 .header {
-    padding: 10px 0 20px 0;
+    padding: 10px 0 30px 0;
 }
 
 .content {
@@ -123,7 +123,7 @@ p + p {
 
 .title {
     font-family: pigeon, serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .title .arrow {
@@ -145,7 +145,7 @@ p + p {
 }
 
 .prev {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 30px 0;
     text-align: justify;
 }
 
