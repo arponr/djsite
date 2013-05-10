@@ -38,7 +38,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #335478;
+    color: #224e78;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
