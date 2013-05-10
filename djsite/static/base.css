@@ -38,6 +38,7 @@ a:focus {
 }
 
 .header a:link, .header a:visited {
+    color: #505050;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -99,10 +100,6 @@ p + p {
     display: inline;
     margin-right: 20px;
     font-family: pigeon, serif;
-}
-
-.header a:link, .header a:visited {
-    color: #505050;
 }
 
 .active {
