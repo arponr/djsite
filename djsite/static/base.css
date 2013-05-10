@@ -60,7 +60,7 @@ p + p {
 
 .header {
     padding: 15px 0 20px 0;
-    border-bottom: 1px solid #e0e6eb;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .content {
@@ -83,7 +83,7 @@ p + p {
     right: 0;
 }
 
-.headline {
+.name {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2pt;
@@ -100,6 +100,14 @@ p + p {
     display: inline;
     margin-right: 20px;
     font-family: pigeon, serif;
+}
+
+.active:after {
+    content: '';
+    position: relative;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #e0e0e0;
 }
 
 .main {

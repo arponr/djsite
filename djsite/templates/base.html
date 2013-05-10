@@ -16,11 +16,11 @@
     <div class="header content">
       <img class="lbrace" src="/static/lbrace.png">
       <img class="rbrace" src="/static/rbrace.png">
-      <span class="headline">Arpon R.</span>
+      <span class="name">Arpon R.</span>
       <ul>
-	<li><a href="/">Blog</a></li>
-	<li><a href="/work/">Projects</a></li>
-	<li><a href="/about/">About</a></li>
+	<li{% block blg %}{% endblock %}><a href="/">Blog</a></li>
+	<li{% block prj %}{% endblock %}><a href="/work/">Projects</a></li>
+	<li{% block abt %}{% endblock %}><a href="/about/">About</a></li>
       </ul>
     </div>
 
