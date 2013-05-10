@@ -102,6 +102,10 @@ p + p {
     font-family: pigeon, serif;
 }
 
+.active {
+    position: relative;
+}
+
 .active:after {
     content: '';
     position: absolute;
