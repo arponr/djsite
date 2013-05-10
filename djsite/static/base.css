@@ -110,10 +110,10 @@ p + p {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -20px;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #e0e0e0;
+    bottom: -21px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #e0e0e0;
 }
 
 .main {
