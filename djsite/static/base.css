@@ -37,6 +37,26 @@ a:focus {
     outline: none;
 }
 
+p + p {
+    margin-top: 15px;
+}
+
+.math {
+    font-size: 13px;
+}
+
+.content {
+    width: 500px;
+    max-width: 95%; 
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    padding: 15px 0 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
 .header a:link, .header a:visited {
     color: #505050;
     text-decoration: none;
@@ -46,28 +66,8 @@ a:focus {
     transition: color .2s;
 }
 
-.header a:hover, .main a:hover {
+.header a:hover {
     color: #000000;
-}
-
-p + p {
-    margin-top: 15px;
-}
-
-.math {
-    font-size: 13px;
-}
-
-.header {
-    padding: 15px 0 20px 0;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.content {
-    width: 500px;
-    max-width: 95%; 
-    margin: 0 auto;
-    position: relative;
 }
 
 .lbrace, .rbrace {
@@ -122,6 +122,18 @@ p + p {
 
 .main a:link, .main a:visited {
     color: #224e78;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+.main a:hover {
+    color: #000000;
+}
+
+.main a:link, .main a:visited {
 }
     
 /****************************** BLOG ***********************************/
