@@ -110,7 +110,7 @@ p + p {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -22px;
+    bottom: -23px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-bottom: 6px solid #e0e0e0;
