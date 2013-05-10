@@ -37,7 +37,7 @@ a:focus {
     outline: none;
 }
 
-a:link, a:visited {
+.header a:link, .header a:visited {
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
