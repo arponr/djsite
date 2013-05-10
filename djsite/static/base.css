@@ -112,7 +112,7 @@ p + p {
 .active:after {
     content: '';
     position: absolute;
-    left: -1px;
+    left: -0;
     bottom: -23px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
