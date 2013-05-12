@@ -60,6 +60,8 @@ p + p {
 
 .zuko {
     width: 50px;
+    display: block;
+    margin: 0 auto;
     padding-bottom: 50px;
 }
     
