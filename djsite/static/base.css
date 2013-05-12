@@ -84,6 +84,7 @@ p + p {
 }
 
 .name {
+    font-family: fenwick, sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2pt;
