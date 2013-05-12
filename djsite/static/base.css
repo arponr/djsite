@@ -28,8 +28,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: chaparral-pro, serif;
-    font-size: 15px;
+    font-family: skolar, serif;
+    font-size: 14px;
     line-height: 1.5em;
 }
 
@@ -53,7 +53,7 @@ p + p {
 }
 
 .header {
-    padding: 15px 0 20px 0;
+    padding: 15px 0 30px 0;
     border-bottom: 1px solid #e0e0e0;
     text-align: center;
 }
@@ -62,7 +62,7 @@ p + p {
     width: 40px;
     display: block;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
     
 .footer a:link, .footer a:visited {
@@ -126,6 +126,7 @@ p + p {
 .posts li {
     list-style: none;
     margin-bottom: 30px;
+    font-size: 16px;
 }
 
 .date  {
