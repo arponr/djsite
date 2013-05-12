@@ -53,7 +53,6 @@ p + p {
 }
 
 .header {
-    padding: 15px 0 30px 0;
     text-align: center;
 }
 
@@ -61,23 +60,10 @@ p + p {
     width: 40px;
     display: block;
     margin: 0 auto;
-    padding-bottom: 10px;
-}
-    
-.footer a:link, .footer a:visited {
-    color: #505050;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
+    padding: 15px 0 10px 0;
 }
 
-.footer a:hover {
-    color: #000000;
-}
-
-.lbrace, .rbrace {
+.brace {
     height: 40px;
     position: relative;
     top: 15px;
@@ -89,6 +75,34 @@ p + p {
     text-transform: uppercase;
 }
 
+.secondary {
+    font-style: italic;
+    margin: 15px 0 30px 0;
+}
+
+.main {
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+
+a:link, a:visited {
+    color: #224e78;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.main a:link, .main a:visited {
+}
+
+
 .footer ul {
     padding-top: 10px;
 }
@@ -98,28 +112,6 @@ p + p {
     display: inline;
     margin-right: 20px;
     font-style: italic;
-}
-
-.main {
-    padding: 30px 0;
-    border-bottom: 1px solid #e0e0e0;
-    border-top: 1px solid #e0e0e0;
-}
-
-.main a:link, .main a:visited {
-    color: #224e78;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-
-.main a:hover {
-    color: #000000;
-}
-
-.main a:link, .main a:visited {
 }
     
 /****************************** BLOG ***********************************/
@@ -143,10 +135,7 @@ p + p {
     font-size: 24px;
 }
 
-.secondary {
-    font-style: italic;
-    margin: 5px 0 30px 0;
-}
+
 
 .post_content {
     text-align: justify;
