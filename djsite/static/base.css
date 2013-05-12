@@ -60,7 +60,7 @@ p + p {
 
 .zuko {
     width: 50px;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
 }
     
 .footer a:link, .footer a:visited {
@@ -79,7 +79,11 @@ p + p {
 .lbrace, .rbrace {
     height: 40px;
     position: relative;
-    top: 10px;
+    top: 15px;
+}
+
+.rbrace {
+    left: -10px;
 }
 
 .name {
