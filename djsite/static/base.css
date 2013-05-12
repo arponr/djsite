@@ -28,8 +28,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: minion-pro, serif;
-    font-size: 14px;
+    font-family: chaparral-pro, serif;
+    font-size: 15px;
     line-height: 1.5em;
 }
 
@@ -81,7 +81,7 @@ p + p {
 .lbrace, .rbrace {
     height: 40px;
     position: relative;
-    top: 8px;
+    top: 15px;
 }
 
 .name {
@@ -126,13 +126,11 @@ p + p {
 .posts li {
     list-style: none;
     margin-bottom: 30px;
-    font-family: pigeon, serif;
-    font-size: 16px;
 }
 
 .date  {
     font-size: 14px;
-    margin-right: 10px;
+    float: right;
 }
 
 /****************************** POST ***********************************/
