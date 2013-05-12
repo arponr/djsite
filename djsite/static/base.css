@@ -43,7 +43,7 @@ p + p {
 }
 
 .math {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .content {
@@ -68,14 +68,22 @@ p + p {
     font-style: italic;
 }
 
-.header {
-    text-align: center;
+.top a:link, .top a:visited {
+    color: #d0d0d0;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
 }
 
-.zuko {
-    width: 40px;
-    display: block;
-    margin: 0 auto;
+.top a:hover {
+    color: #e0e0e0;
+}
+
+
+.header {
+    text-align: center;
 }
 
 .brace {
@@ -88,6 +96,7 @@ p + p {
     font-family: fenwick, sans-serif;
     font-size: 15px;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
 .secondary {
@@ -96,8 +105,7 @@ p + p {
 }
 
 .main {
-    padding: 60px 0;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 30px 0 60px 0;
     border-top: 1px solid #e0e0e0;
 }
 
@@ -121,7 +129,6 @@ a:hover {
 
 .posts li {
     list-style: none;
-    font-size: 15px;
 }
 
 .posts li + li {
