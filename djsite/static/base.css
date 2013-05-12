@@ -59,10 +59,10 @@ p + p {
 }
 
 .zuko {
-    width: 50px;
+    width: 40px;
     display: block;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
     
 .footer a:link, .footer a:visited {
@@ -81,18 +81,13 @@ p + p {
 .lbrace, .rbrace {
     height: 40px;
     position: relative;
-    top: 15px;
-}
-
-.rbrace {
-    left: -10px;
+    top: 8px;
 }
 
 .name {
     font-family: fenwick, sans-serif;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 7px 13px 0 0;
 }
 
 .footer ul {
