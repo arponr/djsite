@@ -13,8 +13,14 @@
   </head>
 
   <body>
-    <div class="top content">
-      <img class="zuko" src="/static/zuko.jpg" href="/">
+    <div class="top">
+      <div class="content">
+	<ul>
+	  <li{% block blg %}{% endblock %}><a href="/">Blog</a></li>
+	  <li{% block prj %}{% endblock %}><a href="/work/">Projects</a></li>
+	  <li{% block abt %}{% endblock %}><a href="/about/">About</a></li>
+	</ul>
+      </div>
     </div>
     <div class="header content">
       <div class="primary">
@@ -29,14 +35,6 @@
 
     <div class="main content">
       {% block main %}{% endblock %}
-    </div>
-
-    <div class="footer content">
-      <ul>
-	<li{% block blg %}{% endblock %}><a href="/">Blog</a></li>
-	<li{% block prj %}{% endblock %}><a href="/work/">Projects</a></li>
-	<li{% block abt %}{% endblock %}><a href="/about/">About</a></li>
-      </ul>
     </div>
   </body>
 </html>

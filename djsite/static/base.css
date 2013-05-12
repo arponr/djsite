@@ -31,6 +31,7 @@ body {
     font-family: ff-tisa-web-pro, serif;
     font-size: 14px;
     line-height: 1.5em;
+    background: #e0e1e2;
 }
 
 a:focus {
@@ -54,6 +55,13 @@ p + p {
 
 .top {
     background: #3e454c;
+}
+
+.top li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-style: italic;
 }
 
 .header {
@@ -103,18 +111,6 @@ a:hover {
 }
 
 .main a:link, .main a:visited {
-}
-
-
-.footer ul {
-    padding-top: 10px;
-}
-
-.footer li {
-    list-style: none;
-    display: inline;
-    margin-right: 20px;
-    font-style: italic;
 }
     
 /****************************** BLOG ***********************************/
