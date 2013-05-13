@@ -1,0 +1,50 @@
+html {
+    overflow-y: scroll;
+}
+
+html, body {
+    height: 100%;
+}
+
+body, h1, h2, div, ul, li, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    text-shadow: none;
+}
+
+body {
+    font-family: ff-tisa-web-pro, serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    background: #46594b;
+    color: #e0e0e0;
+}
+
+a:focus {
+    outline: none;
+}
+
+.content {
+    width: 500px;
+    max-width: 95%; 
+    margin: 0 auto;
+    position: relative;
+}
+
+.brace {
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.name {
+    font-size: 24px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
