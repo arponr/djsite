@@ -16,8 +16,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: ff-tisa-web-pro, serif;
-    font-size: 18px;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-size: 14px;
     line-height: 1.5em;
     background: #3e454c;
     color: #8c9bab;
@@ -47,9 +47,10 @@ a:focus {
 }
 
 .name {
+    font-family: ff-tisa-web-pro, serif;
     font-size: 24px;
     color: #e0e2e5;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 li {
