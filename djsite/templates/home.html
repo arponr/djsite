@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title>Arpon Raksit</title>
+    <title>Arpon</title>
     <script type="text/javascript" src="//use.typekit.net/ztj7kcf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link rel="stylesheet" type="text/css" href="/static/home.css"/>
-    {% block mathjax %}{% endblock %}
+    <link href="/static/home.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <div class="header">
-      <div class="content">
-	<ul class="links">
-	  <li>Arpon</li>
-	  <li><a href="http://github.com/arponr">projects</a></li>
-	  <li><a href="mailto:arpon.raksit@gmail.com">contact</a></li>
-	</ul>
-      </div>
+    <div class="content">
+      <img class="brace" src="/static/lbrace.png">
+      <span class="name">Arpon R.</span>
+      <img class="brace" src="/static/rbrace.png">
+
+      <ul>
+	<li{% block blg %}{% endblock %}><a href="/">Blog</a></li>
+	<li{% block prj %}{% endblock %}><a href="/work/">Projects</a></li>
+	<li{% block abt %}{% endblock %}><a href="/about/">About</a></li>
+      </ul>
     </div>
-    <img src="/static/robot.jpg" class="robot">
   </body>
 </html>
