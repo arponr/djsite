@@ -31,7 +31,8 @@ body {
     font-family: ff-tisa-web-pro, serif;
     font-size: 14px;
     line-height: 1.5em;
-    color: #3e454c;
+    background: #3d4e59;
+    color: #e0e0e0;
 }
 
 a:focus {
@@ -53,22 +54,17 @@ p + p {
     position: relative;
 }
 
-.top {
-    background: #3e454c;
+.nav {
+    float: left;
+    font-family: camingodos-web, sans-serif;
 }
 
-.top ul {
-    padding: 15px 0;
-}
-
-.top li {
+.nav li {
     list-style: none;
-    display: inline;
-    margin-right: 20px;
-    font-style: italic;
+    margin-top: 20px;
 }
 
-.top a:link, .top a:visited {
+.nav a:link, .nav a:visited {
     color: #d0d0d0;
     text-decoration: none;
     -moz-transition: color .2s;
@@ -77,7 +73,7 @@ p + p {
     transition: color .2s;
 }
 
-.top a:hover {
+.nav a:hover {
     color: #e0e0e0;
 }
 
