@@ -54,7 +54,7 @@ a:focus {
 }
 
 li {
-    list-style: none;
+    list-style-image: url('/static/arrow.png');
     display: inline;
     margin: 0 20px;
 }
