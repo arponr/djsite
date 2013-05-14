@@ -19,7 +19,7 @@ body {
     font-family: ff-tisa-web-pro, serif;
     font-size: 24px;
     line-height: 1.5em;
-    background: #3e454c;
+    background: #ffffff url('/static/grunge.png') no-repeat left top;
     color: #8c9bab;
 }
 
