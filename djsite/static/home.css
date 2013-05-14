@@ -54,9 +54,15 @@ a:focus {
 }
 
 li {
-    list-style-image: url('/static/arrow.png');
+    list-style: none;
     display: inline;
     margin: 0 20px;
+}
+
+li:after {
+    content: "";
+    background-omage: url('/static/arrow.png');
+    background-size: 20px;
 }
 
 a:link, a:visited {
