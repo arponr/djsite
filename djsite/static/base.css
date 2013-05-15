@@ -32,7 +32,7 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     background: #1c496b;
-    color: #ffffff;
+    color: #94b9d6;
 }
 
 a:focus {
@@ -81,7 +81,7 @@ p + p {
 }
 
 a:link, a:visited {
-    color: #81a9c7;
+    color: #94b9d6;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
