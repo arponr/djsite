@@ -31,7 +31,7 @@ body {
     font-family: ff-tisa-web-pro, serif;
     font-size: 14px;
     line-height: 1.5em;
-    background: #1a5a8c;
+    background: #1c496b;
     color: #ffffff;
 }
 
@@ -55,27 +55,14 @@ p + p {
 }
 
 .nav {
-    font-family: camingodos-web, sans-serif;
-    padding-top: 20px;
+    padding-top: 50px;
+    float: right;
 }
 
 .nav li {
     list-style: none;
     display: inline;
-    margin-right: 20px;
-}
-
-.nav a:link, .nav a:visited {
-    color: #d0d0d0;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-
-.nav a:hover {
-    color: #e0e0e0;
+    margin-left: 20px;
 }
 
 
@@ -102,12 +89,12 @@ p + p {
 }
 
 .main {
-    padding: 30px 0 60px 0;
-    border-top: 1px solid #e0e0e0;
+    padding: 40px 0 60px 0;
+
 }
 
 a:link, a:visited {
-    color: #6ba8d6;
+    color: #6d94b2;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -116,7 +103,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #000000;
+    color: #ffffff;
 }
 
 .main a:link, .main a:visited {
