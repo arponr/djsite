@@ -40,7 +40,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #94b9d6;
+    color: #bcd6eb;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -83,7 +83,6 @@ p + p {
 
 .main {
     padding: 60px 0 60px 0;
-
 }
 
     
