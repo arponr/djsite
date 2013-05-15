@@ -31,12 +31,25 @@ body {
     font-family: ff-tisa-web-pro, serif;
     font-size: 14px;
     line-height: 1.5em;
-    background: #1c496b;
+    background: url('/static/grunge.png');
     color: #94b9d6;
 }
 
 a:focus {
     outline: none;
+}
+
+a:link, a:visited {
+    color: #94b9d6;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 p + p {
@@ -54,6 +67,10 @@ p + p {
     position: relative;
 }
 
+.header {
+    padding-top: 70px;
+}
+
 .nav {
     float: right;
 }
@@ -64,37 +81,11 @@ p + p {
     margin-left: 20px;
 }
 
-
-.header {
-    padding-top: 70px;
-}
-
-.brace {
-    height: 40px;
-    position: relative;
-    top: 15px;
-}
-
 .main {
     padding: 60px 0 60px 0;
 
 }
 
-a:link, a:visited {
-    color: #94b9d6;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-.main a:link, .main a:visited {
-}
     
 /****************************** BLOG ***********************************/
 
