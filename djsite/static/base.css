@@ -66,7 +66,7 @@ p + p {
 
 
 .header {
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .brace {
@@ -76,12 +76,12 @@ p + p {
 }
 
 .main {
-    padding: 40px 0 60px 0;
+    padding: 60px 0 60px 0;
 
 }
 
 a:link, a:visited {
-    color: #6d94b2;
+    color: #81a9c7;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
