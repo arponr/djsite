@@ -55,7 +55,6 @@ p + p {
 }
 
 .nav {
-    padding-top: 50px;
     float: right;
 }
 
@@ -67,25 +66,13 @@ p + p {
 
 
 .header {
-    text-align: center;
+    padding-top: 50px;
 }
 
 .brace {
     height: 40px;
     position: relative;
     top: 15px;
-}
-
-.primary {
-    font-family: fenwick, sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding-top: 30px;
-}
-
-.secondary {
-    font-style: italic;
-    margin: 20px 0 30px 0;
 }
 
 .main {
