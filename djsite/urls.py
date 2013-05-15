@@ -7,7 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns(
     '',
-    ('^$', 'djsite.views.home'),
+    ('^$', 'blog.views.blog'),
     ('^work/$', 'djsite.views.work'),
     (r'^category/([-\w]+)/$', 'blog.views.category'),
     (r'^post/([-\w]+)/$', 'blog.views.post'),
