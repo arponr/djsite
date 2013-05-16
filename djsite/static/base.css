@@ -79,6 +79,7 @@ p + p {
 .welcome {
     clear: both;
     padding-top: 30px;
+    font-size: 16px;
 }
 
 .main {
