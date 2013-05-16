@@ -102,7 +102,9 @@ p + p {
 }
 
 .date  {
-    font-size: 13px;
+    font-family: museo-sans, sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
 }
 
 /****************************** POST ***********************************/
