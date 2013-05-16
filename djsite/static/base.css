@@ -32,7 +32,7 @@ body {
     font-size: 14px;
     line-height: 1.5em;
     background: url('/static/grunge.png');
-    color: #94b9d6;
+    color: #bcd6eb;
 }
 
 a:focus {
@@ -73,6 +73,7 @@ p + p {
 
 .nav {
     float: right;
+    z-index: 1;
 }
 
 .nav li {
@@ -103,7 +104,7 @@ p + p {
 
 .date  {
     font-family: museo-sans, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     margin-right: 10px;
 }
 
