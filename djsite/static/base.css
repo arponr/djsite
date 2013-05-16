@@ -38,7 +38,8 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #000000;
+    color: #606060;
+    text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
@@ -46,7 +47,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    color: #000000;
 }
 
 p + p {
@@ -75,13 +76,12 @@ p + p {
     margin-left: 20px;
 }
 
-.nav img {
-    width: 20px;
-    opacity: .5;
+.welcome {
+    clear: both;
+    padding-top: 20px;
 }
 
 .main {
-    clear: both;
     padding: 30px 0 30px 0;
 }
     
