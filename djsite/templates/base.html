@@ -14,6 +14,10 @@
 
   <body>
     <div class="header content">
+
+    </div>
+
+    <div class="main content">
       <ul class="nav">
 	<li{% block blg %}{% endblock %}>
 	  <a href="/"><img src="/static/square.png">blog</a>
@@ -25,9 +29,6 @@
 	  <a href="/about/"><img src="/static/triangle.png"></a>
 	</li>
       </ul>
-    </div>
-
-    <div class="main content">
       {% block main %}{% endblock %}
     </div>
   </body>
