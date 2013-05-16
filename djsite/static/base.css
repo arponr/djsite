@@ -83,7 +83,7 @@ p + p {
 
 .nav img {
     width: 20px;
-    opacity: 50%;
+    opacity: .5;
 }
 
 .main {
