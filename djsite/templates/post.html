@@ -2,17 +2,18 @@
 
 {% load mdown %}
 
-{% block primary %}{{ p.title }}{% endblock %}
-
-{% block secondary %}
-created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
-in 
-{% for c in p.categories.all %}
-{% if not forloop.last %}
-<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
-{% else %}
-<a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
-{% endif %}
+{% block welcome %}
+{{ p.title }}
+<div class="info">
+  created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
+  in 
+  {% for c in p.categories.all %}
+  {% if not forloop.last %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>, 
+  {% else %}
+  <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+  {% endif %}
+</div>
 {% endfor %}
 {% endblock %}
 
