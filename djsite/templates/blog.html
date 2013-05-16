@@ -6,7 +6,7 @@
 <ul class="posts">
   {% for p in posts %}
   <li>  
-    <span class="date">{{ p.created|date:"Y-m-j" }}</span>
+    <div class="date">{{ p.created|date:"Y-m-j" }}</div>
     <a href="{{ p.get_absolute_url }}">{{ p.title }}</a>
   </li>
   {% endfor %}

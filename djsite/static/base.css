@@ -104,9 +104,10 @@ p + p {
 }
 
 .date  {
+    display: inline-block;
     font-family: museo-sans, sans-serif;
     font-size: 11px;
-    width: 100px;
+    width: 80px;
 }
 
 /****************************** POST ***********************************/
