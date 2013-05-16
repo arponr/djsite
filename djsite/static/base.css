@@ -81,6 +81,11 @@ p + p {
     margin-left: 20px;
 }
 
+.nav img {
+    width: 20px;
+    opacity: 50%;
+}
+
 .main {
     padding: 60px 0 60px 0;
 }
