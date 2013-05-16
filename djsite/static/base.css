@@ -55,7 +55,7 @@ p + p {
 }
 
 .math {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .content {
@@ -67,7 +67,7 @@ p + p {
 
 .nav {
     float: right;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .nav li {
@@ -78,7 +78,7 @@ p + p {
 
 .welcome {
     clear: both;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .main {
@@ -102,7 +102,7 @@ p + p {
 /****************************** POST ***********************************/
 
 .post_content {
-    text-align: justify;
+    font-family: minion-pro, serif;
 }
 
 .post_content blockquote {
