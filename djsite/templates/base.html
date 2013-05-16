@@ -15,9 +15,15 @@
   <body>
     <div class="header content">
       <ul class="nav">
-	<li{% block blg %}{% endblock %}><a href="/">&#9633;</a></li>
-	<li{% block prj %}{% endblock %}><a href="/work/">&#9651</a></li>
-	<li{% block abt %}{% endblock %}><a href="/about/">&#9675</a></li>
+	<li{% block blg %}{% endblock %}>
+	  <a href="/"><img src="/static/square.png"></a>
+	</li>
+	<li{% block prj %}{% endblock %}>
+	  <a href="/work/"><img src="/static/circle.png"></a>
+	</li>
+	<li{% block abt %}{% endblock %}>
+	  <a href="/about/"><img src="/static/triangle.png"></a>
+	</li>
       </ul>
     </div>
 
