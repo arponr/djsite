@@ -96,6 +96,7 @@ p + p {
 
 .posts li {
     list-style: none;
+    font-size: 16px;
 }
 
 .posts li + li {
@@ -105,7 +106,7 @@ p + p {
 .date  {
     font-family: museo-sans, sans-serif;
     font-size: 11px;
-    margin-right: 10px;
+    width: 70px;
 }
 
 /****************************** POST ***********************************/
