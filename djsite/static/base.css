@@ -28,11 +28,9 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: ff-tisa-web-pro, serif;
+    font-family: adaptive-mono, serif;
     font-size: 14px;
     line-height: 1.5em;
-    background: url('/static/grunge.png');
-    color: #bcd6eb;
 }
 
 a:focus {
@@ -40,7 +38,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #bcd6eb;
+    color: #404040;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -49,7 +47,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 p + p {
@@ -67,13 +65,9 @@ p + p {
     position: relative;
 }
 
-.header {
-    padding-top: 70px;
-}
-
 .nav {
     float: right;
-    z-index: 1;
+    padding-bottom: 30px;
 }
 
 .nav li {

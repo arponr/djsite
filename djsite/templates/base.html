@@ -13,22 +13,13 @@
   </head>
 
   <body>
-    <div class="header content">
-
-    </div>
-
-    <div class="main content">
+    <div class="content">
       <ul class="nav">
-	<li{% block blg %}{% endblock %}>
-	  <a href="/"><img src="/static/square.png">blog</a>
-	</li>
-	<li{% block prj %}{% endblock %}>
-	  <a href="/work/"><img src="/static/circle.png"></a>
-	</li>
-	<li{% block abt %}{% endblock %}>
-	  <a href="/about/"><img src="/static/triangle.png"></a>
-	</li>
+	<li{% block blg %}{% endblock %}><a href="/">posts</a></li>
+	<li{% block prj %}{% endblock %}><a href="/work/">work</a></li>
+	<li{% block abt %}{% endblock %}><a href="/about/">about</a></li>
       </ul>
+
       {% block main %}{% endblock %}
     </div>
   </body>
