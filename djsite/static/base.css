@@ -38,8 +38,7 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #404040;
-    text-decoration: none;
+    color: #000000;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
@@ -47,7 +46,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #000000;
+    text-decoration: none;
 }
 
 p + p {
@@ -67,7 +66,7 @@ p + p {
 
 .nav {
     float: right;
-    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .nav li {
@@ -82,9 +81,9 @@ p + p {
 }
 
 .main {
-    padding: 60px 0 60px 0;
+    clear: both;
+    padding: 30px 0 30px 0;
 }
-
     
 /****************************** BLOG ***********************************/
 
@@ -96,11 +95,8 @@ p + p {
     margin-top: 30px;
 }
 
-.date  {
-    display: inline-block;
-    font-family: museo-sans, sans-serif;
-    font-size: 11px;
-    width: 75px;
+.date  {    
+    font-size: 12px;
 }
 
 /****************************** POST ***********************************/
