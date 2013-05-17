@@ -68,6 +68,8 @@ p + p {
 .nav {
     float: right;
     padding-top: 30px;
+    width: 100%;
+    border-bottom: 1px solid #606060;
 }
 
 .nav li {
@@ -108,7 +110,7 @@ p + p {
 }
 
 .post_content {
-    font-family: minion-pro, serif;
+    font-family: skolar, serif;
     text-align: justify;
 }
 
