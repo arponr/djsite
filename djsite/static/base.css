@@ -16,7 +16,7 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, serif;
+    font-family: adaptive-mono, monospace;
     font-size: 14px;
     line-height: 1.6em;
 }
@@ -25,8 +25,8 @@ a:focus {
     outline: none;
 }
 
-a:link, a:visited {
-    color: #606060;
+.top a:link, .top a:visited {
+    color: #b0b0b0;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -34,8 +34,8 @@ a:link, a:visited {
     transition: color .2s;
 }
 
-a:hover {
-    color: #000000;
+.top a:hover {
+    color: #f0f0f0;
 }
 
 p + p {
@@ -54,7 +54,6 @@ p + p {
 }
 
 .top {
-    font-family: adaptive-mono, monospace;
     background: #4f5861;
 }
 
@@ -75,6 +74,19 @@ p + p {
 
 .main {
     padding: 30px 0;
+}
+
+.main a:link, .main a:visited {
+    color: #606060;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+.main a:hover {
+    color: #000000;
 }
     
 /****************************** BLOG ***********************************/
@@ -99,6 +111,7 @@ p + p {
 }
 
 .post_content {
+    font-family: skolar, serif;
     text-align: justify;
 }
 
