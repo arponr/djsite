@@ -13,21 +13,23 @@
   </head>
 
   <body>
-    <div class="content">
-      <ul class="nav">
-	<li>[arponr]</li>
-	<li{% block blg %}{% endblock %}><a href="/">posts</a></li>
-	<li{% block prj %}{% endblock %}><a href="/work/">work</a></li>
-	<li{% block abt %}{% endblock %}><a href="/about/">about</a></li>
-      </ul>
+    <div class="top">
+      <div class="content">
+	<ul class="nav">
+	  <li>[arponr]</li>
+	  <li{% block blg %}{% endblock %}><a href="/">posts</a></li>
+	  <li{% block prj %}{% endblock %}><a href="/work/">work</a></li>
+	  <li{% block abt %}{% endblock %}><a href="/about/">about</a></li>
+	</ul>
 
-      <div class="welcome">
-	{% block welcome %}{% endblock %}
+	<div class="title">
+	  {% block welcome %}{% endblock %}
+	</div>
       </div>
+    </div>
 
-      <div class="main">
-	{% block main %}{% endblock %}
-      </div>
+    <div class="main content">
+      {% block main %}{% endblock %}
     </div>
   </body>
 </html>
