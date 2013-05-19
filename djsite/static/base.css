@@ -56,6 +56,9 @@ p + p {
 .top {
     background: #4f5861;
     color: #f0f0f0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 .nav {
@@ -88,6 +91,10 @@ p + p {
 
 .main a:hover {
     color: #000000;
+}
+
+.bottom {
+    background: #e0e0e0;
 }
     
 /****************************** BLOG ***********************************/
