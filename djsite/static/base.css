@@ -41,13 +41,13 @@ p + p {
 }
 
 .top {
-    background: #3b536b;
-    color: #d3d7eb;
+    background: #c48355;
+    color: #875a3a;
 }
 
 .title {
     font-family: prenton, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     padding: 80px 0 30px 0;
 }
