@@ -95,7 +95,9 @@ p + p {
 }
 
 .date  {    
+    font-family: prenton, sans-serif;
     font-size: 13px;
+    margin-left: 10px;
 }
 
 /****************************** POST ***********************************/
