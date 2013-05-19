@@ -16,9 +16,9 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: adaptive-mono, monospace;
-    font-size: 14px;
-    line-height: 1.6em;
+    font-family: chaparral-pro, serif;
+    font-size: 15px;
+    line-height: 1.5em;
 }
 
 a:focus {
