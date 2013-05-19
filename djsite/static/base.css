@@ -67,7 +67,7 @@ p + p {
 }
 
 .main a:link, .main a:visited {
-    color: #404040;
+    color: #505050;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -91,7 +91,7 @@ p + p {
 }
 
 .posts li + li {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .date  {    
