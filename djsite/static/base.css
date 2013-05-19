@@ -78,7 +78,7 @@ p + p {
 }
 
 .main a:link, .main a:visited {
-    color: #505050;
+    color: #000000;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -96,6 +96,10 @@ p + p {
     list-style: none;
     text-transform: uppercase;
     letter-spacing: 3pt;
+}
+
+.posts li:before {
+    content: ">";
 }
 
 .posts li + li {
