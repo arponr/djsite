@@ -95,7 +95,7 @@ p + p {
 .posts li {
     list-style: none;
     text-transform: uppercase;
-    letter-spacing: 3pt;
+    letter-spacing: 2pt;
 }
 
 .posts li:before {
