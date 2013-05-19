@@ -56,9 +56,14 @@ p + p {
 .top {
     background: #4f5861;
     color: #f0f0f0;
+    text-align: center;
+}
+
+.title {
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: 24px;
+    padding: 30px 0;
 }
 
 .nav {
