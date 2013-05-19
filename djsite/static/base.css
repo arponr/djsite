@@ -16,8 +16,8 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: chaparral-pro, serif;
-    font-size: 15px;
+    font-family: prenton, sans-serif;
+    font-size: 14px;
     line-height: 1.5em;
 }
 
@@ -87,7 +87,6 @@ p + p {
 
 .posts li {
     list-style: none;
-    font-style: italic;
 }
 
 .posts li + li {
@@ -95,7 +94,6 @@ p + p {
 }
 
 .date  {    
-    font-family: prenton, sans-serif;
     font-size: 13px;
     margin-left: 10px;
 }
