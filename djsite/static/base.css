@@ -46,8 +46,8 @@ p + p {
 }
 
 .left {
-    background: #606060;
-    width: 20px;
+    background: #a0a0a0;
+    width: 40px;
     height: 100%;
     position: fixed;
 }
