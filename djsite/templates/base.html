@@ -20,15 +20,16 @@
       <div class="title">
 	{% block title %}{% endblock %}
       </div>
-      {% block main %}{% endblock %}
-    </div>
 
-    <div class="bottom content">
-      <ul class="nav">
-	<li{% block blg %}{% endblock %}><a href="/">posts</a></li>
-	<li{% block prj %}{% endblock %}><a href="/work/">work</a></li>
-	<li{% block abt %}{% endblock %}><a href="/about/">about</a></li>
-      </ul>
+      {% block main %}{% endblock %}
+
+      <div class="nav">
+	<ul>
+	  <li><a href="/">posts</a></li>
+	  <li><a href="/work/">work</a></li>
+	  <li><a href="/about/">about</a></li>
+	</ul>
+      </div>
     </div>
   </body>
 </html>
