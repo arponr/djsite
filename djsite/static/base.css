@@ -45,6 +45,13 @@ p + p {
     height: 8px;
 }
 
+.top {
+    background: #606060;
+    width: 20px;
+    height: 100%;
+    position: fixed;
+}
+
 .title {
     font-family: prenton, sans-serif;
     font-weight: 500;
