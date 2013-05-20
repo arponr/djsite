@@ -25,6 +25,19 @@ a:focus {
     outline: none;
 }
 
+.a:link, .a:visited {
+    color: #555555;
+    text-decoration: none;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+.a:hover {
+    color: #000000;
+}
+
 p + p {
     margin-top: 15px;
 }
@@ -45,49 +58,27 @@ p + p {
     height: 8px;
 }
 
-.left {
-    background: #d0d0d0;
-    width: 60px;
-    height: 100%;
-    position: fixed;
-}
-
 .title {
     font-family: prenton, sans-serif;
     font-weight: 500;
     font-size: 18px;
-    padding: 80px 0 30px 0;
+    padding-bottom: 30px;
 }
 
-.nav {
-    padding: 20px 0;
+.main {
+    padding: 50px 0;
+}
+
+.bottom {
+    padding-top: 10px;
+    border-top: 1px solid #dddddd;
+    text-align: right;
 }
 
 .nav li {
     list-style: none;
     display: inline;
     margin-right: 20px;
-}
-
-.main {
-    padding: 30px 0;
-}
-
-.main a:link, .main a:visited {
-    color: #505050;
-    text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-
-.main a:hover {
-    color: #000000;
-}
-
-.bottom {
-    background: #e0e0e0;
 }
     
 /****************************** BLOG ***********************************/
