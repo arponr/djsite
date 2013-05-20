@@ -13,24 +13,24 @@
   </head>
 
   <body>
-    <div class="top">
-      <div class="title content">
-	{% block title %}{% endblock %}
+    <div class="corner">
+      <div class="name">
+	[arponr]
       </div>
+    </div>
+
+    <div class="top">
+      <ul class="nav">
+	<li><a href="/">posts</a></li>
+	<li><a href="/work/">work</a></li>
+	<li><a href="/about/">about</a></li>
+      </ul>
     </div>
 
     <div class="main content">
-      {% block main %}{% endblock %}
-    </div>
+      {% block title %}{% endblock %}
 
-    <div class="bottom">
-      <div class="nav content">
-	<ul>
-	  <li><a href="/">posts</a></li>
-	  <li><a href="/work/">work</a></li>
-	  <li><a href="/about/">about</a></li>
-	</ul>
-      </div>
+      {% block main %}{% endblock %}
     </div>
   </body>
 </html>

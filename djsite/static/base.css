@@ -53,9 +53,24 @@ p + p {
     position: relative;
 }
 
+.corner {
+    background: #e74c3c;
+    width: 100px;
+}
+
 .top {
-    background: #2980b9;
+    background: #e0e0e0;
     color: #ffffff;
+}
+
+.name, .nav {
+    padding: 20px 0;
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
 }
 
 .title {    
@@ -65,19 +80,6 @@ p + p {
 
 .main {
     padding: 60px 0;
-}
-
-.nav {
-    margin-top: 30px;
-    padding-top: 10px;
-    border-top: 1px solid #dddddd;
-    text-align: right;
-}
-
-.nav li {
-    list-style: none;
-    display: inline;
-    margin-left: 20px;
 }
     
 /****************************** BLOG ***********************************/
