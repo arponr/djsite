@@ -54,7 +54,7 @@ p + p {
 }
 
 .corner {
-    background: #34495e;
+    background: #2980b9;
     float: left;
 }
 
@@ -69,6 +69,8 @@ p + p {
 
 .nav {
     padding: 20px 0;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .nav li {
