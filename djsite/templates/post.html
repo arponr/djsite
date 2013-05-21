@@ -2,7 +2,7 @@
 
 {% load mdown %}
 
-{% block welcome %}
+{% block title %}
 {{ p.title }}
 <div class="info">
   created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>

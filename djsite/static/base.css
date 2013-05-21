@@ -60,16 +60,10 @@ p + p {
 
 .top {
     border-bottom: 1px solid #e0e0e0; 
-    padding: 20px 30px;
-}
-
-.name {
-    font-family: cooper-black-std;
-    font-size: 15px;
+    padding: 20px 40px;
 }
 
 .nav {
-    text-transform: uppercase;
     float: right;
 }
 
