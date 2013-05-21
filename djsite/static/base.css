@@ -63,6 +63,7 @@ p + p {
     padding: 15px 40px;
     font-size: 13px;
     position: fixed;
+    width: 100%;
 }
 
 .name {
