@@ -70,7 +70,7 @@ p + p {
 .nav li {
     list-style: none;
     display: inline;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .title {    
@@ -89,8 +89,8 @@ p + p {
     list-style: none;
 }
 
-.posts li + li {
-    margin-top: 15px;
+.posts li {
+    margin-bottom: 15px;
 }
 
 .date  {    
