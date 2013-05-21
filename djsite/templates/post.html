@@ -3,7 +3,6 @@
 {% load mdown %}
 
 {% block title %}
-{{ p.title }}
 <div class="info">
   created {{ p.created|date:"j M Y" }} &mdash; {% if p.edited %}edited {{ p.edited|date:"j M Y" }}{% endif %}<br/>
   in 
@@ -15,6 +14,8 @@
   {% endif %}
   {% endfor %}
 </div>
+
+{{ p.title }}
 {% endblock %}
 
 {% block main %}
