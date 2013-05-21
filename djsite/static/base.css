@@ -60,7 +60,8 @@ p + p {
     font-size: 13px;
     position: fixed;
     width: 100%;
-    background: #ffffff;
+    background: rgba(255, 255, 255, .95);
+    z-index: 10;
 }
 
 .name {
