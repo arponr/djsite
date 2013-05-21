@@ -19,6 +19,7 @@ body {
     font-family: skolar, sans-serif;
     font-size: 15px;
     line-height: 1.5em;
+    color: #333333;
 }
 
 a:focus {
@@ -53,17 +54,13 @@ p + p {
     position: relative;
 }
 
-.corner {
-    background: #2980b9;
-    float: left;
-}
-
 .top {
     border-bottom: 1px solid #e0e0e0; 
     padding: 15px 0;
     font-size: 13px;
     position: fixed;
     width: 100%;
+    background: #ffffff;
 }
 
 .name {
