@@ -17,7 +17,7 @@ body, h1, h2, div, ul, li, p {
 
 body {
     font-family: jaf-lapture, sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5em;
 }
 
@@ -75,13 +75,13 @@ p + p {
 .nav li {
     list-style: none;
     display: inline;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .title {    
     font-family: cooper-black-std;
     font-size: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .main {
@@ -95,7 +95,7 @@ p + p {
 }
 
 .posts li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .date  {    
@@ -106,9 +106,9 @@ p + p {
 /****************************** POST ***********************************/
 
 .info {
-    font-family: ff-tisa-web-pro;
-    font-size: 11px;
-    text-transform: uppercase;
+    font-family: jaf-lapture, serif;
+    font-size: 13px;
+    font-style: italic;
     margin-bottom: 10px;
 }
 
