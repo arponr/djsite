@@ -80,7 +80,7 @@ p + p {
 
 .title {    
     font-family: cooper-black-std;
-    font-size: 18px;
+    text-transform: uppercase;
     padding-bottom: 30px;
 }
 
@@ -109,7 +109,7 @@ p + p {
     font-family: jaf-lapture, serif;
     font-size: 13px;
     font-style: italic;
-    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .post_content {
