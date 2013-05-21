@@ -109,6 +109,7 @@ p + p {
     font-family: jaf-lapture, serif;
     font-size: 13px;
     font-style: italic;
+    text-transform: none;
     margin-top: 5px;
 }
 
