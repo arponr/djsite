@@ -27,16 +27,16 @@ a:focus {
 }
 
 a:link, a:visited {
-    color: #555555;
+    color: #ff7f66;
     text-decoration: none;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
+    -moz-transition: text-decoration .2s;
+    -webkit-transition: text-decoration .2s;
+    -o-transition: text-decoration .2s;
+    transition: text-decoration .2s;
 }
 
 a:hover {
-    color: #000000;
+    text-decoration: underline;
 }
 
 p + p {
@@ -86,7 +86,7 @@ p + p {
 }
 
 .main {
-    padding: 75px 0;
+    padding: 85px 0;
 }
     
 /****************************** BLOG ***********************************/
