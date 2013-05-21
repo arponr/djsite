@@ -63,13 +63,15 @@ p + p {
 }
 
 .name {
-    padding: 20px;
+    font-family: cooper-black-std;
+    font-size: 15px;
+    padding: 20px 0;
 }
 
 .nav {
     padding: 20px 0;
     text-transform: uppercase;
-    font-weight: 500;
+    float: right;
 }
 
 .nav li {
