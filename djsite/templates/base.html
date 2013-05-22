@@ -19,13 +19,12 @@
 	<li><a href="/work/">Work</a></li>
 	<li><a href="/about/">About</a></li>
       </ul>
-      <div class="name">A.R.</div>
+      <div class="title">
+	A.R. &mdash; {% block title %}{% endblock %}
+      </div> 
     </div>
 
     <div class="main content">
-      <div class="title">
-	{% block title %}{% endblock %}
-      </div>
       {% block main %}{% endblock %}
     </div>
   </body>
