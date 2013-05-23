@@ -42,8 +42,8 @@ p + p {
 }
 
 .top {
-    border-bottom: 1px solid #e0e0e0; 
-    padding: 20px 0;
+    background: #fd7124;
+    padding: 30px 0;
     font-size: 13px;
     position: fixed;
     width: 100%;
@@ -79,12 +79,12 @@ p + p {
 }
 
 .title {    
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 50px;
 }
 
 .main {
-    padding: 100px 0 50px 0;
+    padding: 120px 0 50px 0;
 }
 
 .main a:link, .main a:visited {
@@ -95,8 +95,7 @@ p + p {
 .main a:hover {
     text-decoration: underline;
 }
-
-    
+ 
 /****************************** BLOG ***********************************/
 
 .posts li {
