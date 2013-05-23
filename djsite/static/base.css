@@ -16,10 +16,10 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, sans-serif;
-    font-size: 15px;
-    line-height: 1.5em;
-    color: #333333;
+    font-family: prenton, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #444444;
 }
 
 a:focus {
@@ -56,7 +56,7 @@ p + p {
 
 .top {
     border-bottom: 1px solid #e0e0e0; 
-    padding: 15px 0;
+    padding: 20px 0;
     font-size: 13px;
     position: fixed;
     width: 100%;
@@ -64,11 +64,9 @@ p + p {
     z-index: 10;
 }
 
-.name {
-    font-family: cooper-black-std;
-}
-
 .nav {
+    font-size: 12px;
+    text-transform: uppercase;
     float: right;
 }
 
@@ -79,7 +77,6 @@ p + p {
 }
 
 .title {    
-    font-family: cooper-black-std;
     text-transform: uppercase;
     padding-left: 50px;
 }
