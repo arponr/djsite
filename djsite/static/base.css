@@ -62,16 +62,16 @@ p + p {
 .nav li {
     list-style: none;
     display: inline;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .nav a:link, .nav a:visited {
     color: #888888;
     text-decoration: none;
-    -moz-transition: text-decoration .2s;
-    -webkit-transition: text-decoration .2s;
-    -o-transition: text-decoration .2s;
-    transition: text-decoration .2s;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
 }
 
 .nav a:hover {
@@ -88,12 +88,8 @@ p + p {
 }
 
 .main a:link, .main a:visited {
-    color: #3353a1;
+    color: #3363b1;
     text-decoration: none;
-    -moz-transition: text-decoration .2s;
-    -webkit-transition: text-decoration .2s;
-    -o-transition: text-decoration .2s;
-    transition: text-decoration .2s;
 }
 
 .main a:hover {
