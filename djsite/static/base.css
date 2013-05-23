@@ -47,7 +47,6 @@ p + p {
     font-size: 13px;
     position: fixed;
     width: 100%;
-    background: rgba(255, 255, 255, .95);
     z-index: 10;
 }
 
