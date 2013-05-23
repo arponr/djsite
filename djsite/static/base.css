@@ -26,19 +26,6 @@ a:focus {
     outline: none;
 }
 
-a:link, a:visited {
-    color: #335391;
-    text-decoration: none;
-    -moz-transition: text-decoration .2s;
-    -webkit-transition: text-decoration .2s;
-    -o-transition: text-decoration .2s;
-    transition: text-decoration .2s;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 p + p {
     margin-top: 15px;
 }
@@ -65,7 +52,7 @@ p + p {
 }
 
 .nav {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     float: right;
@@ -78,14 +65,41 @@ p + p {
     padding-left: 30px;
 }
 
+.nav a:link, .nav a:visited {
+    color: #888888;
+    text-decoration: none;
+    -moz-transition: text-decoration .2s;
+    -webkit-transition: text-decoration .2s;
+    -o-transition: text-decoration .2s;
+    transition: text-decoration .2s;
+}
+
+.nav a:hover {
+    color: #444444;
+}
+
 .title {    
-    text-transform: uppercase;
+    font-size: 18px;
     padding-left: 50px;
 }
 
 .main {
     padding: 100px 0 50px 0;
 }
+
+.main a:link, .main a:visited {
+    color: #3353a1;
+    text-decoration: none;
+    -moz-transition: text-decoration .2s;
+    -webkit-transition: text-decoration .2s;
+    -o-transition: text-decoration .2s;
+    transition: text-decoration .2s;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
     
 /****************************** BLOG ***********************************/
 
