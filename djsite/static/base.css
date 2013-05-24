@@ -63,13 +63,12 @@ p + p {
     padding: 25px 0;
     font-size: 13px;
     width: 100%;
+    font-family: prenton, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .nav {
-    font-family: prenton, sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
     float: right;
     padding-right: 50px;
 }
@@ -94,8 +93,6 @@ p + p {
 }
 
 .title {    
-    font-family: prenton, sans-serif;
-    font-size: 18px;
     padding-left: 50px;
 }
 
