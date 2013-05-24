@@ -17,9 +17,9 @@ body, h1, h2, div, ul, li, p {
 
 body {
     font-family: skolar, sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 1.75em;
+    line-height: 1.7em;
     color: #444444;
 }
 
@@ -66,8 +66,9 @@ p + p {
 }
 
 .nav {
+    font-family: prenton, sans-serif;
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 500;
     text-transform: uppercase;
     float: right;
     padding-right: 50px;
