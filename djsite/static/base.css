@@ -80,7 +80,7 @@ p + p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #636d7d;
+    color: #5f6978;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -97,7 +97,7 @@ p + p {
 }
 
 .name {
-    color: #636d7d;
+    color: #5f6978;
 }
 
 .main {
@@ -105,7 +105,7 @@ p + p {
 }
 
 .main a:link, .main a:visited {
-    color: #8897ad;
+    color: #5f6978;
     text-decoration: none;
 }
 
