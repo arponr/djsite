@@ -99,7 +99,13 @@ p + p {
     width: 100%;
     height: 50px;
     background: rgba(255,255,255,.95);
+    position: fixed;
     z-height: 10;
+}
+
+.bottom {
+    left: 0;
+    bottom: 0;
 }
  
 /****************************** BLOG ***********************************/
