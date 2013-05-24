@@ -14,17 +14,20 @@
 
   <body>
     <div class="top">
-      <ul class="nav">
-	<li><a href="/">Posts</a></li>
-	<li><a href="/work/">Work</a></li>
-	<li><a href="/about/">About</a></li>
-      </ul>
-      <div class="title">
-	arponr / {% block title %}{% endblock %}
-      </div> 
+      <div class="header">
+	<ul class="nav">
+	  <li><a href="/">Posts</a></li>
+	  <li><a href="/work/">Work</a></li>
+	  <li><a href="/about/">About</a></li>
+	</ul>
+	<div class="title">
+	  arponr / {% block title %}{% endblock %}
+	</div> 
+      </div>
+      <div class="gradient"></div>
     </div>
     
-    <div class="gradient"></div>
+
     <div class="main content">
       {% block main %}{% endblock %}
     </div>
