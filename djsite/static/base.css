@@ -20,7 +20,7 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 1.7em;
-    color: #444444;
+    color: #3c434c;
 }
 
 a:focus {
@@ -59,7 +59,7 @@ p + p {
 }
 
 .header {
-    background: #fdcb1d;
+    background: #8897ad;
     padding: 25px 0;
     font-size: 13px;
     width: 100%;
@@ -80,7 +80,7 @@ p + p {
 }
 
 .nav a:link, .nav a:visited {
-    color: #888888;
+    color: #636d7d;
     text-decoration: none;
     -moz-transition: color .2s;
     -webkit-transition: color .2s;
@@ -89,11 +89,15 @@ p + p {
 }
 
 .nav a:hover {
-    color: #444444;
+    color: #3c434c;
 }
 
 .title {    
     padding-left: 50px;
+}
+
+.name {
+    color: #636d7d;
 }
 
 .main {
@@ -101,7 +105,7 @@ p + p {
 }
 
 .main a:link, .main a:visited {
-    color: #3363b1;
+    color: #8897ad;
     text-decoration: none;
 }
 
