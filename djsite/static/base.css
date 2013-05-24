@@ -16,7 +16,7 @@ body, h1, h2, div, ul, li, p {
 }
 
 body {
-    font-family: skolar, sans-serif;
+    font-family: skolar, georgia, serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.7em;
@@ -67,7 +67,7 @@ p + p {
 
 .nav {
     font-family: prenton, sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     float: right;
@@ -94,7 +94,8 @@ p + p {
 }
 
 .title {    
-    font-size: 16px;
+    font-family: prenton, sans-serif;
+    font-size: 18px;
     padding-left: 50px;
 }
 
